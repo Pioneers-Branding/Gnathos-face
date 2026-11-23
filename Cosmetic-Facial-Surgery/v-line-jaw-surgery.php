@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "V-Line Jaw Surgery in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert V-line jaw surgery in Hyderabad. Dr. Suresh P.L. at CARE Hospitals, Banjara Hills offers V-line contouring for a slimmer, more defined facial shape with natural-looking results.";
+$path_prefix = '../';
+$page_title = 'V-Line Jaw Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'V-line jaw surgery in Hyderabad: jaw and chin contouring for a slimmer, more defined lower face. Who it suits, recovery and risks explained.';
+$canonical_url = 'https://gnathosface.com/Cosmetic-Facial-Surgery/v-line-jaw-surgery';
+$page_about = 'V-Line Jaw Surgery';
+$breadcrumbs = [['Home', '/'], ['Cosmetic facial surgery', '/cosmetic-facial-surgery-treatment'], ['V-Line Jaw Surgery', null]];
+$page_faqs = [
+    ['q' => 'What is V-line jaw surgery and how does it work?', 'a' => 'V-line jaw surgery is a contouring procedure that reshapes the lower jaw to create a slimmer, more tapered facial profile resembling the letter V. The surgery involves removing bone from the jaw angles and sides of the mandible through intraoral incisions, creating a narrower lower face that transitions smoothly from the cheeks to a pointed chin area.'],
+    ['q' => 'Will V-line jaw surgery leave visible scars?', 'a' => 'No visible external scarring results from V-line jaw surgery. Our surgeons perform the procedure through intraoral incisions inside the mouth, meaning all surgical access points are hidden. Once healing is complete, there is no visible evidence of the procedure. Some temporary numbness in the lower lip area may occur but typically resolves over time.'],
+    ['q' => 'How much bone is removed during V-line jaw surgery?', 'a' => 'The amount of bone removal varies based on your current jaw structure and desired outcomes. During consultation at our Hyderabad center, we use 3D imaging to plan the precise amount of bone to remove for optimal contouring while maintaining sufficient jaw strength for function. The goal is to create a natural-looking V-line that complements your overall facial proportions without over-reduction.'],
+    ['q' => 'How long does it take to see final V-line results?', 'a' => 'Initial improvements are visible within weeks as major swelling subsides, but the final V-line contour typically emerges between 3-6 months post-surgery when complete bone healing and tissue settling occur. During your recovery at our Hyderabad facility, we monitor your progress to ensure the sculpted jawline emerges beautifully with natural proportions.'],
+    ['q' => 'Can V-line jaw surgery be combined with other procedures?', 'a' => 'Yes, V-line jaw surgery is often combined with other facial contouring procedures for comprehensive enhancement. Common combinations include chin reshaping to complement the V-line, cheekbone enhancement for overall facial harmony, or neck liposuction to enhance the transition from jaw to neck. Combining procedures can provide more complete facial sculpting while reducing overall recovery time.'],
+];
+$cta_heading = 'Get a specialist opinion on v-Line Jaw Surgery.';
+$cta_topic = 'Cosmetic facial procedure';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -18,61 +27,17 @@ include $path_prefix . 'header.php';
                     V-Line Jaw Surgery in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Achieve a elegantly sculpted V-shaped jawline with precision contouring surgery. Our expert maxillofacial surgeons at CARE Hospitals, Banjara Hills create refined, balanced facial proportions with natural-looking results.
+                    Achieve a elegantly sculpted V-shaped jawline with precision contouring surgery. Our expert maxillofacial surgeons at CARE Hospitals, HITEC City create refined, balanced facial proportions with natural-looking results.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="V-line jaw surgery consultation - Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for V-Line Jaw Surgery
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    V-line jaw surgery requires precise bone contouring techniques and artistic understanding of facial proportions. Our Hyderabad center delivers beautifully sculpted jawlines with minimal scarring and natural-looking results.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">architecture</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Precision Bone Contouring</h3>
-                    <p class="text-on-surface-variant text-sm">Advanced techniques for precise jawbone sculpting to create the desired V-line contour without over-reduction.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">visibility</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">3D Surgical Planning</h3>
-                    <p class="text-on-surface-variant text-sm">Digital imaging and simulation to plan the precise amount of bone removal for optimal aesthetic outcomes.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">healing</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Minimally Invasive Approach</h3>
-                    <p class="text-on-surface-variant text-sm">Intraoral surgical techniques ensure no visible external scarring and faster recovery.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">person</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Personalized Contouring</h3>
-                    <p class="text-on-surface-variant text-sm">Treatment tailored to your facial structure to achieve a V-line that complements your overall appearance.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="V-line jaw surgery consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">V-line jaw surgery consultation</p></div>
                 </div>
             </div>
         </div>
@@ -128,17 +93,17 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="V-line jaw surgery consultation - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="V-line jaw surgery consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">V-line jaw surgery consultation</p></div>
                 </div>
             </div>
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="V-line jaw surgery procedure - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="V-line jaw surgery procedure"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">V-line jaw surgery procedure</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
                     <h3 class="font-headline-sm text-2xl text-primary mb-4">Precision Jawline Contouring</h3>
-                    <p class="text-on-surface-variant mb-6">At CARE Hospitals, Banjara Hills, our surgeons perform V-line contouring through intraoral incisions, reshaping the jawbone to create a slimmer, more tapered lower face. The procedure may involve angle reduction, body narrowing, or chin adjustment based on your specific needs.</p>
+                    <p class="text-on-surface-variant mb-6">At CARE Hospitals, HITEC City, our surgeons perform V-line contouring through intraoral incisions, reshaping the jawbone to create a slimmer, more tapered lower face. The procedure may involve angle reduction, body narrowing, or chin adjustment based on your specific needs.</p>
                     <ul class="space-y-3">
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Hidden intraoral incisions</span></li>
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Precise bone sculpting techniques</span></li>
@@ -158,7 +123,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="V-line jaw surgery recovery - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="V-line jaw surgery recovery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">V-line jaw surgery recovery</p></div>
                 </div>
             </div>
         </div>
@@ -232,9 +197,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             Proper preparation ensures optimal surgical outcomes and smooth recovery from V-line jaw contouring at our Hyderabad center.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Preparation Guide
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -272,7 +235,7 @@ include $path_prefix . 'header.php';
             <div class="grid md:grid-cols-2 gap-16 items-center">
                 <div class="relative">
                     <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
-                    <img alt="3D jaw imaging for V-line surgery - Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="3D jaw imaging for V-line surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">3D jaw imaging for V-line surgery</p></div>
                 </div>
                 <div>
                     <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Planning</span>
@@ -364,55 +327,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert V-Line Jaw Surgery Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Our surgical team combines precision bone contouring expertise with aesthetic understanding to create beautifully sculpted jawlines.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Suresh has extensive experience in jaw contouring procedures including V-line surgery. His precise surgical technique and understanding of facial proportions help patients in Hyderabad achieve the sculpted jawline they desire with natural-looking results.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Navatha specializes in facial contouring procedures with particular expertise in jawline sculpting. Her meticulous approach to bone contouring ensures patients achieve a refined V-line that complements their overall facial structure.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -424,7 +346,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What is V-line jaw surgery and how does it work?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         V-line jaw surgery is a contouring procedure that reshapes the lower jaw to create a slimmer, more tapered facial profile resembling the letter V. The surgery involves removing bone from the jaw angles and sides of the mandible through intraoral incisions, creating a narrower lower face that transitions smoothly from the cheeks to a pointed chin area.
@@ -433,7 +355,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will V-line jaw surgery leave visible scars?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         No visible external scarring results from V-line jaw surgery. Our surgeons perform the procedure through intraoral incisions inside the mouth, meaning all surgical access points are hidden. Once healing is complete, there is no visible evidence of the procedure. Some temporary numbness in the lower lip area may occur but typically resolves over time.
@@ -442,7 +364,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How much bone is removed during V-line jaw surgery?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         The amount of bone removal varies based on your current jaw structure and desired outcomes. During consultation at our Hyderabad center, we use 3D imaging to plan the precise amount of bone to remove for optimal contouring while maintaining sufficient jaw strength for function. The goal is to create a natural-looking V-line that complements your overall facial proportions without over-reduction.
@@ -451,7 +373,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long does it take to see final V-line results?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Initial improvements are visible within weeks as major swelling subsides, but the final V-line contour typically emerges between 3-6 months post-surgery when complete bone healing and tissue settling occur. During your recovery at our Hyderabad facility, we monitor your progress to ensure the sculpted jawline emerges beautifully with natural proportions.
@@ -460,7 +382,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Can V-line jaw surgery be combined with other procedures?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Yes, V-line jaw surgery is often combined with other facial contouring procedures for comprehensive enhancement. Common combinations include chin reshaping to complement the V-line, cheekbone enhancement for overall facial harmony, or neck liposuction to enhance the transition from jaw to neck. Combining procedures can provide more complete facial sculpting while reducing overall recovery time.
@@ -470,22 +392,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Achieve Your Sculpted V-Line Today</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Transform your lower face with precision V-line jaw surgery. Schedule a consultation with our expert surgical team at CARE Hospitals, Banjara Hills to discuss your options and achieve a beautifully sculpted jawline.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

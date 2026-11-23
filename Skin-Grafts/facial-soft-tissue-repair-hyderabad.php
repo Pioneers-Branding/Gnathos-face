@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Facial Soft Tissue Repair in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert facial soft tissue repair in Hyderabad at CARE Hospitals. Our maxillofacial surgeons treat facial lacerations, wounds, and soft tissue injuries with meticulous repair techniques.";
+$path_prefix = '../';
+$page_title = 'Facial Soft Tissue Repair in Hyderabad | Gnathos Facial';
+$page_description = 'Facial soft tissue repair in Hyderabad at CARE Hospitals. Our maxillofacial surgeons treat facial lacerations, wounds, and soft tissue injuries with meticulous.';
+$canonical_url = 'https://gnathosface.com/Skin-Grafts/facial-soft-tissue-repair-hyderabad';
+$page_about = 'Facial Soft Tissue Repair';
+$breadcrumbs = [['Home', '/'], ['Skin grafts & flaps', '/skin-grafts-and-flaps'], ['Facial Soft Tissue Repair', null]];
+$page_faqs = [
+    ['q' => 'Will I have a scar after soft tissue repair?', 'a' => 'Any cut to the skin will result in a scar. However, our meticulous layered closure technique and fine suturing help minimize scar visibility. Scars typically appear pink initially, then gradually fade to a fine white line over the first year. Proper scar care helps achieve the best possible cosmetic result.'],
+    ['q' => 'How long before I can wash my face after repair?', 'a' => 'Specific instructions depend on your repair. Generally, you should keep the wound dry for the first 24-48 hours. After that, gentle washing with mild soap is usually allowed, with careful pat drying. Your surgeon will provide specific instructions based on your repair.'],
+    ['q' => 'When will my stitches be removed?', 'a' => 'Suture removal timing depends on the location and type of repair. Facial sutures are typically removed in 3-7 days. Sutures in areas under tension or less vascular areas may need to remain longer. Your surgeon will schedule appropriate follow-up for suture removal.'],
+    ['q' => 'Can I drive home after soft tissue repair?', 'a' => 'For simple laceration repairs with local anesthesia, you can typically drive home after the procedure. If you received sedation or have bandages that impair vision, you should arrange for someone to drive you. Your surgeon will advise based on your specific situation.'],
+    ['q' => 'How can I minimize scarring?', 'a' => 'Key strategies for minimizing scarring include: following scar care instructions, protecting the scar from sun with SPF 50+ sunscreen, massaging the scar after suture removal, using silicone gel or sheets as recommended, and avoiding activities that stress the wound during healing. Complete scar maturation takes up to a year.'],
+];
+$cta_heading = 'Get a specialist opinion on facial Soft Tissue Repair.';
+$cta_topic = 'Reconstruction / skin grafts';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -18,61 +27,17 @@ include $path_prefix . 'header.php';
                     Facial Soft Tissue Repair in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Expert facial soft tissue repair at Gnathos Facial Surgery. Our maxillofacial surgeons provide meticulous repair for facial lacerations, wounds, and soft tissue injuries.
+                    Expert facial soft tissue repair at Gnathos Facial. Our maxillofacial surgeons provide meticulous repair for facial lacerations, wounds, and soft tissue injuries.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Facial soft tissue repair performed by expert maxillofacial surgeons at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Soft Tissue Repair
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Facial soft tissue requires precise repair for optimal healing and minimal scarring. Our surgeons understand the nuances of facial aesthetics and layered tissue repair.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">auto_fix_high</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Layered Closure</h3>
-                    <p class="text-on-surface-variant text-sm">Multi-layer repair technique for optimal tissue alignment and healing.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">spa</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Minimal Scarring</h3>
-                    <p class="text-on-surface-variant text-sm">Strategic incision placement and fine suturing for best cosmetic outcome.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">schedule</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Urgent Availability</h3>
-                    <p class="text-on-surface-variant text-sm">Emergency soft tissue repair available for acute facial wounds.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">verified_user</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Expert Training</h3>
-                    <p class="text-on-surface-variant text-sm">Specialized training in facial plastic surgery techniques.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Facial soft tissue repair performed by expert maxillofacial surgeons"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial soft tissue repair performed by expert maxillofacial surgeons</p></div>
                 </div>
             </div>
         </div>
@@ -129,13 +94,13 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Wound assessment at Gnathos Facial Surgery Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Wound assessment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Wound assessment</p></div>
                 </div>
             </div>
             <!-- Step 2 -->
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Soft tissue repair surgery at CARE Hospitals Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Soft tissue repair surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Soft tissue repair surgery</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -161,7 +126,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Post-operative care at Gnathos Facial Surgery Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Post-operative care"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Post-operative care</p></div>
                 </div>
             </div>
         </div>
@@ -238,9 +203,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             Proper preparation helps ensure optimal repair and healing outcomes.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Checklist PDF
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -307,7 +270,7 @@ include $path_prefix . 'header.php';
                 <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
                     <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
                         <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                            <span class="material-symbols-outlined">auto_fix_high</span>
+                            <span class="material-symbols-outlined">brush</span>
                         </div>
                         <h3 class="font-headline-sm text-primary">Advanced Techniques</h3>
                     </div>
@@ -328,55 +291,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- THE SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Soft Tissue Repair Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Skilled surgeons with expertise in facial plastic surgery techniques for optimal cosmetic outcomes.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Over two decades of experience in facial soft tissue repair. Expert in layered closure techniques for optimal functional and cosmetic outcomes.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Specializing in aesthetic soft tissue repair with focus on minimal scarring and natural-looking results.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -388,7 +310,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will I have a scar after soft tissue repair?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Any cut to the skin will result in a scar. However, our meticulous layered closure technique and fine suturing help minimize scar visibility. Scars typically appear pink initially, then gradually fade to a fine white line over the first year. Proper scar care helps achieve the best possible cosmetic result.
@@ -397,7 +319,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long before I can wash my face after repair?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Specific instructions depend on your repair. Generally, you should keep the wound dry for the first 24-48 hours. After that, gentle washing with mild soap is usually allowed, with careful pat drying. Your surgeon will provide specific instructions based on your repair.
@@ -406,7 +328,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         When will my stitches be removed?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Suture removal timing depends on the location and type of repair. Facial sutures are typically removed in 3-7 days. Sutures in areas under tension or less vascular areas may need to remain longer. Your surgeon will schedule appropriate follow-up for suture removal.
@@ -415,7 +337,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Can I drive home after soft tissue repair?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         For simple laceration repairs with local anesthesia, you can typically drive home after the procedure. If you received sedation or have bandages that impair vision, you should arrange for someone to drive you. Your surgeon will advise based on your specific situation.
@@ -424,7 +346,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How can I minimize scarring?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Key strategies for minimizing scarring include: following scar care instructions, protecting the scar from sun with SPF 50+ sunscreen, massaging the scar after suture removal, using silicone gel or sheets as recommended, and avoiding activities that stress the wound during healing. Complete scar maturation takes up to a year.
@@ -434,22 +356,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Restore Your Facial Appearance</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Whether from an accident, injury, or other cause, facial soft tissue injuries can be repaired with excellent cosmetic outcomes. Schedule a consultation to explore your options.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

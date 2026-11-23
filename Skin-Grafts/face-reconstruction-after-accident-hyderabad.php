@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Face Reconstruction After Accident in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert face reconstruction after accident in Hyderabad at CARE Hospitals. Our maxillofacial surgeons restore facial form and function following road accidents and injuries.";
+$path_prefix = '../';
+$page_title = 'Face Reconstruction After Accident in Hyderabad';
+$page_description = 'Face reconstruction after accident in Hyderabad at CARE Hospitals. Our maxillofacial surgeons restore facial form and function following road accidents and.';
+$canonical_url = 'https://gnathosface.com/Skin-Grafts/face-reconstruction-after-accident-hyderabad';
+$page_about = 'Face Reconstruction After Accident';
+$breadcrumbs = [['Home', '/'], ['Skin grafts & flaps', '/skin-grafts-and-flaps'], ['Face Reconstruction After Accident', null]];
+$page_faqs = [
+    ['q' => 'How soon after an accident should I see a facial surgeon?', 'a' => 'Ideally, facial injuries should be evaluated as soon as possible, especially if there are fractures, open wounds, or suspected nerve injury. For fresh injuries, prompt surgical treatment within the first few days often provides the best outcomes. However, delayed reconstruction months or years after an accident is also possible and can significantly improve both function and appearance.'],
+    ['q' => 'Can old accident injuries still be reconstructed?', 'a' => 'Yes, many patients benefit from delayed or revision reconstruction for accident injuries that healed improperly. This may involve re-breaking and repositioning healed fractures, correcting asymmetry, revising scars, or reconstructing tissue that was lost. Your surgeon will assess your specific situation and explain available options.'],
+    ['q' => 'Will accident reconstruction be covered by insurance?', 'a' => 'Accident reconstruction is typically covered by motor vehicle insurance, workers compensation, or health insurance depending on how the accident occurred. Our administrative team has extensive experience with insurance claims and will help you navigate the process and maximize your coverage.'],
+    ['q' => 'Will my face look normal after reconstruction?', 'a' => 'Our goal is to restore your appearance as close as possible to your pre-accident state. While we cannot guarantee identical results, our surgeons use advanced techniques to optimize symmetry and natural appearance. Most patients achieve significant improvement in both function and aesthetics.'],
+    ['q' => 'Can I have multiple procedures at once?', 'a' => 'In many cases, multiple reconstructive procedures can be combined into a single surgery, reducing overall recovery time and cost. Your surgeon will develop a comprehensive surgical plan that addresses all your injury-related concerns in the most efficient manner possible.'],
+];
+$cta_heading = 'Get a specialist opinion on face Reconstruction After Accident.';
+$cta_topic = 'Reconstruction / skin grafts';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -18,61 +27,17 @@ include $path_prefix . 'header.php';
                     Face Reconstruction After Accident in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Expert face reconstruction after accident at Gnathos Facial Surgery. Our maxillofacial surgeons restore facial form, function, and confidence following road accidents and traumatic injuries.
+                    Expert face reconstruction after accident at Gnathos Facial. Our maxillofacial surgeons restore facial form, function, and confidence following road accidents and traumatic injuries.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Face reconstruction after accident performed by expert maxillofacial surgeons at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Accident Reconstruction
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Facial injuries from accidents require immediate expert care and careful reconstruction. Our team has extensive experience managing all types of traumatic facial injuries.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">emergency</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Emergency Expertise</h3>
-                    <p class="text-on-surface-variant text-sm">Rapid assessment and treatment for fresh accident injuries with surgical intervention as needed.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">history</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Delayed Reconstruction</h3>
-                    <p class="text-on-surface-variant text-sm">Expert revision surgery for patients with older accident injuries seeking improvement.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">account_tree</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Comprehensive Approach</h3>
-                    <p class="text-on-surface-variant text-sm">Address all injured structures including bone, soft tissue, nerves, and dentition.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">support_agent</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Insurance Support</h3>
-                    <p class="text-on-surface-variant text-sm">Assistance with motor vehicle insurance claims and documentation for accident reconstruction.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Face reconstruction after accident performed by expert maxillofacial surgeons"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Face reconstruction after accident performed by expert maxillofacial surgeons</p></div>
                 </div>
             </div>
         </div>
@@ -129,13 +94,13 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Comprehensive injury assessment at Gnathos Facial Surgery Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Comprehensive injury assessment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Comprehensive injury assessment</p></div>
                 </div>
             </div>
             <!-- Step 2 -->
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Face reconstruction surgery at CARE Hospitals Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Face reconstruction surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Face reconstruction surgery</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -161,7 +126,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Post-operative care and recovery at Gnathos Facial Surgery Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Post-operative care and recovery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Post-operative care and recovery</p></div>
                 </div>
             </div>
         </div>
@@ -238,9 +203,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             Whether for immediate reconstruction or delayed revision, proper preparation helps ensure the best possible outcome.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Checklist PDF
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -328,55 +291,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- THE SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Accident Reconstruction Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Decades of combined experience in facial trauma reconstruction from accidents of all types and severity.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Over two decades managing complex facial trauma from accidents. Expert in surgical repair of all facial fracture types with emphasis on functional restoration.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Specializing in aesthetic accident reconstruction with focus on achieving natural-looking results. Experienced in both acute management and delayed revision.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -388,7 +310,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How soon after an accident should I see a facial surgeon?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Ideally, facial injuries should be evaluated as soon as possible, especially if there are fractures, open wounds, or suspected nerve injury. For fresh injuries, prompt surgical treatment within the first few days often provides the best outcomes. However, delayed reconstruction months or years after an accident is also possible and can significantly improve both function and appearance.
@@ -397,7 +319,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Can old accident injuries still be reconstructed?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Yes, many patients benefit from delayed or revision reconstruction for accident injuries that healed improperly. This may involve re-breaking and repositioning healed fractures, correcting asymmetry, revising scars, or reconstructing tissue that was lost. Your surgeon will assess your specific situation and explain available options.
@@ -406,7 +328,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will accident reconstruction be covered by insurance?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Accident reconstruction is typically covered by motor vehicle insurance, workers compensation, or health insurance depending on how the accident occurred. Our administrative team has extensive experience with insurance claims and will help you navigate the process and maximize your coverage.
@@ -415,7 +337,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will my face look normal after reconstruction?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Our goal is to restore your appearance as close as possible to your pre-accident state. While we cannot guarantee identical results, our surgeons use advanced techniques to optimize symmetry and natural appearance. Most patients achieve significant improvement in both function and aesthetics.
@@ -424,7 +346,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Can I have multiple procedures at once?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         In many cases, multiple reconstructive procedures can be combined into a single surgery, reducing overall recovery time and cost. Your surgeon will develop a comprehensive surgical plan that addresses all your injury-related concerns in the most efficient manner possible.
@@ -434,22 +356,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Restore Your Face After an Accident</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Whether from a recent accident or older trauma, our team can help restore your facial form and function. Schedule a consultation to explore your options.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

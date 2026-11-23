@@ -1,12 +1,22 @@
 <?php
-$path_prefix = "";
-$page_title = "Facial Cyst & Tumor Treatment Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert facial cyst and tumor removal in Hyderabad. Dr. Suresh P.L. provides precise diagnosis and surgical treatment for skin lesions, lipomas, and facial masses at CARE Hospitals, Banjara Hills.";
+$path_prefix = '';
+$page_title = 'Facial Cysts & Tumours Treatment in Hyderabad | Gnathos';
+$page_description = 'Diagnosis and removal of cysts and benign tumours of the face, jaw and mouth in Hyderabad: biopsy, imaging and follow-up explained. Book a consultation.';
+$canonical_url = 'https://gnathosface.com/cysts-tumors-face';
+$page_about = 'Facial Cyst & Tumor Treatment';
+$breadcrumbs = [['Home', '/'], ['Conditions', '/conditions'], ['Facial Cyst & Tumor Treatment', null]];
+$page_faqs = [
+    ['q' => 'Are facial cysts always benign?', 'a' => 'While the majority of facial cysts are benign, some can be premalignant or malignant. Sebaceous cysts, epidermoid cysts, and lipomas are typically benign. However, any rapidly growing, irregular, or atypical lesion should be evaluated by a specialist. Biopsy provides definitive diagnosis to guide appropriate treatment.'],
+    ['q' => 'Will facial cyst removal leave a scar?', 'a' => 'Any surgical procedure on the face will result in some scarring, but our surgical technique follows plastic surgery principles to minimize visibility. We place incisions along natural skin lines and creases whenever possible. With proper scar care, most patients achieve very fine, barely noticeable scars that fade significantly over time.'],
+    ['q' => 'Can facial cysts come back after removal?', 'a' => 'When cysts are completely excised with their entire capsule, recurrence is uncommon. Incomplete removal can lead to recurrence. Certain types of cysts, particularly those with complex origins or involving bone, may have higher recurrence rates. Your surgeon will discuss the specific recurrence risk for your lesion type.'],
+    ['q' => 'How long does facial cyst surgery take?', 'a' => 'The duration varies based on lesion size, depth, and complexity. Simple superficial cysts can be removed in 15-30 minutes under local anesthesia. Larger or deeper lesions, particularly those requiring reconstruction, may take 1-2 hours or longer. Your surgeon will provide a time estimate during consultation.'],
+    ['q' => 'What type of anesthesia is used for facial cyst removal?', 'a' => 'Most facial cyst removals are performed under local anesthesia, sometimes with mild sedation for patient comfort. Small, superficial lesions can often be removed with local anesthesia alone. Larger lesions or those in sensitive areas may be treated under general anesthesia or sedation. Your surgeon will recommend the safest option for your specific case.'],
+];
+$cta_heading = 'Get a specialist opinion on facial Cyst & Tumor Treatment.';
+$cta_topic = 'Cyst, tumour or facial swelling';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-<main>
 <!-- Hero Section -->
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
@@ -15,58 +25,17 @@ include $path_prefix . 'header.php';
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Expert Facial Cyst & Tumor Treatment</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                        Experience precise diagnosis and expert surgical care for facial cysts and tumors with Dr. Suresh P.L. at CARE Hospitals, Banjara Hills. From benign skin lesions to complex facial masses requiring meticulous removal.
+                        Experience precise diagnosis and expert surgical care for facial cysts and tumors with Dr. Suresh P.L. at CARE Hospitals, HITEC City. From benign skin lesions to complex facial masses requiring meticulous removal.
                     </p>
 <div class="flex flex-col sm:flex-row gap-4">
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                             Book Consultation
-                        </button>
+                        </a>
 </div>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Facial examination with precision diagnostic equipment" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-</div>
-</div>
-</div>
-</section>
-<!-- Why Choose Us SEO Section -->
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for Facial Cyst & Tumor Treatment</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                Recognized leaders in facial lesion diagnosis and treatment in Hyderabad, offering comprehensive care for cysts, lipomas, and complex facial masses with superior cosmetic outcomes.
-            </p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">school</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Board-Certified Specialists</h3>
-<p class="text-on-surface-variant text-sm">35+ years of combined experience in maxillofacial surgery with specialized training in facial soft tissue pathology and reconstruction.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">local_hospital</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Hospital-Based Care</h3>
-<p class="text-on-surface-variant text-sm">Surgical procedures performed at CARE Hospitals, Banjara Hills—a premier tertiary care facility with full surgical and pathology support.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">auto_awesome</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Cosmetic Excellence</h3>
-<p class="text-on-surface-variant text-sm">Meticulous surgical technique ensuring minimal scarring and optimal aesthetic outcomes for visible facial areas.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">biotech</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Advanced Diagnostics</h3>
-<p class="text-on-surface-variant text-sm">High-resolution imaging and biopsy capabilities for accurate diagnosis of all facial lesion types.</p>
+<div class="gna-plate w-full h-full" role="img" aria-label="Facial examination with precision diagnostic equipment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial examination with precision diagnostic equipment</p></div>
 </div>
 </div>
 </div>
@@ -166,13 +135,13 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Clinical examination and diagnostic imaging for facial lesion assessment" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALZZmj6_CAFtHy1vjXdbgnvuwqwnWdk_19QuvDwG7i0mDVRvdLGV05_43z3vvdldkKpstRUl-guoUaftbE5CwioKDaq5UVRxVAq0U8MGjGGnlSm4htoUiK9tI08QygsZdIE6fAW0tK3GLUdbMjaWzgMiRGr0vmWz94CBZCAz5n98VK4wg6s8B_4q7qH50Kaisg_8K1fkcOpoN94riL7idTd-mmNaOJ3BB3Dd_lfNVLvh2AzJQD5CYSFJuSDgGq37lTF8537L1ZhCA"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Clinical examination and diagnostic imaging for facial lesion assessment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Clinical examination and diagnostic imaging for facial lesion assessment</p></div>
 </div>
 </div>
 <!-- Step 2 -->
 <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
 <div class="order-1 md:order-1">
-<img alt="Facial surgery procedure with precise technique" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEFkiI4mjDEE18YDwFhytADXKSi52219_ImkXimFwvR_u_lEi32i_FGV-fHjIDfiuUGL1lJeadbUQP-VudLVyKwmYno2hUz4EdWrurPoOkszJUln7aMR43klGyT4vRj2F-e9ksMWzt4q9dm_IKwmSyFF36Jj32w61XM7ifV4JQo3iOufuJ2-9_ghJAMrR2v5dtBYCQPel3QIstAIejIFPRUIyA66943uzujXTS879KGpz70wCQ4303HF08bi3co5b4l1czHWqRntk"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Facial surgery procedure with precise technique"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial surgery procedure with precise technique</p></div>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -202,7 +171,7 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Post-surgical care consultation and follow-up assessment" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Post-surgical care consultation and follow-up assessment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Post-surgical care consultation and follow-up assessment</p></div>
 </div>
 </div>
 </div>
@@ -274,9 +243,7 @@ include $path_prefix . 'header.php';
 <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                         To make the most of your initial evaluation for facial cyst or tumor concerns, we recommend preparing the following information before your visit.
                     </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                        Download Checklist PDF
-                    </button>
+
 </div>
 <div>
 <ul class="space-y-4">
@@ -313,13 +280,13 @@ include $path_prefix . 'header.php';
 <div class="grid md:grid-cols-2 gap-16 items-center">
 <div class="order-2 md:order-1 relative">
 <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
-<img alt="Advanced diagnostic imaging equipment for facial lesion assessment" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgiZgTqnVcGDk7B4fhXOjMiLV4DGjNzOgX9yuT4UMyPanmr2lRO15oN3w3OfKdMSKhk4ad2cRuLpHc5ZhBBlNK_M2FlNzVWA_lHbUA99hV_AoAAK6_1dIQyTAZpJ9L-dMhrbg3j3gmXq9M7_q6Y6MksM8DJnHFzvq2H1REx1zD_OmalTO7POfydhxeqR-Mm8EcMQH1v-EMTzkRccwHCOvk3b5-QF5hk76-BOBh-PabfF_B9aQY2BCUXnmv856NFuMAsl5O1Sdmr5Y"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Advanced diagnostic imaging equipment for facial lesion assessment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Advanced diagnostic imaging equipment for facial lesion assessment</p></div>
 </div>
 <div class="order-1 md:order-2">
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Assessment</span>
 <h2 class="font-headline-md text-headline-md text-primary mb-6">Advanced Diagnostic Technology</h2>
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
-                    Accurate diagnosis is the foundation of effective facial lesion treatment. We employ state-of-the-art imaging and biopsy techniques for precise characterization of all facial masses.
+                    Accurate diagnosis is the foundation of effective facial lesion treatment. We employ modern imaging and biopsy techniques for precise characterization of all facial masses.
                 </p>
 <ul class="space-y-4 mb-8">
 <li class="flex items-start gap-3">
@@ -406,59 +373,13 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 <div class="mt-12 text-center">
-<button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+<a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                 Request a Consultation
-            </button>
+            </a>
 </div>
 </div>
 </section>
-<!-- The Surgical Team -->
-<section class="py-section-gap bg-primary text-on-primary">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md mb-4">Expert Facial Surgery Team</h2>
-<p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                Specialists with extensive experience in diagnosing and treating complex facial lesions with superior cosmetic outcomes.
-            </p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Suresh P.L. - Facial and Maxillofacial Surgeon" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/Dr.-Suresh.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 20+ years of dedicated experience in maxillofacial surgery, including facial soft tissue pathology and cosmetic reconstruction.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">local_hospital</span> CARE Hospitals, Banjara Hills</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Navatha Mortha - Facial and Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 15+ years of focused experience in facial lesion diagnosis and treatment with emphasis on cosmetic outcomes.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">local_hospital</span> CARE Hospitals, Banjara Hills</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <!-- Patient FAQs -->
 <section class="py-section-gap bg-surface">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -470,7 +391,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Are facial cysts always benign?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     While the majority of facial cysts are benign, some can be premalignant or malignant. Sebaceous cysts, epidermoid cysts, and lipomas are typically benign. However, any rapidly growing, irregular, or atypical lesion should be evaluated by a specialist. Biopsy provides definitive diagnosis to guide appropriate treatment.
@@ -479,7 +400,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will facial cyst removal leave a scar?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Any surgical procedure on the face will result in some scarring, but our surgical technique follows plastic surgery principles to minimize visibility. We place incisions along natural skin lines and creases whenever possible. With proper scar care, most patients achieve very fine, barely noticeable scars that fade significantly over time.
@@ -488,7 +409,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Can facial cysts come back after removal?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     When cysts are completely excised with their entire capsule, recurrence is uncommon. Incomplete removal can lead to recurrence. Certain types of cysts, particularly those with complex origins or involving bone, may have higher recurrence rates. Your surgeon will discuss the specific recurrence risk for your lesion type.
@@ -497,7 +418,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long does facial cyst surgery take?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     The duration varies based on lesion size, depth, and complexity. Simple superficial cysts can be removed in 15-30 minutes under local anesthesia. Larger or deeper lesions, particularly those requiring reconstruction, may take 1-2 hours or longer. Your surgeon will provide a time estimate during consultation.
@@ -506,7 +427,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What type of anesthesia is used for facial cyst removal?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Most facial cyst removals are performed under local anesthesia, sometimes with mild sedation for patient comfort. Small, superficial lesions can often be removed with local anesthesia alone. Larger lesions or those in sensitive areas may be treated under general anesthesia or sedation. Your surgeon will recommend the safest option for your specific case.
@@ -515,21 +436,5 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 </section>
-<!-- Final CTA -->
-<section class="py-section-gap bg-surface-container-low">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Noticed a Lump or Mass on Your Face?</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                    Early evaluation ensures accurate diagnosis and optimal treatment outcomes. Schedule a comprehensive assessment with our specialists to discuss your concerns and explore your treatment options.
-                </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                    Schedule Your Facial Lesion Evaluation
-                    <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-                </button>
-</div>
-</section>
-</main>
 <!-- Detailed Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

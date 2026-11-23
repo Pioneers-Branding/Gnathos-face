@@ -1,13 +1,23 @@
 <?php
-$path_prefix = "";
-$page_title = "TMJ Arthroscopy Hyderabad | Gnathos Facial Surgery";
-$page_description = "";
-$canonical_url = "https://gnathosface.com/tmj-arthroscopy/";
+$path_prefix = '';
+$page_title = 'TMJ Arthroscopy in Hyderabad | Keyhole Jaw Joint Surgery';
+$page_description = 'TMJ arthroscopy in Hyderabad: keyhole surgery for locked or painful jaw joints when splints and physiotherapy have not helped. Book a consultation.';
+$canonical_url = 'https://gnathosface.com/tmj-arthroscopy';
+$page_about = 'TMJ Arthroscopy';
+$breadcrumbs = [['Home', '/'], ['Treatments', '/treatments'], ['TMJ Arthroscopy', null]];
+$page_faqs = [
+    ['q' => 'How long does a TMJ Arthroscopy procedure take?', 'a' => 'A typical TMJ Arthroscopy takes approximately 30 to 60 minutes per joint. Most procedures are performed as day surgery, meaning you can go home the same day after a short observation period.'],
+    ['q' => 'Will I have visible scars after TMJ Arthroscopy?', 'a' => 'No. The portals used for arthroscopy are only 2-3mm in size and are placed in natural skin creases near the ear. These typically heal without leaving any visible scarring.'],
+    ['q' => 'Is TMJ Arthroscopy painful?', 'a' => 'The procedure itself is performed under anesthesia, so you will not feel anything during surgery. Post-operatively, most patients experience mild to moderate discomfort that is well-managed with prescribed pain medications. Recovery is generally much less painful than open surgery.'],
+    ['q' => 'How soon can I return to work after arthroscopy?', 'a' => 'Most patients can return to desk work or light activities within 3-5 days. Jobs requiring more physical activity or heavy lifting may require 1-2 weeks of recovery. Your surgeon will provide specific guidance based on your occupation and procedure details.'],
+    ['q' => 'What are the risks associated with TMJ Arthroscopy?', 'a' => 'When performed by an experienced surgeon, TMJ Arthroscopy is very safe. Potential risks include temporary facial nerve weakness (usually resolves), infection (rare), bleeding, and very rarely, damage to surrounding structures. Your surgeon will discuss these risks in detail during your consultation.'],
+    ['q' => 'Will I need physical therapy after TMJ Arthroscopy?', 'a' => 'Yes, post-operative physical therapy is an important part of recovery. It helps restore normal jaw movement, strengthen supporting muscles, and prevent scar tissue formation. Your therapist will provide specific exercises tailored to your procedure and recovery progress.'],
+];
+$cta_heading = 'Get a specialist opinion on TMJ Arthroscopy.';
+$cta_topic = 'TMJ disorder / jaw pain or clicking';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-<main>
 <!-- Hero Section -->
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
@@ -16,58 +26,17 @@ include $path_prefix . 'header.php';
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Minimally Invasive Procedure in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">TMJ Arthroscopy: Keyhole Surgery for Jaw Joint Disorders</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                        Experience faster recovery and minimal scarring with advanced arthroscopic techniques. Dr. Suresh P.L. leads minimally invasive TMJ surgeries at CARE Hospitals, Banjara Hills.
+                        Experience faster recovery and minimal scarring with advanced arthroscopic techniques. Dr. Suresh P.L. leads minimally invasive TMJ surgeries at CARE Hospitals, HITEC City.
                     </p>
 <div class="flex flex-col sm:flex-row gap-4">
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                             Book Consultation
-                        </button>
+                        </a>
 </div>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="TMJ Arthroscopy procedure" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALZZmj6_CAFtHy1vjXdbgnvuwqwnWdk_19QuvDwG7i0mDVRvdLGV05_43z3vvdldkKpstRUl-guoUaftbE5CwioKDaq5UVRxVAq0U8MGjGGnlSm4htoUiK9tI08QygsZdIE6fAW0tK3GLUdbMjaWzgMiRGr0vmWz94CBZCAz5n98VK4wg6s8B_4q7qH50Kaisg_8K1fkcOpoN94riL7idTd-mmNaOJ3BB3Dd_lfNVLvh2AzJQD5CYSFJuSDgGq37lTF8537L1ZhCA"/>
-</div>
-</div>
-</div>
-</section>
-<!-- Why Choose Arthroscopy -->
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose TMJ Arthroscopy?</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                A minimally invasive approach offering precise diagnosis and treatment with reduced recovery time compared to traditional open surgery.
-            </p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">visibility</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Direct Visualization</h3>
-<p class="text-on-surface-variant text-sm">Allows direct viewing of the joint structures to accurately diagnose and treat underlying issues.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">healing</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Minimal Tissue Damage</h3>
-<p class="text-on-surface-variant text-sm">Small incisions mean less trauma to surrounding tissues, reduced pain, and minimal scarring.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">schedule</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Faster Recovery</h3>
-<p class="text-on-surface-variant text-sm">Most patients return to normal activities within a few days compared to weeks for open surgery.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">verified</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Proven Effectiveness</h3>
-<p class="text-on-surface-variant text-sm">High success rate in relieving TMJ pain and restoring joint function when conservative treatments fail.</p>
+<div class="gna-plate w-full h-full" role="img" aria-label="TMJ Arthroscopy procedure"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">TMJ Arthroscopy procedure</p></div>
 </div>
 </div>
 </div>
@@ -83,7 +52,7 @@ include $path_prefix . 'header.php';
 </div>
 <div class="grid md:grid-cols-2 gap-16 items-center mb-16">
 <div>
-<img alt="Arthroscopic equipment" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgiZgTqnVcGDk7B4fhXOjMiLV4DGjNzOgX9yuT4UMyPanmr2lRO15oN3w3OfKdMSKhk4ad2cRuLpHc5ZhBBlNK_M2FlNzVWA_lHbUA99hV_AoAAK6_1dIQyTAZpJ9L-dMhrbg3j3gmXq9M7_q6Y6MksM8DJnHFzvq2H1REx1zD_OmalTO7POfydhxeqR-Mm8EcMQH1v-EMTzkRccwHCOvk3b5-QF5hk76-BOBh-PabfF_B9aQY2BCUXnmv856NFuMAsl5O1Sdmr5Y"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Arthroscopic equipment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Arthroscopic equipment</p></div>
 </div>
 <div>
 <h3 class="font-headline-sm text-2xl text-primary mb-4">How It Works</h3>
@@ -116,7 +85,7 @@ include $path_prefix . 'header.php';
 <p class="text-on-surface-variant">When the articular disc is displaced and causing clicking, locking, or pain that does not respond to splint therapy.</p>
 </div>
 <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
-<span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">inflammation</span>
+<span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">local_fire_department</span>
 <h3 class="font-headline-sm text-xl text-primary mb-3">Synovitis</h3>
 <p class="text-on-surface-variant">Inflammation of the joint lining (synovium) causing persistent pain, swelling, and limited movement.</p>
 </div>
@@ -167,19 +136,19 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Pre-surgical planning and imaging" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Pre-surgical planning and imaging"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Pre-surgical planning and imaging</p></div>
 </div>
 </div>
 <!-- Step 2 -->
 <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
 <div class="order-1 md:order-1">
-<img alt="Modern operating room setting" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEFkiI4mjDEE18YDwFhytADXKSi52219_ImkXimFwvR_u_lEi32i_FGV-fHjIDfiuUGL1lJeadbUQP-VudLVyKwmYno2hUz4EdWrurPoOkszJUln7aMR43klGyT4vRj2F-e9ksMWzt4q9dm_IKwmSyFF36Jj32w61XM7ifV4JQo3iOufuJ2-9_ghJAMrR2v5dtBYCQPel3QIstAIejIFPRUIyA66943uzujXTS879KGpz70wCQ4303HF08bi3co5b4l1czHWqRntk"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Modern operating room setting"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Modern operating room setting</p></div>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
 <h3 class="font-headline-sm text-2xl text-primary mb-4">The Arthroscopic Procedure</h3>
 <p class="text-on-surface-variant mb-6">
-                    Performed under general anesthesia or IV sedation at CARE Hospitals, the procedure involves 2-3 small portals (2-3mm each) near the ear. The arthroscope provides magnified visualization while specialized instruments address the pathology.
+                    Performed under general anesthesia or IV sedation at CARE Hospitals, HITEC City, the procedure involves 2-3 small portals (2-3mm each) near the ear. The arthroscope provides magnified visualization while specialized instruments address the pathology.
                 </p>
 <ul class="space-y-3">
 <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Typically 30-60 minutes duration</span></li>
@@ -203,7 +172,7 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Post-operative care consultation" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Post-operative care consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Post-operative care consultation</p></div>
 </div>
 </div>
 </div>
@@ -333,53 +302,7 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 </section>
-<!-- The Surgical Team -->
-<section class="py-section-gap bg-primary text-on-primary">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md mb-4">Expert Arthroscopic Surgeons</h2>
-<p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                Specialized training and extensive experience in minimally invasive TMJ procedures.
-            </p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Suresh" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/Dr.-Suresh.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant and TMJ Specialist</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant and TMJ Specialist with 20+ years of dedicated clinical experience in advanced arthroscopic techniques.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">clinical_notes</span> 500+ Arthroscopic Procedures</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant and TMJ Specialist</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant and TMJ Specialist with 15+ years of dedicated clinical experience in maxillofacial surgery.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">clinical_notes</span> Minimally Invasive Surgery Expert</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <!-- Patient FAQs -->
 <section class="py-section-gap bg-surface">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -391,7 +314,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long does a TMJ Arthroscopy procedure take?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     A typical TMJ Arthroscopy takes approximately 30 to 60 minutes per joint. Most procedures are performed as day surgery, meaning you can go home the same day after a short observation period.
@@ -400,7 +323,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will I have visible scars after TMJ Arthroscopy?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     No. The portals used for arthroscopy are only 2-3mm in size and are placed in natural skin creases near the ear. These typically heal without leaving any visible scarring.
@@ -409,7 +332,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Is TMJ Arthroscopy painful?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     The procedure itself is performed under anesthesia, so you will not feel anything during surgery. Post-operatively, most patients experience mild to moderate discomfort that is well-managed with prescribed pain medications. Recovery is generally much less painful than open surgery.
@@ -418,7 +341,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How soon can I return to work after arthroscopy?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Most patients can return to desk work or light activities within 3-5 days. Jobs requiring more physical activity or heavy lifting may require 1-2 weeks of recovery. Your surgeon will provide specific guidance based on your occupation and procedure details.
@@ -427,7 +350,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What are the risks associated with TMJ Arthroscopy?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     When performed by an experienced surgeon, TMJ Arthroscopy is very safe. Potential risks include temporary facial nerve weakness (usually resolves), infection (rare), bleeding, and very rarely, damage to surrounding structures. Your surgeon will discuss these risks in detail during your consultation.
@@ -436,7 +359,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will I need physical therapy after TMJ Arthroscopy?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Yes, post-operative physical therapy is an important part of recovery. It helps restore normal jaw movement, strengthen supporting muscles, and prevent scar tissue formation. Your therapist will provide specific exercises tailored to your procedure and recovery progress.
@@ -445,21 +368,5 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 </section>
-<!-- Final CTA -->
-<section class="py-section-gap bg-surface-container-low">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Explore Minimally Invasive TMJ Treatment?</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                    Don't let TMJ pain control your life. Schedule a consultation with our specialists to determine if arthroscopy is right for you.
-                </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                    Schedule Your Arthroscopy Consultation
-                    <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-</button>
-</div>
-</section>
-</main>
 <!-- Detailed Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

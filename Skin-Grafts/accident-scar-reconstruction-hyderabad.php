@@ -1,13 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Accident Scar Reconstruction in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert accident scar reconstruction in Hyderabad at CARE Hospitals, Banjara Hills. Post-trauma facial reconstruction, scar revision surgery, and tissue repair by Dr. Suresh P.L.";
+$path_prefix = '../';
+$page_title = 'Accident Scar Reconstruction in Hyderabad | Gnathos Facial';
+$page_description = 'Accident scar reconstruction in Hyderabad at CARE Hospitals. Post-trauma facial reconstruction, scar revision surgery, and tissue repair by Dr.';
+$canonical_url = 'https://gnathosface.com/Skin-Grafts/accident-scar-reconstruction-hyderabad';
+$page_about = 'Accident Scar Reconstruction';
+$breadcrumbs = [['Home', '/'], ['Skin grafts & flaps', '/skin-grafts-and-flaps'], ['Accident Scar Reconstruction', null]];
+$page_faqs = [
+    ['q' => 'When can I have accident scar reconstruction?', 'a' => 'Scar reconstruction is typically performed after the scar has matured, usually 12-18 months after the original injury or the last surgery. However, if the scar is causing functional problems like contractures limiting movement, earlier intervention may be necessary. Your surgeon will assess whether your scar is ready for revision during consultation.'],
+    ['q' => 'Will accident scar reconstruction completely remove my scar?', 'a' => 'Unfortunately, scars cannot be completely removed. The goal of scar revision is to make the scar less visible, change its direction to follow natural skin lines, release any contractures, and improve overall appearance. Most patients achieve significant improvement, with a finer, less noticeable scar that blends better with surrounding skin.'],
+    ['q' => 'How many surgeries will I need for accident scar reconstruction?', 'a' => 'This depends on the complexity of your scar. Simple scar revisions may require just one surgery. More complex reconstructions, especially those involving tissue loss or contractures, may require staged procedures over several months. Your surgeon will discuss the expected treatment timeline during your consultation.'],
+    ['q' => 'How long is recovery after accident scar reconstruction?', 'a' => 'Recovery varies by procedure. Simple scar revision typically requires 1-2 weeks for initial healing. More extensive reconstruction with skin grafts or flaps requires 2-4 weeks for tissue settling. During recovery, you\'ll follow wound care protocols and gradually resume activities. Full scar maturation takes 6-12 months, during which scar management continues.'],
+    ['q' => 'Will insurance cover accident scar reconstruction?', 'a' => 'Accident scar reconstruction following a documented accidental injury is typically covered by health insurance as it addresses the aftermath of trauma. However, purely cosmetic procedures may not be covered. If your accident involved a motor vehicle insurance claim or third-party claim, coverage may be available through those channels. Check with your insurer for specific coverage details.'],
+    ['q' => 'Can you improve old accident scars that have already healed?', 'a' => 'Yes, old mature scars can often be improved through scar revision surgery. Whether your scar is from last year or decades ago, if it\'s widened, elevated, discolored, or causing functional problems, revision surgery can help. The key is assessing whether you\'re a good candidate for improvement, which your surgeon will determine during consultation.'],
+];
+$cta_heading = 'Get a specialist opinion on accident Scar Reconstruction.';
+$cta_topic = 'Reconstruction / skin grafts';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
 <!-- Hero Section -->
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
@@ -16,59 +26,17 @@ include $path_prefix . 'header.php';
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Accident Scar Reconstruction in Hyderabad</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                        Expert post-trauma facial reconstruction at CARE Hospitals, Banjara Hills. Our maxillofacial surgeons specialize in accident scar reconstruction, facial injury repair, and scar revision surgery to help restore both appearance and confidence.
+                        Expert post-trauma facial reconstruction at CARE Hospitals, HITEC City. Our maxillofacial surgeons specialize in accident scar reconstruction, facial injury repair, and scar revision surgery to help restore both appearance and confidence.
                     </p>
 <div class="flex flex-col sm:flex-row gap-4">
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                             Book Consultation
-                        </button>
+                        </a>
 </div>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Accident scar reconstruction consultation at CARE Hospitals, Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-</div>
-</div>
-</div>
-</section>
-
-<!-- Why Choose Us -->
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for Accident Scar Reconstruction</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                Specialized post-trauma facial reconstruction center in Hyderabad with expertise in treating accident-related scars and facial injuries.
-            </p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">school</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Trauma Reconstruction Experts</h3>
-<p class="text-on-surface-variant text-sm">35+ years of combined experience in post-trauma reconstruction and accident scar treatment.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">local_hospital</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">CARE Hospitals Setting</h3>
-<p class="text-on-surface-variant text-sm">Full hospital facilities and emergency care available at Banjara Hills, Hyderabad.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">healing</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Comprehensive Care</h3>
-<p class="text-on-surface-variant text-sm">From acute injury management through complete reconstruction and scar therapy.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">psychology</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Patient-Centered Approach</h3>
-<p class="text-on-surface-variant text-sm">Understanding the emotional impact of accident scars and providing compassionate care.</p>
+<div class="gna-plate w-full h-full" role="img" aria-label="Accident scar reconstruction consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Accident scar reconstruction consultation</p></div>
 </div>
 </div>
 </div>
@@ -110,7 +78,7 @@ include $path_prefix . 'header.php';
 <p class="text-on-surface-variant">Accident-related burns from fire, chemicals, electricity, or hot liquids affecting the face.</p>
 </div>
 <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
-<span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">animal</span>
+<span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">pets</span>
 <h3 class="font-headline-sm text-xl text-primary mb-3">Animal Attacks</h3>
 <p class="text-on-surface-variant">Scars from dog bites, industrial animal injuries, or other animal-related facial trauma.</p>
 </div>
@@ -142,13 +110,13 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Surgeon assessing accident scar at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEFkiI4mjDEE18YDwFhytADXKSi52219_ImkXimFwvR_u_lEi32i_FGV-fHjIDfiuUGL1lJeadbUQP-VudLVyKwmYno2hUz4EdWrurPoOkszJUln7aMR43klGyT4vRj2F-e9ksMWzt4q9dm_IKwmSyFF36Jj32w61XM7ifV4JQo3iOufuJ2-9_ghJAMrR2v5dtBYCQPel3QIstAIejIFPRUIyA66943uzujXTS879KGpz70wCQ4303HF08bi3co5b4l1czHWqRntk"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Surgeon assessing accident scar"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Surgeon assessing accident scar</p></div>
 </div>
 </div>
 <!-- Step 2 -->
 <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
 <div class="order-1 md:order-1">
-<img alt="Scar revision surgery in progress at CARE Hospitals, Banjara Hills, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Scar revision surgery in progress"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Scar revision surgery in progress</p></div>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -178,7 +146,7 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Patient recovery consultation after accident scar reconstruction at Gnathos, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Patient recovery consultation after accident scar reconstruction"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Patient recovery consultation after accident scar reconstruction</p></div>
 </div>
 </div>
 </div>
@@ -252,9 +220,7 @@ include $path_prefix . 'header.php';
 <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                         To help us understand your situation and create an effective treatment plan, please bring the following information to your consultation.
                     </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                        Download Checklist PDF
-                    </button>
+
 </div>
 <div>
 <ul class="space-y-4">
@@ -344,59 +310,14 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 <div class="mt-12 text-center">
-<button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+<a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                 Request a Consultation
-            </button>
+            </a>
 </div>
 </div>
 </section>
 
-<!-- The Surgical Team -->
-<section class="py-section-gap bg-primary text-on-primary">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md mb-4">Expert Accident Scar Reconstruction Team</h2>
-<p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                Experienced specialists in post-trauma facial reconstruction with decades of combined expertise.
-            </p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Suresh P.L. - Accident Scar Reconstruction Specialist Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/Dr.-Suresh.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 20+ years of experience in post-trauma facial reconstruction, accident scar treatment, and complex scar revision surgery.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 15+ years of experience in facial trauma reconstruction, accident scar revision, and scar management.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <!-- Patient FAQs -->
 <section class="py-section-gap bg-surface">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -408,7 +329,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     When can I have accident scar reconstruction?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Scar reconstruction is typically performed after the scar has matured, usually 12-18 months after the original injury or the last surgery. However, if the scar is causing functional problems like contractures limiting movement, earlier intervention may be necessary. Your surgeon will assess whether your scar is ready for revision during consultation.
@@ -417,7 +338,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will accident scar reconstruction completely remove my scar?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Unfortunately, scars cannot be completely removed. The goal of scar revision is to make the scar less visible, change its direction to follow natural skin lines, release any contractures, and improve overall appearance. Most patients achieve significant improvement, with a finer, less noticeable scar that blends better with surrounding skin.
@@ -426,7 +347,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How many surgeries will I need for accident scar reconstruction?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     This depends on the complexity of your scar. Simple scar revisions may require just one surgery. More complex reconstructions, especially those involving tissue loss or contractures, may require staged procedures over several months. Your surgeon will discuss the expected treatment timeline during your consultation.
@@ -435,7 +356,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long is recovery after accident scar reconstruction?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Recovery varies by procedure. Simple scar revision typically requires 1-2 weeks for initial healing. More extensive reconstruction with skin grafts or flaps requires 2-4 weeks for tissue settling. During recovery, you'll follow wound care protocols and gradually resume activities. Full scar maturation takes 6-12 months, during which scar management continues.
@@ -444,7 +365,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will insurance cover accident scar reconstruction?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Accident scar reconstruction following a documented accidental injury is typically covered by health insurance as it addresses the aftermath of trauma. However, purely cosmetic procedures may not be covered. If your accident involved a motor vehicle insurance claim or third-party claim, coverage may be available through those channels. Check with your insurer for specific coverage details.
@@ -453,7 +374,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Can you improve old accident scars that have already healed?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Yes, old mature scars can often be improved through scar revision surgery. Whether your scar is from last year or decades ago, if it's widened, elevated, discolored, or causing functional problems, revision surgery can help. The key is assessing whether you're a good candidate for improvement, which your surgeon will determine during consultation.
@@ -463,22 +384,5 @@ include $path_prefix . 'header.php';
 </div>
 </section>
 
-<!-- Final CTA -->
-<section class="py-section-gap bg-surface-container-low">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Take the First Step Toward Scar Improvement</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                    Whether your accident was recent or years ago, our accident scar reconstruction specialists can help improve your scar's appearance and restore your confidence. Schedule a consultation to explore your options.
-                </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                    Schedule Your Scar Reconstruction Consultation
-                    <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-</button>
-</div>
-</section>
-</main>
-
 <!-- Detailed Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

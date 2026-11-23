@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "";
-$page_title = "Facial Swelling Treatment Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert facial swelling treatment in Hyderabad at CARE Hospitals. Dr. Suresh P.L. diagnoses & treats face swelling from dental infections, trauma, cysts & oral pathology. Book evaluation today.";
+$path_prefix = '';
+$page_title = 'Facial Swelling: Causes & Treatment in Hyderabad | Gnathos';
+$page_description = 'Facial swelling from tooth infection, cysts, salivary glands or injury: when it is an emergency and how it is treated. Urgent help: +91 90006 66476.';
+$canonical_url = 'https://gnathosface.com/facial-swelling-treatment';
+$page_about = 'Facial Swelling Diagnosis & Treatment';
+$breadcrumbs = [['Home', '/'], ['Conditions', '/conditions'], ['Facial Swelling Diagnosis & Treatment', null]];
+$page_faqs = [
+    ['q' => 'What causes facial swelling on one side of the face?', 'a' => 'Unilateral (one-sided) facial swelling is commonly caused by dental infections, cysts, salivary gland disorders, or trauma. Less commonly, tumors can present as one-sided swelling. Accurate diagnosis requires clinical examination and imaging. At our facility in Hyderabad, we use CBCT and other advanced imaging to identify the exact cause of unilateral facial swelling.'],
+    ['q' => 'How long does facial swelling from a dental infection last?', 'a' => 'With appropriate antibiotic treatment, dental infection-related facial swelling typically begins to subside within 48-72 hours. Complete resolution usually occurs within 7-10 days. However, the underlying dental problem (such as an abscessed tooth) must also be treated to prevent recurrence. Root canal therapy or extraction of the infected tooth is often necessary for lasting resolution.'],
+    ['q' => 'Can facial swelling indicate oral cancer?', 'a' => 'While most facial swelling is caused by benign conditions like infections or cysts, persistent, painless swelling that gradually increases in size can sometimes indicate oral cancer or other malignancies. Other warning signs include non-healing ulcers, numbness, loose teeth, and difficulty swallowing. Our oral and maxillofacial surgeons perform thorough evaluations and biopsies when indicated to rule out malignancy.'],
+    ['q' => 'Is surgery always needed for jaw cysts causing facial swelling?', 'a' => 'Not always. Small, asymptomatic cysts may be monitored with regular imaging. However, most jaw cysts causing facial swelling or other symptoms require surgical treatment. Cyst enucleation (complete removal) is the standard approach, which also allows for biopsy to confirm the diagnosis. Early treatment prevents cyst expansion, bone weakening, and potential infection. Our surgeons at CARE Hospitals, Hyderabad, specialize in minimally invasive techniques for cyst removal.'],
+    ['q' => 'How much does facial swelling treatment cost in Hyderabad?', 'a' => 'Treatment costs vary widely based on the cause and required treatment. Initial consultation and imaging (CBCT) may cost between INR 1,000-5,000. Conservative treatment with antibiotics may be relatively inexpensive. Surgical procedures like cyst removal or tumor resection range from INR 30,000 to several lakhs depending on complexity. Many health insurance plans cover medically necessary facial swelling treatment. Our billing team provides detailed estimates and assists with insurance processing.'],
+];
+$cta_heading = 'Get a specialist opinion on facial Swelling Diagnosis & Treatment.';
+$cta_topic = 'Cyst, tumour or facial swelling';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- Hero Section -->
+<!-- Hero Section -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -16,59 +25,17 @@ include $path_prefix . 'header.php';
                 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
                 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Facial Swelling Diagnosis & Treatment</h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Identify the root cause of facial swelling with precision diagnostics. From dental infections to cysts, our oral and maxillofacial surgeons at CARE Hospitals, Banjara Hills provide targeted treatment for lasting relief.
+                    Identify the root cause of facial swelling with precision diagnostics. From dental infections to cysts, our oral and maxillofacial surgeons at CARE Hospitals, HITEC City provide targeted treatment for lasting relief.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Evaluation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Oral maxillofacial surgeon examining patient with facial swelling at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="asset/facial-injuries.png"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for Facial Swelling Treatment</h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Accurate diagnosis is critical for effective facial swelling treatment. Our team combines clinical expertise with advanced imaging to identify underlying causes.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">search</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Precision Diagnosis</h3>
-                    <p class="text-on-surface-variant text-sm">CBCT and 3D imaging to pinpoint exact cause of facial swelling — infection, cyst, tumor, or trauma.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">local_hospital</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Hospital-Based Care</h3>
-                    <p class="text-on-surface-variant text-sm">Treatment at CARE Hospitals, Banjara Hills — full access to ICU, specialists, and emergency care if needed.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">medical_services</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Comprehensive Treatment</h3>
-                    <p class="text-on-surface-variant text-sm">From antibiotics to surgical intervention — we offer the full spectrum of facial swelling treatments in one place.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">schedule</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Emergency Availability</h3>
-                    <p class="text-on-surface-variant text-sm">Rapid evaluation for severe facial swelling, especially when airway or vision may be compromised.</p>
+                    <img alt="Oral maxillofacial surgeon examining patient with facial swelling at Gnathos Facial, Hyderabad" class="w-full h-full object-cover" src="/asset/facial-injuries.png"/>
                 </div>
             </div>
         </div>
@@ -142,19 +109,19 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Oral maxillofacial surgeon performing clinical examination for facial swelling diagnosis at Gnathos Facial, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="asset/dr_suresh_defining_excellence.png"/>
+                    <img loading="lazy" decoding="async" alt="Oral maxillofacial surgeon performing clinical examination for facial swelling diagnosis at Gnathos Facial, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="/asset/dr_suresh_defining_excellence.png"/>
                 </div>
             </div>
             <!-- Step 2 -->
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Advanced CBCT 3D imaging for facial swelling diagnosis at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="asset/tmj-disorders-advanced-treatment-clinical-protocols.png"/>
+                    <img loading="lazy" decoding="async" alt="Advanced CBCT 3D imaging for facial swelling diagnosis at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="/asset/tmj-disorders-advanced-treatment-clinical-protocols.png"/>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
                     <h3 class="font-headline-sm text-2xl text-primary mb-4">Advanced Imaging</h3>
                     <p class="text-on-surface-variant mb-6">
-                        We utilize state-of-the-art imaging to visualize the underlying structures. CBCT provides detailed 3D views of jaw bones and teeth, while MRI helps assess soft tissue involvement. Ultrasound can evaluate cystic versus solid masses in real-time.
+                        We utilize modern imaging to visualize the underlying structures. CBCT provides detailed 3D views of jaw bones and teeth, while MRI helps assess soft tissue involvement. Ultrasound can evaluate cystic versus solid masses in real-time.
                     </p>
                     <ul class="space-y-3">
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">3D CBCT scanning for bone evaluation</span></li>
@@ -178,7 +145,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Laboratory biopsy procedure for facial swelling diagnosis at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="asset/dr-navatha-mortha-facial.webp"/>
+                    <img loading="lazy" decoding="async" alt="Laboratory biopsy procedure for facial swelling diagnosis at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="/asset/dr-navatha-mortha-facial.webp"/>
                 </div>
             </div>
         </div>
@@ -242,9 +209,9 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
@@ -293,7 +260,7 @@ include $path_prefix . 'header.php';
                             <a href="tel:+91XXXXXXXXXX" class="inline-block bg-red-600 text-white font-label-md px-6 py-3 rounded hover:bg-red-700 transition-colors">
                                 +91 XX XXX XXXX
                             </a>
-                            <p class="text-sm text-red-500 mt-4">CARE Hospitals, Banjara Hills</p>
+                            <p class="text-sm text-red-500 mt-4">CARE Hospitals</p>
                         </div>
                     </div>
                 </div>
@@ -359,52 +326,7 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- The Surgical Team -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Facial Swelling Treatment Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Our oral and maxillofacial surgeons have extensive experience diagnosing and treating the full spectrum of conditions causing facial swelling.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Oral and Maxillofacial Surgeon treating facial swelling at CARE Hospitals Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant & Facial Surgery Specialist</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                                With over 20 years of experience in oral and maxillofacial surgery, Dr. Suresh has treated thousands of patients with facial swelling from infections, cysts, tumors, and trauma. His expertise spans from conservative management to complex reconstructive surgery.
-                            </p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years of Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon evaluating facial swelling in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant & Maxillofacial Surgeon</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                                Dr. Navatha specializes in diagnosing complex facial conditions and managing facial swelling from oral pathology. Her patient-centered approach ensures thorough evaluation and personalized treatment plans.
-                            </p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years of Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- Patient FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -416,7 +338,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What causes facial swelling on one side of the face?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Unilateral (one-sided) facial swelling is commonly caused by dental infections, cysts, salivary gland disorders, or trauma. Less commonly, tumors can present as one-sided swelling. Accurate diagnosis requires clinical examination and imaging. At our facility in Hyderabad, we use CBCT and other advanced imaging to identify the exact cause of unilateral facial swelling.
@@ -425,7 +347,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long does facial swelling from a dental infection last?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         With appropriate antibiotic treatment, dental infection-related facial swelling typically begins to subside within 48-72 hours. Complete resolution usually occurs within 7-10 days. However, the underlying dental problem (such as an abscessed tooth) must also be treated to prevent recurrence. Root canal therapy or extraction of the infected tooth is often necessary for lasting resolution.
@@ -434,7 +356,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Can facial swelling indicate oral cancer?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         While most facial swelling is caused by benign conditions like infections or cysts, persistent, painless swelling that gradually increases in size can sometimes indicate oral cancer or other malignancies. Other warning signs include non-healing ulcers, numbness, loose teeth, and difficulty swallowing. Our oral and maxillofacial surgeons perform thorough evaluations and biopsies when indicated to rule out malignancy.
@@ -443,16 +365,16 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Is surgery always needed for jaw cysts causing facial swelling?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                        Not always. Small, asymptomatic cysts may be monitored with regular imaging. However, most jaw cysts causing facial swelling or other symptoms require surgical treatment. Cyst enucleation (complete removal) is the standard approach, which also allows for biopsy to confirm the diagnosis. Early treatment prevents cyst expansion, bone weakening, and potential infection. Our surgeons at CARE Hospitals, Hyderabad, specialize in minimally invasive techniques for cyst removal.
+                        Not always. Small, asymptomatic cysts may be monitored with regular imaging. However, most jaw cysts causing facial swelling or other symptoms require surgical treatment. Cyst enucleation (complete removal) is the standard approach, which also allows for biopsy to confirm the diagnosis. Early treatment prevents cyst expansion, bone weakening, and potential infection. Our surgeons at CARE Hospitals, HITEC City, Hyderabad, specialize in minimally invasive techniques for cyst removal.
                     </div>
                 </details>
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How much does facial swelling treatment cost in Hyderabad?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Treatment costs vary widely based on the cause and required treatment. Initial consultation and imaging (CBCT) may cost between INR 1,000-5,000. Conservative treatment with antibiotics may be relatively inexpensive. Surgical procedures like cyst removal or tumor resection range from INR 30,000 to several lakhs depending on complexity. Many health insurance plans cover medically necessary facial swelling treatment. Our billing team provides detailed estimates and assists with insurance processing.
@@ -467,14 +389,14 @@ include $path_prefix . 'header.php';
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <div class="text-center mb-12">
                 <h2 class="font-headline-md text-headline-md text-primary mb-4">Related Conditions We Treat</h2>
-                <p class="text-on-surface-variant">Explore other facial and jaw conditions treated at Gnathos Facial Surgery.</p>
+                <p class="text-on-surface-variant">Explore other facial and jaw conditions treated at Gnathos Facial.</p>
             </div>
             <div class="grid md:grid-cols-4 gap-6">
-                <a href="tmj-treatment.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group">
+                <a href="/tmj-treatment" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group">
                     <h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">TMJ Disorders</h3>
                     <p class="text-sm text-on-surface-variant">Jaw joint pain and dysfunction treatment</p>
                 </a>
-                <a href="jaw-surgery.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group">
+                <a href="/jaw-surgery" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group">
                     <h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Jaw Surgery</h3>
                     <p class="text-sm text-on-surface-variant">Orthognathic surgery for jaw alignment</p>
                 </a>
@@ -490,22 +412,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- Final CTA -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Don't Ignore Persistent Facial Swelling</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Early evaluation leads to better outcomes. If you're experiencing facial swelling that persists, worsens, or is accompanied by pain, fever, or difficulty eating, schedule an evaluation with our specialists today.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Schedule Facial Swelling Evaluation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- Footer -->
+<?php include $path_prefix . 'footer.php'; ?>

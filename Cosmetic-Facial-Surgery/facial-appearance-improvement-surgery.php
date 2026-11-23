@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Facial Appearance Improvement Surgery in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert facial appearance improvement surgery in Hyderabad. Dr. Suresh P.L. at CARE Hospitals, Banjara Hills offers comprehensive facial enhancement for boosted confidence and natural beauty.";
+$path_prefix = '../';
+$page_title = 'Facial Appearance Improvement Surgery in Hyderabad';
+$page_description = 'Facial appearance improvement surgery in Hyderabad. Dr. Suresh P.L. at CARE Hospitals offers comprehensive facial enhancement for boosted.';
+$canonical_url = 'https://gnathosface.com/Cosmetic-Facial-Surgery/facial-appearance-improvement-surgery';
+$page_about = 'Facial Appearance Improvement Surgery';
+$breadcrumbs = [['Home', '/'], ['Cosmetic facial surgery', '/cosmetic-facial-surgery-treatment'], ['Facial Appearance Improvement Surgery', null]];
+$page_faqs = [
+    ['q' => 'What facial concerns can be addressed through appearance improvement?', 'a' => 'Facial appearance improvement can address a wide range of concerns including disproportionate facial features, structural irregularities, asymmetry, age-related changes, and overall dissatisfaction with facial appearance. During consultation at our Hyderabad center, we\'ll evaluate your specific concerns and recommend appropriate treatment combinations to achieve your improvement goals.'],
+    ['q' => 'Can multiple facial concerns be addressed in one procedure?', 'a' => 'Yes, many patients benefit from addressing multiple concerns in a coordinated approach. When appropriate and safe, combining procedures allows for comprehensive improvement with a single recovery period. Your surgeon will recommend the best approach during consultation at CARE Hospitals based on your specific improvement goals and anatomical considerations.'],
+    ['q' => 'How long until I see improved facial appearance after surgery?', 'a' => 'Initial improvements become visible as major swelling resolves within weeks, but complete results typically emerge between 2-6 months post-surgery depending on the scope of procedures. The full transformation develops gradually as tissues heal and settle into their improved positions. Our Hyderabad team monitors your progress to ensure optimal appearance develops as expected.'],
+    ['q' => 'Will improved facial appearance look natural?', 'a' => 'Natural-looking results are a primary goal of our comprehensive approach. Our surgeons focus on creating harmonious improvements that complement your existing features rather than dramatic, artificial changes. During consultation at our Hyderabad center, we use digital simulation so you can preview expected improvements and ensure your goals align with naturally achievable outcomes.'],
+    ['q' => 'What is the cost of facial appearance improvement surgery in Hyderabad?', 'a' => 'Costs depend on the specific procedures and scope of improvement planned. During consultation at our Hyderabad center, we provide detailed estimates covering all aspects of your coordinated treatment plan. We can also discuss financing options and help determine if any insurance coverage applies for functionally necessary components of your improvement procedures.'],
+];
+$cta_heading = 'Get a specialist opinion on facial Appearance Improvement Surgery.';
+$cta_topic = 'Cosmetic facial procedure';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -18,61 +27,17 @@ include $path_prefix . 'header.php';
                     Facial Appearance Improvement Surgery in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Transform your overall facial appearance with comprehensive enhancement surgery. Our expert maxillofacial surgeons at CARE Hospitals, Banjara Hills address multiple features to create harmonious, naturally beautiful results that boost your confidence.
+                    Transform your overall facial appearance with comprehensive enhancement surgery. Our expert maxillofacial surgeons at CARE Hospitals, HITEC City address multiple features to create harmonious, naturally beautiful results that boost your confidence.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Facial appearance improvement surgery - Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Appearance Improvement
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Improving facial appearance requires holistic understanding and precise execution. Our Hyderabad center combines surgical expertise with aesthetic vision to deliver transformations that enhance your natural beauty while maintaining your unique identity.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">visibility</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Holistic Approach</h3>
-                    <p class="text-on-surface-variant text-sm">Considering all facial elements together to achieve overall harmony and balance.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">person_outline</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Identity Preservation</h3>
-                    <p class="text-on-surface-variant text-sm">Enhancing appearance while preserving your essential facial character and uniqueness.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">timeline</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Sequenced Treatment</h3>
-                    <p class="text-on-surface-variant text-sm">Strategic planning and staged procedures for optimal, enduring results.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">support_agent</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Comprehensive Care</h3>
-                    <p class="text-on-surface-variant text-sm">Complete support from initial consultation through final recovery and beyond.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Facial appearance improvement surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial appearance improvement surgery</p></div>
                 </div>
             </div>
         </div>
@@ -128,17 +93,17 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Facial appearance improvement consultation - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsply.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=800&q=80"/>
+                    <img alt="Facial appearance improvement consultation - Gnathos Facial, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsply.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=800&q=80"/>
                 </div>
             </div>
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Facial appearance improvement procedure - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Facial appearance improvement procedure"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial appearance improvement procedure</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
                     <h3 class="font-headline-sm text-2xl text-primary mb-4">Coordinated Enhancement Procedures</h3>
-                    <p class="text-on-surface-variant mb-6">At CARE Hospitals, Banjara Hills, our surgeons perform coordinated procedures tailored to your improvement goals. This may include multiple areas addressed in planned sequence or comprehensive single-stage enhancement to achieve your overall appearance objectives.</p>
+                    <p class="text-on-surface-variant mb-6">At CARE Hospitals, HITEC City, our surgeons perform coordinated procedures tailored to your improvement goals. This may include multiple areas addressed in planned sequence or comprehensive single-stage enhancement to achieve your overall appearance objectives.</p>
                     <ul class="space-y-3">
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Multi-area coordinated treatment</span></li>
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Strategic sequencing when needed</span></li>
@@ -158,7 +123,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Facial appearance improvement recovery - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Facial appearance improvement recovery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial appearance improvement recovery</p></div>
                 </div>
             </div>
         </div>
@@ -232,9 +197,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             Comprehensive preparation ensures optimal outcomes from facial appearance improvement surgery. Our Hyderabad team provides complete guidance throughout preparation.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Preparation Guide
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -272,7 +235,7 @@ include $path_prefix . 'header.php';
             <div class="grid md:grid-cols-2 gap-16 items-center">
                 <div class="relative">
                     <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
-                    <img alt="3D facial analysis for improvement - Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="3D facial analysis for improvement"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">3D facial analysis for improvement</p></div>
                 </div>
                 <div>
                     <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Planning</span>
@@ -343,7 +306,7 @@ include $path_prefix . 'header.php';
                 <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
                     <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
                         <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                            <span class="material-symbols-outlined">auto_awesome</span>
+                            <span class="material-symbols-outlined">stars</span>
                         </div>
                         <h3 class="font-headline-sm text-primary">Comprehensive Transformation</h3>
                     </div>
@@ -364,55 +327,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Facial Appearance Improvement Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Our surgical team brings comprehensive expertise in facial aesthetics to help you achieve your appearance improvement goals with natural-looking results.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Suresh has over 20 years of experience in comprehensive facial procedures. His holistic approach to appearance improvement has helped numerous patients in Hyderabad achieve their aesthetic goals while maintaining natural-looking results that enhance their overall appearance and confidence.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Navatha specializes in aesthetic facial procedures with particular expertise in comprehensive appearance improvement. Her artistic approach and surgical precision help patients achieve balanced, natural results that significantly enhance their overall facial appearance and self-confidence.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -424,7 +346,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What facial concerns can be addressed through appearance improvement?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Facial appearance improvement can address a wide range of concerns including disproportionate facial features, structural irregularities, asymmetry, age-related changes, and overall dissatisfaction with facial appearance. During consultation at our Hyderabad center, we'll evaluate your specific concerns and recommend appropriate treatment combinations to achieve your improvement goals.
@@ -433,16 +355,16 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Can multiple facial concerns be addressed in one procedure?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                        Yes, many patients benefit from addressing multiple concerns in a coordinated approach. When appropriate and safe, combining procedures allows for comprehensive improvement with a single recovery period. Your surgeon will recommend the best approach during consultation at CARE Hospitals, Banjara Hills based on your specific improvement goals and anatomical considerations.
+                        Yes, many patients benefit from addressing multiple concerns in a coordinated approach. When appropriate and safe, combining procedures allows for comprehensive improvement with a single recovery period. Your surgeon will recommend the best approach during consultation at CARE Hospitals, HITEC City based on your specific improvement goals and anatomical considerations.
                     </div>
                 </details>
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long until I see improved facial appearance after surgery?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Initial improvements become visible as major swelling resolves within weeks, but complete results typically emerge between 2-6 months post-surgery depending on the scope of procedures. The full transformation develops gradually as tissues heal and settle into their improved positions. Our Hyderabad team monitors your progress to ensure optimal appearance develops as expected.
@@ -451,7 +373,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will improved facial appearance look natural?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Natural-looking results are a primary goal of our comprehensive approach. Our surgeons focus on creating harmonious improvements that complement your existing features rather than dramatic, artificial changes. During consultation at our Hyderabad center, we use digital simulation so you can preview expected improvements and ensure your goals align with naturally achievable outcomes.
@@ -460,7 +382,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What is the cost of facial appearance improvement surgery in Hyderabad?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Costs depend on the specific procedures and scope of improvement planned. During consultation at our Hyderabad center, we provide detailed estimates covering all aspects of your coordinated treatment plan. We can also discuss financing options and help determine if any insurance coverage applies for functionally necessary components of your improvement procedures.
@@ -470,22 +392,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Improve Your Facial Appearance Today</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Transform your facial appearance with comprehensive enhancement surgery. Schedule a consultation with our expert surgical team at CARE Hospitals, Banjara Hills to discuss your improvement goals and develop a personalized treatment plan for naturally beautiful results.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

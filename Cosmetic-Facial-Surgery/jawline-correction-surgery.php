@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Jawline Correction Surgery in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert jawline correction surgery in Hyderabad. Dr. Suresh P.L. at CARE Hospitals, Banjara Hills offers advanced jaw correction for improved facial balance, symmetry, and definition.";
+$path_prefix = '../';
+$page_title = 'Jawline Correction Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'Jawline correction surgery in Hyderabad. Dr. Suresh P.L. at CARE Hospitals offers advanced jaw correction for improved facial balance, symmetry.';
+$canonical_url = 'https://gnathosface.com/Cosmetic-Facial-Surgery/jawline-correction-surgery';
+$page_about = 'Jawline Correction Surgery';
+$breadcrumbs = [['Home', '/'], ['Cosmetic facial surgery', '/cosmetic-facial-surgery-treatment'], ['Jawline Correction Surgery', null]];
+$page_faqs = [
+    ['q' => 'What causes jawline asymmetry that requires correction?', 'a' => 'Jawline asymmetry can result from genetic factors affecting jaw development, asymmetric growth during childhood and adolescence, trauma or injury affecting jaw development, previous surgeries that healed asymmetrically, or conditions affecting jaw bone growth. Some asymmetry is normal and natural, but significant imbalance that affects appearance or function may benefit from surgical correction at our Hyderabad center.'],
+    ['q' => 'How long does jawline correction surgery take?', 'a' => 'Surgical time varies based on the extent of correction needed. Targeted corrections may take 2-3 hours, while comprehensive bilateral jawline restructuring can require 4-6 hours or more. Your surgeon will provide a detailed timeline during your pre-operative consultation at CARE Hospitals based on your specific correction needs.'],
+    ['q' => 'Will jawline correction surgery affect my bite or ability to eat?', 'a' => 'When jawline correction involves the jawbone position, there\'s typically an adjustment period following surgery where you\'ll eat soft foods while your bite settles. However, when performed by our experienced surgeons at CARE Hospitals, the goal is to improve function alongside aesthetics. Many patients actually experience improved bite function after correction when asymmetry was affecting their occlusion.'],
+    ['q' => 'How long until I see final jawline correction results?', 'a' => 'While significant improvements are visible within weeks as major swelling resolves, complete bone healing and final contours typically emerge between 3-6 months post-surgery. Minor refinements may continue for up to a year as bone remodeling completes. Our Hyderabad team monitors your progress through regular follow-up appointments to ensure optimal correction results.'],
+    ['q' => 'What is the cost of jawline correction surgery in Hyderabad?', 'a' => 'Costs depend on the complexity of your case, specific procedures required, and facility charges at CARE Hospitals. During consultation at our Hyderabad center, we provide detailed estimates covering all aspects of care. We also offer financing options and can help determine if insurance applies if the correction is deemed medically necessary for functional improvement.'],
+];
+$cta_heading = 'Get a specialist opinion on jawline Correction Surgery.';
+$cta_topic = 'Cosmetic facial procedure';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -18,61 +27,17 @@ include $path_prefix . 'header.php';
                     Jawline Correction Surgery in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Achieve a balanced, harmonious jawline with precision correction surgery. Our expert maxillofacial surgeons at CARE Hospitals, Banjara Hills address jaw irregularities and asymmetry to restore facial proportion and confidence.
+                    Achieve a balanced, harmonious jawline with precision correction surgery. Our expert maxillofacial surgeons at CARE Hospitals, HITEC City address jaw irregularities and asymmetry to restore facial proportion and confidence.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Jawline correction surgery consultation - Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Jawline Correction
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Jawline correction requires precise surgical expertise and thorough planning. Our Hyderabad center combines advanced diagnostics with decades of experience to deliver predictable, natural-looking results.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">biotech</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Advanced Diagnostics</h3>
-                    <p class="text-on-surface-variant text-sm">3D CT imaging and digital analysis for precise assessment of jaw structure and asymmetry.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">precision_manufacturing</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Precision Techniques</h3>
-                    <p class="text-on-surface-variant text-sm">Computer-guided surgical planning ensures accurate bone repositioning and alignment.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">local_hospital</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Hospital Setting</h3>
-                    <p class="text-on-surface-variant text-sm">Full surgical facilities at CARE Hospitals, Banjara Hills for maximum safety and comfort.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">monitor_heart</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Comprehensive Care</h3>
-                    <p class="text-on-surface-variant text-sm">Complete support from initial consultation through long-term recovery and follow-up.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Jawline correction surgery consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Jawline correction surgery consultation</p></div>
                 </div>
             </div>
         </div>
@@ -128,17 +93,17 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Jawline correction diagnostic imaging - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Jawline correction diagnostic imaging"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Jawline correction diagnostic imaging</p></div>
                 </div>
             </div>
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Jawline correction surgery procedure - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Jawline correction surgery procedure"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Jawline correction surgery procedure</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
                     <h3 class="font-headline-sm text-2xl text-primary mb-4">Precision Surgical Correction</h3>
-                    <p class="text-on-surface-variant mb-6">At CARE Hospitals, Banjara Hills, our surgeons perform meticulous jawline corrections using pre-planned techniques. Procedures may involve bone reshaping, repositioning, or augmentation depending on your specific structural needs to achieve balanced contours.</p>
+                    <p class="text-on-surface-variant mb-6">At CARE Hospitals, HITEC City, our surgeons perform meticulous jawline corrections using pre-planned techniques. Procedures may involve bone reshaping, repositioning, or augmentation depending on your specific structural needs to achieve balanced contours.</p>
                     <ul class="space-y-3">
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Computer-guided surgical techniques</span></li>
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Precise bone contouring and fixation</span></li>
@@ -158,7 +123,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Jawline correction recovery - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Jawline correction recovery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Jawline correction recovery</p></div>
                 </div>
             </div>
         </div>
@@ -232,9 +197,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             Thorough preparation ensures optimal outcomes from jawline correction surgery. Our Hyderabad team guides you through every step of the preparation process.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Preparation Guide
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -246,7 +209,7 @@ include $path_prefix . 'header.php';
                                 </div>
                             </li>
                             <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
-                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">lifestyle</span>
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">self_improvement</span>
                                 <div>
                                     <strong class="text-primary block mb-1">Lifestyle Optimization</strong>
                                     <span class="text-sm text-on-surface-variant">Smoking cessation and dietary adjustments to optimize healing potential before surgery.</span>
@@ -272,7 +235,7 @@ include $path_prefix . 'header.php';
             <div class="grid md:grid-cols-2 gap-16 items-center">
                 <div class="relative">
                     <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
-                    <img alt="3D jaw imaging for correction - Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="3D jaw imaging for correction"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">3D jaw imaging for correction</p></div>
                 </div>
                 <div>
                     <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Planning</span>
@@ -364,55 +327,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Jawline Correction Surgery Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Our surgical team combines deep expertise in jaw anatomy with advanced correction techniques to restore jawline harmony.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Suresh has performed hundreds of jawline correction procedures over his 20+ year career. His expertise in orthognathic surgery and jaw reconstruction has helped numerous patients in Hyderabad achieve improved jawline balance and facial harmony.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Navatha specializes in complex jaw correction procedures with particular expertise in asymmetry treatment. Her meticulous surgical approach ensures accurate corrections that restore jawline harmony while maintaining natural appearance.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -424,7 +346,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What causes jawline asymmetry that requires correction?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Jawline asymmetry can result from genetic factors affecting jaw development, asymmetric growth during childhood and adolescence, trauma or injury affecting jaw development, previous surgeries that healed asymmetrically, or conditions affecting jaw bone growth. Some asymmetry is normal and natural, but significant imbalance that affects appearance or function may benefit from surgical correction at our Hyderabad center.
@@ -433,25 +355,25 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long does jawline correction surgery take?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                        Surgical time varies based on the extent of correction needed. Targeted corrections may take 2-3 hours, while comprehensive bilateral jawline restructuring can require 4-6 hours or more. Your surgeon will provide a detailed timeline during your pre-operative consultation at CARE Hospitals, Banjara Hills based on your specific correction needs.
+                        Surgical time varies based on the extent of correction needed. Targeted corrections may take 2-3 hours, while comprehensive bilateral jawline restructuring can require 4-6 hours or more. Your surgeon will provide a detailed timeline during your pre-operative consultation at CARE Hospitals, HITEC City based on your specific correction needs.
                     </div>
                 </details>
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will jawline correction surgery affect my bite or ability to eat?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                        When jawline correction involves the jawbone position, there's typically an adjustment period following surgery where you'll eat soft foods while your bite settles. However, when performed by our experienced surgeons at CARE Hospitals, the goal is to improve function alongside aesthetics. Many patients actually experience improved bite function after correction when asymmetry was affecting their occlusion.
+                        When jawline correction involves the jawbone position, there's typically an adjustment period following surgery where you'll eat soft foods while your bite settles. However, when performed by our experienced surgeons at CARE Hospitals, HITEC City, the goal is to improve function alongside aesthetics. Many patients actually experience improved bite function after correction when asymmetry was affecting their occlusion.
                     </div>
                 </details>
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long until I see final jawline correction results?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         While significant improvements are visible within weeks as major swelling resolves, complete bone healing and final contours typically emerge between 3-6 months post-surgery. Minor refinements may continue for up to a year as bone remodeling completes. Our Hyderabad team monitors your progress through regular follow-up appointments to ensure optimal correction results.
@@ -460,32 +382,15 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What is the cost of jawline correction surgery in Hyderabad?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                        Costs depend on the complexity of your case, specific procedures required, and facility charges at CARE Hospitals. During consultation at our Hyderabad center, we provide detailed estimates covering all aspects of care. We also offer financing options and can help determine if insurance applies if the correction is deemed medically necessary for functional improvement.
+                        Costs depend on the complexity of your case, specific procedures required, and facility charges at CARE Hospitals, HITEC City. During consultation at our Hyderabad center, we provide detailed estimates covering all aspects of care. We also offer financing options and can help determine if insurance applies if the correction is deemed medically necessary for functional improvement.
                     </div>
                 </details>
             </div>
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Restore Your Jawline Balance Today</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Take the first step toward a balanced, harmonious jawline. Schedule a consultation with our expert surgical team at CARE Hospitals, Banjara Hills to discuss your jawline correction options and develop a personalized treatment plan.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

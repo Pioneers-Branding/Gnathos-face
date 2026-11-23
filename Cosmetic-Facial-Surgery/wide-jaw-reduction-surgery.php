@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Wide Jaw Reduction Surgery in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert wide jaw reduction surgery in Hyderabad. Dr. Suresh P.L. at CARE Hospitals, Banjara Hills offers advanced jaw reduction for a more balanced, defined facial appearance.";
+$path_prefix = '../';
+$page_title = 'Wide Jaw Reduction Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'Wide jaw reduction surgery in Hyderabad. Dr. Suresh P.L. at CARE Hospitals offers advanced jaw reduction for a more balanced, defined facial.';
+$canonical_url = 'https://gnathosface.com/Cosmetic-Facial-Surgery/wide-jaw-reduction-surgery';
+$page_about = 'Wide Jaw Reduction Surgery';
+$breadcrumbs = [['Home', '/'], ['Cosmetic facial surgery', '/cosmetic-facial-surgery-treatment'], ['Wide Jaw Reduction Surgery', null]];
+$page_faqs = [
+    ['q' => 'How much narrower can my jaw become with reduction surgery?', 'a' => 'The achievable reduction depends on your specific bone structure and the underlying cause of jaw width. Generally, reduction of 5-10mm at the jaw angles can create noticeable but natural-looking narrowing. During consultation at our Hyderabad center, we\'ll use imaging to show you projected results and discuss appropriate reduction for your facial proportions.'],
+    ['q' => 'Will jaw reduction surgery affect my bite or chewing ability?', 'a' => 'No, jaw reduction surgery is designed to narrow the jaw angle and body while preserving proper function. The procedure does not alter your bite alignment or affect your ability to chew. Your surgeon ensures that jaw function remains completely normal while achieving the desired width reduction for improved aesthetics.'],
+    ['q' => 'Will jaw reduction leave visible scars?', 'a' => 'No visible scarring results from jaw reduction surgery. All procedures are performed through intraoral incisions inside the mouth, along the gum line and inner cheek. Once fully healed, there is no external evidence of the surgical approach, and no visible scars on the face or neck.'],
+    ['q' => 'How long does jaw reduction surgery take?', 'a' => 'Wide jaw reduction surgery typically takes 2-3 hours depending on the specific techniques used and whether correction is needed on one or both sides. Your surgeon will provide a more precise estimate during consultation at CARE Hospitals based on your planned procedure.'],
+    ['q' => 'What is the cost of wide jaw reduction surgery in Hyderabad?', 'a' => 'Costs vary depending on the specific reduction techniques required and whether treatment is unilateral or bilateral. During consultation at our Hyderabad center, we provide detailed estimates covering all aspects of the procedure. We offer payment options to make jaw reduction accessible for qualified patients.'],
+];
+$cta_heading = 'Get a specialist opinion on wide Jaw Reduction Surgery.';
+$cta_topic = 'Cosmetic facial procedure';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -18,61 +27,17 @@ include $path_prefix . 'header.php';
                     Wide Jaw Reduction Surgery in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Achieve a more balanced, defined facial appearance with expert wide jaw reduction surgery. Our skilled maxillofacial surgeons at CARE Hospitals, Banjara Hills reduce excessive jaw width for improved facial harmony and aesthetics.
+                    Achieve a more balanced, defined facial appearance with expert wide jaw reduction surgery. Our skilled maxillofacial surgeons at CARE Hospitals, HITEC City reduce excessive jaw width for improved facial harmony and aesthetics.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Wide jaw reduction surgery - Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Jaw Reduction
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Wide jaw reduction requires precise bone work and aesthetic understanding. Our Hyderabad center combines surgical expertise with artistic vision to create naturally balanced, narrower jawline contours.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">construction</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Bone Expertise</h3>
-                    <p class="text-on-surface-variant text-sm">Specialized training in jaw bone surgery for safe, effective width reduction.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">visibility</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Aesthetic Vision</h3>
-                    <p class="text-on-surface-variant text-sm">Understanding of ideal facial proportions for balanced, natural-looking results.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">security</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Hospital Setting</h3>
-                    <p class="text-on-surface-variant text-sm">Surgery performed at CARE Hospitals with comprehensive medical support and safety.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">history</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Proven Results</h3>
-                    <p class="text-on-surface-variant text-sm">Numerous successful jaw reduction procedures helping patients achieve their aesthetic goals.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Wide jaw reduction surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Wide jaw reduction surgery</p></div>
                 </div>
             </div>
         </div>
@@ -128,17 +93,17 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Wide jaw assessment - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Wide jaw assessment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Wide jaw assessment</p></div>
                 </div>
             </div>
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Jaw reduction procedure - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Jaw reduction procedure"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Jaw reduction procedure</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
                     <h3 class="font-headline-sm text-2xl text-primary mb-4">Precision Jaw Reduction</h3>
-                    <p class="text-on-surface-variant mb-6">At CARE Hospitals, Banjara Hills, our surgeons perform careful jaw angle reduction through intraoral approach. Bone is precisely shaped to narrow the lower face while maintaining natural jaw contour and preserving proper function and bite alignment.</p>
+                    <p class="text-on-surface-variant mb-6">At CARE Hospitals, HITEC City, our surgeons perform careful jaw angle reduction through intraoral approach. Bone is precisely shaped to narrow the lower face while maintaining natural jaw contour and preserving proper function and bite alignment.</p>
                     <ul class="space-y-3">
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Intraoral surgical approach</span></li>
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Precise bone contouring</span></li>
@@ -158,7 +123,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Jaw reduction results - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Jaw reduction results"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Jaw reduction results</p></div>
                 </div>
             </div>
         </div>
@@ -257,7 +222,7 @@ include $path_prefix . 'header.php';
                 <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
                     <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
                         <div class="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
-                            <span class="material-symbols-outlined">auto_fix_high</span>
+                            <span class="material-symbols-outlined">brush</span>
                         </div>
                         <h3 class="font-headline-sm text-primary">Combined Approaches</h3>
                     </div>
@@ -278,55 +243,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Jaw Reduction Surgery Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Our surgical team has extensive experience in jaw contouring procedures, combining precise bone work with aesthetic understanding to deliver naturally balanced jawline results.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Suresh has over 20 years of experience in jaw reduction and contouring procedures. His precise surgical technique and understanding of facial aesthetics has helped numerous patients in Hyderabad achieve balanced, narrower jawlines through carefully planned reduction surgery.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Navatha specializes in jaw contouring procedures with particular expertise in reduction surgery. Her meticulous approach ensures patients receive appropriately proportioned jaw narrowing that enhances overall facial harmony naturally.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -338,7 +262,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How much narrower can my jaw become with reduction surgery?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         The achievable reduction depends on your specific bone structure and the underlying cause of jaw width. Generally, reduction of 5-10mm at the jaw angles can create noticeable but natural-looking narrowing. During consultation at our Hyderabad center, we'll use imaging to show you projected results and discuss appropriate reduction for your facial proportions.
@@ -347,7 +271,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will jaw reduction surgery affect my bite or chewing ability?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         No, jaw reduction surgery is designed to narrow the jaw angle and body while preserving proper function. The procedure does not alter your bite alignment or affect your ability to chew. Your surgeon ensures that jaw function remains completely normal while achieving the desired width reduction for improved aesthetics.
@@ -356,7 +280,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will jaw reduction leave visible scars?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         No visible scarring results from jaw reduction surgery. All procedures are performed through intraoral incisions inside the mouth, along the gum line and inner cheek. Once fully healed, there is no external evidence of the surgical approach, and no visible scars on the face or neck.
@@ -365,16 +289,16 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long does jaw reduction surgery take?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                        Wide jaw reduction surgery typically takes 2-3 hours depending on the specific techniques used and whether correction is needed on one or both sides. Your surgeon will provide a more precise estimate during consultation at CARE Hospitals, Banjara Hills based on your planned procedure.
+                        Wide jaw reduction surgery typically takes 2-3 hours depending on the specific techniques used and whether correction is needed on one or both sides. Your surgeon will provide a more precise estimate during consultation at CARE Hospitals, HITEC City based on your planned procedure.
                     </div>
                 </details>
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What is the cost of wide jaw reduction surgery in Hyderabad?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Costs vary depending on the specific reduction techniques required and whether treatment is unilateral or bilateral. During consultation at our Hyderabad center, we provide detailed estimates covering all aspects of the procedure. We offer payment options to make jaw reduction accessible for qualified patients.
@@ -384,22 +308,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Reduce Your Jaw Width Today</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Achieve a more balanced, defined jawline with expert wide jaw reduction surgery. Schedule a consultation with our skilled surgical team at CARE Hospitals, Banjara Hills to discuss your reduction options and develop a personalized treatment plan for a naturally narrower appearance.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

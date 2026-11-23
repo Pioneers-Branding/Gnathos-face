@@ -1,15 +1,24 @@
 <?php
-$path_prefix = "";
-$page_title = "Rhinoplasty in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert rhinoplasty surgery in Hyderabad at Gnathos Facial Surgery. Achieve facial harmony with our advanced nose reshaping procedures by board-certified maxillofacial surgeons.";
-$canonical_url = "https://gnathosface.com/rhinoplasty/";
+$path_prefix = '';
+$page_title = 'Nasal Deformity & Breathing Surgery in Hyderabad | Gnathos';
+$page_description = 'Rhinoplasty and septorhinoplasty in Hyderabad for a crooked, injured or blocked nose, improving breathing and facial balance. Consult Dr. Navatha Mortha.';
+$canonical_url = 'https://gnathosface.com/rhinoplasty';
+$page_about = 'Rhinoplasty Surgery for Facial Harmony & Function';
+$breadcrumbs = [['Home', '/'], ['Conditions', '/conditions'], ['Rhinoplasty Surgery for Facial Harmony & Function', null]];
+$page_faqs = [
+    ['q' => 'How long does rhinoplasty surgery take?', 'a' => 'Rhinoplasty surgery typically takes 2-3 hours depending on the complexity of the procedure. Simple refinements may be completed in under 2 hours, while complex reconstruction or revision surgery may require longer operative times. The procedure is performed under general anesthesia for your comfort and safety.'],
+    ['q' => 'Will there be visible scarring after rhinoplasty?', 'a' => 'Closed rhinoplasty leaves no visible external scarring as all incisions are made inside the nostrils. Open rhinoplasty leaves a small, well-concealed scar on the columella (the tissue between the nostrils) that typically fades to become nearly invisible within 6-12 months. Our surgeons are skilled at minimizing visible scarring through precise technique and proper wound care.'],
+    ['q' => 'When can I return to work after rhinoplasty?', 'a' => 'Most patients can return to desk work within 10-14 days after rhinoplasty. Visible bruising around the eyes typically resolves within 7-10 days. If your work involves physical labor or contact sports, you may need to wait 4-6 weeks before resuming those activities. Your surgeon will provide specific guidance based on your recovery progress.'],
+    ['q' => 'Can rhinoplasty improve my breathing as well as my appearance?', 'a' => 'Yes, rhinoplasty can address both cosmetic and functional concerns simultaneously. Septoplasty can be combined with cosmetic nose reshaping to straighten a deviated septum while improving the external appearance. Our approach evaluates both form and function to ensure your surgery addresses all your concerns in a single procedure.'],
+    ['q' => 'How much does rhinoplasty cost in Hyderabad?', 'a' => 'Rhinoplasty costs vary based on the complexity of the procedure, surgeon experience, and facility used. During your consultation, we provide a detailed breakdown of all costs including surgeon fees, anesthesia, facility charges, and any preparatory imaging. We believe in complete transparency regarding pricing so there are no surprises.'],
+    ['q' => 'Is rhinoplasty painful?', 'a' => 'Most patients report minimal discomfort after rhinoplasty, describing it more as pressure or congestion rather than pain. Any discomfort is effectively managed with prescribed pain medications during the first few days. The splint and packing (if used) are removed before significant discomfort develops, making the recovery quite tolerable for most patients.'],
+];
+$cta_heading = 'Get a specialist opinion on rhinoplasty Surgery for Facial Harmony & Function.';
+$cta_topic = 'Nose shape or breathing (rhinoplasty)';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -19,12 +28,12 @@ include $path_prefix . 'header.php';
                     Rhinoplasty Surgery for Facial Harmony & Function
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Transform your appearance and breathing with expert rhinoplasty at Gnathos Facial Surgery. Our maxillofacial surgeons combine aesthetic precision with functional expertise to deliver natural-looking results that complement your facial features.
+                    Transform your appearance and breathing with expert rhinoplasty at Gnathos Facial. Our maxillofacial surgeons combine aesthetic precision with functional expertise to deliver natural-looking results that complement your facial features.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                     <a href="#surgical-journey" class="bg-surface-container-low text-on-surface-variant font-label-md text-label-md px-8 py-4 rounded border border-surface-variant hover:bg-surface-container-high transition-colors duration-300 text-center">
                         Learn More
                     </a>
@@ -32,51 +41,7 @@ include $path_prefix . 'header.php';
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Rhinoplasty consultation at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXu-rhinoplasty-hero.jpg"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US: Trust Signals -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Rhinoplasty Surgery
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Our dual-focus approach addresses both cosmetic goals and functional breathing concerns, ensuring results that look natural and improve your quality of life.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">school</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Board-Certified Surgeons</h3>
-                    <p class="text-on-surface-variant text-sm">MDS-trained maxillofacial surgeons with specialized rhinoplasty expertise</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">precision_manufacturing</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">3D Planning Technology</h3>
-                    <p class="text-on-surface-variant text-sm">Advanced imaging for precise surgical planning and predictable outcomes</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">healing</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Functional Excellence</h3>
-                    <p class="text-on-surface-variant text-sm">Combined cosmetic and breathing improvement in a single procedure</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">local_hospital</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">CARE Hospitals Partnership</h3>
-                    <p class="text-on-surface-variant text-sm">World-class surgical facilities with trusted medical infrastructure</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Rhinoplasty consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Rhinoplasty consultation</p></div>
                 </div>
             </div>
         </div>
@@ -133,13 +98,13 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Nasal analysis and 3D imaging consultation at Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXu-nasal-analysis.jpg"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Nasal analysis and 3D imaging consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Nasal analysis and 3D imaging consultation</p></div>
                 </div>
             </div>
             <!-- Step 2: Image Left, Text Right -->
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Rhinoplasty surgical procedure at CARE Hospitals, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXu-rhinoplasty-surgery.jpg"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Rhinoplasty surgical procedure"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Rhinoplasty surgical procedure</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -165,7 +130,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Post-operative care and recovery follow-up at Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXu-recovery-care.jpg"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Post-operative care and recovery follow-up"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Post-operative care and recovery follow-up</p></div>
                 </div>
             </div>
         </div>
@@ -245,9 +210,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             A well-prepared consultation helps us understand your goals and create the most effective treatment plan. Here's how to prepare for your visit to our Hyderabad clinic.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Preparation Guide
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -259,14 +222,14 @@ include $path_prefix . 'header.php';
                                 </div>
                             </li>
                             <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
-                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">camera_alt</span>
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">photo_camera</span>
                                 <div>
                                     <strong class="text-primary block mb-1">Reference Photos</strong>
                                     <span class="text-sm text-on-surface-variant">Bring photos showing the look you hope to achieve, along with old photos showing your previous nasal structure.</span>
                                 </div>
                             </li>
                             <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
-                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">question_answer</span>
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">forum</span>
                                 <div>
                                     <strong class="text-primary block mb-1">Questions Prepared</strong>
                                     <span class="text-sm text-on-surface-variant">Write down questions about the procedure, recovery, costs, and what to expect regarding your specific concerns.</span>
@@ -285,13 +248,13 @@ include $path_prefix . 'header.php';
             <div class="grid md:grid-cols-2 gap-16 items-center">
                 <div class="relative">
                     <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
-                    <img alt="3D nasal imaging technology at Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXu-3d-imaging.jpg"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="3D nasal imaging technology"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">3D nasal imaging technology</p></div>
                 </div>
                 <div>
                     <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Assessment</span>
                     <h2 class="font-headline-md text-headline-md text-primary mb-6">Advanced Diagnostic Technology</h2>
                     <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
-                        Our diagnostic approach combines clinical expertise with cutting-edge imaging technology to ensure precise preoperative planning and predictable surgical outcomes.
+                        Our diagnostic approach combines clinical expertise with modern imaging technology to ensure precise preoperative planning and predictable surgical outcomes.
                     </p>
                     <ul class="space-y-4 mb-8">
                         <li class="flex items-start gap-3">
@@ -379,57 +342,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- THE SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Facial Plastic Surgical Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Our maxillofacial surgeons bring decades of combined experience in nasal and facial surgery to deliver exceptional outcomes.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <!-- Dr. Suresh Card -->
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Renowned maxillofacial surgeon specializing in complex nasal reconstruction and revision rhinoplasty. Trained at premier institutions with expertise in both functional and cosmetic nasal surgery.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Dr. Navatha Card -->
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Expert in facial cosmetic surgery with particular focus on nasal anatomy and proportion analysis. Passionate about achieving natural-looking results that enhance overall facial harmony.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs (SCHEMA MARKUP REQUIRED) -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -441,7 +361,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long does rhinoplasty surgery take?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Rhinoplasty surgery typically takes 2-3 hours depending on the complexity of the procedure. Simple refinements may be completed in under 2 hours, while complex reconstruction or revision surgery may require longer operative times. The procedure is performed under general anesthesia for your comfort and safety.
@@ -450,7 +370,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will there be visible scarring after rhinoplasty?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Closed rhinoplasty leaves no visible external scarring as all incisions are made inside the nostrils. Open rhinoplasty leaves a small, well-concealed scar on the columella (the tissue between the nostrils) that typically fades to become nearly invisible within 6-12 months. Our surgeons are skilled at minimizing visible scarring through precise technique and proper wound care.
@@ -459,7 +379,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         When can I return to work after rhinoplasty?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Most patients can return to desk work within 10-14 days after rhinoplasty. Visible bruising around the eyes typically resolves within 7-10 days. If your work involves physical labor or contact sports, you may need to wait 4-6 weeks before resuming those activities. Your surgeon will provide specific guidance based on your recovery progress.
@@ -468,7 +388,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Can rhinoplasty improve my breathing as well as my appearance?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Yes, rhinoplasty can address both cosmetic and functional concerns simultaneously. Septoplasty can be combined with cosmetic nose reshaping to straighten a deviated septum while improving the external appearance. Our approach evaluates both form and function to ensure your surgery addresses all your concerns in a single procedure.
@@ -477,7 +397,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How much does rhinoplasty cost in Hyderabad?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Rhinoplasty costs vary based on the complexity of the procedure, surgeon experience, and facility used. During your consultation, we provide a detailed breakdown of all costs including surgeon fees, anesthesia, facility charges, and any preparatory imaging. We believe in complete transparency regarding pricing so there are no surprises.
@@ -486,7 +406,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Is rhinoplasty painful?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Most patients report minimal discomfort after rhinoplasty, describing it more as pressure or congestion rather than pain. Any discomfort is effectively managed with prescribed pain medications during the first few days. The splint and packing (if used) are removed before significant discomfort develops, making the recovery quite tolerable for most patients.
@@ -496,22 +416,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Explore Your Rhinoplasty Options?</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Schedule a consultation with our expert surgical team to discuss your goals and discover how rhinoplasty can help you achieve facial harmony and improved breathing function.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

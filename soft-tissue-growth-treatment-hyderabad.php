@@ -1,52 +1,29 @@
 <?php
-$path_prefix = "";
-$page_title = "Soft Tissue Growth Treatment Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert soft tissue growth treatment in Hyderabad. Dr. Suresh P.L. provides diagnosis and removal of oral soft tissue growths at CARE Hospitals, Banjara Hills.";
+$path_prefix = '';
+$page_title = 'Soft Tissue Growth Treatment in Hyderabad | Gnathos Facial';
+$page_description = 'Soft tissue growth treatment in Hyderabad. Dr. Suresh P.L. provides diagnosis and removal of oral soft tissue growths at CARE Hospitals.';
+$canonical_url = 'https://gnathosface.com/soft-tissue-growth-treatment-hyderabad';
+$page_about = 'Soft Tissue Growth Treatment';
+$breadcrumbs = [['Home', '/'], ['Cysts & tumours', '/cyst-and-tumors-treatment'], ['Soft Tissue Growth Treatment', null]];
+$page_faqs = [
+    ['q' => 'Are soft tissue growths in the mouth cancer?', 'a' => 'Most soft tissue growths in the mouth are benign (non-cancerous). However, any persistent growth should be evaluated by a specialist to rule out malignancy through examination and biopsy.'],
+    ['q' => 'Is soft tissue growth removal painful?', 'a' => 'The procedure is performed under local anesthesia, so you won\'t feel pain during removal. Most patients experience only mild discomfort afterward, easily managed with over-the-counter pain relievers.'],
+];
+$cta_heading = 'Get a specialist opinion on soft Tissue Growth Treatment.';
+$cta_topic = 'Cyst, tumour or facial swelling';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-<main>
 <section class="pt-20 pb-20 bg-surface-container-low">
 <div class="max-w-container-max mx-auto px-4 md:px-12 grid md:grid-cols-2 gap-8 items-center">
 <div>
 <span class="text-secondary font-semibold uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
 <h1 class="text-4xl md:text-5xl text-primary font-bold mb-6">Expert Soft Tissue Growth Treatment in Hyderabad</h1>
-<p class="text-lg text-on-surface-variant mb-8">Soft tissue growths in the mouth can be benign or require treatment. Our specialists at CARE Hospitals provide accurate diagnosis and effective removal of all oral soft tissue growths.</p>
-<button class="bg-primary text-on-primary px-8 py-4 rounded hover:bg-tertiary">Book Consultation</button>
+<p class="text-lg text-on-surface-variant mb-8">Soft tissue growths in the mouth can be benign or require treatment. Our specialists at CARE Hospitals, HITEC City provide accurate diagnosis and effective removal of all oral soft tissue growths.</p>
+<a href="/book-appointment" class="bg-primary text-on-primary px-8 py-4 rounded hover:bg-tertiary">Book Consultation</a>
 </div>
 <div>
-<img alt="Soft tissue growth treatment - Gnathos Facial Surgery, Hyderabad" class="w-full rounded-xl shadow-lg aspect-[4/3] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-</div>
-</div>
-</section>
-<section class="py-20 bg-surface">
-<div class="max-w-container-max mx-auto px-4 md:px-12">
-<div class="text-center mb-16">
-<h2 class="text-3xl text-primary font-semibold mb-4">Why Choose Gnathos Facial for Soft Tissue Growth Treatment</h2>
-<p class="text-lg text-on-surface-variant max-w-2xl mx-auto">Leading specialists in Hyderabad providing accurate diagnosis and effective treatment for soft tissue growths.</p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4"><span class="material-symbols-outlined text-3xl text-primary">biotech</span></div>
-<h3 class="text-lg text-primary font-semibold mb-2">Expert Diagnosis</h3>
-<p class="text-on-surface-variant text-sm">Accurate identification of growth type.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4"><span class="material-symbols-outlined text-3xl text-primary">local_hospital</span></div>
-<h3 class="text-lg text-primary font-semibold mb-2">CARE Hospitals</h3>
-<p class="text-on-surface-variant text-sm">Full facilities at Banjara Hills.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4"><span class="material-symbols-outlined text-3xl text-primary">medical_services</span></div>
-<h3 class="text-lg text-primary font-semibold mb-2">Minimal Scarring</h3>
-<p class="text-on-surface-variant text-sm">Advanced surgical techniques.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4"><span class="material-symbols-outlined text-3xl text-primary">healing</span></div>
-<h3 class="text-lg text-primary font-semibold mb-2">Complete Care</h3>
-<p class="text-on-surface-variant text-sm">Treatment and monitoring.</p>
-</div>
+<div class="gna-plate w-full rounded-xl aspect-[4/3]" role="img" aria-label="Soft tissue growth treatment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Soft tissue growth treatment</p></div>
 </div>
 </div>
 </section>
@@ -112,37 +89,11 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 <div class="mt-12 text-center">
-<button class="bg-secondary text-on-secondary px-8 py-4 rounded hover:bg-secondary-container">Request a Consultation</button>
+<a href="/book-appointment" class="bg-secondary text-on-secondary px-8 py-4 rounded hover:bg-secondary-container">Request a Consultation</a>
 </div>
 </div>
 </section>
-<section class="py-20 bg-primary text-white">
-<div class="max-w-container-max mx-auto px-4 md:px-12 text-center">
-<h2 class="text-3xl font-semibold mb-4">Expert Surgical Team</h2>
-<div class="grid md:grid-cols-2 gap-12 mt-12">
-<div class="bg-white/10 p-8 rounded-xl">
-<div class="flex items-center gap-6">
-<img alt="Dr. Suresh P.L." class="w-24 h-24 rounded-full object-cover" src="asset/Dr.-Suresh.webp"/>
-<div class="text-left">
-<h3 class="text-xl font-bold">Dr. Suresh P.L.</h3>
-<p class="text-secondary-fixed">Senior Consultant</p>
-<p class="text-white/80 text-sm mt-2">20+ years experience</p>
-</div>
-</div>
-</div>
-<div class="bg-white/10 p-8 rounded-xl">
-<div class="flex items-center gap-6">
-<img alt="Dr. Navatha Mortha" class="w-24 h-24 rounded-full object-cover" src="asset/dr-navatha-mortha-facial.webp"/>
-<div class="text-left">
-<h3 class="text-xl font-bold">Dr. Navatha Mortha</h3>
-<p class="text-secondary-fixed">Senior Consultant</p>
-<p class="text-white/80 text-sm mt-2">15+ years experience</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <section class="py-20 bg-surface">
 <div class="max-w-3xl mx-auto px-4 md:px-12">
 <div class="text-center mb-12">
@@ -150,22 +101,14 @@ include $path_prefix . 'header.php';
 </div>
 <div class="space-y-4">
 <details class="bg-white border border-surface-variant rounded-lg p-6">
-<summary class="font-semibold text-primary cursor-pointer">Are soft tissue growths in the mouth cancer?<span class="material-symbols-outlined float-right">expand_more</span></summary>
+<summary class="font-semibold text-primary cursor-pointer">Are soft tissue growths in the mouth cancer?<span class="material-symbols-outlined float-right">keyboard_arrow_down</span></summary>
 <div class="mt-4 text-on-surface-variant text-sm">Most soft tissue growths in the mouth are benign (non-cancerous). However, any persistent growth should be evaluated by a specialist to rule out malignancy through examination and biopsy.</div>
 </details>
 <details class="bg-white border border-surface-variant rounded-lg p-6">
-<summary class="font-semibold text-primary cursor-pointer">Is soft tissue growth removal painful?<span class="material-symbols-outlined float-right">expand_more</span></summary>
+<summary class="font-semibold text-primary cursor-pointer">Is soft tissue growth removal painful?<span class="material-symbols-outlined float-right">keyboard_arrow_down</span></summary>
 <div class="mt-4 text-on-surface-variant text-sm">The procedure is performed under local anesthesia, so you won't feel pain during removal. Most patients experience only mild discomfort afterward, easily managed with over-the-counter pain relievers.</div>
 </details>
 </div>
 </div>
 </section>
-<section class="py-20 bg-surface-container-low text-center">
-<h2 class="text-3xl text-primary font-semibold mb-4">Notice an Oral Soft Tissue Growth?</h2>
-<p class="text-lg text-on-surface-variant mb-8">Get it evaluated by our specialists at CARE Hospitals, Banjara Hills.</p>
-<button class="bg-primary text-on-primary px-8 py-4 rounded hover:bg-tertiary inline-flex items-center gap-2">Schedule Evaluation<span class="material-symbols-outlined">arrow_forward</span></button>
-</section>
-</main>
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

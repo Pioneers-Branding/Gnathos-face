@@ -1,13 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Facial Skin Reconstruction Surgery in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert facial skin reconstruction surgery in Hyderabad at CARE Hospitals, Banjara Hills. Advanced skin graft, flap surgery, and tissue reconstruction by Dr. Suresh P.L.";
+$path_prefix = '../';
+$page_title = 'Facial Skin Reconstruction Surgery in Hyderabad';
+$page_description = 'Facial skin reconstruction surgery in Hyderabad at CARE Hospitals. Advanced skin graft, flap surgery, and tissue reconstruction by Dr.';
+$canonical_url = 'https://gnathosface.com/Skin-Grafts/facial-skin-reconstruction-surgery-hyderabad';
+$page_about = 'Facial Skin Reconstruction Surgery';
+$breadcrumbs = [['Home', '/'], ['Skin grafts & flaps', '/skin-grafts-and-flaps'], ['Facial Skin Reconstruction Surgery', null]];
+$page_faqs = [
+    ['q' => 'What is the difference between skin graft surgery and skin flap surgery?', 'a' => 'Skin graft surgery involves transplanting skin from a donor site to cover the wound - the skin is completely detached and relies on the underlying tissue for blood supply. Skin flap surgery moves tissue with its own blood supply still intact (either pedicled or free with microvascular connection). Flaps generally provide better color and texture match and are preferred for visible areas and complex defects.'],
+    ['q' => 'Will the reconstructed area look natural?', 'a' => 'Our goal is to achieve the most natural-looking result possible. The final appearance depends on factors like the size and location of the defect, the technique used, and individual healing. We carefully match skin color and texture, and our surgeons have extensive experience in achieving aesthetically pleasing results. Some patients may benefit from additional procedures like scar revision for optimal outcomes.'],
+    ['q' => 'How long does recovery take after facial skin reconstruction surgery?', 'a' => 'Recovery varies depending on the type and extent of reconstruction. Initial healing typically takes 2-3 weeks, during which you\'ll need to avoid strenuous activities. Most patients can return to light activities within 1-2 weeks. The graft or flap settles over 4-6 weeks, and final results with scar maturation may take 6-12 months. Your surgeon will provide a detailed recovery plan specific to your procedure.'],
+    ['q' => 'Will I have visible scars after the surgery?', 'a' => 'All surgery creates some scarring, but our surgeons use techniques to minimize visibility. Incisions are placed along natural skin lines and creases whenever possible. The donor site for skin grafts will also leave a scar, though we select sites that can be hidden. Over time, scars typically fade and can be further improved with scar management treatments or revision surgery if needed.'],
+    ['q' => 'Can facial skin reconstruction be done after burn injuries?', 'a' => 'Yes, burn reconstruction is a specialized area of facial skin reconstruction surgery. After initial burn healing, scar contractures and deformities can be released and reconstructed using skin grafts, flaps, or tissue expansion techniques. Burn reconstruction often requires staged procedures and may begin months after the initial injury once the burn wounds have fully healed and scar maturation has begun.'],
+    ['q' => 'Is facial skin reconstruction covered by insurance?', 'a' => 'Reconstructive surgery following trauma, burns, or cancer removal is typically covered by health insurance as it is considered medically necessary. Cosmetic procedures may not be covered. We recommend checking with your insurance provider before surgery. Our administrative team can help you understand your coverage and discuss payment options.'],
+];
+$cta_heading = 'Get a specialist opinion on facial Skin Reconstruction Surgery.';
+$cta_topic = 'Reconstruction / skin grafts';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
 <!-- Hero Section -->
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
@@ -16,59 +26,17 @@ include $path_prefix . 'header.php';
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Facial Skin Reconstruction Surgery in Hyderabad</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                        Expert facial skin reconstruction surgery at CARE Hospitals, Banjara Hills. Our maxillofacial surgeons specialize in skin graft surgery, flap procedures, and advanced tissue reconstruction to restore form and function after trauma, burns, or cancer.
+                        Expert facial skin reconstruction surgery at CARE Hospitals, HITEC City. Our maxillofacial surgeons specialize in skin graft surgery, flap procedures, and advanced tissue reconstruction to restore form and function after trauma, burns, or cancer.
                     </p>
 <div class="flex flex-col sm:flex-row gap-4">
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                             Book Consultation
-                        </button>
+                        </a>
 </div>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Maxillofacial surgeon performing facial skin reconstruction surgery at CARE Hospitals, Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-</div>
-</div>
-</div>
-</section>
-
-<!-- Why Choose Us -->
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for Facial Skin Reconstruction</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                Leading facial reconstruction specialists in Hyderabad offering advanced skin graft surgery, flap procedures, and comprehensive tissue reconstruction.
-            </p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">school</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Board-Certified Specialists</h3>
-<p class="text-on-surface-variant text-sm">35+ years of combined experience in facial reconstructive and plastic surgery techniques.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">local_hospital</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">CARE Hospitals Setting</h3>
-<p class="text-on-surface-variant text-sm">Full surgical facilities with advanced operating theatres at Banjara Hills, Hyderabad.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">biotech</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Advanced Techniques</h3>
-<p class="text-on-surface-variant text-sm">State-of-the-art skin graft and flap surgery for optimal functional and aesthetic outcomes.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">healing</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Natural Results</h3>
-<p class="text-on-surface-variant text-sm">Focus on subtle, natural-looking reconstruction that restores both form and function.</p>
+<div class="gna-plate w-full h-full" role="img" aria-label="Maxillofacial surgeon performing facial skin reconstruction surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Maxillofacial surgeon performing facial skin reconstruction surgery</p></div>
 </div>
 </div>
 </div>
@@ -110,7 +78,7 @@ include $path_prefix . 'header.php';
 <p class="text-on-surface-variant">Facial wound repair surgery for complex lacerations, puncture wounds, and avulsion injuries.</p>
 </div>
 <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
-<span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">auto_fix_high</span>
+<span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">brush</span>
 <h3 class="font-headline-sm text-xl text-primary mb-3">Scar Revision</h3>
 <p class="text-on-surface-variant">Scar revision surgery to improve the appearance and function of hypertrophic scars and contractures.</p>
 </div>
@@ -142,13 +110,13 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Surgeon assessing facial tissue for reconstruction planning at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEFkiI4mjDEE18YDwFhytADXKSi52219_ImkXimFwvR_u_lEi32i_FGV-fHjIDfiuUGL1lJeadbUQP-VudLVyKwmYno2hUz4EdWrurPoOkszJUln7aMR43klGyT4vRj2F-e9ksMWzt4q9dm_IKwmSyFF36Jj32w61XM7ifV4JQo3iOufuJ2-9_ghJAMrR2v5dtBYCQPel3QIstAIejIFPRUIyA66943uzujXTS879KGpz70wCQ4303HF08bi3co5b4l1czHWqRntk"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Surgeon assessing facial tissue for reconstruction planning"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Surgeon assessing facial tissue for reconstruction planning</p></div>
 </div>
 </div>
 <!-- Step 2 -->
 <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
 <div class="order-1 md:order-1">
-<img alt="Facial reconstruction surgery in progress at CARE Hospitals, Banjara Hills, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Facial reconstruction surgery in progress"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial reconstruction surgery in progress</p></div>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -178,7 +146,7 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Patient recovery consultation after facial reconstruction surgery at Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Patient recovery consultation after facial reconstruction surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Patient recovery consultation after facial reconstruction surgery</p></div>
 </div>
 </div>
 </div>
@@ -252,9 +220,7 @@ include $path_prefix . 'header.php';
 <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                         To help us provide the most accurate assessment and create an effective treatment plan, we recommend preparing the following information for your first visit.
                     </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                        Download Checklist PDF
-                    </button>
+
 </div>
 <div>
 <ul class="space-y-4">
@@ -344,59 +310,14 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 <div class="mt-12 text-center">
-<button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+<a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                 Request a Consultation
-            </button>
+            </a>
 </div>
 </div>
 </section>
 
-<!-- The Surgical Team -->
-<section class="py-section-gap bg-primary text-on-primary">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md mb-4">Expert Facial Reconstruction Surgical Team</h2>
-<p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                Decades of specialized experience in facial reconstructive and plastic surgery procedures.
-            </p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Suresh P.L. - Facial Reconstruction Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/Dr.-Suresh.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant and Facial Reconstruction Specialist with 20+ years of experience in maxillofacial surgery, skin graft surgery, and complex reconstructive procedures.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 15+ years of experience in facial reconstruction, skin flap surgery, and microvascular reconstructive procedures.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <!-- Patient FAQs -->
 <section class="py-section-gap bg-surface">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -408,7 +329,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What is the difference between skin graft surgery and skin flap surgery?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Skin graft surgery involves transplanting skin from a donor site to cover the wound - the skin is completely detached and relies on the underlying tissue for blood supply. Skin flap surgery moves tissue with its own blood supply still intact (either pedicled or free with microvascular connection). Flaps generally provide better color and texture match and are preferred for visible areas and complex defects.
@@ -417,7 +338,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will the reconstructed area look natural?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Our goal is to achieve the most natural-looking result possible. The final appearance depends on factors like the size and location of the defect, the technique used, and individual healing. We carefully match skin color and texture, and our surgeons have extensive experience in achieving aesthetically pleasing results. Some patients may benefit from additional procedures like scar revision for optimal outcomes.
@@ -426,7 +347,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long does recovery take after facial skin reconstruction surgery?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Recovery varies depending on the type and extent of reconstruction. Initial healing typically takes 2-3 weeks, during which you'll need to avoid strenuous activities. Most patients can return to light activities within 1-2 weeks. The graft or flap settles over 4-6 weeks, and final results with scar maturation may take 6-12 months. Your surgeon will provide a detailed recovery plan specific to your procedure.
@@ -435,7 +356,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will I have visible scars after the surgery?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     All surgery creates some scarring, but our surgeons use techniques to minimize visibility. Incisions are placed along natural skin lines and creases whenever possible. The donor site for skin grafts will also leave a scar, though we select sites that can be hidden. Over time, scars typically fade and can be further improved with scar management treatments or revision surgery if needed.
@@ -444,7 +365,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Can facial skin reconstruction be done after burn injuries?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Yes, burn reconstruction is a specialized area of facial skin reconstruction surgery. After initial burn healing, scar contractures and deformities can be released and reconstructed using skin grafts, flaps, or tissue expansion techniques. Burn reconstruction often requires staged procedures and may begin months after the initial injury once the burn wounds have fully healed and scar maturation has begun.
@@ -453,7 +374,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Is facial skin reconstruction covered by insurance?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Reconstructive surgery following trauma, burns, or cancer removal is typically covered by health insurance as it is considered medically necessary. Cosmetic procedures may not be covered. We recommend checking with your insurance provider before surgery. Our administrative team can help you understand your coverage and discuss payment options.
@@ -463,22 +384,5 @@ include $path_prefix . 'header.php';
 </div>
 </section>
 
-<!-- Final CTA -->
-<section class="py-section-gap bg-surface-container-low">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Restore Form and Function with Expert Facial Reconstruction</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                    Whether you're dealing with the aftermath of an injury, burn, or surgery, our facial reconstruction specialists can help restore both appearance and function. Schedule a consultation to discuss your options.
-                </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                    Schedule Your Facial Reconstruction Consultation
-                    <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-</button>
-</div>
-</section>
-</main>
-
 <!-- Detailed Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

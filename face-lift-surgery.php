@@ -1,14 +1,25 @@
 <?php
-$path_prefix = "";
-$page_title = "Face Lift Surgery in Hyderabad | Rhytidectomy at GnathosFace";
-$page_description = "Expert face lift surgery (rhytidectomy) in Hyderabad by Dr. Suresh P.L. & Dr. Navatha Mortha. Advanced facial rejuvenation with natural-looking results. Book consultation today.";
+$path_prefix = '';
+$page_title = 'Face Lift Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'Face lift (rhytidectomy) surgery in Hyderabad for sagging cheeks, jowls and neck. Types of face lift, recovery timeline, risks and realistic expectations.';
+$canonical_url = 'https://gnathosface.com/face-lift-surgery';
+$page_about = 'Face Lift Surgery in Hyderabad for Natural-Looking Rejuvenation';
+$breadcrumbs = [['Home', '/'], ['Cosmetic facial surgery', '/cosmetic-facial-surgery-treatment'], ['Face Lift Surgery in Hyderabad for Natural-Looking Rejuvenation', null]];
+$page_faqs = [
+    ['q' => 'How long does face lift surgery take, and will I be asleep during the procedure?', 'a' => 'Face lift surgery typically takes 3-5 hours depending on the extent of correction needed. The procedure is performed under general anesthesia at CARE Hospitals Hi-tech City, so you will be asleep throughout and completely comfortable. You may return home the same day or stay overnight for monitoring, depending on your specific procedure and recovery.'],
+    ['q' => 'What is the difference between a full face lift and a mini face lift?', 'a' => 'A full face lift addresses aging throughout the face and neck, including the midface, jowls, and neck area. A mini face lift is a less invasive procedure focusing on the lower face and early jowling, with shorter scars and faster recovery. The best option depends on your degree of aging, skin quality, and goals. During your consultation, we\'ll recommend the most appropriate technique for your specific needs.'],
+    ['q' => 'How long do face lift results last? Will I need another surgery later?', 'a' => 'Face lift results typically last 10-15 years, depending on factors like skin quality, lifestyle, and aging progression. The procedure "resets the clock," so you\'ll always look younger than if you hadn\'t had surgery. Many patients never need a second full face lift. However, non-surgical treatments like fillers and Botox can help maintain results and address new aging concerns as they develop.'],
+    ['q' => 'What is the cost of face lift surgery in Hyderabad at GnathosFace?', 'a' => 'Face lift surgery costs in Hyderabad vary based on the type of procedure, surgeon\'s experience, and facility fees. At GnathosFace, our face lift procedures start from INR 1,50,000 for a mini face lift and INR 2,50,000 onwards for a full face lift. This includes surgeon fees, anesthesia, hospital charges, and follow-up care. We offer flexible payment plans and can provide an exact quote after your consultation.'],
+    ['q' => 'Will face lift surgery leave visible scars?', 'a' => 'Scars are placed within the hairline and natural creases around the ears, making them barely visible once healed. Our surgeons use meticulous technique and often recommend scar management treatments to optimize healing. Most patients report that scars are virtually invisible after 12 months, hidden by hair and natural skin lines.'],
+    ['q' => 'When can I return to work and normal activities after face lift surgery?', 'a' => 'Most patients return to desk work within 2-3 weeks after face lift surgery. Light activities can resume after the first week, and more strenuous exercise after 4-6 weeks. The final results develop over 3-6 months, with full recovery typically complete by 6 months. We\'ll provide detailed guidance throughout your recovery journey.'],
+    ['q' => 'Can face lift surgery be combined with other procedures?', 'a' => 'Yes, face lift surgery is often combined with complementary procedures for comprehensive rejuvenation. Common combinations include neck lift, eyelid surgery (blepharoplasty), brow lift, rhinoplasty, or facial fat grafting. Combining procedures can be more cost-effective and requires only one recovery period. We\'ll discuss all options during your consultation.'],
+];
+$cta_heading = 'Get a specialist opinion on face Lift Surgery in Hyderabad for Natural-Looking Rejuvenation.';
+$cta_topic = 'Cosmetic facial procedure';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-    <main>
-        <!-- HERO SECTION -->
+<!-- HERO SECTION -->
         <section class="relative pt-section-gap pb-section-gap overflow-hidden">
             <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
             <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -33,54 +44,6 @@ include $path_prefix . 'header.php';
                 <div class="md:col-span-6 relative mt-12 md:mt-0">
                     <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
                         <img src="assets/images/face-lift-hero.webp" alt="Face lift surgery consultation at GnathosFace, Hyderabad - experienced maxillofacial surgeons" class="w-full h-full object-cover" width="800" height="600"/>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- WHY CHOOSE US: Trust Signals -->
-        <section class="py-section-gap bg-surface">
-            <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-                <div class="text-center mb-16">
-                    <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                        Why Choose GnathosFace for Face Lift Surgery in Hyderabad
-                    </h2>
-                    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                        Our board-certified maxillofacial surgeons combine surgical precision with an artist's eye for aesthetics, delivering rejuvenated results that look entirely natural.
-                    </p>
-                </div>
-                <div class="grid md:grid-cols-4 gap-8">
-                    <!-- Trust Card 1 -->
-                    <div class="text-center">
-                        <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                            <span class="material-symbols-outlined text-3xl">school</span>
-                        </div>
-                        <h3 class="font-headline-sm text-lg text-primary mb-2">Board-Certified Specialists</h3>
-                        <p class="text-on-surface-variant text-sm">Both surgeons hold MDS degrees in Oral & Maxillofacial Surgery with 20+ and 15+ years of experience respectively.</p>
-                    </div>
-                    <!-- Trust Card 2 -->
-                    <div class="text-center">
-                        <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                            <span class="material-symbols-outlined text-3xl">favorite</span>
-                        </div>
-                        <h3 class="font-headline-sm text-lg text-primary mb-2">Natural-Looking Results</h3>
-                        <p class="text-on-surface-variant text-sm">We prioritize subtle enhancement over dramatic change, ensuring you look like a refreshed version of yourself.</p>
-                    </div>
-                    <!-- Trust Card 3 -->
-                    <div class="text-center">
-                        <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                            <span class="material-symbols-outlined text-3xl">local_hospital</span>
-                        </div>
-                        <h3 class="font-headline-sm text-lg text-primary mb-2">CARE Hospitals Facility</h3>
-                        <p class="text-on-surface-variant text-sm">Surgery performed at NABH-accredited CARE Hospitals Hi-tech City, ensuring the highest safety standards.</p>
-                    </div>
-                    <!-- Trust Card 4 -->
-                    <div class="text-center">
-                        <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                            <span class="material-symbols-outlined text-3xl">personal_injury</span>
-                        </div>
-                        <h3 class="font-headline-sm text-lg text-primary mb-2">Advanced Techniques</h3>
-                        <p class="text-on-surface-variant text-sm">Minimally invasive approaches including endoscopic face lifts and SMAS plication for optimal outcomes with faster recovery.</p>
                     </div>
                 </div>
             </div>
@@ -172,7 +135,7 @@ include $path_prefix . 'header.php';
                     <div class="order-2 md:order-2">
                         <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
                         <h3 class="font-headline-sm text-2xl text-primary mb-4">Precision Face Lift Surgery</h3>
-                        <p class="text-on-surface-variant mb-6">Performed under general anesthesia at CARE Hospitals, our face lift procedure typically takes 3-5 hours. We use advanced techniques including SMAS plication, lateral subcutaneous dissection, and strategic skin redraping for natural, long-lasting results.</p>
+                        <p class="text-on-surface-variant mb-6">Performed under general anesthesia at CARE Hospitals, HITEC City, our face lift procedure typically takes 3-5 hours. We use advanced techniques including SMAS plication, lateral subcutaneous dissection, and strategic skin redraping for natural, long-lasting results.</p>
                         <ul class="space-y-3">
                             <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Incisions placed within hairline and natural creases</span></li>
                             <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">SMAS tightening for lasting correction</span></li>
@@ -288,10 +251,7 @@ include $path_prefix . 'header.php';
                             <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                                 Being well-prepared helps ensure the best outcome. Here's what to consider before your consultation at our Hyderabad facility.
                             </p>
-                            <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300 flex items-center gap-2">
-                                <span class="material-symbols-outlined">download</span>
-                                Download Preparation Guide
-                            </button>
+                            
                         </div>
                         <div>
                             <ul class="space-y-4">
@@ -317,7 +277,7 @@ include $path_prefix . 'header.php';
                                     </div>
                                 </li>
                                 <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
-                                    <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">question_answer</span>
+                                    <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">forum</span>
                                     <div>
                                         <strong class="text-primary block mb-1">Prepare Questions</strong>
                                         <span class="text-sm text-on-surface-variant">Note any concerns about recovery, costs, or expected results.</span>
@@ -342,7 +302,7 @@ include $path_prefix . 'header.php';
                         <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Assessment</span>
                         <h2 class="font-headline-md text-headline-md text-primary mb-6">Advanced Diagnostic Technology for Optimal Results</h2>
                         <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
-                            At GnathosFace, we utilize state-of-the-art imaging and analysis tools to plan your face lift surgery with precision, ensuring results that harmonize with your unique facial anatomy.
+                            At GnathosFace, we utilize modern imaging and analysis tools to plan your face lift surgery with precision, ensuring results that harmonize with your unique facial anatomy.
                         </p>
                         <ul class="space-y-4 mb-8">
                             <li class="flex items-start gap-3">
@@ -447,52 +407,7 @@ include $path_prefix . 'header.php';
             </div>
         </section>
 
-        <!-- THE SURGICAL TEAM -->
-        <section class="py-section-gap bg-primary text-on-primary">
-            <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-                <div class="text-center mb-16">
-                    <h2 class="font-headline-md text-headline-md mb-4">Expert Facial Surgery Team in Hyderabad</h2>
-                    <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                        Our surgeons combine surgical expertise with aesthetic sensibility to deliver results that look entirely natural.
-                    </p>
-                </div>
-                <div class="grid md:grid-cols-2 gap-12">
-                    <!-- Dr. Suresh Card -->
-                    <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                        <div class="flex flex-col md:flex-row gap-6 items-start">
-                            <img src="assets/images/dr_suresh_pl.webp" alt="Dr. Suresh P.L. - Senior Maxillofacial Surgeon performing face lift surgery in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" width="128" height="128" loading="lazy"/>
-                            <div>
-                                <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                                <p class="text-secondary-fixed mb-4">Senior Consultant & TMJ Specialist</p>
-                                <p class="text-on-primary/80 text-sm leading-relaxed mb-4">With over 20 years of experience in oral and maxillofacial surgery, Dr. Suresh specializes in complex facial reconstruction and cosmetic procedures. His expertise in facial anatomy ensures natural-looking, harmonious results for face lift patients.</p>
-                                <ul class="text-sm space-y-2 text-on-primary/90">
-                                    <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                    <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                                    <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">workspace_premium</span> Fellowship in Cosmetic Surgery</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Dr. Navatha Card -->
-                    <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                        <div class="flex flex-col md:flex-row gap-6 items-start">
-                            <img src="assets/images/dr-navatha-mortha-facial.webp" alt="Dr. Navatha Mortha - Maxillofacial Surgeon offering face lift treatment in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" width="128" height="128" loading="lazy"/>
-                            <div>
-                                <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                                <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                                <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Navatha brings 15+ years of specialized experience in maxillofacial surgery with a focus on facial aesthetics. Her meticulous approach and attention to detail make her highly sought-after for facial rejuvenation procedures including face lifts.</p>
-                                <ul class="text-sm space-y-2 text-on-primary/90">
-                                    <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                    <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                                    <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">workspace_premium</span> Certified Aesthetic Surgeon</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
         <!-- PATIENT FAQs -->
         <section class="py-section-gap bg-surface">
             <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -504,16 +419,16 @@ include $path_prefix . 'header.php';
                     <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                         <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                             How long does face lift surgery take, and will I be asleep during the procedure?
-                            <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                            <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                         </summary>
                         <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                            Face lift surgery typically takes 3-5 hours depending on the extent of correction needed. The procedure is performed under general anesthesia at CARE Hospitals Hi-tech City, so you will be asleep throughout and completely comfortable. You may return home the same day or stay overnight for monitoring, depending on your specific procedure and recovery.
+                            Face lift surgery typically takes 3-5 hours depending on the extent of correction needed. The procedure is performed under general anesthesia at CARE Hospitals, HITEC City Hi-tech City, so you will be asleep throughout and completely comfortable. You may return home the same day or stay overnight for monitoring, depending on your specific procedure and recovery.
                         </div>
                     </details>
                     <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                         <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                             What is the difference between a full face lift and a mini face lift?
-                            <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                            <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                         </summary>
                         <div class="px-6 pb-6 text-on-surface-variant text-sm">
                             A full face lift addresses aging throughout the face and neck, including the midface, jowls, and neck area. A mini face lift is a less invasive procedure focusing on the lower face and early jowling, with shorter scars and faster recovery. The best option depends on your degree of aging, skin quality, and goals. During your consultation, we'll recommend the most appropriate technique for your specific needs.
@@ -522,7 +437,7 @@ include $path_prefix . 'header.php';
                     <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                         <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                             How long do face lift results last? Will I need another surgery later?
-                            <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                            <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                         </summary>
                         <div class="px-6 pb-6 text-on-surface-variant text-sm">
                             Face lift results typically last 10-15 years, depending on factors like skin quality, lifestyle, and aging progression. The procedure "resets the clock," so you'll always look younger than if you hadn't had surgery. Many patients never need a second full face lift. However, non-surgical treatments like fillers and Botox can help maintain results and address new aging concerns as they develop.
@@ -531,7 +446,7 @@ include $path_prefix . 'header.php';
                     <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                         <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                             What is the cost of face lift surgery in Hyderabad at GnathosFace?
-                            <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                            <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                         </summary>
                         <div class="px-6 pb-6 text-on-surface-variant text-sm">
                             Face lift surgery costs in Hyderabad vary based on the type of procedure, surgeon's experience, and facility fees. At GnathosFace, our face lift procedures start from INR 1,50,000 for a mini face lift and INR 2,50,000 onwards for a full face lift. This includes surgeon fees, anesthesia, hospital charges, and follow-up care. We offer flexible payment plans and can provide an exact quote after your consultation.
@@ -540,7 +455,7 @@ include $path_prefix . 'header.php';
                     <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                         <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                             Will face lift surgery leave visible scars?
-                            <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                            <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                         </summary>
                         <div class="px-6 pb-6 text-on-surface-variant text-sm">
                             Scars are placed within the hairline and natural creases around the ears, making them barely visible once healed. Our surgeons use meticulous technique and often recommend scar management treatments to optimize healing. Most patients report that scars are virtually invisible after 12 months, hidden by hair and natural skin lines.
@@ -549,7 +464,7 @@ include $path_prefix . 'header.php';
                     <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                         <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                             When can I return to work and normal activities after face lift surgery?
-                            <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                            <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                         </summary>
                         <div class="px-6 pb-6 text-on-surface-variant text-sm">
                             Most patients return to desk work within 2-3 weeks after face lift surgery. Light activities can resume after the first week, and more strenuous exercise after 4-6 weeks. The final results develop over 3-6 months, with full recovery typically complete by 6 months. We'll provide detailed guidance throughout your recovery journey.
@@ -558,7 +473,7 @@ include $path_prefix . 'header.php';
                     <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                         <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                             Can face lift surgery be combined with other procedures?
-                            <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                            <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                         </summary>
                         <div class="px-6 pb-6 text-on-surface-variant text-sm">
                             Yes, face lift surgery is often combined with complementary procedures for comprehensive rejuvenation. Common combinations include neck lift, eyelid surgery (blepharoplasty), brow lift, rhinoplasty, or facial fat grafting. Combining procedures can be more cost-effective and requires only one recovery period. We'll discuss all options during your consultation.
@@ -593,28 +508,26 @@ include $path_prefix . 'header.php';
             <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
                 <h3 class="font-headline-sm text-primary mb-8 text-center">Explore Related Treatments</h3>
                 <div class="grid md:grid-cols-4 gap-6">
-                    <a href="/rhinoplasty.php" class="bg-surface-container-lowest p-6 rounded-lg border border-surface-variant hover:border-primary hover:shadow-md transition-all group">
+                    <a href="/rhinoplasty" class="bg-surface-container-lowest p-6 rounded-lg border border-surface-variant hover:border-primary hover:shadow-md transition-all group">
                         <h4 class="font-semibold text-primary mb-2 group-hover:text-secondary transition-colors">Rhinoplasty</h4>
                         <p class="text-sm text-on-surface-variant">Nose reshaping surgery</p>
                     </a>
-                    <a href="/cosmetic-facial-surgery.php" class="bg-surface-container-lowest p-6 rounded-lg border border-surface-variant hover:border-primary hover:shadow-md transition-all group">
+                    <a href="/cosmetic-facial-surgery-treatment" class="bg-surface-container-lowest p-6 rounded-lg border border-surface-variant hover:border-primary hover:shadow-md transition-all group">
                         <h4 class="font-semibold text-primary mb-2 group-hover:text-secondary transition-colors">Cosmetic Surgery</h4>
                         <p class="text-sm text-on-surface-variant">Various facial enhancements</p>
                     </a>
-                    <a href="/jaw-reconstruction.php" class="bg-surface-container-lowest p-6 rounded-lg border border-surface-variant hover:border-primary hover:shadow-md transition-all group">
+                    <a href="/orthognathic-surgery-treatment" class="bg-surface-container-lowest p-6 rounded-lg border border-surface-variant hover:border-primary hover:shadow-md transition-all group">
                         <h4 class="font-semibold text-primary mb-2 group-hover:text-secondary transition-colors">Jaw Reconstruction</h4>
                         <p class="text-sm text-on-surface-variant">Restore jaw function & form</p>
                     </a>
-                    <a href="/tmj-disorders.php" class="bg-surface-container-lowest p-6 rounded-lg border border-surface-variant hover:border-primary hover:shadow-md transition-all group">
+                    <a href="/tmj-disorders" class="bg-surface-container-lowest p-6 rounded-lg border border-surface-variant hover:border-primary hover:shadow-md transition-all group">
                         <h4 class="font-semibold text-primary mb-2 group-hover:text-secondary transition-colors">TMJ Treatment</h4>
                         <p class="text-sm text-on-surface-variant">TMJ disorder management</p>
                     </a>
                 </div>
             </div>
         </section>
-    </main>
+    
 
     <!-- FOOTER -->
-    <?php
-include $path_prefix . 'footer.php';
-?>
+    <?php include $path_prefix . 'footer.php'; ?>

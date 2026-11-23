@@ -1,13 +1,23 @@
 <?php
-$path_prefix = "";
-$page_title = "Skin Fillers Treatment Hyderabad | Dermal Fillers | Gnathos Facial Surgery";
-$page_description = "Expert dermal fillers treatment in Hyderabad at CARE Hospitals. Restore volume, smooth wrinkles, and enhance facial contours with hyaluronic acid fillers by experienced maxillofacial specialists.";
+$path_prefix = '';
+$page_title = 'Dermal Fillers in Hyderabad | Gnathos Facial';
+$page_description = 'Hyaluronic acid dermal fillers in Hyderabad for lips, cheeks, chin and under-eye hollows: safety, duration and what to expect, from maxillofacial surgeons.';
+$canonical_url = 'https://gnathosface.com/dermal-fillers-hyderabad';
+$page_about = 'Dermal Fillers for Natural-Looking Facial Rejuvenation';
+$breadcrumbs = [['Home', '/'], ['Cosmetic facial surgery', '/cosmetic-facial-surgery-treatment'], ['Dermal Fillers for Natural-Looking Facial Rejuvenation', null]];
+$page_faqs = [
+    ['q' => 'Are dermal fillers safe?', 'a' => 'Yes, FDA-approved hyaluronic acid fillers are considered very safe when administered by trained medical professionals. HA is a naturally occurring substance in the body, so allergic reactions are extremely rare. Minor side effects like swelling, bruising, or redness at injection sites are temporary and resolve within days. Our specialists have extensive training in facial anatomy and injection techniques to ensure safe, natural-looking results.'],
+    ['q' => 'How long do dermal fillers last?', 'a' => 'The longevity of dermal fillers depends on the type of filler, treatment area, and individual factors like metabolism. Lip fillers typically last 6-12 months, while cheek and deeper fillers can last 12-18 months. Over time, the filler gradually breaks down naturally. We recommend scheduling maintenance treatments before the filler fully dissipates to maintain consistent results.'],
+    ['q' => 'Will I look natural after filler treatment?', 'a' => 'Our approach prioritizes natural-looking results. We use conservative filler amounts and precise injection techniques to enhance your features rather than create an overdone appearance. During consultation, we discuss your aesthetic goals and show you reference images to ensure we\'re on the same page. Most patients report that friends and family notice they look refreshed or well-rested—without being able to pinpoint exactly what changed.'],
+    ['q' => 'Does dermal filler treatment hurt?', 'a' => 'Most patients report minimal discomfort during dermal filler injections. We apply topical numbing cream before treatment, and many HA fillers also contain lidocaine (a local anesthetic) for added comfort. Lip injections may feel slightly more sensitive due to the delicate nature of lip tissue. The procedure is quick, and any discomfort is well-tolerated by most patients.'],
+    ['q' => 'Can dermal fillers be reversed?', 'a' => 'Yes, one of the key advantages of hyaluronic acid fillers is that they can be completely reversed using an enzyme called hyaluronidase. If you\'re unhappy with the results or experience any complications, hyaluronidase can be injected to dissolve the filler within 24-48 hours. This provides an additional layer of safety and peace of mind for patients.'],
+    ['q' => 'What\'s the difference between Botox and dermal fillers?', 'a' => 'Botox (botulinum toxin) and dermal fillers serve different purposes. Botox relaxes muscles to smooth dynamic wrinkles (like forehead lines and crow\'s feet) that appear with facial expressions. Dermal fillers add volume to restore lost facial volume, fill static wrinkles, and enhance facial contours. Many patients benefit from both treatments used together for comprehensive facial rejuvenation. During consultation, we\'ll recommend the most appropriate treatment for your specific concerns.'],
+];
+$cta_heading = 'Get a specialist opinion on dermal Fillers for Natural-Looking Facial Rejuvenation.';
+$cta_topic = 'Cosmetic facial procedure';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
 <!-- Hero Section -->
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
@@ -16,59 +26,17 @@ include $path_prefix . 'header.php';
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Aesthetic Medicine in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Dermal Fillers for Natural-Looking Facial Rejuvenation</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                        Restore lost volume, smooth fine lines, and enhance facial contours with FDA-approved hyaluronic acid fillers. Expert treatment at CARE Hospitals, Banjara Hills by board-certified specialists.
+                        Restore lost volume, smooth fine lines, and enhance facial contours with FDA-approved hyaluronic acid fillers. Expert treatment at CARE Hospitals, HITEC City by MDS-qualified specialists.
                     </p>
 <div class="flex flex-col sm:flex-row gap-4">
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                             Book Consultation
-                        </button>
+                        </a>
 </div>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Dermal filler treatment for facial rejuvenation - skin fillers at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-</div>
-</div>
-</div>
-</section>
-
-<!-- Why Choose Us -->
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for Dermal Fillers in Hyderabad</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                Leading aesthetic specialists in Hyderabad offering safe, natural-looking filler treatments with precision expertise.
-            </p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">medical_services</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Medical-Grade Safety</h3>
-<p class="text-on-surface-variant text-sm">FDA-approved hyaluronic acid fillers administered in a clinical setting at CARE Hospitals.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">face</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Anatomical Expertise</h3>
-<p class="text-on-surface-variant text-sm">Deep knowledge of facial anatomy ensures precise placement for natural-looking results.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">auto_awesome</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Customized Treatment</h3>
-<p class="text-on-surface-variant text-sm">Every treatment plan is tailored to your unique facial structure and aesthetic goals.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">schedule</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Minimal Downtime</h3>
-<p class="text-on-surface-variant text-sm">Quick in-office procedure with immediate results and rapid recovery.</p>
+<div class="gna-plate w-full h-full" role="img" aria-label="Dermal filler treatment for facial rejuvenation - skin fillers"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Dermal filler treatment for facial rejuvenation - skin fillers</p></div>
 </div>
 </div>
 </div>
@@ -80,7 +48,7 @@ include $path_prefix . 'header.php';
 <div class="grid md:grid-cols-2 gap-16 items-center">
 <div class="order-2 md:order-1 relative">
 <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
-<img alt="Hyaluronic acid dermal filler treatment consultation at Gnathos Facial Surgery" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Hyaluronic acid dermal filler treatment consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Hyaluronic acid dermal filler treatment consultation</p></div>
 </div>
 <div class="order-1 md:order-2">
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Understanding Dermal Fillers</span>
@@ -150,7 +118,7 @@ include $path_prefix . 'header.php';
 <p class="text-on-surface-variant">Fill the lines that run downward from the corners of the mouth to the chin.</p>
 </div>
 <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
-<span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">face_retouching_natural</span>
+<span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">face</span>
 <h3 class="font-headline-sm text-xl text-primary mb-3">Under-Eye Hollows</h3>
 <p class="text-on-surface-variant">Reduce the appearance of dark circles and hollows beneath the eyes for a refreshed look.</p>
 </div>
@@ -178,7 +146,7 @@ include $path_prefix . 'header.php';
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">1</div>
 <h3 class="font-headline-sm text-2xl text-primary mb-4">Personalized Consultation</h3>
 <p class="text-on-surface-variant mb-6">
-                    Your journey begins with a thorough consultation at CARE Hospitals. Our specialists assess your facial anatomy, discuss your aesthetic goals, and create a customized treatment plan. We review your medical history, explain different filler options, and show you expected outcomes using visual references.
+                    Your journey begins with a thorough consultation at CARE Hospitals, HITEC City. Our specialists assess your facial anatomy, discuss your aesthetic goals, and create a customized treatment plan. We review your medical history, explain different filler options, and show you expected outcomes using visual references.
                 </p>
 <ul class="space-y-3">
 <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Facial assessment and mapping</span></li>
@@ -187,13 +155,13 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Facial consultation for dermal filler treatment planning" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgiZgTqnVcGDk7B4fhXOjMiLV4DGjNzOgX9yuT4UMyPanmr2lRO15oN3w3OfKdMSKhk4ad2cRuLpHc5ZhBBlNK_M2FlNzVWA_lHbUA99hV_AoAAK6_1dIQyTAZpJ9L-dMhrbg3j3gmXq9M7_q6Y6MksM8DJnHFzvq2H1REx1zD_OmalTO7POfydhxeqR-Mm8EcMQH1v-EMTzkRccwHCOvk3b5-QF5hk76-BOBh-PabfF_B9aQY2BCUXnmv856NFuMAsl5O1Sdmr5Y"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Facial consultation for dermal filler treatment planning"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial consultation for dermal filler treatment planning</p></div>
 </div>
 </div>
 <!-- Step 2 -->
 <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
 <div class="order-1 md:order-1">
-<img alt="Dermal filler injection treatment in progress at Gnathos Facial Surgery" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Dermal filler injection treatment in progress"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Dermal filler injection treatment in progress</p></div>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -223,7 +191,7 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Patient with natural-looking dermal filler results at Gnathos Facial Surgery" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Patient with natural-looking dermal filler results"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Patient with natural-looking dermal filler results</p></div>
 </div>
 </div>
 </div>
@@ -235,7 +203,7 @@ include $path_prefix . 'header.php';
 <div class="text-center mb-16">
 <h2 class="font-headline-md text-headline-md text-primary mb-4">Types of Dermal Fillers We Use</h2>
 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                We exclusively use FDA-approved hyaluronic acid fillers from leading manufacturers. The specific filler is selected based on your treatment goals, skin type, and area being treated.
+                We exclusively use FDA-approved hyaluronic acid fillers from established manufacturers. The specific filler is selected based on your treatment goals, skin type, and area being treated.
             </p>
 </div>
 <div class="grid md:grid-cols-2 gap-8">
@@ -285,9 +253,9 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 <div class="mt-12 text-center">
-<button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+<a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                 Schedule Your Consultation
-            </button>
+            </a>
 </div>
 </div>
 </section>
@@ -302,9 +270,7 @@ include $path_prefix . 'header.php';
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
                         Following these guidelines will help ensure optimal results and minimize the risk of bruising. Our team will provide detailed instructions during your consultation.
                     </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                        Download Pre-Treatment Guide
-                    </button>
+
 </div>
 <div>
 <ul class="space-y-4">
@@ -394,52 +360,7 @@ include $path_prefix . 'header.php';
 </div>
 </section>
 
-<!-- The Treatment Team -->
-<section class="py-section-gap bg-primary text-on-primary">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md mb-4">Expert Aesthetic Treatment Team</h2>
-<p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                Board-certified specialists with extensive experience in facial aesthetics and injectable treatments.
-            </p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Suresh P.L. - Aesthetic Specialist Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/Dr.-Suresh.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 20+ years of experience in oral and maxillofacial surgery, offering advanced facial aesthetic treatments including dermal fillers for comprehensive facial rejuvenation.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Navatha Mortha - Facial Aesthetics Specialist in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant specializing in facial aesthetics with 15+ years of experience in injectable treatments and non-surgical facial rejuvenation procedures.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <!-- Patient FAQs -->
 <section class="py-section-gap bg-surface">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -451,7 +372,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Are dermal fillers safe?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Yes, FDA-approved hyaluronic acid fillers are considered very safe when administered by trained medical professionals. HA is a naturally occurring substance in the body, so allergic reactions are extremely rare. Minor side effects like swelling, bruising, or redness at injection sites are temporary and resolve within days. Our specialists have extensive training in facial anatomy and injection techniques to ensure safe, natural-looking results.
@@ -460,7 +381,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long do dermal fillers last?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     The longevity of dermal fillers depends on the type of filler, treatment area, and individual factors like metabolism. Lip fillers typically last 6-12 months, while cheek and deeper fillers can last 12-18 months. Over time, the filler gradually breaks down naturally. We recommend scheduling maintenance treatments before the filler fully dissipates to maintain consistent results.
@@ -469,7 +390,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will I look natural after filler treatment?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Our approach prioritizes natural-looking results. We use conservative filler amounts and precise injection techniques to enhance your features rather than create an overdone appearance. During consultation, we discuss your aesthetic goals and show you reference images to ensure we're on the same page. Most patients report that friends and family notice they look refreshed or well-rested—without being able to pinpoint exactly what changed.
@@ -478,7 +399,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Does dermal filler treatment hurt?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Most patients report minimal discomfort during dermal filler injections. We apply topical numbing cream before treatment, and many HA fillers also contain lidocaine (a local anesthetic) for added comfort. Lip injections may feel slightly more sensitive due to the delicate nature of lip tissue. The procedure is quick, and any discomfort is well-tolerated by most patients.
@@ -487,7 +408,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Can dermal fillers be reversed?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Yes, one of the key advantages of hyaluronic acid fillers is that they can be completely reversed using an enzyme called hyaluronidase. If you're unhappy with the results or experience any complications, hyaluronidase can be injected to dissolve the filler within 24-48 hours. This provides an additional layer of safety and peace of mind for patients.
@@ -496,7 +417,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What's the difference between Botox and dermal fillers?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Botox (botulinum toxin) and dermal fillers serve different purposes. Botox relaxes muscles to smooth dynamic wrinkles (like forehead lines and crow's feet) that appear with facial expressions. Dermal fillers add volume to restore lost facial volume, fill static wrinkles, and enhance facial contours. Many patients benefit from both treatments used together for comprehensive facial rejuvenation. During consultation, we'll recommend the most appropriate treatment for your specific concerns.
@@ -506,22 +427,5 @@ include $path_prefix . 'header.php';
 </div>
 </section>
 
-<!-- Final CTA -->
-<section class="py-section-gap bg-surface-container-low">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Ready for Natural-Looking Facial Rejuvenation?</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                    Schedule a consultation with our aesthetic specialists at CARE Hospitals, Banjara Hills. We'll create a personalized treatment plan to help you achieve your aesthetic goals safely and effectively.
-                </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                    Book Your Dermal Filler Consultation
-                    <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-</button>
-</div>
-</section>
-</main>
-
 <!-- Detailed Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

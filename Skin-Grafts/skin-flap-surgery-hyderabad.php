@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Skin Flap Surgery in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert skin flap surgery in Hyderabad at CARE Hospitals. Our maxillofacial surgeons specialize in local, regional, and free flap reconstruction techniques.";
+$path_prefix = '../';
+$page_title = 'Skin Flap Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'Skin flap surgery in Hyderabad at CARE Hospitals. Our maxillofacial surgeons specialize in local, regional, and free flap reconstruction techniques.';
+$canonical_url = 'https://gnathosface.com/Skin-Grafts/skin-flap-surgery-hyderabad';
+$page_about = 'Skin Flap Surgery';
+$breadcrumbs = [['Home', '/'], ['Skin grafts & flaps', '/skin-grafts-and-flaps'], ['Skin Flap Surgery', null]];
+$page_faqs = [
+    ['q' => 'How do I know which type of flap is right for me?', 'a' => 'Your surgeon will assess multiple factors including defect size, depth, location, and your tissue characteristics. Local flaps work well for smaller defects in areas with loose adjacent tissue. Larger or more complex defects may require regional or free flaps. The choice involves a detailed discussion of benefits and trade-offs for your specific situation.'],
+    ['q' => 'Will there be a scar at the flap donor site?', 'a' => 'Yes, there will be a scar where the flap tissue is taken from. For local flaps, the donor site is usually closed directly. For larger flaps, the donor site may need a skin graft or longer scar. We plan incisions to minimize visibility, often placing them in natural skin creases. Scars typically fade significantly over 12-18 months.'],
+    ['q' => 'What happens if a flap fails?', 'a' => 'While flap failure is uncommon, it can occur especially in smokers, diabetics, or those with radiation damage. If a flap fails, immediate revision with another flap is typically performed. Your surgeon will discuss strategies to minimize risk before surgery and have contingency plans in place.'],
+    ['q' => 'How long does flap surgery take?', 'a' => 'Duration varies significantly based on flap type. Simple local flaps may take 1-2 hours. More complex regional flaps take 3-5 hours. Microvascular free flaps, which require connecting small blood vessels under microscope, typically take 6-10 hours. Your surgeon will provide a specific estimate during consultation.'],
+    ['q' => 'Will the flap feel normal after healing?', 'a' => 'Flap sensation typically improves over time but may never be completely normal, especially for free flaps. The flap will have some numbness initially and sensation gradually returns partially. Flap texture and color also improve over months but remain somewhat different from surrounding tissue. Most patients find the functional and aesthetic improvement far outweighs these minor differences.'],
+];
+$cta_heading = 'Get a specialist opinion on skin Flap Surgery.';
+$cta_topic = 'Reconstruction / skin grafts';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -18,61 +27,17 @@ include $path_prefix . 'header.php';
                     Skin Flap Surgery in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Advanced skin flap surgery at Gnathos Facial Surgery for optimal tissue coverage and natural-looking reconstructive outcomes. Expert maxillofacial surgeons at CARE Hospitals.
+                    Advanced skin flap surgery at Gnathos Facial for optimal tissue coverage and natural-looking reconstructive outcomes. Expert maxillofacial surgeons at CARE Hospitals, HITEC City.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Skin flap surgery performed by expert maxillofacial surgeons at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Skin Flap Surgery
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Flap surgery is a sophisticated reconstructive technique requiring precise planning and execution. Our surgeons have extensive experience in all flap techniques.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">manage_search</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Precise Planning</h3>
-                    <p class="text-on-surface-variant text-sm">Careful assessment of defect size, location, and tissue characteristics to select optimal flap.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">swap_horiz</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Multiple Techniques</h3>
-                    <p class="text-on-surface-variant text-sm">Expertise in local, regional, and free flaps to match the best approach to your specific needs.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">healing</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Optimal Healing</h3>
-                    <p class="text-on-surface-variant text-sm">Meticulous technique for reliable blood supply and excellent aesthetic outcomes.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">verified</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">High Success Rates</h3>
-                    <p class="text-on-surface-variant text-sm">Proven track record of successful flap procedures with minimal complications.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Skin flap surgery performed by expert maxillofacial surgeons"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Skin flap surgery performed by expert maxillofacial surgeons</p></div>
                 </div>
             </div>
         </div>
@@ -129,13 +94,13 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Detailed assessment for skin flap surgery at Gnathos Facial Surgery Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Detailed assessment for skin flap surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Detailed assessment for skin flap surgery</p></div>
                 </div>
             </div>
             <!-- Step 2 -->
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Skin flap surgery performed at CARE Hospitals Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Skin flap surgery performed"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Skin flap surgery performed</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -161,7 +126,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Post-operative care and monitoring at Gnathos Facial Surgery Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Post-operative care and monitoring"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Post-operative care and monitoring</p></div>
                 </div>
             </div>
         </div>
@@ -238,9 +203,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             Proper preparation helps ensure optimal flap healing and successful reconstructive outcomes. Follow these guidelines before your procedure.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Checklist PDF
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -307,7 +270,7 @@ include $path_prefix . 'header.php';
                 <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
                     <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
                         <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                            <span class="material-symbols-outlined">airplanemode_active</span>
+                            <span class="material-symbols-outlined">flight</span>
                         </div>
                         <h3 class="font-headline-sm text-primary">Regional & Free Flaps</h3>
                     </div>
@@ -328,55 +291,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- THE SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Flap Surgery Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Decades of combined experience in flap design, harvest, and transfer for reliable reconstructive outcomes.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Over two decades of experience in complex flap reconstruction. Expert in both local flap techniques and microvascular free tissue transfer for challenging defects.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Specializing in aesthetic reconstructive surgery with focus on natural-looking outcomes. Experienced in all flap techniques for facial reconstruction.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -388,7 +310,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How do I know which type of flap is right for me?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Your surgeon will assess multiple factors including defect size, depth, location, and your tissue characteristics. Local flaps work well for smaller defects in areas with loose adjacent tissue. Larger or more complex defects may require regional or free flaps. The choice involves a detailed discussion of benefits and trade-offs for your specific situation.
@@ -397,7 +319,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will there be a scar at the flap donor site?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Yes, there will be a scar where the flap tissue is taken from. For local flaps, the donor site is usually closed directly. For larger flaps, the donor site may need a skin graft or longer scar. We plan incisions to minimize visibility, often placing them in natural skin creases. Scars typically fade significantly over 12-18 months.
@@ -406,7 +328,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What happens if a flap fails?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         While flap failure is uncommon, it can occur especially in smokers, diabetics, or those with radiation damage. If a flap fails, immediate revision with another flap is typically performed. Your surgeon will discuss strategies to minimize risk before surgery and have contingency plans in place.
@@ -415,7 +337,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long does flap surgery take?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Duration varies significantly based on flap type. Simple local flaps may take 1-2 hours. More complex regional flaps take 3-5 hours. Microvascular free flaps, which require connecting small blood vessels under microscope, typically take 6-10 hours. Your surgeon will provide a specific estimate during consultation.
@@ -424,7 +346,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will the flap feel normal after healing?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Flap sensation typically improves over time but may never be completely normal, especially for free flaps. The flap will have some numbness initially and sensation gradually returns partially. Flap texture and color also improve over months but remain somewhat different from surrounding tissue. Most patients find the functional and aesthetic improvement far outweighs these minor differences.
@@ -434,22 +356,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Expert Flap Surgery for Optimal Reconstruction</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Whether you need a simple local flap or complex microvascular reconstruction, our team has the expertise to achieve the best possible outcome.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

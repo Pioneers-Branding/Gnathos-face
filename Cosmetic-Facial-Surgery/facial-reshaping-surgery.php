@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Facial Reshaping Surgery in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert facial reshaping surgery in Hyderabad. Dr. Suresh P.L. at CARE Hospitals, Banjara Hills offers comprehensive facial contouring for balanced, harmonious proportions with natural results.";
+$path_prefix = '../';
+$page_title = 'Facial Reshaping Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'Facial reshaping surgery in Hyderabad. Dr. Suresh P.L. at CARE Hospitals offers comprehensive facial contouring for balanced, harmonious.';
+$canonical_url = 'https://gnathosface.com/Cosmetic-Facial-Surgery/facial-reshaping-surgery';
+$page_about = 'Facial Reshaping Surgery';
+$breadcrumbs = [['Home', '/'], ['Cosmetic facial surgery', '/cosmetic-facial-surgery-treatment'], ['Facial Reshaping Surgery', null]];
+$page_faqs = [
+    ['q' => 'What facial areas can be reshaped through surgery?', 'a' => 'Facial reshaping can address virtually any area of the facial structure including the forehead, brow bones, cheekbones, nose, upper and lower jaws, chin, and jaw angles. The specific areas requiring adjustment are identified during your consultation at our Hyderabad center based on your unique facial proportions and aesthetic goals. Some procedures may involve single areas while others require comprehensive multi-site adjustments.'],
+    ['q' => 'How long does facial reshaping surgery take to complete?', 'a' => 'Surgical time varies significantly based on the scope of reshaping needed. Targeted single-area adjustments may take 2-3 hours, while comprehensive facial transformation involving multiple areas can require 6-8 hours or more. Your surgeon will provide a detailed timeline during your pre-operative consultation at CARE Hospitals.'],
+    ['q' => 'Will facial reshaping surgery affect my facial expressions or function?', 'a' => 'When performed by experienced surgeons like our team at CARE Hospitals, facial reshaping preserves facial function while improving aesthetics. Our techniques are designed to maintain normal facial expressions, chewing function, and sensation. While there\'s an adjustment period following surgery, most patients return to full function once healing is complete.'],
+    ['q' => 'How long until I see the final results of facial reshaping?', 'a' => 'While initial improvements are visible within weeks as major swelling subsides, complete results typically emerge between 3-6 months post-surgery. Bone healing continues for up to a year, during which subtle refinements continue. Our Hyderabad team monitors your progress through regular follow-ups to ensure optimal transformation outcomes.'],
+    ['q' => 'What is the cost of facial reshaping surgery in Hyderabad?', 'a' => 'Costs depend on the complexity of your case, specific procedures required, and facility charges at CARE Hospitals. During consultation at our Hyderabad center, we provide itemized estimates covering all aspects of care including surgeon fees, facility charges, anesthesia, and follow-up care. We can also discuss financing options and help determine if insurance applies for functionally necessary procedures.'],
+];
+$cta_heading = 'Get a specialist opinion on facial Reshaping Surgery.';
+$cta_topic = 'Cosmetic facial procedure';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -18,61 +27,17 @@ include $path_prefix . 'header.php';
                     Facial Reshaping Surgery in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Transform your facial contours with precision reshaping surgery. Our expert maxillofacial surgeons at CARE Hospitals, Banjara Hills create harmonious, balanced proportions that enhance your natural beauty with long-lasting results.
+                    Transform your facial contours with precision reshaping surgery. Our expert maxillofacial surgeons at CARE Hospitals, HITEC City create harmonious, balanced proportions that enhance your natural beauty with long-lasting results.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Facial reshaping surgery consultation - Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Facial Reshaping
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Facial reshaping requires both surgical precision and artistic vision. Our Hyderabad center combines advanced techniques with aesthetic expertise to deliver transformative yet natural-looking results.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">psychology</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Comprehensive Approach</h3>
-                    <p class="text-on-surface-variant text-sm">Treating the entire facial structure holistically rather than isolated features for harmonious results.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">analytics</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Advanced Planning</h3>
-                    <p class="text-on-surface-variant text-sm">3D imaging and digital planning ensure precise surgical execution and predictable outcomes.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">auto_fix_high</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Natural Results</h3>
-                    <p class="text-on-surface-variant text-sm">Focus on enhancing your natural features while creating balanced, proportional facial contours.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">military_tech</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Expert Surgeons</h3>
-                    <p class="text-on-surface-variant text-sm">Board-certified specialists with decades of experience in complex facial restructuring.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Facial reshaping surgery consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial reshaping surgery consultation</p></div>
                 </div>
             </div>
         </div>
@@ -128,19 +93,19 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Facial reshaping consultation - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Facial reshaping consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial reshaping consultation</p></div>
                 </div>
             </div>
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Facial reshaping surgery procedure - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Facial reshaping surgery procedure"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial reshaping surgery procedure</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
                     <h3 class="font-headline-sm text-2xl text-primary mb-4">Precision Surgical Transformation</h3>
-                    <p class="text-on-surface-variant mb-6">At CARE Hospitals, Banjara Hills, our surgeons perform meticulous reshaping procedures. Depending on your needs, this may involve jaw repositioning, cheekbone adjustment, chin modification, or comprehensive facial restructuring to achieve optimal harmony.</p>
+                    <p class="text-on-surface-variant mb-6">At CARE Hospitals, HITEC City, our surgeons perform meticulous reshaping procedures. Depending on your needs, this may involve jaw repositioning, cheekbone adjustment, chin modification, or comprehensive facial restructuring to achieve optimal harmony.</p>
                     <ul class="space-y-3">
-                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">State-of-the-art surgical facilities</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Modern surgical facilities</span></li>
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Computer-guided surgical techniques</span></li>
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Advanced fixation for stability</span></li>
                     </ul>
@@ -158,7 +123,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Facial reshaping recovery - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Facial reshaping recovery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial reshaping recovery</p></div>
                 </div>
             </div>
         </div>
@@ -232,9 +197,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             Thorough preparation ensures optimal outcomes from facial reshaping surgery. Our Hyderabad team provides comprehensive guidance throughout the preparation process.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Preparation Guide
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -246,7 +209,7 @@ include $path_prefix . 'header.php';
                                 </div>
                             </li>
                             <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
-                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">lifestyle</span>
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">self_improvement</span>
                                 <div>
                                     <strong class="text-primary block mb-1">Lifestyle Optimization</strong>
                                     <span class="text-sm text-on-surface-variant">Smoking cessation, alcohol reduction, and nutritional optimization before surgery for best healing.</span>
@@ -272,7 +235,7 @@ include $path_prefix . 'header.php';
             <div class="grid md:grid-cols-2 gap-16 items-center">
                 <div class="relative">
                     <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
-                    <img alt="3D facial analysis for reshaping - Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="3D facial analysis for reshaping"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">3D facial analysis for reshaping</p></div>
                 </div>
                 <div>
                     <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Assessment</span>
@@ -364,55 +327,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Facial Reshaping Surgery Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Our surgical team combines technical expertise with aesthetic vision to achieve beautiful, harmonious facial transformations.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Suresh has performed hundreds of facial reshaping procedures over his 20+ year career. His expertise in complex facial restructuring and meticulous attention to proportion ensures patients achieve natural-looking transformations that enhance their overall appearance.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Navatha specializes in facial cosmetic procedures with particular expertise in comprehensive facial reshaping. Her artistic approach and surgical precision help patients achieve balanced, harmonious results that look naturally beautiful.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -424,7 +346,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What facial areas can be reshaped through surgery?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Facial reshaping can address virtually any area of the facial structure including the forehead, brow bones, cheekbones, nose, upper and lower jaws, chin, and jaw angles. The specific areas requiring adjustment are identified during your consultation at our Hyderabad center based on your unique facial proportions and aesthetic goals. Some procedures may involve single areas while others require comprehensive multi-site adjustments.
@@ -433,25 +355,25 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long does facial reshaping surgery take to complete?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                        Surgical time varies significantly based on the scope of reshaping needed. Targeted single-area adjustments may take 2-3 hours, while comprehensive facial transformation involving multiple areas can require 6-8 hours or more. Your surgeon will provide a detailed timeline during your pre-operative consultation at CARE Hospitals, Banjara Hills.
+                        Surgical time varies significantly based on the scope of reshaping needed. Targeted single-area adjustments may take 2-3 hours, while comprehensive facial transformation involving multiple areas can require 6-8 hours or more. Your surgeon will provide a detailed timeline during your pre-operative consultation at CARE Hospitals, HITEC City.
                     </div>
                 </details>
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will facial reshaping surgery affect my facial expressions or function?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                        When performed by experienced surgeons like our team at CARE Hospitals, facial reshaping preserves facial function while improving aesthetics. Our techniques are designed to maintain normal facial expressions, chewing function, and sensation. While there's an adjustment period following surgery, most patients return to full function once healing is complete.
+                        When performed by experienced surgeons like our team at CARE Hospitals, HITEC City, facial reshaping preserves facial function while improving aesthetics. Our techniques are designed to maintain normal facial expressions, chewing function, and sensation. While there's an adjustment period following surgery, most patients return to full function once healing is complete.
                     </div>
                 </details>
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long until I see the final results of facial reshaping?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         While initial improvements are visible within weeks as major swelling subsides, complete results typically emerge between 3-6 months post-surgery. Bone healing continues for up to a year, during which subtle refinements continue. Our Hyderabad team monitors your progress through regular follow-ups to ensure optimal transformation outcomes.
@@ -460,32 +382,15 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What is the cost of facial reshaping surgery in Hyderabad?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                        Costs depend on the complexity of your case, specific procedures required, and facility charges at CARE Hospitals. During consultation at our Hyderabad center, we provide itemized estimates covering all aspects of care including surgeon fees, facility charges, anesthesia, and follow-up care. We can also discuss financing options and help determine if insurance applies for functionally necessary procedures.
+                        Costs depend on the complexity of your case, specific procedures required, and facility charges at CARE Hospitals, HITEC City. During consultation at our Hyderabad center, we provide itemized estimates covering all aspects of care including surgeon fees, facility charges, anesthesia, and follow-up care. We can also discuss financing options and help determine if insurance applies for functionally necessary procedures.
                     </div>
                 </details>
             </div>
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Transform Your Facial Contours Today</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Begin your facial transformation journey with a consultation at CARE Hospitals, Banjara Hills. Our expert surgical team will create a personalized plan to help you achieve balanced, harmonious facial proportions.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

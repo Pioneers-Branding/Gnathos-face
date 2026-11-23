@@ -1,39 +1,33 @@
 <?php
-$path_prefix = "../";
-$page_title = "Tooth Infection with Facial Swelling Treatment in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Tooth infection with facial swelling treatment in Hyderabad at CARE Hospitals. Our oral surgeons treat spreading tooth infections causing cheek, jaw, and facial swelling with drainage and root canal.";
+$path_prefix = '../';
+$page_title = 'Tooth Infection with Facial Swelling Treatment in Hyderabad';
+$page_description = 'Tooth infection with cheek, jaw or facial swelling in Hyderabad: drainage, root canal or extraction to treat the source. Call +91 90006 66476.';
+$canonical_url = 'https://gnathosface.com/Facial-Swellings/tooth-infection-swelling-treatment-hyderabad';
+$page_about = 'Tooth Infection with Facial Swelling';
+$breadcrumbs = [['Home', '/'], ['Facial swelling', '/facial-swelling-treatment'], ['Tooth Infection with Facial Swelling', null]];
+$page_faqs = [
+    ['q' => 'Can a tooth infection cause facial swelling?', 'a' => 'Yes — when a tooth infection spreads beyond the root tip into surrounding bone and soft tissue, it causes visible facial swelling. This is a serious sign that requires immediate professional treatment.'],
+    ['q' => 'How quickly can a tooth infection spread to the face?', 'a' => 'Facial swelling from a tooth infection can develop within 24-48 hours of the infection reaching the root tip. In some cases, especially with wisdom teeth, spread can be even faster and reach deep neck spaces within hours.'],
+    ['q' => 'What are signs that a tooth infection is spreading?', 'a' => 'Signs of spreading include increasing facial swelling, redness extending beyond the gum, fever and chills, difficulty opening mouth, difficulty swallowing, lip or chin numbness, and swelling around the eye. Seek emergency care immediately.'],
+];
+$cta_heading = 'Get a specialist opinion on tooth Infection with Facial Swelling.';
+$cta_topic = 'Cyst, tumour or facial swelling';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-<main>
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
 <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
 <div class="md:col-span-6 z-10">
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Tooth Infection with Facial Swelling: Treatment in Hyderabad</h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">When a tooth infection spreads beyond the tooth into the surrounding facial tissues, it causes visible facial swelling. Our oral and maxillofacial surgeons at CARE Hospitals, Banjara Hills provide emergency treatment for spreading tooth infections.</p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">Book Consultation</button>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">When a tooth infection spreads beyond the tooth into the surrounding facial tissues, it causes visible facial swelling. Our oral and maxillofacial surgeons at CARE Hospitals, HITEC City provide emergency treatment for spreading tooth infections.</p>
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">Book Consultation</a>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Tooth infection facial swelling treatment at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="../asset/facial-injuries.png"/>
+<img alt="Tooth infection facial swelling treatment at Gnathos Facial, Hyderabad" class="w-full h-full object-cover" src="/asset/facial-injuries.png"/>
 </div>
-</div>
-</div>
-</section>
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for Tooth Infection Swelling</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">A tooth infection causing facial swelling indicates the infection is spreading. This requires urgent treatment to prevent serious complications.</p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">emergency</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">Emergency Care</h3><p class="text-on-surface-variant text-sm">Same-day treatment for tooth infections with facial swelling.</p></div>
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">local_hospital</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">IV Antibiotics</h3><p class="text-on-surface-variant text-sm">IV therapy at CARE Hospitals when oral antibiotics aren't enough.</p></div>
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">medical_services</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">Complete Care</h3><p class="text-on-surface-variant text-sm">Drainage, antibiotics, root canal, or extraction — all in one place.</p></div>
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">psychology</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">Pain Relief</h3><p class="text-on-surface-variant text-sm">Rapid pain management alongside infection treatment.</p></div>
 </div>
 </div>
 </section>
@@ -69,12 +63,12 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Tooth infection facial swelling at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="../asset/dr_suresh_defining_excellence.png"/>
+<img loading="lazy" decoding="async" alt="Tooth infection facial swelling at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="/asset/dr_suresh_defining_excellence.png"/>
 </div>
 </div>
 <div class="grid md:grid-cols-2 gap-16 items-center">
 <div class="order-1 md:order-1">
-<img alt="Tooth infection treatment at Gnathos Facial, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="../asset/tmj-disorders-advanced-treatment-clinical-protocols.png"/>
+<img loading="lazy" decoding="async" alt="Tooth infection treatment at Gnathos Facial, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="/asset/tmj-disorders-advanced-treatment-clinical-protocols.png"/>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -124,13 +118,14 @@ include $path_prefix . 'header.php';
 <h2 class="font-headline-md text-headline-md text-primary mb-4">Related Conditions We Treat</h2>
 </div>
 <div class="grid md:grid-cols-4 gap-6">
-<a href="dental-abscess-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Dental Abscess</h3><p class="text-sm text-on-surface-variant">Root cause</p></a>
-<a href="severe-tooth-infection-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Severe Tooth Infection</h3><p class="text-sm text-on-surface-variant">Emergency care</p></a>
-<a href="jaw-infection-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Jaw Infection</h3><p class="text-sm text-on-surface-variant">Bone involvement</p></a>
-<a href="painful-facial-swelling-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Painful Facial Swelling</h3><p class="text-sm text-on-surface-variant">Swelling care</p></a>
+<a href="/Facial-Swellings/dental-abscess-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Dental Abscess</h3><p class="text-sm text-on-surface-variant">Root cause</p></a>
+<a href="/Facial-Swellings/severe-tooth-infection-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Severe Tooth Infection</h3><p class="text-sm text-on-surface-variant">Emergency care</p></a>
+<a href="/Facial-Swellings/jaw-infection-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Jaw Infection</h3><p class="text-sm text-on-surface-variant">Bone involvement</p></a>
+<a href="/Facial-Swellings/painful-facial-swelling-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Painful Facial Swelling</h3><p class="text-sm text-on-surface-variant">Swelling care</p></a>
 </div>
 </div>
 </section>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <section class="py-section-gap bg-surface-container-low">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
 <div class="text-center mb-12">
@@ -138,28 +133,18 @@ include $path_prefix . 'header.php';
 </div>
 <div class="space-y-4">
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">Can a tooth infection cause facial swelling?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span></summary>
+<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">Can a tooth infection cause facial swelling?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span></summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">Yes — when a tooth infection spreads beyond the root tip into surrounding bone and soft tissue, it causes visible facial swelling. This is a serious sign that requires immediate professional treatment.</div>
 </details>
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">How quickly can a tooth infection spread to the face?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span></summary>
+<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">How quickly can a tooth infection spread to the face?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span></summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">Facial swelling from a tooth infection can develop within 24-48 hours of the infection reaching the root tip. In some cases, especially with wisdom teeth, spread can be even faster and reach deep neck spaces within hours.</div>
 </details>
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">What are signs that a tooth infection is spreading?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span></summary>
+<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">What are signs that a tooth infection is spreading?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span></summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">Signs of spreading include increasing facial swelling, redness extending beyond the gum, fever and chills, difficulty opening mouth, difficulty swallowing, lip or chin numbness, and swelling around the eye. Seek emergency care immediately.</div>
 </details>
 </div>
 </div>
 </section>
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Stop Tooth Infection Before It Spreads</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">Facial swelling from a tooth infection requires emergency care. Schedule your evaluation today.</p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">Schedule Tooth Infection Evaluation<span class="material-symbols-outlined icon-fill-0">arrow_forward</span></button>
-</div>
-</section>
-</main>
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

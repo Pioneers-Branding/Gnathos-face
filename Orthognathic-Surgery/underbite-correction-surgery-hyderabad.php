@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Underbite Correction Surgery Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert underbite correction surgery in Hyderabad. Dr. Suresh P.L. provides surgical treatment for underbite at CARE Hospitals, Banjara Hills.";
+$path_prefix = '../';
+$page_title = 'Underbite Correction Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'Underbite correction surgery in Hyderabad. Dr. Suresh P.L. provides surgical treatment for underbite at CARE Hospitals. Book a consultation.';
+$canonical_url = 'https://gnathosface.com/Orthognathic-Surgery/underbite-correction-surgery-hyderabad';
+$page_about = 'Underbite Correction Surgery';
+$breadcrumbs = [['Home', '/'], ['Jaw surgery', '/orthognathic-surgery'], ['Underbite Correction Surgery', null]];
+$page_faqs = [
+    ['q' => 'What causes an underbite?', 'a' => 'Underbite is typically caused by genetic factors affecting jaw development, where the lower jaw grows excessively or the upper jaw is underdeveloped. Childhood habits like thumb-sucking can also contribute to jaw development issues.'],
+    ['q' => 'Can underbite be corrected without surgery?', 'a' => 'Mild underbites may be corrected with orthodontics alone. However, skeletal underbites where the jaw position is significantly abnormal typically require combined orthodontic and surgical treatment for proper correction.'],
+    ['q' => 'How is underbite correction surgery performed?', 'a' => 'Underbite surgery typically involves BSSO (Bilateral Sagittal Split Osteotomy), where the lower jaw bone is carefully cut, repositioned back, and secured with titanium plates and screws. The upper jaw may also be surgically advanced if needed.'],
+    ['q' => 'What is the recovery time for underbite surgery?', 'a' => 'Initial recovery takes 2-3 weeks for most daily activities, with full recovery over 6-12 months. Hospital stay is typically 1-2 days. Most patients return to work within 3-4 weeks. Final bite stabilization takes several months.'],
+    ['q' => 'Is underbite correction covered by insurance?', 'a' => 'Coverage varies by insurance provider. When underbite correction is medically necessary to improve function for eating or speech, many insurers provide coverage. Our team can help verify your benefits during consultation.'],
+];
+$cta_heading = 'Get a specialist opinion on underbite Correction Surgery.';
+$cta_topic = 'Jaw misalignment (orthognathic surgery)';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -18,61 +27,17 @@ include $path_prefix . 'header.php';
                     Underbite Correction Surgery in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Achieve proper bite alignment with expert underbite correction surgery at CARE Hospitals, Banjara Hills. Our maxillofacial surgeons specialize in treating underbite conditions using advanced orthognathic techniques.
+                    Achieve proper bite alignment with expert underbite correction surgery at CARE Hospitals, HITEC City. Our maxillofacial surgeons specialize in treating underbite conditions using advanced orthognathic techniques.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Patient with corrected underbite after surgery - Underbite correction at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Underbite Correction
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Recognized leaders in underbite correction and jaw realignment in Hyderabad, delivering transformative results through precision surgical care.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">school</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Surgical Excellence</h3>
-                    <p class="text-on-surface-variant text-sm">35+ years of combined experience in underbite correction and jaw surgery.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">local_hospital</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">CARE Hospitals</h3>
-                    <p class="text-on-surface-variant text-sm">State-of-the-art facilities at Banjara Hills with advanced surgical infrastructure.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">group</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Integrated Care</h3>
-                    <p class="text-on-surface-variant text-sm">Coordinated orthodontic and surgical treatment for comprehensive outcomes.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">workspace_premium</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Proven Results</h3>
-                    <p class="text-on-surface-variant text-sm">Hundreds of successful underbite corrections with proper bite function restored.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Patient with corrected underbite after surgery - Underbite correction"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Patient with corrected underbite after surgery - Underbite correction</p></div>
                 </div>
             </div>
         </div>
@@ -134,13 +99,13 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Diagnostic imaging for underbite at Gnathos Facial Surgery" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://www.gnathosfacial.com/asset/CARE-Hospitals.jpg"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Diagnostic imaging for underbite"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Diagnostic imaging for underbite</p></div>
                 </div>
             </div>
             <!-- Step 2 -->
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Underbite correction surgery at CARE Hospitals Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://www.gnathosfacial.com/asset/advanced-jaw-surgery-orthognathic-protocols.png"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Underbite correction surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Underbite correction surgery</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -166,7 +131,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Recovery after underbite correction surgery at Gnathos Facial Surgery" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://www.gnathosfacial.com/asset/dr-navatha-mortha-facial.webp"/>
+                    <img alt="Recovery after underbite correction surgery at Gnathos Facial" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="/asset/dr-navatha-mortha-facial.webp"/>
                 </div>
             </div>
         </div>
@@ -281,59 +246,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Underbite Correction Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Decades of specialized experience in treating complex underbite conditions.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                                Senior Consultant with 20+ years of experience in underbite correction and jaw realignment surgery.
-                            </p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                                Senior Consultant with 15+ years of experience specializing in diagnostic evaluation and treatment planning for underbite correction.
-                            </p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -345,7 +265,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What causes an underbite?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Underbite is typically caused by genetic factors affecting jaw development, where the lower jaw grows excessively or the upper jaw is underdeveloped. Childhood habits like thumb-sucking can also contribute to jaw development issues.
@@ -354,7 +274,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Can underbite be corrected without surgery?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Mild underbites may be corrected with orthodontics alone. However, skeletal underbites where the jaw position is significantly abnormal typically require combined orthodontic and surgical treatment for proper correction.
@@ -363,7 +283,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How is underbite correction surgery performed?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Underbite surgery typically involves BSSO (Bilateral Sagittal Split Osteotomy), where the lower jaw bone is carefully cut, repositioned back, and secured with titanium plates and screws. The upper jaw may also be surgically advanced if needed.
@@ -372,7 +292,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What is the recovery time for underbite surgery?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Initial recovery takes 2-3 weeks for most daily activities, with full recovery over 6-12 months. Hospital stay is typically 1-2 days. Most patients return to work within 3-4 weeks. Final bite stabilization takes several months.
@@ -381,7 +301,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Is underbite correction covered by insurance?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Coverage varies by insurance provider. When underbite correction is medically necessary to improve function for eating or speech, many insurers provide coverage. Our team can help verify your benefits during consultation.
@@ -391,22 +311,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Correct Your Underbite?</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Schedule a consultation with our maxillofacial surgery team at CARE Hospitals, Banjara Hills. We'll create a personalized treatment plan to restore proper bite function and facial balance.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- Footer -->
+<?php include $path_prefix . 'footer.php'; ?>

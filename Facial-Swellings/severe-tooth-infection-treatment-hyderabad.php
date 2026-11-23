@@ -1,39 +1,33 @@
 <?php
-$path_prefix = "../";
-$page_title = "Severe Tooth Infection Treatment in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Emergency treatment for severe tooth infection in Hyderabad at CARE Hospitals. Our oral surgeons drain infection, perform extractions, and provide IV antibiotic therapy to prevent life-threatening spread.";
+$path_prefix = '../';
+$page_title = 'Severe Tooth Infection Treatment in Hyderabad';
+$page_description = 'Severe tooth infection in Hyderabad: urgent drainage, extraction and IV antibiotics to stop dangerous spread. Call +91 90006 66476 (24/7).';
+$canonical_url = 'https://gnathosface.com/Facial-Swellings/severe-tooth-infection-treatment-hyderabad';
+$page_about = 'Severe Tooth Infection';
+$breadcrumbs = [['Home', '/'], ['Facial swelling', '/facial-swelling-treatment'], ['Severe Tooth Infection', null]];
+$page_faqs = [
+    ['q' => 'Can a serious tooth infection spread to my brain?', 'a' => 'Yes — in rare cases, a dental infection spreads via facial venous drainage to the cavernous sinus behind the eyes, or directly to the brain causing a brain abscess. This is why spreading dental infections require prompt treatment. At CARE Hospitals, we assess for these complications during every evaluation.'],
+    ['q' => 'How quickly must a spreading tooth infection be treated?', 'a' => 'A spreading tooth infection can double in size within hours. Once the airway or systemic symptoms appear (difficulty swallowing, fever, neck stiffness), it is a medical emergency requiring immediate hospitalization. If you have facial swelling from a tooth infection, you should be seen the same day.'],
+    ['q' => 'Will I need to have my tooth removed?', 'a' => 'Not always — if the tooth is structurally sound and the bone around it is not completely destroyed, root canal therapy can save the tooth after the infection is controlled. Our surgeons assess tooth restorability as part of the emergency evaluation and will always attempt to preserve teeth where viable.'],
+];
+$cta_heading = 'Get a specialist opinion on severe Tooth Infection.';
+$cta_topic = 'Cyst, tumour or facial swelling';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-<main>
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
 <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
 <div class="md:col-span-6 z-10">
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Emergency Dental Care in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Severe Tooth Infection: Emergency Treatment in Hyderabad</h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">A severe tooth infection can spread rapidly to surrounding facial tissues, the jawbone, or even the bloodstream. Our oral surgeons at CARE Hospitals, Banjara Hills provide emergency treatment to drain infections, preserve teeth where possible, and prevent life-threatening complications.</p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">Get Emergency Treatment</button>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">A severe tooth infection can spread rapidly to surrounding facial tissues, the jawbone, or even the bloodstream. Our oral surgeons at CARE Hospitals, HITEC City provide emergency treatment to drain infections, preserve teeth where possible, and prevent life-threatening complications.</p>
+<a href="tel:+919000666476" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">Get Emergency Treatment</a>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Severe tooth infection treatment at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="../asset/facial-injuries.png"/>
+<img alt="Severe tooth infection treatment at Gnathos Facial, Hyderabad" class="w-full h-full object-cover" src="/asset/facial-injuries.png"/>
 </div>
-</div>
-</div>
-</section>
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Gnathos Facial for Severe Tooth Infection</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">When a tooth infection spreads, every hour counts. Our oral surgeons have the facilities and expertise to provide emergency surgical treatment at CARE Hospitals, Banjara Hills.</p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">emergency</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">Emergency Availability</h3><p class="text-on-surface-variant text-sm">Same-day evaluation for spreading tooth infections at CARE Hospitals.</p></div>
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">local_hospital</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">IV Antibiotics</h3><p class="text-on-surface-variant text-sm">Hospital-grade IV antibiotic therapy for fast-acting infection control.</p></div>
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">medical_services</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">Surgical Drainage</h3><p class="text-on-surface-variant text-sm">Surgical drainage of facial swellings from spreading dental infection.</p></div>
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">healing</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">Tooth Preservation</h3><p class="text-on-surface-variant text-sm">Root canal or surgical options to save teeth where anatomically viable.</p></div>
 </div>
 </div>
 </section>
@@ -92,7 +86,7 @@ include $path_prefix . 'header.php';
 </div>
 <ul class="space-y-6">
 <li><h4 class="font-semibold text-primary mb-2">IV Antibiotic Therapy</h4><p class="text-on-surface-variant text-sm">Hospital admission for IV antibiotics — typically ampicillin-sulbactam or clindamycin. Culture-guided therapy once cultures are available.</p></li>
-<li><h4 class="font-semibold text-primary mb-2">Root Canal Therapy</h4><p class="text-on-surface-variant text-sm">If the tooth is restorable, root canal treatment removes the infected pulp and saves the tooth. Often combined with apical surgery (apicoectomy). <a href="dental-abscess-treatment-hyderabad.php" class="text-secondary underline hover:text-primary">Dental abscess treatment</a> explores these options further.</p></li>
+<li><h4 class="font-semibold text-primary mb-2">Root Canal Therapy</h4><p class="text-on-surface-variant text-sm">If the tooth is restorable, root canal treatment removes the infected pulp and saves the tooth. Often combined with apical surgery (apicoectomy). <a href="/Facial-Swellings/dental-abscess-treatment-hyderabad" class="text-secondary underline hover:text-primary">Dental abscess treatment</a> explores these options further.</p></li>
 </ul>
 </div>
 <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
@@ -115,13 +109,14 @@ include $path_prefix . 'header.php';
 <h2 class="font-headline-md text-headline-md text-primary mb-4">Related Conditions We Treat</h2>
 </div>
 <div class="grid md:grid-cols-4 gap-6">
-<a href="dental-abscess-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Dental Abscess</h3><p class="text-sm text-on-surface-variant">Tooth root infection</p></a>
-<a href="tooth-infection-swelling-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Tooth Infection Swelling</h3><p class="text-sm text-on-surface-variant">Facial spread</p></a>
-<a href="infected-jaw-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Infected Jaw</h3><p class="text-sm text-on-surface-variant">Osteomyelitis</p></a>
-<a href="facial-pain-and-swelling-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Facial Pain & Swelling</h3><p class="text-sm text-on-surface-variant">Combined assessment</p></a>
+<a href="/Facial-Swellings/dental-abscess-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Dental Abscess</h3><p class="text-sm text-on-surface-variant">Tooth root infection</p></a>
+<a href="/Facial-Swellings/tooth-infection-swelling-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Tooth Infection Swelling</h3><p class="text-sm text-on-surface-variant">Facial spread</p></a>
+<a href="/Facial-Swellings/infected-jaw-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Infected Jaw</h3><p class="text-sm text-on-surface-variant">Osteomyelitis</p></a>
+<a href="/Facial-Swellings/facial-pain-and-swelling-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Facial Pain & Swelling</h3><p class="text-sm text-on-surface-variant">Combined assessment</p></a>
 </div>
 </div>
 </section>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <section class="py-section-gap bg-surface-container-low">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
 <div class="text-center mb-12">
@@ -129,15 +124,15 @@ include $path_prefix . 'header.php';
 </div>
 <div class="space-y-4">
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">Can a serious tooth infection spread to my brain?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span></summary>
-<div class="px-6 pb-6 text-on-surface-variant text-sm">Yes — in rare cases, a dental infection spreads via facial venous drainage to the cavernous sinus behind the eyes, or directly to the brain causing a brain abscess. This is why spreading dental infections require prompt treatment. At CARE Hospitals, Banjara Hills, we assess for these complications during every evaluation.</div>
+<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">Can a serious tooth infection spread to my brain?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span></summary>
+<div class="px-6 pb-6 text-on-surface-variant text-sm">Yes — in rare cases, a dental infection spreads via facial venous drainage to the cavernous sinus behind the eyes, or directly to the brain causing a brain abscess. This is why spreading dental infections require prompt treatment. At CARE Hospitals, HITEC City, we assess for these complications during every evaluation.</div>
 </details>
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">How quickly must a spreading tooth infection be treated?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span></summary>
+<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">How quickly must a spreading tooth infection be treated?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span></summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">A spreading tooth infection can double in size within hours. Once the airway or systemic symptoms appear (difficulty swallowing, fever, neck stiffness), it is a medical emergency requiring immediate hospitalization. If you have facial swelling from a tooth infection, you should be seen the same day.</div>
 </details>
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">Will I need to have my tooth removed?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span></summary>
+<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">Will I need to have my tooth removed?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span></summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">Not always — if the tooth is structurally sound and the bone around it is not completely destroyed, root canal therapy can save the tooth after the infection is controlled. Our surgeons assess tooth restorability as part of the emergency evaluation and will always attempt to preserve teeth where viable.</div>
 </details>
 </div>
@@ -147,10 +142,8 @@ include $path_prefix . 'header.php';
 <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
 <h2 class="font-headline-md text-headline-md text-primary mb-6">Emergency Tooth Infection Treatment in Hyderabad</h2>
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">If you have a throbbing toothache with facial swelling, do not wait. Spreading tooth infections are a dental emergency.</p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">Get Emergency Treatment<span class="material-symbols-outlined icon-fill-0">arrow_forward</span></button>
+<a href="tel:+919000666476" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">Get Emergency Treatment<span class="material-symbols-outlined icon-fill-0">arrow_forward</span></a>
 </div>
 </section>
-</main>
-<?php
-include $path_prefix . 'footer.php';
-?>
+
+<?php include $path_prefix . 'footer.php'; ?>

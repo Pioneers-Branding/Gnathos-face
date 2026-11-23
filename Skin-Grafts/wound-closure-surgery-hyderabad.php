@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Wound Closure Surgery in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert wound closure surgery in Hyderabad at CARE Hospitals. Our maxillofacial surgeons provide meticulous facial wound repair with optimal aesthetic outcomes.";
+$path_prefix = '../';
+$page_title = 'Wound Closure Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'Wound closure surgery in Hyderabad at CARE Hospitals. Our maxillofacial surgeons provide meticulous facial wound repair with optimal aesthetic outcomes.';
+$canonical_url = 'https://gnathosface.com/Skin-Grafts/wound-closure-surgery-hyderabad';
+$page_about = 'Wound Closure Surgery';
+$breadcrumbs = [['Home', '/'], ['Skin grafts & flaps', '/skin-grafts-and-flaps'], ['Wound Closure Surgery', null]];
+$page_faqs = [
+    ['q' => 'How long do I have to close a facial wound?', 'a' => 'Facial wounds are ideally closed within 6-8 hours to minimize infection risk and optimize healing. However, timing depends on wound characteristics, location, and contamination level. Your surgeon will assess your specific wound and recommend optimal timing.'],
+    ['q' => 'Will there be a scar after wound closure?', 'a' => 'Any surgical incision or laceration will leave a scar. However, our meticulous technique and scar management protocol help achieve the finest possible scar that fades to be barely visible over time. Scars typically continue to improve for 12-18 months after closure.'],
+    ['q' => 'Can old wounds still be closed?', 'a' => 'While fresh wounds have the best outcomes, unclosed wounds or poorly closed wounds can often be revised surgically. Scar revision procedures can significantly improve the appearance of older wounds. Consultation will determine available options.'],
+    ['q' => 'How do I care for my wound after closure?', 'a' => 'Aftercare involves keeping the wound clean and protected, following your surgeon\'s dressing change schedule, avoiding activities that stress the wound, and beginning scar care after suture removal. Detailed instructions will be provided at your appointment.'],
+    ['q' => 'What can be done about an existing scar?', 'a' => 'Scar revision surgery can improve wide, raised, or otherwise prominent scars. This may involve excision and precise reclosure, steroid injections to flatten scars, laser treatments, or silicone therapy. Your surgeon will recommend the best approach for your specific scar.'],
+];
+$cta_heading = 'Get a specialist opinion on wound Closure Surgery.';
+$cta_topic = 'Reconstruction / skin grafts';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -18,61 +27,17 @@ include $path_prefix . 'header.php';
                     Wound Closure Surgery in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Expert wound closure surgery at Gnathos Facial Surgery. Our maxillofacial surgeons provide meticulous facial wound repair with techniques that minimize scarring and optimize healing.
+                    Expert wound closure surgery at Gnathos Facial. Our maxillofacial surgeons provide meticulous facial wound repair with techniques that minimize scarring and optimize healing.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Wound closure surgery performed by expert maxillofacial surgeons at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Wound Closure
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Facial wound closure requires precision and expertise for optimal aesthetic results. Our surgeons specialize in techniques that minimize visible scarring.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">straighten</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Meticulous Technique</h3>
-                    <p class="text-on-surface-variant text-sm">Layered closure with precise tissue handling to minimize trauma and optimize healing.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">schedule</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Timely Intervention</h3>
-                    <p class="text-on-surface-variant text-sm">Prompt wound closure within optimal timeframes reduces infection risk and improves outcomes.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">auto_awesome</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Aesthetic Focus</h3>
-                    <p class="text-on-surface-variant text-sm">Strategic incision placement within skin lines and relaxed tension zones for minimal visibility.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">healing</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Scar Management</h3>
-                    <p class="text-on-surface-variant text-sm">Comprehensive scar care including silicone therapy, steroid injections, and revision options.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Wound closure surgery performed by expert maxillofacial surgeons"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Wound closure surgery performed by expert maxillofacial surgeons</p></div>
                 </div>
             </div>
         </div>
@@ -129,13 +94,13 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Wound assessment at Gnathos Facial Surgery Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Wound assessment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Wound assessment</p></div>
                 </div>
             </div>
             <!-- Step 2 -->
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Wound closure surgery at CARE Hospitals Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Wound closure surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Wound closure surgery</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -161,7 +126,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Post-operative care and scar management at Gnathos Facial Surgery Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Post-operative care and scar management"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Post-operative care and scar management</p></div>
                 </div>
             </div>
         </div>
@@ -238,9 +203,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             Whether for emergency wound repair or planned closure, proper preparation helps achieve optimal outcomes.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Checklist PDF
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -328,55 +291,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- THE SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Wound Closure Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Decades of combined experience in facial wound closure with emphasis on optimal aesthetic outcomes.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Over two decades of experience in facial wound closure. Expert in layered closure techniques for clean and contaminated wounds with focus on minimal scarring.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Specializing in aesthetic wound closure with expertise in scar management and revision surgery for optimal cosmetic outcomes.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -388,7 +310,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long do I have to close a facial wound?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Facial wounds are ideally closed within 6-8 hours to minimize infection risk and optimize healing. However, timing depends on wound characteristics, location, and contamination level. Your surgeon will assess your specific wound and recommend optimal timing.
@@ -397,7 +319,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will there be a scar after wound closure?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Any surgical incision or laceration will leave a scar. However, our meticulous technique and scar management protocol help achieve the finest possible scar that fades to be barely visible over time. Scars typically continue to improve for 12-18 months after closure.
@@ -406,7 +328,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Can old wounds still be closed?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         While fresh wounds have the best outcomes, unclosed wounds or poorly closed wounds can often be revised surgically. Scar revision procedures can significantly improve the appearance of older wounds. Consultation will determine available options.
@@ -415,7 +337,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How do I care for my wound after closure?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Aftercare involves keeping the wound clean and protected, following your surgeon's dressing change schedule, avoiding activities that stress the wound, and beginning scar care after suture removal. Detailed instructions will be provided at your appointment.
@@ -424,7 +346,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What can be done about an existing scar?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Scar revision surgery can improve wide, raised, or otherwise prominent scars. This may involve excision and precise reclosure, steroid injections to flatten scars, laser treatments, or silicone therapy. Your surgeon will recommend the best approach for your specific scar.
@@ -434,22 +356,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Minimal Scarring Starts Here</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Whether you have a fresh wound needing closure or an older scar you'd like revised, our team can help achieve the best possible cosmetic outcome.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

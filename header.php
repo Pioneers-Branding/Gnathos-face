@@ -1,279 +1,212 @@
 <?php
-$current_page = basename($_SERVER['PHP_SELF']);
-$is_conditions_active = in_array($current_page, ['conditions.php', 'tmj-disorders.php']);
-$is_treatments_active = in_array($current_page, ['treatments.php', 'tmj-treatment.php', 'tmj-arthroscopy.php', 'jaw-surgery.php', 'advanced-jaw-surgery.php', 'skin-grafts-and-flaps.php']);
-$is_blog_active = strpos($_SERVER['PHP_SELF'], '/blogs/') !== false || strpos($_SERVER['PHP_SELF'], '/blog/') !== false;
+$gna_uri = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
+$gna_slug = preg_replace('#\.php$#', '', trim(rawurldecode($gna_uri), '/'));
+$is_blog_active = str_starts_with($gna_slug, 'blogs');
+$is_conditions_active = in_array($gna_slug, ['conditions', 'tmj-disorders', 'facial-injuries', 'obstructive-sleep-apnea', 'oral-cancer', 'cysts-tumors-face', 'facial-swelling-treatment', 'rhinoplasty', 'orthognathic-surgery']);
+$is_treatments_active = !$is_conditions_active && !$is_blog_active && $gna_slug !== '' && !in_array($gna_slug, ['book-appointment', 'privacy-policy', 'terms-of-use', 'medical-disclaimer', 'accessibility']);
+
+$gna_nav_conditions = [
+    ['TMJ disorders & jaw pain', '/tmj-treatment'],
+    ['Facial injuries & fractures', '/facial-injuries'],
+    ['Jaw misalignment', '/orthognathic-surgery'],
+    ['Sleep apnea & snoring', '/obstructive-sleep-apnea'],
+    ['Oral cancer', '/oral-cancer'],
+    ['Cysts & tumours of the jaw', '/cysts-tumors-face'],
+    ['Facial swelling & infection', '/facial-swelling-treatment'],
+    ['Nasal shape & breathing', '/rhinoplasty'],
+];
+$gna_nav_surgical = [
+    ['TMJ arthroscopy', '/tmj-arthroscopy'],
+    ['Orthognathic (jaw) surgery', '/jaw-surgery'],
+    ['Facial trauma surgery', '/facial-injuries'],
+    ['Oral cancer surgery', '/oral-cancer-treatment'],
+    ['Cyst & tumour removal', '/cyst-and-tumors-treatment'],
+    ['Skin grafts & flaps', '/skin-grafts-and-flaps'],
+    ['Sleep apnea surgery', '/osa-treatment'],
+];
+$gna_nav_cosmetic = [
+    ['Cosmetic facial surgery', '/cosmetic-facial-surgery-treatment'],
+    ['Rhinoplasty', '/rhinoplasty-treatment'],
+    ['Chin augmentation', '/chin-augmentation-surgery'],
+    ['Face lift', '/face-lift-surgery'],
+    ['Eyelid surgery', '/eyelid-surgery'],
+    ['Brow lift', '/brow-lift-treatment'],
+    ['Botox & dermal fillers', '/botox-treatment'],
+];
 ?>
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:z-[95] focus:top-2 focus:left-2 focus:bg-navy focus:text-white focus:px-4 focus:py-2 focus:rounded gna-eyebrow">Skip to content</a>
 
-<!-- Skip link — first focusable element, lets keyboard/AT users bypass the chrome -->
-<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-[70] focus:top-2 focus:left-2 focus:bg-[var(--navy)] focus:text-white focus:px-4 focus:py-2 focus:rounded gna-eyebrow">Skip to content</a>
-
-<!-- ── 1. Emergency strip (sticky top, click-to-call) ──────────── -->
 <?php if (!$is_blog_active): ?>
-<div id="gna-emergency-strip"
-  class="gna-emergency w-full text-[12px] md:text-[13px] py-2 px-4 md:px-8 flex items-center justify-between gap-3 sticky top-0 z-[60]">
+<div id="gna-emergency-strip" class="gna-emergency w-full text-[12px] md:text-[13px] py-2 px-4 md:px-8 flex items-center justify-between gap-3 sticky top-0 z-[60]">
   <div class="flex items-center gap-2 md:gap-3 min-w-0">
-    <span class="inline-block w-2 h-2 rounded-full bg-white animate-pulse shrink-0" aria-hidden="true"></span>
-    <span class="hidden sm:inline font-semibold uppercase tracking-[0.18em] truncate">24/7 Facial Trauma Care</span>
-    <span class="sm:hidden font-semibold uppercase tracking-wider truncate">Trauma · 24/7</span>
+    <span class="inline-block w-2 h-2 rounded-full bg-white motion-safe:animate-pulse shrink-0" aria-hidden="true"></span>
+    <a href="/facial-trauma-emergency-hyderabad" class="hidden sm:inline font-semibold uppercase tracking-[0.18em] truncate">24/7 Facial Trauma Line</a>
+    <a href="/facial-trauma-emergency-hyderabad" class="sm:hidden font-semibold uppercase tracking-wider truncate">Trauma · 24/7</a>
   </div>
   <div class="flex items-center gap-3 md:gap-5 shrink-0">
-    <a href="tel:+919000666476" class="inline-flex items-center min-h-[44px] py-3 -my-2 font-semibold underline-offset-2 hover:underline whitespace-nowrap">
-      <span class="hidden sm:inline">📞 </span>+91 90006 66476
-    </a>
-    <a href="https://wa.me/919000666476?text=Hello%20Gnathos%20team%2C%20I%20need%20facial%20trauma%20care."
-      class="hidden md:inline-flex items-center gap-1.5 whitespace-nowrap hover:underline">
-      WhatsApp
-    </a>
+    <a href="tel:<?= GNA_PHONE ?>" class="inline-flex items-center min-h-[44px] py-3 -my-2 font-semibold whitespace-nowrap" data-gna-track="call-trauma"><?= GNA_PHONE_DISP ?></a>
+    <a href="<?= gna_e(gna_wa('Hello Gnathos team, I need urgent facial trauma care.')) ?>" target="_blank" rel="noopener" class="hidden md:inline-flex items-center whitespace-nowrap">WhatsApp</a>
   </div>
 </div>
 <?php endif; ?>
 
-<!-- ── 2. Main masthead ────────────────────────────────────────── -->
-<header class="w-full bg-[#F8F5EF] border-b gna-rule sticky z-50" style="<?php echo $is_blog_active ? 'top: 0;' : 'top: var(--gna-strip-h, 44px);'; ?>">
+<header class="w-full bg-[#F8F5EF]/95 backdrop-blur border-b gna-rule sticky z-50" style="top: <?= $is_blog_active ? '0' : 'var(--gna-strip-h, 44px)' ?>;">
   <div class="max-w-[1280px] mx-auto px-4 md:px-8">
     <div class="flex items-center justify-between py-3 md:py-4 gap-4">
-      <!-- Logo -->
-      <a class="flex items-center gap-3 shrink-0" href="<?php echo $path_prefix; ?>index.php"
-        aria-label="Gnathos Facial — home">
-        <img alt="Gnathos Facial" class="h-9 md:h-11 w-auto" src="/asset/gna-logop.png" width="300" height="71" />
-        <span class="hidden 2xl:inline gna-eyebrow text-[var(--slate)]">Maxillofacial Surgery · Hyderabad</span>
+      <a class="flex items-center gap-3 shrink-0" href="/" aria-label="Gnathos Facial — home">
+        <img alt="Gnathos Facial" class="h-9 md:h-11 w-auto" src="/asset/gna-logop.png" width="300" height="71"/>
       </a>
 
-      <!-- Primary nav (desktop) -->
-      <nav class="hidden lg:flex items-center gap-5 xl:gap-7" aria-label="Primary">
-
-        <!-- Conditions -->
-        <div class="gna-nav-item relative">
-          <button onmousedown="event.preventDefault()"
-            class="gna-eyebrow <?php echo $is_conditions_active ? 'text-[var(--steel)]' : 'text-[var(--navy)] hover:text-[var(--steel)]'; ?> flex items-center gap-1 transition-colors"
-            aria-expanded="false" aria-haspopup="true" aria-controls="nav-conditions">
-            Conditions <span class="text-[9px] transition-transform" aria-hidden="true">▾</span>
+      <nav class="hidden lg:flex items-center gap-6 xl:gap-8" aria-label="Primary">
+        <div class="gna-nav-item relative" data-open="false">
+          <button type="button" class="gna-eyebrow <?= $is_conditions_active ? 'text-steel' : 'text-navy hover:text-steel' ?> flex items-center gap-1 py-2" aria-expanded="false" aria-controls="nav-conditions">
+            Conditions <span class="text-[9px]" aria-hidden="true">▾</span>
           </button>
-          <div id="nav-conditions"
-            class="gna-nav-menu gna-float absolute top-full left-0 mt-3 w-72 bg-white border gna-rule rounded-md z-50"
-            role="menu">
-            <div class="py-2">
-              <a href="<?php echo $path_prefix; ?>conditions.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">All Conditions</a>
-              <div class="border-t gna-rule-soft mx-3 my-1"></div>
-              <a href="<?php echo $path_prefix; ?>tmj-disorders.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">TMJ Disorders</a>
-              <a href="<?php echo $path_prefix; ?>facial-injuries.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">Facial Injuries &amp; Trauma</a>
-              <a href="<?php echo $path_prefix; ?>obstructive-sleep-apnea.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">Sleep Apnea (OSA)</a>
-              <a href="<?php echo $path_prefix; ?>oral-cancer.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">Oral Cancer</a>
-              <a href="<?php echo $path_prefix; ?>rhinoplasty.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">Nasal Deformities</a>
-              <a href="<?php echo $path_prefix; ?>orthognathic-surgery.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">Jaw Misalignment</a>
+          <div id="nav-conditions" class="gna-nav-menu gna-float absolute top-full left-0 mt-3 w-80 bg-white border gna-rule rounded-md z-50">
+            <ul class="py-2">
+              <li><a href="/conditions" class="block px-5 py-2.5 text-[13px] font-semibold text-navy hover:bg-warm-deep hover:text-steel">All conditions we treat →</a></li>
+              <li class="border-t gna-rule-soft mx-3 my-1" aria-hidden="true"></li>
+              <?php foreach ($gna_nav_conditions as [$l, $u]): ?>
+              <li><a href="<?= $u ?>" class="block px-5 py-2 text-[13px] text-navy hover:bg-warm-deep hover:text-steel"><?= gna_e($l) ?></a></li>
+              <?php endforeach; ?>
+            </ul>
+          </div>
+        </div>
+
+        <div class="gna-nav-item relative" data-open="false">
+          <button type="button" class="gna-eyebrow <?= $is_treatments_active ? 'text-steel' : 'text-navy hover:text-steel' ?> flex items-center gap-1 py-2" aria-expanded="false" aria-controls="nav-treatments">
+            Treatments <span class="text-[9px]" aria-hidden="true">▾</span>
+          </button>
+          <div id="nav-treatments" class="gna-nav-menu gna-float absolute top-full -left-24 mt-3 w-[560px] bg-white border gna-rule rounded-md z-50">
+            <div class="grid grid-cols-2 gap-2 p-3">
+              <div>
+                <p class="gna-eyebrow text-slate px-3 pt-2 pb-2">Surgical &amp; reconstructive</p>
+                <ul>
+                  <li><a href="/tmj-treatment" class="block px-3 py-2 text-[13px] text-navy hover:bg-warm-deep hover:text-steel rounded">TMJ treatment</a></li>
+                  <?php foreach ($gna_nav_surgical as [$l, $u]): ?>
+                  <li><a href="<?= $u ?>" class="block px-3 py-2 text-[13px] text-navy hover:bg-warm-deep hover:text-steel rounded"><?= gna_e($l) ?></a></li>
+                  <?php endforeach; ?>
+                </ul>
+              </div>
+              <div class="border-l gna-rule-soft pl-2">
+                <p class="gna-eyebrow text-slate px-3 pt-2 pb-2">Facial aesthetic</p>
+                <ul>
+                  <?php foreach ($gna_nav_cosmetic as [$l, $u]): ?>
+                  <li><a href="<?= $u ?>" class="block px-3 py-2 text-[13px] text-navy hover:bg-warm-deep hover:text-steel rounded"><?= gna_e($l) ?></a></li>
+                  <?php endforeach; ?>
+                  <li><a href="/treatments" class="block px-3 py-2 mt-1 text-[13px] font-semibold text-steel hover:bg-warm-deep rounded">All treatments →</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Treatments -->
-        <div class="gna-nav-item relative">
-          <button onmousedown="event.preventDefault()"
-            class="gna-eyebrow <?php echo $is_treatments_active ? 'text-[var(--steel)]' : 'text-[var(--navy)] hover:text-[var(--steel)]'; ?> flex items-center gap-1 transition-colors"
-            aria-expanded="false" aria-haspopup="true" aria-controls="nav-treatments">
-            Treatments <span class="text-[9px] transition-transform" aria-hidden="true">▾</span>
-          </button>
-          <div id="nav-treatments"
-            class="gna-nav-menu gna-float absolute top-full left-0 mt-3 w-72 bg-white border gna-rule rounded-md z-50"
-            role="menu">
-            <div class="py-2">
-              <a href="<?php echo $path_prefix; ?>treatments.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">All Treatments</a>
-              <div class="border-t gna-rule-soft mx-3 my-1"></div>
-              <a href="<?php echo $path_prefix; ?>tmj-treatment.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">TMJ Treatment</a>
-              <a href="<?php echo $path_prefix; ?>tmj-arthroscopy.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">TMJ Arthroscopy</a>
-              <a href="<?php echo $path_prefix; ?>jaw-surgery.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">Orthognathic Surgery</a>
-              <a href="<?php echo $path_prefix; ?>advanced-jaw-surgery.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">Advanced Jaw Reconstruction</a>
-              <a href="<?php echo $path_prefix; ?>rhinoplasty-treatment.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">Rhinoplasty</a>
-              <a href="<?php echo $path_prefix; ?>skin-grafts-and-flaps.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">Skin Grafts &amp; Flaps</a>
-              <a href="<?php echo $path_prefix; ?>oral-cancer-treatment.php"
-                class="block px-5 py-2.5 text-[13px] text-[var(--navy)] hover:bg-[var(--warm-deep)] hover:text-[var(--steel)] transition-colors"
-                role="menuitem">Oral Cancer Surgery</a>
-            </div>
-          </div>
-        </div>
-
-        <a href="<?php echo $path_prefix; ?>index.php#doctors"
-          class="gna-eyebrow whitespace-nowrap text-[var(--navy)] hover:text-[var(--steel)] transition-colors">Our Doctors</a>
-        <a href="<?php echo $path_prefix; ?>index.php#stories"
-          class="gna-eyebrow text-[var(--navy)] hover:text-[var(--steel)] transition-colors">Patients</a>
-        <a href="<?php echo $path_prefix; ?>blogs/"
-          class="gna-eyebrow <?php echo $is_blog_active ? 'text-[var(--steel)]' : 'text-[var(--navy)] hover:text-[var(--steel)]'; ?> transition-colors">Journal</a>
-        <a href="<?php echo $path_prefix; ?>index.php#contact"
-          class="gna-eyebrow text-[var(--navy)] hover:text-[var(--steel)] transition-colors">Contact</a>
+        <a href="/#doctors" class="gna-eyebrow whitespace-nowrap text-navy hover:text-steel py-2">Our Surgeons</a>
+        <a href="/blogs/" class="gna-eyebrow <?= $is_blog_active ? 'text-steel' : 'text-navy hover:text-steel' ?> py-2">Patient Guides</a>
+        <a href="/maxillofacial-surgeon-gachibowli" class="gna-eyebrow text-navy hover:text-steel py-2">Location</a>
       </nav>
 
-      <!-- Right cluster (desktop) -->
-      <div class="hidden lg:flex items-center gap-3">
-        <div class="hidden 2xl:flex items-center gap-1.5 text-[11px] text-[var(--slate)]"
-          role="img" aria-label="Rated 4.8 out of 5 on Practo">
-          <span class="text-[var(--steel)] text-[14px]" aria-hidden="true">★</span>
-          <span class="font-semibold text-[var(--navy)]">4.8</span>
-          <span>· Practo</span>
-        </div>
-        <a href="https://wa.me/919000666476?text=Hello%20Gnathos%20team%2C%20I%27d%20like%20to%20book%20a%20consultation."
-          target="_blank" rel="noopener" class="gna-btn gna-btn-whatsapp !hidden 2xl:!inline-flex !py-2 !px-3 !text-[11px]"
-          aria-label="Chat on WhatsApp">
-          WhatsApp
-        </a>
-        <a href="<?php echo $path_prefix; ?>index.php#contact"
-          class="gna-btn gna-btn-primary !py-2 !px-4 !text-[11px]">Book Appointment</a>
+      <div class="hidden lg:flex items-center gap-4">
+        <a href="tel:<?= GNA_PHONE ?>" class="hidden xl:inline-flex text-[13px] font-semibold text-navy hover:text-steel whitespace-nowrap" data-gna-track="call"><?= GNA_PHONE_DISP ?></a>
+        <a href="/book-appointment" class="gna-btn gna-btn-primary !py-2 !px-4 !text-[11px]">Book Appointment</a>
       </div>
 
-      <!-- Mobile menu toggle -->
-      <button id="gna-mobile-toggle" type="button"
-        class="lg:hidden flex items-center gap-2 text-[var(--navy)] p-2 min-h-[44px] min-w-[44px]"
-        aria-label="Open menu" aria-expanded="false" aria-controls="gna-mobile-menu">
-        <span class="text-2xl leading-none" aria-hidden="true">≡</span>
+      <button id="gna-mobile-toggle" type="button" class="lg:hidden flex items-center gap-2 text-navy p-2 min-h-[44px] min-w-[44px]" aria-label="Open menu" aria-expanded="false" aria-controls="gna-mobile-menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
         <span class="hidden sm:inline gna-eyebrow">Menu</span>
       </button>
     </div>
   </div>
 </header>
 
-<!-- ── 3. Mobile menu panel ─────────────────────────────────────── -->
-<aside id="gna-mobile-menu" class="gna-mobile-menu lg:hidden fixed inset-0 z-[55] bg-[#F8F5EF]" data-open="false"
-  aria-hidden="true" role="dialog" aria-label="Mobile menu">
+<div id="gna-mobile-menu" class="gna-mobile-menu lg:hidden fixed inset-0 z-[70] bg-[#F8F5EF]" data-open="false" role="dialog" aria-modal="true" aria-label="Site menu">
   <div class="flex items-center justify-between p-4 border-b gna-rule">
-    <img alt="Gnathos" class="h-9 w-auto" src="/asset/gna-logop.png" width="300" height="71" />
-    <button type="button" id="gna-mobile-close" class="p-2 min-h-[44px] min-w-[44px] flex items-center justify-center"
-      aria-label="Close menu">
-      <span class="text-3xl leading-none" aria-hidden="true">×</span>
+    <img alt="" class="h-9 w-auto" src="/asset/gna-logop.png" width="300" height="71"/>
+    <button type="button" id="gna-mobile-close" class="p-2 min-h-[44px] min-w-[44px] flex items-center justify-center text-navy" aria-label="Close menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
     </button>
   </div>
-  <nav class="p-4 pb-8 overflow-y-auto h-[calc(100dvh-72px)]" aria-label="Mobile primary">
-    <ul class="space-y-1 text-[16px] font-medium">
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>index.php">Home</a></li>
-      <li class="border-t gna-rule-soft pt-2 mt-2">
-        <p class="gna-eyebrow text-[var(--slate)] px-3 py-2">Conditions</p>
+  <nav class="p-4 pb-10 overflow-y-auto h-[calc(100dvh-72px)]" aria-label="Mobile">
+    <ul class="text-[16px] font-medium">
+      <li><a class="block px-3 py-3 rounded text-navy hover:bg-warm-deep" href="/">Home</a></li>
+      <li>
+        <details class="group border-t gna-rule-soft">
+          <summary class="flex items-center justify-between px-3 py-3 text-navy">Conditions <span class="transition-transform group-open:rotate-180" aria-hidden="true">▾</span></summary>
+          <ul class="pb-2">
+            <li><a class="block px-6 py-2.5 text-[15px] text-navy" href="/conditions">All conditions</a></li>
+            <?php foreach ($gna_nav_conditions as [$l, $u]): ?><li><a class="block px-6 py-2.5 text-[15px] text-slate" href="<?= $u ?>"><?= gna_e($l) ?></a></li><?php endforeach; ?>
+          </ul>
+        </details>
       </li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>conditions.php">All Conditions</a></li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>tmj-disorders.php">TMJ Disorders</a></li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>facial-injuries.php">Facial Injuries &amp; Trauma</a></li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>obstructive-sleep-apnea.php">Sleep Apnea (OSA)</a></li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>oral-cancer.php">Oral Cancer</a></li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>rhinoplasty.php">Nasal Deformities</a></li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>orthognathic-surgery.php">Jaw Misalignment</a></li>
-
-      <li class="border-t gna-rule-soft pt-2 mt-2">
-        <p class="gna-eyebrow text-[var(--slate)] px-3 py-2">Treatments</p>
+      <li>
+        <details class="group border-t gna-rule-soft">
+          <summary class="flex items-center justify-between px-3 py-3 text-navy">Treatments <span class="transition-transform group-open:rotate-180" aria-hidden="true">▾</span></summary>
+          <ul class="pb-2">
+            <li><a class="block px-6 py-2.5 text-[15px] text-navy" href="/treatments">All treatments</a></li>
+            <li><a class="block px-6 py-2.5 text-[15px] text-slate" href="/tmj-treatment">TMJ treatment</a></li>
+            <?php foreach (array_merge($gna_nav_surgical, $gna_nav_cosmetic) as [$l, $u]): ?><li><a class="block px-6 py-2.5 text-[15px] text-slate" href="<?= $u ?>"><?= gna_e($l) ?></a></li><?php endforeach; ?>
+          </ul>
+        </details>
       </li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>treatments.php">All Treatments</a></li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>tmj-treatment.php">TMJ Treatment</a></li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>jaw-surgery.php">Orthognathic Surgery</a></li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>rhinoplasty-treatment.php">Rhinoplasty</a></li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>skin-grafts-and-flaps.php">Skin Grafts &amp; Flaps</a></li>
-
-      <li><a
-          class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)] border-t gna-rule-soft pt-2 mt-2"
-          href="<?php echo $path_prefix; ?>index.php#doctors">Our Doctors</a></li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>index.php#stories">Patient Stories</a></li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>blogs/">Journal</a></li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>index.php#contact">Contact</a></li>
-      <li><a class="block px-3 py-3 rounded text-[var(--navy)] hover:bg-[var(--warm-deep)]"
-          href="<?php echo $path_prefix; ?>index.php#faq">FAQ</a></li>
+      <li class="border-t gna-rule-soft"><a class="block px-3 py-3 text-navy" href="/#doctors">Our Surgeons</a></li>
+      <li class="border-t gna-rule-soft"><a class="block px-3 py-3 text-navy" href="/blogs/">Patient Guides</a></li>
+      <li class="border-t gna-rule-soft"><a class="block px-3 py-3 text-navy" href="/maxillofacial-surgeon-gachibowli">Clinic in Gachibowli</a></li>
+      <li class="border-t gna-rule-soft"><a class="block px-3 py-3 text-trauma font-semibold" href="/facial-trauma-emergency-hyderabad">Facial injury? 24/7 line</a></li>
+      <li class="border-t gna-rule-soft"><a class="block px-3 py-3 text-navy" href="/book-appointment">Book an appointment</a></li>
     </ul>
-
     <div class="mt-6 pt-6 border-t gna-rule space-y-3">
-      <a href="tel:+919000666476" class="block gna-btn gna-btn-emergency justify-center !w-full">📞 Call Trauma Line</a>
-      <a href="https://wa.me/919000666476" target="_blank" rel="noopener"
-        class="block gna-btn gna-btn-whatsapp justify-center !w-full">WhatsApp Us</a>
-      <a href="<?php echo $path_prefix; ?>index.php#contact"
-        class="block gna-btn gna-btn-primary justify-center !w-full">Book Appointment</a>
+      <a href="/book-appointment" class="gna-btn gna-btn-primary !w-full">Book Appointment</a>
+      <a href="tel:<?= GNA_PHONE ?>" class="gna-btn gna-btn-emergency !w-full">Call <?= GNA_PHONE_DISP ?></a>
+      <a href="<?= gna_e(gna_wa()) ?>" target="_blank" rel="noopener" class="gna-btn gna-btn-whatsapp !w-full">WhatsApp Us</a>
     </div>
   </nav>
-</aside>
+</div>
 
 <script>
-  // Pin masthead below the emergency strip by reading the strip's actual height.
-  (function () {
-    const strip = document.getElementById('gna-emergency-strip');
-    const header = document.querySelector('header');
-    if (!strip || !header) return;
-    function pin() {
-      const h = strip.getBoundingClientRect().height;
-      document.documentElement.style.setProperty('--gna-strip-h', h + 'px');
-    }
-    pin();
-    window.addEventListener('resize', pin);
-    if ('ResizeObserver' in window) new ResizeObserver(pin).observe(strip);
-  })();
-
-  // Mobile menu
-  (function () {
-    const openBtn = document.getElementById('gna-mobile-toggle');
-    const closeBtn = document.getElementById('gna-mobile-close');
-    const menu = document.getElementById('gna-mobile-menu');
-    if (!openBtn || !closeBtn || !menu) return;
-    function setOpen(open) {
-      menu.dataset.open = open ? 'true' : 'false';
-      menu.setAttribute('aria-hidden', open ? 'false' : 'true');
-      openBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
-      document.body.style.overflow = open ? 'hidden' : '';
-      if (open) closeBtn.focus();
-    }
-    openBtn.addEventListener('click', () => setOpen(true));
-    closeBtn.addEventListener('click', () => setOpen(false));
-    menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setOpen(false)));
-    document.addEventListener('keydown', e => { if (e.key === 'Escape' && menu.dataset.open === 'true') setOpen(false); });
-  })();
-
-  // Native aria-expanded for desktop dropdown buttons
-  document.querySelectorAll('button[aria-haspopup="true"]').forEach(btn => {
-    const id = btn.getAttribute('aria-controls');
-    const menu = id && document.getElementById(id);
-    if (!menu) return;
-    const parent = btn.parentElement;
-    parent.addEventListener('mouseenter', () => btn.setAttribute('aria-expanded', 'true'));
-    parent.addEventListener('mouseleave', () => btn.setAttribute('aria-expanded', 'false'));
-    btn.addEventListener('focus', () => btn.setAttribute('aria-expanded', 'true'));
-    btn.addEventListener('blur', () => setTimeout(() => {
-      if (!parent.contains(document.activeElement)) btn.setAttribute('aria-expanded', 'false');
-    }, 0));
+(function () {
+  var strip = document.getElementById('gna-emergency-strip');
+  if (strip) {
+    var pin = function () { document.documentElement.style.setProperty('--gna-strip-h', strip.getBoundingClientRect().height + 'px'); };
+    pin(); window.addEventListener('resize', pin, { passive: true });
+  }
+  var openBtn = document.getElementById('gna-mobile-toggle'), closeBtn = document.getElementById('gna-mobile-close'), menu = document.getElementById('gna-mobile-menu');
+  function setOpen(open) {
+    menu.dataset.open = open ? 'true' : 'false';
+    openBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.body.style.overflow = open ? 'hidden' : '';
+    (open ? closeBtn : openBtn).focus();
+  }
+  if (openBtn && menu) {
+    openBtn.addEventListener('click', function () { setOpen(true); });
+    closeBtn.addEventListener('click', function () { setOpen(false); });
+    menu.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', function () { setOpen(false); }); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && menu.dataset.open === 'true') setOpen(false); });
+  }
+  // Desktop dropdowns: hover, focus and click (touch laptops) all work; Escape closes.
+  document.querySelectorAll('.gna-nav-item').forEach(function (item) {
+    var btn = item.querySelector('button');
+    function set(open) { item.dataset.open = open ? 'true' : 'false'; btn.setAttribute('aria-expanded', open ? 'true' : 'false'); }
+    item.addEventListener('mouseenter', function () { set(true); });
+    item.addEventListener('mouseleave', function () { set(false); });
+    btn.addEventListener('click', function () { set(item.dataset.open !== 'true'); });
+    item.addEventListener('focusout', function (e) { if (!item.contains(e.relatedTarget)) set(false); });
+    item.addEventListener('keydown', function (e) { if (e.key === 'Escape') { set(false); btn.focus(); } });
   });
+})();
 </script>
 
 <main id="main">
+<?php if (!empty($breadcrumbs) && empty($hide_breadcrumbs)): ?>
+<div class="max-w-[1280px] mx-auto px-4 md:px-8 pt-5 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+  <nav class="gna-crumbs" aria-label="Breadcrumb">
+    <ol>
+      <?php $gna_bc_last = count($breadcrumbs) - 1; foreach (array_values($breadcrumbs) as $i => $bc): ?>
+      <li><?php if ($i < $gna_bc_last && $bc[1]): ?><a href="<?= gna_e($bc[1]) ?>"><?= gna_e(html_entity_decode($bc[0])) ?></a><?php else: ?><span aria-current="page"><?= gna_e(html_entity_decode($bc[0])) ?></span><?php endif; ?></li>
+      <?php endforeach; ?>
+    </ol>
+  </nav>
+  <?php if (($page_type ?? '') === 'MedicalWebPage' && empty($hide_review_line)): $gna_rv = $GNA_DOCTORS[$page_reviewer ?? 'suresh']; ?>
+  <p class="text-[12px] text-slate">Medically reviewed by <a href="/#doctors" class="text-navy font-medium hover:text-steel"><?= gna_e($gna_rv['name']) ?>, MDS</a> · <time datetime="<?= gna_e($page_reviewed ?? '2026-11-23') ?>"><?= date('M Y', strtotime($page_reviewed ?? '2026-11-23')) ?></time></p>
+  <?php endif; ?>
+</div>
+<?php endif; ?>

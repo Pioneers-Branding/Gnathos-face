@@ -1,13 +1,22 @@
 <?php
-$path_prefix = "";
-$page_title = "Jaw Surgery Hyderabad | Gnathos Facial Surgery";
-$page_description = "";
-$canonical_url = "https://gnathosface.com/jaw-surgery/";
+$path_prefix = '';
+$page_title = 'Jaw Surgery in Hyderabad | Corrective Jaw Surgery | Gnathos';
+$page_description = 'Corrective jaw surgery in Hyderabad for underbite, overbite, open bite and facial asymmetry, planned with 3D imaging alongside your orthodontist.';
+$canonical_url = 'https://gnathosface.com/jaw-surgery';
+$page_about = 'Jaw Surgery (Orthognathic Surgery)';
+$breadcrumbs = [['Home', '/'], ['Treatments', '/treatments'], ['Jaw Surgery (Orthognathic Surgery)', null]];
+$page_faqs = [
+    ['q' => 'Will I experience a lot of pain after surgery?', 'a' => 'Most patients report more discomfort from swelling and nasal congestion than actual pain. Pain is well-managed with prescribed medications during the initial recovery period.'],
+    ['q' => 'How long is the hospital stay?', 'a' => 'Typically, patients stay in the hospital for 1 to 2 nights following orthognathic surgery for monitoring and to ensure comfort before returning home.'],
+    ['q' => 'How long will my jaw be wired shut?', 'a' => 'With modern rigid fixation techniques (using small titanium plates and screws), jaws are rarely wired shut anymore. Instead, light elastic bands may be used to guide your bite into its new position.'],
+    ['q' => 'What can I eat during recovery?', 'a' => 'You will be on a strict liquid or pureed diet for the first few weeks, gradually transitioning to a soft "no-chew" diet as healing progresses over the next 4-6 weeks.'],
+    ['q' => 'Is jaw surgery covered by insurance?', 'a' => 'Coverage varies widely. When performed to correct significant functional deficits (like chewing difficulty or sleep apnea), it is often covered. We will assist you in verifying your benefits before treatment.'],
+];
+$cta_heading = 'Get a specialist opinion on jaw Surgery (Orthognathic Surgery).';
+$cta_topic = 'Jaw misalignment (orthognathic surgery)';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-<main>
 <!-- 1. Hero Section -->
 <section class="relative w-full min-h-[640px] md:min-h-[700px] flex items-stretch bg-primary overflow-hidden">
   <!-- Glowing decorative radial background behind text column -->
@@ -26,13 +35,13 @@ include $path_prefix . 'header.php';
           <span class="text-secondary-fixed font-light italic">(Orthognathic Surgery)</span>
         </h1>
         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-10 leading-relaxed">
-          Restore facial harmony, correct bite abnormalities, and improve breathing functionality. Led by Dr. Suresh, utilizing 3D Virtual Surgical Planning for unparalleled precision in complex maxillofacial reconstructions.
+          Restore facial harmony, correct bite abnormalities, and improve breathing functionality. Led by Dr. Suresh P.L., utilizing 3D Virtual Surgical Planning for unparalleled precision in complex maxillofacial reconstructions.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <a href="index.php#contact" class="inline-flex items-center justify-center bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:brightness-110 hover:shadow-[0_0_20px_rgba(19,104,112,0.4)] transition-all duration-300 text-center font-bold">
+          <a href="/book-appointment" class="inline-flex items-center justify-center bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:brightness-110 hover:shadow-[0_0_20px_rgba(19,104,112,0.4)] transition-all duration-300 text-center font-bold">
             Request Assessment
           </a>
-          <a href="conditions.php" class="inline-flex items-center justify-center border border-outline-variant/60 text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-white/10 hover:border-white/40 hover:shadow-lg transition-all duration-300 text-center">
+          <a href="/conditions" class="inline-flex items-center justify-center border border-outline-variant/60 text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-white/10 hover:border-white/40 hover:shadow-lg transition-all duration-300 text-center">
             Explore Case Studies
           </a>
         </div>
@@ -42,10 +51,7 @@ include $path_prefix . 'header.php';
     <!-- Right panel (Clinical image) -->
     <div class="relative min-h-[350px] md:min-h-full overflow-hidden">
       <!-- Right image -->
-      <img alt="Clinical operating theater background" 
-           class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105" 
-           data-alt="A sterile, high-end hospital operating room environment in a minimalist clinical style. Soft, bright white surgical lights dominate the ceiling, casting a pristine glow over clean, slate-white surfaces. The mood is calm, professional, and advanced. Subtle navy blue accents are visible on medical equipment in the deeply out-of-focus background. Highly realistic, 8k resolution, architectural photography approach." 
-           src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsDNXdTJwGlcIdMc4B9gxrCeWkDAbPS3x3OZMQxwt-AjgWVu0v7JsLPoC5ratH_BFYreSyCVfbKigHtmwtW2QhoHj02h6q_XHQEmVRYasYgvL_PRpbdwF8zJn_W1sKW4oMh6DW6nICuVNa35SIJs5acYBF9YzFTBlUkZ5q-_fMfq9JayrW5hqD4PXAcOee1xVf9VM5Yo6pT8W2XoXwWX1oKlnyDdncI4181UBFeF73aKJnpQOyEMUPpLfVmkzxiVCQx2TTIpg1C-g"/>
+      <div class="gna-plate w-full h-full" role="img" aria-label="Clinical operating theater background"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Clinical operating theater background</p></div>
       
       <!-- Subtle dark gradient wash over the image to blend into the dark page layout -->
       <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-primary via-primary/30 to-transparent pointer-events-none z-20"></div>
@@ -57,7 +63,7 @@ include $path_prefix . 'header.php';
 <div class="max-w-container-max mx-auto">
 <div class="text-center mb-16">
 <h2 class="font-headline-md text-headline-md text-primary mb-4">The Standard of Care in Maxillofacial Surgery</h2>
-<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">We combine academic expertise with cutting-edge technology to deliver predictable, transformative outcomes for complex facial deformities.</p>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">We combine academic expertise with modern technology to deliver predictable, transformative outcomes for complex facial deformities.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 <!-- Feature 1 -->
@@ -74,7 +80,7 @@ include $path_prefix . 'header.php';
 <span class="material-symbols-outlined text-on-secondary-container" data-icon="local_hospital" data-weight="fill">local_hospital</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm text-primary mb-3">Hospital-Based Care</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">Procedures are performed at CARE Hospitals, ensuring access to advanced ICUs, specialized anesthesiologists, and comprehensive multi-disciplinary support.</p>
+<p class="font-body-md text-body-md text-on-surface-variant">Procedures are performed at CARE Hospitals, HITEC City, ensuring access to advanced ICUs, specialized anesthesiologists, and comprehensive multi-disciplinary support.</p>
 </div>
 <!-- Feature 3 -->
 <div class="bg-surface-container-lowest p-8 rounded-lg border border-surface-container-highest ambient-shadow hover-lift">
@@ -163,19 +169,19 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Surgeon reviewing 3D scans on a monitor" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALZZmj6_CAFtHy1vjXdbgnvuwqwnWdk_19QuvDwG7i0mDVRvdLGV05_43z3vvdldkKpstRUl-guoUaftbE5CwioKDaq5UVRxVAq0U8MGjGGnlSm4htoUiK9tI08QygsZdIE6fAW0tK3GLUdbMjaWzgMiRGr0vmWz94CBZCAz5n98VK4wg6s8B_4q7qH50Kaisg_8K1fkcOpoN94riL7idTd-mmNaOJ3BB3Dd_lfNVLvh2AzJQD5CYSFJuSDgGq37lTF8537L1ZhCA"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Surgeon reviewing 3D scans on a monitor"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Surgeon reviewing 3D scans on a monitor</p></div>
 </div>
 </div>
 <!-- Step 2 -->
 <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
 <div class="order-1 md:order-1">
-<img alt="Operating room environment" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEFkiI4mjDEE18YDwFhytADXKSi52219_ImkXimFwvR_u_lEi32i_FGV-fHjIDfiuUGL1lJeadbUQP-VudLVyKwmYno2hUz4EdWrurPoOkszJUln7aMR43klGyT4vRj2F-e9ksMWzt4q9dm_IKwmSyFF36Jj32w61XM7ifV4JQo3iOufuJ2-9_ghJAMrR2v5dtBYCQPel3QIstAIejIFPRUIyA66943uzujXTS879KGpz70wCQ4303HF08bi3co5b4l1czHWqRntk"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Operating room environment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Operating room environment</p></div>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
 <h3 class="font-headline-sm text-2xl text-primary mb-4">The Procedure</h3>
 <p class="text-on-surface-variant mb-6">
-                    Performed in the state-of-the-art surgical suites at CARE Hospitals, our specialized approach prioritizes precise execution of planned osteotomies. Our team adheres to strict international clinical standards for safety and efficacy throughout the complex reconstruction.
+                    Performed in the modern surgical suites at CARE Hospitals, HITEC City, our specialized approach prioritizes precise execution of planned osteotomies. Our team adheres to strict international clinical standards for safety and efficacy throughout the complex reconstruction.
                 </p>
 <ul class="space-y-3">
 <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Tertiary Care Hospital Setting</span></li>
@@ -199,7 +205,7 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Patient consulting with doctor during recovery" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Patient consulting with doctor during recovery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Patient consulting with doctor during recovery</p></div>
 </div>
 </div>
 </div>
@@ -276,9 +282,9 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 <div class="mt-12 text-center">
-<button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+<a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                 Request a Consultation
-            </button>
+            </a>
 </div>
 </div>
 </section>
@@ -339,51 +345,6 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 </section>
-<!-- The Surgical Team -->
-<section class="py-section-gap bg-primary text-on-primary">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md mb-4">Expert Surgical Team</h2>
-<p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                Decades of specialized experience in managing complex maxillofacial conditions.
-            </p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Suresh" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/Dr.-Suresh.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant and TMJ Specialist</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant and TMJ Specialist with 20+ years of dedicated clinical experience.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral &amp; Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant and TMJ Specialist</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant and TMJ Specialist with 15+ years of dedicated clinical experience.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral &amp; Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
 <!-- Patient Preparation Checklist -->
 <section class="py-section-gap bg-surface">
 <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
@@ -424,6 +385,7 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 </section>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <!-- Patient FAQs -->
 <section class="py-section-gap bg-surface-container-low">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -435,7 +397,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&amp;_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will I experience a lot of pain after surgery?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Most patients report more discomfort from swelling and nasal congestion than actual pain. Pain is well-managed with prescribed medications during the initial recovery period.
@@ -444,7 +406,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&amp;_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long is the hospital stay?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Typically, patients stay in the hospital for 1 to 2 nights following orthognathic surgery for monitoring and to ensure comfort before returning home.
@@ -453,7 +415,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&amp;_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long will my jaw be wired shut?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     With modern rigid fixation techniques (using small titanium plates and screws), jaws are rarely wired shut anymore. Instead, light elastic bands may be used to guide your bite into its new position.
@@ -462,7 +424,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&amp;_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What can I eat during recovery?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     You will be on a strict liquid or pureed diet for the first few weeks, gradually transitioning to a soft "no-chew" diet as healing progresses over the next 4-6 weeks.
@@ -471,7 +433,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&amp;_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Is jaw surgery covered by insurance?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Coverage varies widely. When performed to correct significant functional deficits (like chewing difficulty or sleep apnea), it is often covered. We will assist you in verifying your benefits before treatment.
@@ -480,21 +442,5 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 </section>
-<!-- Final CTA -->
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Restore Your Jaw Function?</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                    Take the first step toward improved function and facial harmony. Schedule a comprehensive evaluation with our specialists.
-                </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                    Schedule Your Evaluation
-                    <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-</button>
-</div>
-</section>
-</main>
 <!-- Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

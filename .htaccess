@@ -1,48 +1,76 @@
 RewriteEngine on
+Options -Indexes
 
-# Redirect old paths to the new pages to prevent 403 Forbidden errors and 404s
+# --- Canonical host: https://gnathosface.com (production host only; proxy-safe) ---
+RewriteCond %{HTTP_HOST} ^www\.gnathosface\.com$ [NC]
+RewriteRule ^ https://gnathosface.com%{REQUEST_URI} [R=301,L,NE]
+RewriteCond %{HTTP_HOST} ^gnathosface\.com$ [NC]
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://gnathosface.com%{REQUEST_URI} [R=301,L,NE]
+
+# --- Never serve build tooling, source, internal docs or includes over HTTP ---
+RewriteRule ^(node_modules|src|tools|seo-plan|includes|\.git|\.vscode)(/|$) - [F,L]
+<FilesMatch "(\.(md|py|json|lock|log|sh|mjs|ini|sql|zip|bak)|\.DS_Store|^tailwind\.config\.js)$">
+  Require all denied
+</FilesMatch>
+
+# --- Old paths ---
+# TMJ symptom pages moved from "/TMJ Arthroscopy/" (URL with a space) to clean /tmj/ URLs
+RewriteRule ^TMJ\sArthroscopy/?$ /tmj-treatment [R=301,L,NC]
+RewriteRule ^TMJ\sArthroscopy/([a-z0-9-]+?)(?:\.php)?/?$ /tmj/$1 [R=301,L,NC]
 RewriteRule ^services(\.php)?/?$ /treatments [R=301,L,NC]
-RewriteRule ^contact\.php$ /#contact [R=301,L,NC]
+RewriteRule ^contact(-us)?(\.php)?/?$ /book-appointment [R=301,L,NC]
+RewriteRule ^appointment/?$ /book-appointment [R=301,L,NC]
+# Legacy /blog/ directory -> /blogs/ in a single hop
+RewriteRule ^blog/?$ /blogs/ [R=301,L]
+RewriteRule ^blog/(?:index\.php)?$ /blogs/ [R=301,L]
+RewriteRule ^blog/([a-z0-9-]+?)(?:\.php)?/?$ /blogs/$1/ [R=301,L]
+# The TMJ page exists twice with identical content; send the duplicate's .php form straight to the canonical
+RewriteRule ^tmj-disorders\.php$ /tmj-treatment [R=301,L]
 
 # --- BEGIN GNA-Face-Blogs Routing ---
-
-# 1) Block broken / legacy WordPress asset & pagination requests under /blogs/ so they
-#    don't generate 404s or expose the old wp-content path. Send them to /blogs/.
 RewriteRule ^blogs/wp-content/.*$ /blogs/ [R=301,L]
 RewriteRule ^blogs/category/.*$ /blogs/ [R=301,L]
 RewriteRule ^blogs/page/.*$ /blogs/ [R=301,L]
 RewriteRule ^blogs/feed/?$ /blogs/ [R=301,L]
 RewriteRule ^blogs/tag/.*$ /blogs/ [R=301,L]
 RewriteRule ^blogs/author/.*$ /blogs/ [R=301,L]
-
-# 2) Force a trailing slash on every /blogs/<slug> -> /blogs/<slug>/ to match
-#    the canonical URLs declared in every blog file. This avoids duplicate-content
-#    issues between the bare-slug and trailing-slash variants.
+# /blogs/index.php and /blogs/<slug>.php -> canonical trailing-slash URLs (one hop)
+RewriteCond %{THE_REQUEST} \s/blogs/index\.php[\s?] [NC]
+RewriteRule ^ /blogs/ [R=301,L]
+RewriteCond %{THE_REQUEST} \s/blogs/([a-z0-9-]+)\.php[\s?] [NC]
+RewriteRule ^ /blogs/%1/ [R=301,L]
+# /blogs/<slug> -> /blogs/<slug>/
 RewriteCond %{REQUEST_URI} ^/blogs/[a-z0-9-]+$
-RewriteRule ^(blogs/[a-z0-9-]+)$ $1/ [R=301,L]
-
-# 3) Map clean /blogs/<slug>/ to the matching PHP file under /blogs/.
-#    Also accepts the bare /blogs/<slug> form for compatibility.
+RewriteRule ^(blogs/[a-z0-9-]+)$ /$1/ [R=301,L]
+# Serve /blogs/<slug>/ from blogs/<slug>.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^blogs/([a-z0-9-]+)/?$ /blogs/$1.php [L]
-
 # --- END GNA-Face-Blogs Routing ---
 
+# /index.php -> /
+RewriteCond %{THE_REQUEST} \s/index\.php[\s?] [NC]
+RewriteRule ^ / [R=301,L]
+
+# Externally redirect /dir/foo.php -> /dir/foo (permanent, so search engines consolidate signals)
+RewriteCond %{REQUEST_METHOD} !POST
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.?\s]+)\.php [NC]
+RewriteRule ^ %1 [R=301,L,NE]
+
+# Internally map clean URLs to .php files
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)$ $1.php
+RewriteRule ^(.*)$ $1.php [L]
 
-# To externally redirect /dir/foo.php to /dir/foo
-RewriteCond %{REQUEST_METHOD} !POST
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
-RewriteRule ^ %1 [R=302,L,NE]
+ErrorDocument 404 /404.php
 
 # --- BEGIN GNA-Face-New-Website 301 Redirects ---
 
 # Services and contact.php are redirected via RewriteRules at the top of the file to prevent conflicts.
 Redirect 301 "/about" "/#about"
-Redirect 301 "/contact-us" "/#contact"
+Redirect 301 "/contact-us" "/book-appointment"
 Redirect 301 "/cosmetic-facial-surgery" "/cosmetic-facial-surgery-treatment"
 Redirect 301 "/cosmetic-facial-surgery-in-andhra-pradesh" "/cosmetic-facial-surgery-treatment"
 Redirect 301 "/cosmetic-facial-surgery-in-arunachal-pradesh" "/cosmetic-facial-surgery-treatment"
@@ -180,42 +208,42 @@ Redirect 301 "/facial-swelling-treatment-in-tripura" "/facial-swelling-treatment
 Redirect 301 "/facial-swelling-treatment-in-uttar-pradesh" "/facial-swelling-treatment"
 Redirect 301 "/facial-swelling-treatment-in-uttarakhand" "/facial-swelling-treatment"
 Redirect 301 "/facial-swelling-treatment-in-west-bengal" "/facial-swelling-treatment"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/banjara-hills/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/dilsukhnagar/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/gachibowli/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/hitech-city/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/jubilee-hills/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/kompally/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/kondapur/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/kukatpally/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/lb-nagar/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/madhapur/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/manikonda/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/miyapur/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/secunderabad/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/shamshabad/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/tolichowki/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-clicking-treatment/hyderabad/uppal/" "/TMJ%20Arthroscopy/jaw-clicking-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/ameerpet/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/banjara-hills/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/dilsukhnagar/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/gachibowli/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/hitech-city/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/jubilee-hills/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/kompally/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/kondapur/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/kukatpally/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/lb-nagar/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/madhapur/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/manikonda/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/miyapur/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/secunderabad/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/shamshabad/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/tolichowki/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
-Redirect 301 "/jaw-pain-treatment/hyderabad/uppal/" "/TMJ%20Arthroscopy/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/banjara-hills/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/dilsukhnagar/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/gachibowli/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/hitech-city/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/jubilee-hills/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/kompally/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/kondapur/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/kukatpally/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/lb-nagar/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/madhapur/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/manikonda/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/miyapur/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/secunderabad/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/shamshabad/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/tolichowki/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-clicking-treatment/hyderabad/uppal/" "/tmj/jaw-clicking-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/ameerpet/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/banjara-hills/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/dilsukhnagar/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/gachibowli/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/hitech-city/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/jubilee-hills/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/kompally/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/kondapur/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/kukatpally/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/lb-nagar/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/madhapur/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/manikonda/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/miyapur/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/secunderabad/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/shamshabad/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/tolichowki/" "/tmj/jaw-pain-treatment-hyderabad"
+Redirect 301 "/jaw-pain-treatment/hyderabad/uppal/" "/tmj/jaw-pain-treatment-hyderabad"
 Redirect 301 "/jaw-reconstruction" "/orthognathic-surgery"
 Redirect 301 "/maxillofacial-surgeon-in-agartala" "/"
 Redirect 301 "/maxillofacial-surgeon-in-agra" "/"
@@ -417,23 +445,23 @@ Redirect 301 "/maxillofacial-surgeon-in-visakhapatnam" "/"
 Redirect 301 "/maxillofacial-surgeon-in-warangal" "/"
 Redirect 301 "/maxillofacial-surgeon-in-west-bengal" "/"
 Redirect 301 "/maxillofacial-surgeon-in-west-delhi" "/"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/banjara-hills/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/dilsukhnagar/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/gachibowli/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/hitech-city/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/jubilee-hills/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/kompally/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/kondapur/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/kukatpally/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/lb-nagar/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/madhapur/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/manikonda/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/miyapur/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/secunderabad/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/shamshabad/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/tolichowki/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
-Redirect 301 "/mouth-opening-problem-treatment/hyderabad/uppal/" "/TMJ%20Arthroscopy/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/banjara-hills/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/dilsukhnagar/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/gachibowli/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/hitech-city/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/jubilee-hills/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/kompally/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/kondapur/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/kukatpally/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/lb-nagar/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/madhapur/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/manikonda/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/miyapur/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/secunderabad/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/shamshabad/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/tolichowki/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
+Redirect 301 "/mouth-opening-problem-treatment/hyderabad/uppal/" "/tmj/difficulty-opening-mouth-treatment-hyderabad"
 Redirect 301 "/oral-cancer-treatment-in-andhra-pradesh" "/oral-cancer-treatment"
 Redirect 301 "/oral-cancer-treatment-in-arunachal-pradesh" "/oral-cancer-treatment"
 Redirect 301 "/oral-cancer-treatment-in-assam" "/oral-cancer-treatment"
@@ -699,3 +727,30 @@ Redirect 301 "/tmj-treatment-in-uttarakhand" "/tmj-treatment"
 Redirect 301 "/tmj-treatment-in-west-bengal" "/tmj-treatment"
 
 # --- END GNA-Face-New-Website 301 Redirects ---
+
+# --- Security headers (DPDP "reasonable security safeguards") ---
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()"
+  Header always set Strict-Transport-Security "max-age=31536000"
+  # Long-lived caching for fingerprinted / static assets
+  <FilesMatch "\.(woff2|webp|png|jpg|jpeg|svg|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.css$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+</IfModule>
+
+# --- Compression ---
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml text/xml application/xml text/plain
+</IfModule>
+
+# --- Correct types ---
+<IfModule mod_mime.c>
+  AddType font/woff2 .woff2
+  AddType image/webp .webp
+</IfModule>

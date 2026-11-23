@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Scar Revision Surgery in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert scar revision surgery in Hyderabad at CARE Hospitals. Our maxillofacial surgeons improve the appearance of facial scars through advanced surgical techniques.";
+$path_prefix = '../';
+$page_title = 'Scar Revision Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'Scar revision surgery in Hyderabad at CARE Hospitals. Our maxillofacial surgeons improve the appearance of facial scars through advanced surgical techniques.';
+$canonical_url = 'https://gnathosface.com/Skin-Grafts/scar-revision-surgery-hyderabad';
+$page_about = 'Scar Revision Surgery';
+$breadcrumbs = [['Home', '/'], ['Skin grafts & flaps', '/skin-grafts-and-flaps'], ['Scar Revision Surgery', null]];
+$page_faqs = [
+    ['q' => 'Will scar revision completely remove my scar?', 'a' => 'Scar revision improves but does not completely remove scars. The goal is to make the scar less visible by repositioning it along natural skin lines, redistributing tension, or breaking up the scar pattern. The revised scar will still be a scar, but it should be less noticeable than the original.'],
+    ['q' => 'How long should I wait before having scar revision?', 'a' => 'Scars should typically mature for 6-12 months before revision. During this time, scars naturally flatten and fade. Revising an immature scar may result in the same healing process and potentially a similar final appearance. However, in some cases such as functional impairment, earlier revision may be appropriate.'],
+    ['q' => 'How many scar revision surgeries will I need?', 'a' => 'Many patients achieve good results with a single revision. However, complex scars or those with significant contractures may require staged procedures. Your surgeon will discuss the expected treatment plan for your specific situation. Additional treatments like steroid injections or laser therapy may also be recommended.'],
+    ['q' => 'Will the new scar be better than my original scar?', 'a' => 'The goal is to improve the appearance of the scar, not create a new one that looks the same. Proper surgical technique and good healing typically result in a less noticeable revised scar. However, factors like your individual healing response, skin type, and adherence to postoperative care affect the final result.'],
+    ['q' => 'Can acne scars be treated with scar revision?', 'a' => 'Some acne scars can be improved with surgical revision, particularly ice pick scars or depressed scars that can be surgically excised. However, many acne scars are better treated with techniques like microneedling, laser therapy, or dermal fillers. Your surgeon will recommend the best approach for your specific acne scars.'],
+];
+$cta_heading = 'Get a specialist opinion on scar Revision Surgery.';
+$cta_topic = 'Reconstruction / skin grafts';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -18,61 +27,17 @@ include $path_prefix . 'header.php';
                     Scar Revision Surgery in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Expert scar revision surgery at Gnathos Facial Surgery. Our maxillofacial surgeons improve facial scar appearance through advanced surgical techniques for natural-looking results.
+                    Expert scar revision surgery at Gnathos Facial. Our maxillofacial surgeons improve facial scar appearance through advanced surgical techniques for natural-looking results.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Scar revision surgery performed by expert maxillofacial surgeons at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Scar Revision
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Facial scars require specialized treatment for optimal cosmetic outcomes. Our surgeons understand the nuances of scar revision and work to achieve the best possible appearance.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">auto_fix_high</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Advanced Techniques</h3>
-                    <p class="text-on-surface-variant text-sm">Modern surgical techniques for optimal scar improvement.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">spa</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Natural Results</h3>
-                    <p class="text-on-surface-variant text-sm">Focus on achieving natural-looking scar camouflage.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">history</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Proven Experience</h3>
-                    <p class="text-on-surface-variant text-sm">Extensive experience with various scar types and treatments.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">support_agent</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Comprehensive Care</h3>
-                    <p class="text-on-surface-variant text-sm">From assessment through recovery and scar management.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Scar revision surgery performed by expert maxillofacial surgeons"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Scar revision surgery performed by expert maxillofacial surgeons</p></div>
                 </div>
             </div>
         </div>
@@ -129,13 +94,13 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Scar assessment at Gnathos Facial Surgery Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Scar assessment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Scar assessment</p></div>
                 </div>
             </div>
             <!-- Step 2 -->
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Scar revision surgery at CARE Hospitals Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Scar revision surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Scar revision surgery</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -161,7 +126,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Post-operative care at Gnathos Facial Surgery Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Post-operative care"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Post-operative care</p></div>
                 </div>
             </div>
         </div>
@@ -238,9 +203,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             Proper preparation helps ensure optimal scar revision outcomes.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Checklist PDF
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -248,7 +211,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">schedule</span>
                                 <div>
                                     <strong class="text-primary block mb-1">Allow Scar Maturation</strong>
-                                    <span class="text-sm text-on-surface-variant">Scars should be mature (at least 6-12 months old) before revision for best results</span>
+                                    <span class="text-sm text-on-surface-variant">Scars should be mature (at least 6-12 months old) before revision for good results</span>
                                 </div>
                             </li>
                             <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
@@ -307,7 +270,7 @@ include $path_prefix . 'header.php';
                 <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
                     <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
                         <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                            <span class="material-symbols-outlined">auto_fix_high</span>
+                            <span class="material-symbols-outlined">brush</span>
                         </div>
                         <h3 class="font-headline-sm text-primary">Adjunctive Treatments</h3>
                     </div>
@@ -328,55 +291,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- THE SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Scar Revision Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Skilled surgeons with expertise in facial scar revision for optimal cosmetic outcomes.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Over two decades of experience in facial scar revision. Expert in complex scar revision techniques for optimal cosmetic improvement of traumatic and surgical scars.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Specializing in aesthetic scar revision with expertise in fine suturing techniques and scar camouflage for natural-looking results.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -388,7 +310,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will scar revision completely remove my scar?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Scar revision improves but does not completely remove scars. The goal is to make the scar less visible by repositioning it along natural skin lines, redistributing tension, or breaking up the scar pattern. The revised scar will still be a scar, but it should be less noticeable than the original.
@@ -397,7 +319,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long should I wait before having scar revision?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Scars should typically mature for 6-12 months before revision. During this time, scars naturally flatten and fade. Revising an immature scar may result in the same healing process and potentially a similar final appearance. However, in some cases such as functional impairment, earlier revision may be appropriate.
@@ -406,7 +328,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How many scar revision surgeries will I need?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Many patients achieve good results with a single revision. However, complex scars or those with significant contractures may require staged procedures. Your surgeon will discuss the expected treatment plan for your specific situation. Additional treatments like steroid injections or laser therapy may also be recommended.
@@ -415,7 +337,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will the new scar be better than my original scar?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         The goal is to improve the appearance of the scar, not create a new one that looks the same. Proper surgical technique and good healing typically result in a less noticeable revised scar. However, factors like your individual healing response, skin type, and adherence to postoperative care affect the final result.
@@ -424,7 +346,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Can acne scars be treated with scar revision?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Some acne scars can be improved with surgical revision, particularly ice pick scars or depressed scars that can be surgically excised. However, many acne scars are better treated with techniques like microneedling, laser therapy, or dermal fillers. Your surgeon will recommend the best approach for your specific acne scars.
@@ -434,22 +356,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Improve Your Scar Appearance</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Whether from an accident, surgery, or previous injury, facial scars can often be improved through revision surgery. Schedule a consultation to explore your options.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Lower Face Reshaping Surgery in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert lower face reshaping surgery in Hyderabad. Dr. Suresh P.L. at CARE Hospitals, Banjara Hills offers comprehensive lower face contouring for improved jawline, chin, and facial harmony.";
+$path_prefix = '../';
+$page_title = 'Lower Face Reshaping Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'Lower face reshaping surgery in Hyderabad. Dr. Suresh P.L. at CARE Hospitals offers comprehensive lower face contouring for improved jawline.';
+$canonical_url = 'https://gnathosface.com/Cosmetic-Facial-Surgery/lower-face-reshaping-surgery';
+$page_about = 'Lower Face Reshaping Surgery';
+$breadcrumbs = [['Home', '/'], ['Cosmetic facial surgery', '/cosmetic-facial-surgery-treatment'], ['Lower Face Reshaping Surgery', null]];
+$page_faqs = [
+    ['q' => 'What specific problems can lower face reshaping address?', 'a' => 'Lower face reshaping can address receding or protruding chin, jaw width or angle prominence, jaw asymmetry, lack of jawline definition, disproportionate lower face height, and overall lower facial imbalance. During consultation at our Hyderabad center, we\'ll assess your specific concerns and recommend appropriate procedures for your needs.'],
+    ['q' => 'Will lower face reshaping affect my ability to eat or speak?', 'a' => 'No, lower face reshaping is designed to improve aesthetics while preserving or enhancing function. Your surgeon ensures that eating, speaking, and other jaw functions remain normal or improve after reshaping. Some temporary adjustment may occur during recovery, but long-term function is fully maintained or improved.'],
+    ['q' => 'Can chin and jaw procedures be done together?', 'a' => 'Yes, combining chin and jaw procedures is common and often provides better overall harmony than single-area correction. Combined procedures address all aspects of lower face disproportion in one surgery, with a single recovery period. Your surgeon will recommend the best approach based on your specific anatomy and goals during consultation at CARE Hospitals.'],
+    ['q' => 'How long does lower face reshaping surgery take?', 'a' => 'Surgery duration varies depending on the procedures involved. Single-area correction like chin reshaping takes 1-2 hours. Combined chin and jaw reshaping typically takes 3-4 hours. Your surgeon will provide a precise estimate during consultation at our Hyderabad center based on your specific treatment plan.'],
+    ['q' => 'What is the cost of lower face reshaping surgery in Hyderabad?', 'a' => 'Costs depend on the specific procedures required and their complexity. During consultation at our Hyderabad center, we provide detailed estimates covering all aspects of your reshaping plan. We offer payment options and can discuss financing to make your lower face transformation accessible.'],
+];
+$cta_heading = 'Get a specialist opinion on lower Face Reshaping Surgery.';
+$cta_topic = 'Cosmetic facial procedure';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -18,61 +27,17 @@ include $path_prefix . 'header.php';
                     Lower Face Reshaping Surgery in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Transform your lower face with comprehensive contouring procedures. Our expert surgeons at CARE Hospitals, Banjara Hills reshape the jawline and chin for improved facial harmony, balance, and aesthetic appeal.
+                    Transform your lower face with comprehensive contouring procedures. Our expert surgeons at CARE Hospitals, HITEC City reshape the jawline and chin for improved facial harmony, balance, and aesthetic appeal.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Lower face reshaping surgery - Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Lower Face Reshaping
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Lower face reshaping requires comprehensive understanding of how the jaw, chin, and surrounding structures work together. Our Hyderabad center combines surgical expertise with aesthetic vision to create harmonious lower facial proportions.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">architecture</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Comprehensive Approach</h3>
-                    <p class="text-on-surface-variant text-sm">Address multiple lower face concerns together for cohesive, harmonious results.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">tune</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Customized Treatment</h3>
-                    <p class="text-on-surface-variant text-sm">Surgical plan tailored to your specific anatomy and aesthetic goals.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">visibility</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Aesthetic Vision</h3>
-                    <p class="text-on-surface-variant text-sm">Understanding of ideal lower face proportions for natural-looking enhancement.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">medical_services</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Functional Preservation</h3>
-                    <p class="text-on-surface-variant text-sm">Improved aesthetics while maintaining or enhancing jaw function and bite.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Lower face reshaping surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Lower face reshaping surgery</p></div>
                 </div>
             </div>
         </div>
@@ -128,17 +93,17 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Lower face assessment - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Lower face assessment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Lower face assessment</p></div>
                 </div>
             </div>
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Lower face reshaping procedure - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Lower face reshaping procedure"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Lower face reshaping procedure</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
                     <h3 class="font-headline-sm text-2xl text-primary mb-4">Precision Lower Face Reshaping</h3>
-                    <p class="text-on-surface-variant mb-6">At CARE Hospitals, Banjara Hills, our surgeons perform comprehensive lower face reshaping. Procedures may include chin advancement or reduction, jaw angle contouring, mandibular reshaping, or combined approaches to achieve harmonious lower face proportions and improved facial balance.</p>
+                    <p class="text-on-surface-variant mb-6">At CARE Hospitals, HITEC City, our surgeons perform comprehensive lower face reshaping. Procedures may include chin advancement or reduction, jaw angle contouring, mandibular reshaping, or combined approaches to achieve harmonious lower face proportions and improved facial balance.</p>
                     <ul class="space-y-3">
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Chin projection adjustment</span></li>
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Jaw angle contouring</span></li>
@@ -158,7 +123,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Lower face reshaping results - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Lower face reshaping results"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Lower face reshaping results</p></div>
                 </div>
             </div>
         </div>
@@ -219,106 +184,7 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- COMPARISON -->
-    <section class="py-section-gap">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="bg-primary-container rounded-2xl p-8 md:p-12 border border-primary/10">
-                <div class="text-center mb-12">
-                    <h2 class="font-headline-md text-headline-md text-on-primary mb-4">Before & After: What to Expect</h2>
-                    <p class="font-body-lg text-body-lg text-primary-fixed-dim max-w-2xl mx-auto">
-                        Understanding the transformation helps you prepare for your lower face reshaping journey.
-                    </p>
-                </div>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div class="bg-surface-container-lowest/10 p-8 rounded-xl">
-                        <h3 class="font-headline-sm text-xl text-on-primary mb-6 text-center">Before Surgery</h3>
-                        <ul class="space-y-4 text-on-primary/80">
-                            <li class="flex items-start gap-3">
-                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1">close</span>
-                                <span>Disproportionate lower face proportions</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1">close</span>
-                                <span>Recessed or prominent chin affecting profile</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1">close</span>
-                                <span>Wide or asymmetric jaw appearance</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1">close</span>
-                                <span>Lack of lower facial definition and harmony</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="bg-surface-container-lowest/10 p-8 rounded-xl">
-                        <h3 class="font-headline-sm text-xl text-on-primary mb-6 text-center">After Surgery</h3>
-                        <ul class="space-y-4 text-on-primary/80">
-                            <li class="flex items-start gap-3">
-                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1">check_circle</span>
-                                <span>Balanced lower face proportions</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1">check_circle</span>
-                                <span>Harmonious chin position and projection</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1">check_circle</span>
-                                <span>Defined, proportional jawline</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1">check_circle</span>
-                                <span>Natural-looking lower facial harmony</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Lower Face Reshaping Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Our surgical team combines expertise in facial structure with aesthetic understanding to deliver lower face reshaping results that enhance overall facial harmony naturally.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Suresh has over 20 years of experience in lower face reshaping procedures. His comprehensive understanding of jaw and chin anatomy combined with aesthetic vision has helped numerous patients in Hyderabad achieve harmonious lower face proportions through expertly planned reshaping surgery.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Navatha specializes in lower face contouring with particular expertise in chin and jaw reshaping. Her meticulous surgical technique and artistic eye ensure patients receive comprehensive lower face enhancement that creates natural-looking harmony and improved facial proportions.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -330,7 +196,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What specific problems can lower face reshaping address?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Lower face reshaping can address receding or protruding chin, jaw width or angle prominence, jaw asymmetry, lack of jawline definition, disproportionate lower face height, and overall lower facial imbalance. During consultation at our Hyderabad center, we'll assess your specific concerns and recommend appropriate procedures for your needs.
@@ -339,7 +205,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will lower face reshaping affect my ability to eat or speak?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         No, lower face reshaping is designed to improve aesthetics while preserving or enhancing function. Your surgeon ensures that eating, speaking, and other jaw functions remain normal or improve after reshaping. Some temporary adjustment may occur during recovery, but long-term function is fully maintained or improved.
@@ -348,16 +214,16 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Can chin and jaw procedures be done together?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                        Yes, combining chin and jaw procedures is common and often provides better overall harmony than single-area correction. Combined procedures address all aspects of lower face disproportion in one surgery, with a single recovery period. Your surgeon will recommend the best approach based on your specific anatomy and goals during consultation at CARE Hospitals, Banjara Hills.
+                        Yes, combining chin and jaw procedures is common and often provides better overall harmony than single-area correction. Combined procedures address all aspects of lower face disproportion in one surgery, with a single recovery period. Your surgeon will recommend the best approach based on your specific anatomy and goals during consultation at CARE Hospitals, HITEC City.
                     </div>
                 </details>
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long does lower face reshaping surgery take?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Surgery duration varies depending on the procedures involved. Single-area correction like chin reshaping takes 1-2 hours. Combined chin and jaw reshaping typically takes 3-4 hours. Your surgeon will provide a precise estimate during consultation at our Hyderabad center based on your specific treatment plan.
@@ -366,7 +232,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What is the cost of lower face reshaping surgery in Hyderabad?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Costs depend on the specific procedures required and their complexity. During consultation at our Hyderabad center, we provide detailed estimates covering all aspects of your reshaping plan. We offer payment options and can discuss financing to make your lower face transformation accessible.
@@ -376,22 +242,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Reshape Your Lower Face Today</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Transform your lower face with expert reshaping for improved jawline, chin, and overall facial harmony. Schedule a consultation with our skilled surgical team at CARE Hospitals, Banjara Hills to discuss your options and develop a personalized treatment plan for a more balanced, harmonious appearance.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

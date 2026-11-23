@@ -1,14 +1,24 @@
 <?php
-$path_prefix = "../";
-$page_title = "Difficulty Breathing Through Nose Treatment in Hyderabad | Septoplasty | CARE Hospitals";
-$page_description = "Expert difficulty breathing through nose treatment in Hyderabad at CARE Hospitals. Dr. Suresh P.L. & Dr. Navatha Mortha offer septoplasty and turbinate reduction for clear airways.";
+$path_prefix = '../';
+$page_title = 'Difficulty Breathing Through Nose Treatment in Hyderabad';
+$page_description = 'Difficulty breathing through nose treatment in Hyderabad at CARE Hospitals. Dr. Suresh P.L. & Dr. Navatha Mortha offer septoplasty and turbinate reduction for.';
+$canonical_url = 'https://gnathosface.com/Rhinoplasty/difficulty-breathing-through-nose-treatment-hyderabad';
+$page_about = 'Difficulty Breathing Through Nose Treatment';
+$breadcrumbs = [['Home', '/'], ['Rhinoplasty', '/rhinoplasty-treatment'], ['Difficulty Breathing Through Nose Treatment', null]];
+$page_faqs = [
+    ['q' => 'What causes difficulty breathing through the nose?', 'a' => 'Common causes include deviated septum, enlarged turbinates, nasal polyps, chronic sinusitis, allergies, and structural abnormalities. Proper diagnosis is essential for effective treatment.'],
+    ['q' => 'Is septoplasty covered by insurance?', 'a' => 'Yes, septoplasty is often covered by insurance when performed for medical reasons (breathing difficulties). Cosmetic rhinoplasty may not be covered. We can help verify your coverage during consultation.'],
+    ['q' => 'How long does breathing improvement last after surgery?', 'a' => 'Surgical correction of breathing problems provides long-lasting improvement. Results are permanent unless other factors develop later, such as regrowth of turbinates or new allergies.'],
+    ['q' => 'Will septoplasty change my nose appearance?', 'a' => 'Septoplasty alone focuses on internal structures and typically doesn\'t change external appearance. If you also want cosmetic changes, septoplasty can be combined with rhinoplasty in a septorhinoplasty.'],
+    ['q' => 'How do I know if I need turbinate reduction?', 'a' => 'Enlarged turbinates often cause persistent congestion despite allergy treatment. Diagnosis via nasal endoscopy and CT scan determines if turbinate reduction would benefit your breathing.'],
+];
+$cta_heading = 'Get a specialist opinion on difficulty Breathing Through Nose Treatment.';
+$cta_topic = 'Nose shape or breathing (rhinoplasty)';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-care-blue via-blue-700 to-blue-900 text-white py-20 lg:py-32">
+    <section class="relative bg-gradient-to-br from-care-blue via-[#14324f] to-[#0b2139] text-white py-20 lg:py-32">
         <div class="absolute inset-0 opacity-10">
             <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <path d="M0,100 L100,0 L100,100 Z" fill="white"></path>
@@ -17,45 +27,21 @@ include $path_prefix . 'header.php';
         <div class="container mx-auto px-4 relative">
             <div class="max-w-4xl mx-auto text-center">
                 <span class="inline-block bg-white/20 backdrop-blur-sm text-white px-5 py-2 rounded-full text-sm font-medium mb-6">
-                    <i class="fas fa-lungs mr-2"></i>Breathe Freely Again
+                    <span class="material-symbols-outlined mr-2" aria-hidden="true">pulmonology</span>Breathe Freely Again
                 </span>
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold leading-tight mb-6">
                     Difficulty Breathing Through Nose Treatment in Hyderabad
                 </h1>
-                <p class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
-                    Expert Treatment for Nasal Obstruction. Restore Clear Breathing at CARE Hospitals with Advanced Surgical Techniques.
+                <p class="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto">
+                    Expert Treatment for Nasal Obstruction. Restore Clear Breathing at CARE Hospitals, HITEC City with Advanced Surgical Techniques.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="#treatment" class="bg-white text-care-blue px-8 py-4 rounded-full font-semibold hover:bg-blue-50 transition text-lg">
+                    <a href="#treatment" class="bg-white text-care-blue px-8 py-4 rounded-full font-semibold hover:bg-warm-deep transition text-lg">
                         Explore Treatment Options
                     </a>
-                    <a href="tel:+916616565656" class="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-care-blue transition text-lg">
-                        <i class="fas fa-phone-alt mr-2"></i>Call Now
+                    <a href="tel:+919000666476" class="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-care-blue transition text-lg">
+                        <span class="material-symbols-outlined mr-2" aria-hidden="true">call</span>Call Now
                     </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Trust Signals -->
-    <section class="py-12 bg-care-light">
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                <div class="text-center p-4">
-                    <div class="text-3xl md:text-4xl font-bold text-care-blue mb-1">20+</div>
-                    <p class="text-gray-600 text-sm">Years Experience</p>
-                </div>
-                <div class="text-center p-4">
-                    <div class="text-3xl md:text-4xl font-bold text-care-blue mb-1">5000+</div>
-                    <p class="text-gray-600 text-sm">Successful Surgeries</p>
-                </div>
-                <div class="text-center p-4">
-                    <div class="text-3xl md:text-4xl font-bold text-care-blue mb-1">3000+</div>
-                    <p class="text-gray-600 text-sm">Breathing Procedures</p>
-                </div>
-                <div class="text-center p-4">
-                    <div class="text-3xl md:text-4xl font-bold text-care-blue mb-1">4.9★</div>
-                    <p class="text-gray-600 text-sm">Google Rating</p>
                 </div>
             </div>
         </div>
@@ -75,21 +61,21 @@ include $path_prefix . 'header.php';
             <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <div class="bg-care-light rounded-2xl p-6 hover:shadow-lg transition">
                     <div class="w-14 h-14 bg-care-blue/10 rounded-xl flex items-center justify-center mb-4">
-                        <i class="fas fa-arrows-alt-h text-care-blue text-xl"></i>
+                        <span class="material-symbols-outlined text-care-blue text-xl" aria-hidden="true">swap_horiz</span>
                     </div>
                     <h3 class="font-bold text-lg mb-2 text-gray-900">Deviated Septum</h3>
                     <p class="text-gray-600 text-sm">The cartilage dividing your nasal passages is crooked or off-center. This blocks airflow on one or both sides and is one of the most common causes of breathing difficulty.</p>
                 </div>
                 <div class="bg-care-light rounded-2xl p-6 hover:shadow-lg transition">
                     <div class="w-14 h-14 bg-care-blue/10 rounded-xl flex items-center justify-center mb-4">
-                        <i class="fas fa-tint text-care-blue text-xl"></i>
+                        <span class="material-symbols-outlined text-care-blue text-xl" aria-hidden="true">water_drop</span>
                     </div>
                     <h3 class="font-bold text-lg mb-2 text-gray-900">Enlarged Turbinates</h3>
                     <p class="text-gray-600 text-sm">The bony structures inside your nose that filter air become swollen from allergies or irritation. They can block the airway despite otherwise normal anatomy.</p>
                 </div>
                 <div class="bg-care-light rounded-2xl p-6 hover:shadow-lg transition">
                     <div class="w-14 h-14 bg-care-blue/10 rounded-xl flex items-center justify-center mb-4">
-                        <i class="fas fa-virus text-care-blue text-xl"></i>
+                        <span class="material-symbols-outlined text-care-blue text-xl" aria-hidden="true">coronavirus</span>
                     </div>
                     <h3 class="font-bold text-lg mb-2 text-gray-900">Nasal Polyps</h3>
                     <p class="text-gray-600 text-sm">Benign growths in the nasal passages, often from chronic inflammation. Large polyps can significantly obstruct breathing and reduce sense of smell.</p>
@@ -115,7 +101,7 @@ include $path_prefix . 'header.php';
                 <div class="flex flex-col md:flex-row items-center gap-8 bg-white rounded-2xl p-6 shadow-sm">
                     <div class="md:w-1/3">
                         <div class="bg-gray-200 border-2 border-dashed rounded-xl w-full h-48 flex items-center justify-center">
-                            <i class="fas fa-stethoscope text-6xl text-gray-400"></i>
+                            <span class="material-symbols-outlined text-6xl text-gray-400" aria-hidden="true">stethoscope</span>
                         </div>
                     </div>
                     <div class="md:w-2/3">
@@ -129,7 +115,7 @@ include $path_prefix . 'header.php';
                 <div class="flex flex-col md:flex-row-reverse items-center gap-8 bg-white rounded-2xl p-6 shadow-sm">
                     <div class="md:w-1/3">
                         <div class="bg-gray-200 border-2 border-dashed rounded-xl w-full h-48 flex items-center justify-center">
-                            <i class="fas fa-drafting-compass text-6xl text-gray-400"></i>
+                            <span class="material-symbols-outlined text-6xl text-gray-400" aria-hidden="true">architecture</span>
                         </div>
                     </div>
                     <div class="md:w-2/3">
@@ -143,7 +129,7 @@ include $path_prefix . 'header.php';
                 <div class="flex flex-col md:flex-row items-center gap-8 bg-white rounded-2xl p-6 shadow-sm">
                     <div class="md:w-1/3">
                         <div class="bg-gray-200 border-2 border-dashed rounded-xl w-full h-48 flex items-center justify-center">
-                            <i class="fas fa-user-md text-6xl text-gray-400"></i>
+                            <span class="material-symbols-outlined text-6xl text-gray-400" aria-hidden="true">stethoscope</span>
                         </div>
                     </div>
                     <div class="md:w-2/3">
@@ -174,9 +160,9 @@ include $path_prefix . 'header.php';
                     <h3 class="text-xl font-bold text-gray-900 mt-2 mb-3">Initial Healing</h3>
                     <p class="text-gray-600 text-sm mb-4">Congestion and mild bleeding normal initially. Nasal packing may be used briefly. Use saline sprays and follow care instructions for optimal healing.</p>
                     <ul class="space-y-2 text-sm text-gray-600">
-                        <li class="flex items-start gap-2"><i class="fas fa-check text-care-blue mt-1"></i>Rest with head elevated</li>
-                        <li class="flex items-start gap-2"><i class="fas fa-check text-care-blue mt-1"></i>Saline irrigation</li>
-                        <li class="flex items-start gap-2"><i class="fas fa-check text-care-blue mt-1"></i>Avoid blowing nose</li>
+                        <li class="flex items-start gap-2"><span class="material-symbols-outlined text-care-blue mt-1" aria-hidden="true">check</span>Rest with head elevated</li>
+                        <li class="flex items-start gap-2"><span class="material-symbols-outlined text-care-blue mt-1" aria-hidden="true">check</span>Saline irrigation</li>
+                        <li class="flex items-start gap-2"><span class="material-symbols-outlined text-care-blue mt-1" aria-hidden="true">check</span>Avoid blowing nose</li>
                     </ul>
                 </div>
 
@@ -185,9 +171,9 @@ include $path_prefix . 'header.php';
                     <h3 class="text-xl font-bold text-gray-900 mt-2 mb-3">Improvement Begins</h3>
                     <p class="text-gray-600 text-sm mb-4">Significant breathing improvement as swelling decreases. Internal healing progresses. Return to normal activities gradually.</p>
                     <ul class="space-y-2 text-sm text-gray-600">
-                        <li class="flex items-start gap-2"><i class="fas fa-check text-care-blue mt-1"></i>Breathing improves</li>
-                        <li class="flex items-start gap-2"><i class="fas fa-check text-care-blue mt-1"></i>Return to work</li>
-                        <li class="flex items-start gap-2"><i class="fas fa-check text-care-blue mt-1"></i>Light activities OK</li>
+                        <li class="flex items-start gap-2"><span class="material-symbols-outlined text-care-blue mt-1" aria-hidden="true">check</span>Breathing improves</li>
+                        <li class="flex items-start gap-2"><span class="material-symbols-outlined text-care-blue mt-1" aria-hidden="true">check</span>Return to work</li>
+                        <li class="flex items-start gap-2"><span class="material-symbols-outlined text-care-blue mt-1" aria-hidden="true">check</span>Light activities OK</li>
                     </ul>
                 </div>
 
@@ -196,9 +182,9 @@ include $path_prefix . 'header.php';
                     <h3 class="text-xl font-bold text-gray-900 mt-2 mb-3">Final Results</h3>
                     <p class="text-gray-600 text-sm mb-4">Complete internal healing. Maximal breathing improvement achieved. Long-term relief from nasal obstruction.</p>
                     <ul class="space-y-2 text-sm text-gray-600">
-                        <li class="flex items-start gap-2"><i class="fas fa-check text-care-blue mt-1"></i>Full activities resume</li>
-                        <li class="flex items-start gap-2"><i class="fas fa-check text-care-blue mt-1"></i>Clear breathing</li>
-                        <li class="flex items-start gap-2"><i class="fas fa-check text-care-blue mt-1"></i>Lasting results</li>
+                        <li class="flex items-start gap-2"><span class="material-symbols-outlined text-care-blue mt-1" aria-hidden="true">check</span>Full activities resume</li>
+                        <li class="flex items-start gap-2"><span class="material-symbols-outlined text-care-blue mt-1" aria-hidden="true">check</span>Clear breathing</li>
+                        <li class="flex items-start gap-2"><span class="material-symbols-outlined text-care-blue mt-1" aria-hidden="true">check</span>Lasting results</li>
                     </ul>
                 </div>
             </div>
@@ -213,35 +199,35 @@ include $path_prefix . 'header.php';
                     <h2 class="text-3xl md:text-4xl font-playfair font-bold mb-6">
                         Preparing for Breathing Surgery
                     </h2>
-                    <p class="text-blue-100 mb-6">
+                    <p class="text-white/80 mb-6">
                         Proper preparation helps ensure the best possible outcome for your breathing improvement.
                     </p>
                     <div class="space-y-4">
                         <div class="flex items-start gap-4">
                             <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-file-medical text-white"></i>
+                                <span class="material-symbols-outlined text-white" aria-hidden="true">description</span>
                             </div>
                             <div>
                                 <h4 class="font-semibold mb-1">Medical History</h4>
-                                <p class="text-blue-100 text-sm">Disclose all medications, previous nasal surgeries, bleeding disorders, and current allergies. Some medications may need to be stopped before surgery.</p>
+                                <p class="text-white/80 text-sm">Disclose all medications, previous nasal surgeries, bleeding disorders, and current allergies. Some medications may need to be stopped before surgery.</p>
                             </div>
                         </div>
                         <div class="flex items-start gap-4">
                             <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-calendar text-white"></i>
+                                <span class="material-symbols-outlined text-white" aria-hidden="true">calendar_month</span>
                             </div>
                             <div>
                                 <h4 class="font-semibold mb-1">Recovery Planning</h4>
-                                <p class="text-blue-100 text-sm">Plan for 1-2 weeks off work. Arrange transportation as anesthesia may be used. Have someone available to help initially.</p>
+                                <p class="text-white/80 text-sm">Plan for 1-2 weeks off work. Arrange transportation as anesthesia may be used. Have someone available to help initially.</p>
                             </div>
                         </div>
                         <div class="flex items-start gap-4">
                             <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-clipboard-check text-white"></i>
+                                <span class="material-symbols-outlined text-white" aria-hidden="true">assignment_turned_in</span>
                             </div>
                             <div>
                                 <h4 class="font-semibold mb-1">Pre-Surgery Prep</h4>
-                                <p class="text-blue-100 text-sm">Stop blood-thinning medications and supplements as directed. Fast before surgery as instructed. Stop smoking for optimal healing.</p>
+                                <p class="text-white/80 text-sm">Stop blood-thinning medications and supplements as directed. Fast before surgery as instructed. Stop smoking for optimal healing.</p>
                             </div>
                         </div>
                     </div>
@@ -294,28 +280,28 @@ include $path_prefix . 'header.php';
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
                 <div class="bg-white rounded-xl p-5 shadow-sm text-center">
                     <div class="w-12 h-12 bg-care-blue/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                        <i class="fas fa-wave-square text-care-blue"></i>
+                        <span class="material-symbols-outlined text-care-blue" aria-hidden="true">graphic_eq</span>
                     </div>
                     <h4 class="font-semibold text-gray-900 mb-2">Nasal Endoscopy</h4>
                     <p class="text-gray-600 text-sm">Direct visualization</p>
                 </div>
                 <div class="bg-white rounded-xl p-5 shadow-sm text-center">
                     <div class="w-12 h-12 bg-care-blue/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                        <i class="fas fa-x-ray text-care-blue"></i>
+                        <span class="material-symbols-outlined text-care-blue" aria-hidden="true">radiology</span>
                     </div>
                     <h4 class="font-semibold text-gray-900 mb-2">CT Scan</h4>
                     <p class="text-gray-600 text-sm">Sinus evaluation</p>
                 </div>
                 <div class="bg-white rounded-xl p-5 shadow-sm text-center">
                     <div class="w-12 h-12 bg-care-blue/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                        <i class="fas fa-allergies text-care-blue"></i>
+                        <span class="material-symbols-outlined text-care-blue" aria-hidden="true">sick</span>
                     </div>
                     <h4 class="font-semibold text-gray-900 mb-2">Allergy Testing</h4>
                     <p class="text-gray-600 text-sm">Trigger identification</p>
                 </div>
                 <div class="bg-white rounded-xl p-5 shadow-sm text-center">
                     <div class="w-12 h-12 bg-care-blue/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                        <i class="fas fa-wind text-care-blue"></i>
+                        <span class="material-symbols-outlined text-care-blue" aria-hidden="true">air</span>
                     </div>
                     <h4 class="font-semibold text-gray-900 mb-2">Breathing Tests</h4>
                     <p class="text-gray-600 text-sm">Airway assessment</p>
@@ -339,7 +325,7 @@ include $path_prefix . 'header.php';
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <div class="bg-care-light rounded-2xl p-6">
                     <div class="w-14 h-14 bg-care-blue rounded-xl flex items-center justify-center mb-4">
-                        <i class="fas fa-arrows-alt-h text-white text-xl"></i>
+                        <span class="material-symbols-outlined text-white text-xl" aria-hidden="true">swap_horiz</span>
                     </div>
                     <h3 class="font-bold text-lg text-gray-900 mb-2">Septoplasty</h3>
                     <p class="text-gray-600 text-sm mb-4">Straightening of the deviated septum—the cartilage dividing your nasal passages. Most common surgery for breathing difficulties with high success rates.</p>
@@ -348,7 +334,7 @@ include $path_prefix . 'header.php';
 
                 <div class="bg-care-light rounded-2xl p-6">
                     <div class="w-14 h-14 bg-care-blue rounded-xl flex items-center justify-center mb-4">
-                        <i class="fas fa-fire text-white text-xl"></i>
+                        <span class="material-symbols-outlined text-white text-xl" aria-hidden="true">local_fire_department</span>
                     </div>
                     <h3 class="font-bold text-lg text-gray-900 mb-2">Turbinate Reduction</h3>
                     <p class="text-gray-600 text-sm mb-4">Reducing the size of swollen turbinates using radiofrequency, coblation, or surgical techniques. Can be done alongside septoplasty.</p>
@@ -357,7 +343,7 @@ include $path_prefix . 'header.php';
 
                 <div class="bg-care-light rounded-2xl p-6">
                     <div class="w-14 h-14 bg-care-blue rounded-xl flex items-center justify-center mb-4">
-                        <i class="fas fa-expand text-white text-xl"></i>
+                        <span class="material-symbols-outlined text-white text-xl" aria-hidden="true">expand</span>
                     </div>
                     <h3 class="font-bold text-lg text-gray-900 mb-2">Nasal Valve Repair</h3>
                     <p class="text-gray-600 text-sm mb-4">Strengthening collapsed nasal valves—the narrowest part of the airway. Uses cartilage grafts to support and open the airway.</p>
@@ -366,7 +352,7 @@ include $path_prefix . 'header.php';
 
                 <div class="bg-care-light rounded-2xl p-6">
                     <div class="w-14 h-14 bg-care-blue rounded-xl flex items-center justify-center mb-4">
-                        <i class="fas fa-pills text-white text-xl"></i>
+                        <span class="material-symbols-outlined text-white text-xl" aria-hidden="true">medication</span>
                     </div>
                     <h3 class="font-bold text-lg text-gray-900 mb-2">Medical Management</h3>
                     <p class="text-gray-600 text-sm mb-4">Allergy medications, nasal sprays, and sinus treatments for non-surgical management. Often tried before considering surgery.</p>
@@ -375,7 +361,7 @@ include $path_prefix . 'header.php';
 
                 <div class="bg-care-light rounded-2xl p-6">
                     <div class="w-14 h-14 bg-care-blue rounded-xl flex items-center justify-center mb-4">
-                        <i class="fas fa-seedling text-white text-xl"></i>
+                        <span class="material-symbols-outlined text-white text-xl" aria-hidden="true">eco</span>
                     </div>
                     <h3 class="font-bold text-lg text-gray-900 mb-2">Polypectomy</h3>
                     <p class="text-gray-600 text-sm mb-4">Removal of nasal polyps blocking the airway. May be combined with sinus surgery for recurrent polyps.</p>
@@ -384,7 +370,7 @@ include $path_prefix . 'header.php';
 
                 <div class="bg-care-light rounded-2xl p-6">
                     <div class="w-14 h-14 bg-care-blue rounded-xl flex items-center justify-center mb-4">
-                        <i class="fas fa-link text-white text-xl"></i>
+                        <span class="material-symbols-outlined text-white text-xl" aria-hidden="true">link</span>
                     </div>
                     <h3 class="font-bold text-lg text-gray-900 mb-2">Septorhinoplasty</h3>
                     <p class="text-gray-600 text-sm mb-4">Combining breathing correction with cosmetic improvement. Addresses both function and appearance in one surgery.</p>
@@ -394,54 +380,7 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- Expert Team -->
-    <section class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-playfair font-bold text-gray-900 mb-4">
-                    Meet Our Expert Surgeons
-                </h2>
-                <p class="text-gray-600 max-w-2xl mx-auto text-lg">
-                    Board-certified ENT specialists and rhinoplasty experts for comprehensive breathing treatment
-                </p>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                <div class="bg-white rounded-2xl p-6 shadow-sm flex flex-col sm:flex-row gap-6">
-                    <div class="bg-gray-200 border-2 border-dashed rounded-xl w-32 h-32 flex-shrink-0 mx-auto sm:mx-0 flex items-center justify-center">
-                        <i class="fas fa-user-md text-5xl text-gray-400"></i>
-                    </div>
-                    <div class="text-center sm:text-left">
-                        <h3 class="font-bold text-xl text-gray-900">Dr. Suresh P.L.</h3>
-                        <p class="text-care-blue font-medium text-sm mb-2">Chief Plastic & Cosmetic Surgeon</p>
-                        <p class="text-gray-600 text-sm mb-2">M.Ch (Plastic Surgery), DNB (Plastic Surgery)</p>
-                        <p class="text-gray-600 text-sm mb-3">Over 15 years of experience combining functional and aesthetic nasal surgery for complete breathing improvement.</p>
-                        <div class="flex items-center justify-center sm:justify-start gap-2 text-sm text-gray-500">
-                            <i class="fas fa-award text-care-gold"></i>
-                            <span>Board Certified</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-2xl p-6 shadow-sm flex flex-col sm:flex-row gap-6">
-                    <div class="bg-gray-200 border-2 border-dashed rounded-xl w-32 h-32 flex-shrink-0 mx-auto sm:mx-0 flex items-center justify-center">
-                        <i class="fas fa-user-md text-5xl text-gray-400"></i>
-                    </div>
-                    <div class="text-center sm:text-left">
-                        <h3 class="font-bold text-xl text-gray-900">Dr. Navatha Mortha</h3>
-                        <p class="text-care-blue font-medium text-sm mb-2">Consultant ENT & Facial Surgeon</p>
-                        <p class="text-gray-600 text-sm mb-2">MBBS, DLO, DNB (ENT)</p>
-                        <p class="text-gray-600 text-sm mb-3">ENT specialist with expertise in nasal airway surgery, sinus procedures, and turbinate reduction.</p>
-                        <div class="flex items-center justify-center sm:justify-start gap-2 text-sm text-gray-500">
-                            <i class="fas fa-award text-care-gold"></i>
-                            <span>ENT Specialist</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- FAQs -->
     <section id="faqs" class="py-16 bg-white">
         <div class="container mx-auto px-4">
@@ -455,83 +394,18 @@ include $path_prefix . 'header.php';
             </div>
 
             <div class="max-w-3xl mx-auto space-y-4">
-                <div class="faq-item bg-care-light rounded-xl overflow-hidden">
-                    <button class="faq-btn w-full px-6 py-4 text-left flex items-center justify-between" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-gray-900">What causes difficulty breathing through the nose?</span>
-                        <i class="faq-icon fas fa-chevron-down text-care-blue transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-answer px-6 pb-4">
-                        <p class="text-gray-600">Common causes include deviated septum, enlarged turbinates, nasal polyps, chronic sinusitis, allergies, and structural abnormalities. Proper diagnosis is essential for effective treatment.</p>
-                    </div>
-                </div>
+                <details class="group bg-white border gna-rule rounded-md"><summary class="flex items-center justify-between gap-4 p-5 font-semibold text-navy">What causes difficulty breathing through the nose?<span class="material-symbols-outlined shrink-0 transition-transform group-open:rotate-180" aria-hidden="true">keyboard_arrow_down</span></summary><div class="px-5 pb-5 text-on-surface-variant leading-relaxed"><p class="text-gray-600">Common causes include deviated septum, enlarged turbinates, nasal polyps, chronic sinusitis, allergies, and structural abnormalities. Proper diagnosis is essential for effective treatment.</p></div></details>
 
-                <div class="faq-item bg-care-light rounded-xl overflow-hidden">
-                    <button class="faq-btn w-full px-6 py-4 text-left flex items-center justify-between" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-gray-900">Is septoplasty covered by insurance?</span>
-                        <i class="faq-icon fas fa-chevron-down text-care-blue transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-answer px-6 pb-4">
-                        <p class="text-gray-600">Yes, septoplasty is often covered by insurance when performed for medical reasons (breathing difficulties). Cosmetic rhinoplasty may not be covered. We can help verify your coverage during consultation.</p>
-                    </div>
-                </div>
+                <details class="group bg-white border gna-rule rounded-md"><summary class="flex items-center justify-between gap-4 p-5 font-semibold text-navy">Is septoplasty covered by insurance?<span class="material-symbols-outlined shrink-0 transition-transform group-open:rotate-180" aria-hidden="true">keyboard_arrow_down</span></summary><div class="px-5 pb-5 text-on-surface-variant leading-relaxed"><p class="text-gray-600">Yes, septoplasty is often covered by insurance when performed for medical reasons (breathing difficulties). Cosmetic rhinoplasty may not be covered. We can help verify your coverage during consultation.</p></div></details>
 
-                <div class="faq-item bg-care-light rounded-xl overflow-hidden">
-                    <button class="faq-btn w-full px-6 py-4 text-left flex items-center justify-between" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-gray-900">How long does breathing improvement last after surgery?</span>
-                        <i class="faq-icon fas fa-chevron-down text-care-blue transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-answer px-6 pb-4">
-                        <p class="text-gray-600">Surgical correction of breathing problems provides long-lasting improvement. Results are permanent unless other factors develop later, such as regrowth of turbinates or new allergies.</p>
-                    </div>
-                </div>
+                <details class="group bg-white border gna-rule rounded-md"><summary class="flex items-center justify-between gap-4 p-5 font-semibold text-navy">How long does breathing improvement last after surgery?<span class="material-symbols-outlined shrink-0 transition-transform group-open:rotate-180" aria-hidden="true">keyboard_arrow_down</span></summary><div class="px-5 pb-5 text-on-surface-variant leading-relaxed"><p class="text-gray-600">Surgical correction of breathing problems provides long-lasting improvement. Results are permanent unless other factors develop later, such as regrowth of turbinates or new allergies.</p></div></details>
 
-                <div class="faq-item bg-care-light rounded-xl overflow-hidden">
-                    <button class="faq-btn w-full px-6 py-4 text-left flex items-center justify-between" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-gray-900">Will septoplasty change my nose appearance?</span>
-                        <i class="faq-icon fas fa-chevron-down text-care-blue transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-answer px-6 pb-4">
-                        <p class="text-gray-600">Septoplasty alone focuses on internal structures and typically doesn't change external appearance. If you also want cosmetic changes, septoplasty can be combined with rhinoplasty in a septorhinoplasty.</p>
-                    </div>
-                </div>
+                <details class="group bg-white border gna-rule rounded-md"><summary class="flex items-center justify-between gap-4 p-5 font-semibold text-navy">Will septoplasty change my nose appearance?<span class="material-symbols-outlined shrink-0 transition-transform group-open:rotate-180" aria-hidden="true">keyboard_arrow_down</span></summary><div class="px-5 pb-5 text-on-surface-variant leading-relaxed"><p class="text-gray-600">Septoplasty alone focuses on internal structures and typically doesn't change external appearance. If you also want cosmetic changes, septoplasty can be combined with rhinoplasty in a septorhinoplasty.</p></div></details>
 
-                <div class="faq-item bg-care-light rounded-xl overflow-hidden">
-                    <button class="faq-btn w-full px-6 py-4 text-left flex items-center justify-between" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-gray-900">How do I know if I need turbinate reduction?</span>
-                        <i class="faq-icon fas fa-chevron-down text-care-blue transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-answer px-6 pb-4">
-                        <p class="text-gray-600">Enlarged turbinates often cause persistent congestion despite allergy treatment. Diagnosis via nasal endoscopy and CT scan determines if turbinate reduction would benefit your breathing.</p>
-                    </div>
-                </div>
+                <details class="group bg-white border gna-rule rounded-md"><summary class="flex items-center justify-between gap-4 p-5 font-semibold text-navy">How do I know if I need turbinate reduction?<span class="material-symbols-outlined shrink-0 transition-transform group-open:rotate-180" aria-hidden="true">keyboard_arrow_down</span></summary><div class="px-5 pb-5 text-on-surface-variant leading-relaxed"><p class="text-gray-600">Enlarged turbinates often cause persistent congestion despite allergy treatment. Diagnosis via nasal endoscopy and CT scan determines if turbinate reduction would benefit your breathing.</p></div></details>
             </div>
-        </div>
-    </section>
-
-    <!-- Final CTA -->
-    <section class="py-16 bg-gradient-to-br from-care-blue via-blue-700 to-blue-900 text-white">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl md:text-4xl font-playfair font-bold mb-4">
-                Breathe Freely Again
-            </h2>
-            <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Don't live with nasal obstruction. Schedule a consultation to explore your breathing treatment options.
-            </p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:+916616565656" class="bg-white text-care-blue px-8 py-4 rounded-full font-semibold hover:bg-blue-50 transition text-lg">
-                    <i class="fas fa-phone-alt mr-2"></i>Call: +91 661656565
-                </a>
-                <a href="#" class="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-care-blue transition text-lg">
-                    <i class="fas fa-calendar-check mr-2"></i>Book Appointment
-                </a>
-            </div>
-            <p class="text-blue-200 text-sm mt-6">
-                <i class="fas fa-map-marker-alt mr-2"></i>CARE Hospitals, Road No. 1, Banjara Hills, Hyderabad
-            </p>
         </div>
     </section>
 
     <!-- Footer -->
-    <?php
-include $path_prefix . 'footer.php';
-?>
+    <?php include $path_prefix . 'footer.php'; ?>

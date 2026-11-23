@@ -1,0 +1,275 @@
+/* =============================================================
+   Gnathos Facial — site stylesheet (source)
+   Compiled by Tailwind CLI → /asset/css/site.css  (npm run css)
+   ============================================================= */
+@import './fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Tokens ─────────────────────────────────────────────────── */
+:root {
+    --warm: #F8F5EF;
+    --warm-deep: #EFE9DC;
+    --navy: #0E2A47;
+    --navy-2: #1a3a5c;
+    --steel: #1F6F8B;
+    --steel-soft: #5b8fa6;
+    --trauma: #C8392E;
+    --trauma-deep: #a9302a;
+    --slate: #5A6573;
+    --slate-soft: #8a929b;
+    --hairline: rgba(14, 42, 71, 0.12);
+    --hairline-soft: rgba(14, 42, 71, 0.07);
+    --r-sm: 4px;
+    --r-md: 6px;
+    --gna-lift: 0 14px 34px -18px rgba(14, 42, 71, 0.28);
+    --gna-strip-h: 44px;
+}
+
+@layer base {
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    body {
+        background-color: var(--warm);
+        color: var(--navy);
+        font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+    }
+    :where(section[id], [id]) { scroll-margin-top: calc(var(--gna-strip-h, 44px) + 5rem); }
+    img, video { max-width: 100%; height: auto; }
+    ::selection { background: #d6e7ee; color: var(--navy); }
+}
+
+/* ── Material Symbols (self-hosted, subset) ──────────────────── */
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal; font-style: normal; font-size: 24px; line-height: 1;
+    letter-spacing: normal; text-transform: none; display: inline-block;
+    white-space: nowrap; word-wrap: normal; direction: ltr;
+    -webkit-font-feature-settings: 'liga'; font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    user-select: none;
+}
+.material-symbols-outlined[data-weight="fill"], .icon-fill-1 { font-variation-settings: 'FILL' 1; }
+.icon-fill-0 { font-variation-settings: 'FILL' 0; }
+.icon-weight-300 { font-variation-settings: 'wght' 300; }
+
+/* ── Typography utilities ─────────────────────────────────────── */
+.gna-serif { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; letter-spacing: -0.01em; text-wrap: balance; }
+.gna-serif-i { font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-weight: 400; }
+.gna-h1   { font-size: clamp(2.1rem, 1.05rem + 5vw, 4rem);  line-height: 1.03; letter-spacing: -0.015em; }
+.gna-h2   { font-size: clamp(2.05rem, 1.4rem + 2.6vw, 3rem); line-height: 1.06; }
+.gna-h2-lg{ font-size: clamp(2.25rem, 1.3rem + 4vw, 3.5rem); line-height: 1.05; }
+.gna-stat { font-size: clamp(2.25rem, 1.4rem + 3.6vw, 3.5rem); line-height: 1; }
+.gna-eyebrow { font-family: 'Inter', sans-serif; font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; font-weight: 500; }
+.gna-link { position: relative; display: inline-flex; align-items: center; gap: .5rem; }
+.gna-link::after { content: ""; position: absolute; left: 0; right: 0; bottom: -3px; height: 1px; background: currentColor; transform: scaleX(.4); transform-origin: left; transition: transform .4s ease; }
+.gna-link:hover::after { transform: scaleX(1); }
+
+/* Inner-page headings use the serif display face (tokens in tailwind.config.js) */
+h1, h2, h3 { text-wrap: balance; }
+.font-headline-md, .font-headline-sm, .font-display-lg, .font-display-lg-mobile { letter-spacing: -0.01em; }
+
+/* ── Buttons ──────────────────────────────────────────────────── */
+.gna-btn { display: inline-flex; align-items: center; justify-content: center; gap: .55rem; min-height: 44px; line-height: 1; padding: .85rem 1.5rem; font-family: 'Inter', sans-serif; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 600; transition: background-color .2s ease, border-color .2s ease, color .2s ease; background: transparent; cursor: pointer; border-radius: var(--r-sm); text-decoration: none; }
+.gna-btn-primary { background: var(--navy); color: #fff; border: 1px solid var(--navy); }
+.gna-btn-primary:hover { background: var(--steel); border-color: var(--steel); }
+.gna-btn-emergency { background: var(--trauma); color: #fff; border: 1px solid var(--trauma); }
+.gna-btn-emergency:hover { background: var(--trauma-deep); border-color: var(--trauma-deep); }
+.gna-btn-outline { background: transparent; color: var(--navy); border: 1px solid var(--navy); }
+.gna-btn-outline:hover { background: var(--navy); color: #fff; }
+.gna-btn-light { background: #fff; color: var(--navy); border: 1px solid #fff; }
+.gna-btn-light:hover { background: var(--warm-deep); border-color: var(--warm-deep); }
+.gna-btn-ghost-light { background: transparent; color: #fff; border: 1px solid rgba(255,255,255,.55); }
+.gna-btn-ghost-light:hover { background: rgba(255,255,255,.1); border-color: #fff; }
+.gna-btn-whatsapp { background: #1f8f4e; color: #fff; border: 1px solid #1f8f4e; }
+.gna-btn-whatsapp:hover { background: #18783f; border-color: #18783f; }
+.gna-btn[disabled] { opacity: .6; cursor: progress; }
+
+/* ── Cards ────────────────────────────────────────────────────── */
+.gna-card { background: #fff; border: 1px solid var(--hairline); border-radius: var(--r-md); transition: border-color .25s ease, transform .25s ease; }
+.gna-card:hover { border-color: var(--steel); transform: translateY(-2px); }
+.gna-card-img { transition: transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease; }
+.gna-card:hover .gna-card-img { transform: scale(1.04); }
+.gna-triage { background: var(--warm); }
+.gna-triage:hover { background: #fff; }
+.gna-float { box-shadow: var(--gna-lift); }
+
+/* ── Emergency strip ──────────────────────────────────────────── */
+.gna-emergency { background: var(--trauma); color: #fff; }
+.gna-emergency a { color: #fff; text-decoration: none; }
+.gna-emergency a:hover { text-decoration: underline; }
+
+/* ── Hairlines ────────────────────────────────────────────────── */
+.gna-rule { border-color: var(--hairline); }
+.gna-rule-soft { border-color: var(--hairline-soft); }
+.gna-rule-light { border-color: rgba(248,245,239,0.18); }
+.gna-divider { border: 0; border-top: 1px solid var(--hairline); margin: 0; }
+
+/* ── Focus (a11y) ─────────────────────────────────────────────── */
+:focus-visible { outline: 2px solid var(--steel); outline-offset: 2px; border-radius: 2px; }
+.gna-emergency a:focus-visible, footer a:focus-visible, footer button:focus-visible,
+.gna-on-dark a:focus-visible, .gna-on-dark button:focus-visible,
+.gna-actionbar a:focus-visible { outline-color: #F8F5EF; outline-offset: 2px; }
+
+/* ── Navigation ───────────────────────────────────────────────── */
+.gna-nav-menu { opacity: 0; visibility: hidden; transform: translateY(-4px); transition: opacity .2s ease, transform .2s ease, visibility 0s linear .2s; }
+.gna-nav-item:hover > .gna-nav-menu,
+.gna-nav-item:focus-within > .gna-nav-menu,
+.gna-nav-item[data-open="true"] > .gna-nav-menu { opacity: 1; visibility: visible; transform: translateY(0); transition: opacity .2s ease, transform .2s ease, visibility 0s; }
+/* Hover bridge so the pointer can travel from the trigger into the menu */
+.gna-nav-menu::before { content: ""; position: absolute; left: 0; right: 0; top: -14px; height: 14px; }
+.gna-mobile-menu { transition: transform .3s ease, opacity .3s ease; }
+.gna-mobile-menu[data-open="false"] { transform: translateX(100%); opacity: 0; pointer-events: none; visibility: hidden; }
+.gna-mobile-menu[data-open="true"] { transform: translateX(0); opacity: 1; pointer-events: auto; visibility: visible; }
+
+/* ── Breadcrumbs ─────────────────────────────────────────────── */
+.gna-crumbs { font-size: 12px; color: var(--slate); }
+.gna-crumbs ol { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .5rem; list-style: none; margin: 0; padding: 0; }
+.gna-crumbs li { display: inline-flex; align-items: center; gap: .5rem; }
+.gna-crumbs li + li::before { content: "/"; color: var(--slate-soft); }
+.gna-crumbs a { color: var(--slate); text-decoration: none; }
+.gna-crumbs a:hover { color: var(--steel); text-decoration: underline; }
+.gna-crumbs [aria-current] { color: var(--navy); font-weight: 500; }
+
+/* ── Editorial image plate (replaces stock / placeholder imagery) ─ */
+.gna-plate { position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; min-height: 280px; padding: 2rem; border-radius: var(--r-md); border: 1px solid var(--hairline); background:
+    radial-gradient(120% 80% at 100% 0%, rgba(31,111,139,.16), transparent 60%),
+    linear-gradient(160deg, #F3EEE4 0%, #EFE9DC 100%); color: var(--navy); }
+.gna-plate::before { content: ""; position: absolute; inset: 14px; border: 1px solid var(--hairline); border-radius: 4px; pointer-events: none; }
+.gna-plate::after { content: ""; position: absolute; right: -60px; top: -60px; width: 260px; height: 260px; border-radius: 50%; border: 1px solid rgba(31,111,139,.25); box-shadow: 0 0 0 28px rgba(31,111,139,.05), 0 0 0 56px rgba(31,111,139,.035); pointer-events: none; }
+.gna-plate-eyebrow { position: relative; font-size: 11px; letter-spacing: .22em; text-transform: uppercase; color: var(--steel); font-weight: 600; margin-bottom: .75rem; }
+.gna-plate-title { position: relative; font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-size: clamp(1.9rem, 1.2rem + 2.4vw, 2.8rem); line-height: 1.05; }
+.gna-plate-meta { position: relative; margin-top: 1rem; font-size: 12px; color: var(--slate); }
+.gna-plate--dark { background: radial-gradient(120% 80% at 100% 0%, rgba(91,143,166,.28), transparent 60%), linear-gradient(160deg, #0E2A47 0%, #14324f 100%); color: #F8F5EF; border-color: rgba(248,245,239,.12); }
+.gna-plate--dark::before { border-color: rgba(248,245,239,.14); }
+.gna-plate--dark .gna-plate-eyebrow { color: #a9cbd9; }
+.gna-plate--dark .gna-plate-meta { color: rgba(248,245,239,.7); }
+
+/* Secondary plates: quieter, and dropped entirely on phones so pages stay short */
+.gna-plate--secondary { min-height: 200px; }
+.gna-plate--secondary .gna-plate-title { font-size: clamp(1.5rem, 1.1rem + 1.4vw, 2rem); }
+@media (max-width: 767px) {
+    /* Decorative plates add scroll without information on phones */
+    .gna-plate, :where(div):has(> .gna-plate) { display: none !important; }
+}
+
+/* Cormorant has a small x-height: lift the small serif sizes used by inner-page card titles */
+.font-headline-sm.text-lg, .font-headline-md.text-lg, .font-playfair.text-lg { font-size: 1.4rem; line-height: 1.25; }
+.font-headline-sm.text-xl, .font-headline-md.text-xl, .font-playfair.text-xl { font-size: 1.55rem; line-height: 1.22; }
+.font-headline-sm.text-2xl, .font-playfair.text-2xl { font-size: 1.8rem; line-height: 1.2; }
+.font-headline-sm { font-weight: 600; }
+.font-playfair { font-weight: 600; }
+
+/* Labels on dark backgrounds */
+.gna-on-dark .gna-label { color: rgba(255,255,255,.72); }
+
+/* ── CTA band (auto-rendered before the footer on every page) ─── */
+.gna-cta-band { background: var(--navy); color: #F8F5EF; }
+.gna-cta-band .gna-field { background: #fff; color: var(--navy); }
+
+/* ── Forms ────────────────────────────────────────────────────── */
+.gna-label { display: block; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; font-weight: 500; color: var(--slate); margin-bottom: .5rem; }
+.gna-field { width: 100%; padding: .8rem 1rem; border-radius: var(--r-md); border: 1px solid var(--hairline); background: var(--warm); font-size: 16px; color: var(--navy); }
+.gna-field:focus { outline: none; border-color: var(--steel); box-shadow: 0 0 0 3px rgba(31,111,139,.18); }
+.gna-consent { display: flex; gap: .75rem; align-items: flex-start; font-size: 12.5px; line-height: 1.55; }
+.gna-consent input[type=checkbox] { margin-top: .2rem; width: 1.05rem; height: 1.05rem; flex-shrink: 0; border-radius: 3px; color: var(--steel); border-color: var(--slate-soft); }
+.gna-consent a { text-decoration: underline; text-underline-offset: 2px; }
+.gna-form-error { font-size: 12.5px; color: var(--trauma); }
+
+/* ── Consent banner & preferences dialog (DPDP Act 2023) ──────── */
+.gna-consent-banner { position: fixed; z-index: 80; left: 12px; right: 12px; bottom: 12px; max-width: 760px; margin: 0 auto; background: #fff; color: var(--navy); border: 1px solid var(--hairline); border-radius: 8px; box-shadow: 0 18px 50px -20px rgba(14,42,71,.45); }
+.gna-consent-banner[hidden], .gna-consent-dialog[hidden] { display: none !important; }
+.gna-consent-dialog { position: fixed; inset: 0; z-index: 90; display: flex; align-items: center; justify-content: center; padding: 16px; background: rgba(14,42,71,.55); }
+.gna-consent-panel { width: 100%; max-width: 560px; max-height: calc(100dvh - 32px); overflow: auto; background: #fff; border-radius: 8px; color: var(--navy); }
+.gna-switch { position: relative; width: 42px; height: 24px; flex-shrink: 0; }
+.gna-switch input { position: absolute; inset: 0; opacity: 0; cursor: pointer; margin: 0; z-index: 1; }
+.gna-switch span { position: absolute; inset: 0; border-radius: 999px; background: #c9ced4; transition: background .2s ease; }
+.gna-switch span::after { content: ""; position: absolute; top: 3px; left: 3px; width: 18px; height: 18px; border-radius: 50%; background: #fff; transition: transform .2s ease; }
+.gna-switch input:checked + span { background: var(--steel); }
+.gna-switch input:checked + span::after { transform: translateX(18px); }
+.gna-switch input:disabled + span { background: var(--navy); opacity: .55; }
+.gna-switch input:focus-visible + span { outline: 2px solid var(--steel); outline-offset: 2px; }
+
+/* ── Map facade (Google Maps loads only on request) ───────────── */
+.gna-map-facade { position: relative; background:
+    linear-gradient(0deg, rgba(14,42,71,.04) 1px, transparent 1px) 0 0/28px 28px,
+    linear-gradient(90deg, rgba(14,42,71,.04) 1px, transparent 1px) 0 0/28px 28px, #EDE7DA; }
+
+/* ── Sticky mobile action bar ─────────────────────────────────── */
+.gna-actionbar { transform: translateY(110%); transition: transform .3s cubic-bezier(.2,.7,.2,1); }
+.gna-actionbar.is-visible { transform: translateY(0); }
+@media (max-width: 1023px) { body { padding-bottom: calc(56px + env(safe-area-inset-bottom, 0px)); } }
+
+/* ── Article / blog typography ────────────────────────────────── */
+.gna-prose { color: #3d4652; font-size: 17px; line-height: 1.75; }
+.gna-prose > * + * { margin-top: 1.15em; }
+.gna-prose h2 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; color: var(--navy); font-size: clamp(1.7rem, 1.3rem + 1.2vw, 2.1rem); line-height: 1.15; margin-top: 2.2em; padding-top: 1.2em; border-top: 1px solid var(--hairline); scroll-margin-top: calc(var(--gna-strip-h, 44px) + 6rem); }
+.gna-prose h3 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; color: var(--navy); font-size: 1.45rem; line-height: 1.25; margin-top: 1.8em; }
+.gna-prose h4 { font-weight: 600; color: var(--navy); font-size: 1.05rem; margin-top: 1.5em; }
+.gna-prose p { margin-top: 1.05em; }
+.gna-prose strong { color: var(--navy); font-weight: 600; }
+.gna-prose a:not(.gna-btn) { color: var(--steel); font-weight: 500; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.gna-prose a:not(.gna-btn):hover { color: var(--navy); }
+.gna-prose ul, .gna-prose ol { padding-left: 1.35rem; }
+.gna-prose ul { list-style: disc; }
+.gna-prose ol { list-style: decimal; }
+.gna-prose li { margin-top: .45em; padding-left: .2rem; }
+.gna-prose li::marker { color: var(--steel); }
+.gna-prose blockquote { border-left: 3px solid var(--steel); padding: .25rem 0 .25rem 1.25rem; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.35rem; line-height: 1.45; color: var(--navy); }
+.gna-prose table { width: 100%; border-collapse: collapse; font-size: 15px; display: block; overflow-x: auto; }
+.gna-prose th, .gna-prose td { text-align: left; padding: .7rem .85rem; border-bottom: 1px solid var(--hairline); vertical-align: top; }
+.gna-prose th { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--slate); font-weight: 600; background: #F3EEE4; }
+.gna-prose .gna-lede { font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(1.35rem, 1.1rem + .9vw, 1.6rem); line-height: 1.45; color: var(--navy); }
+.gna-prose .gna-callout { background: #fff; border: 1px solid var(--hairline); border-left: 3px solid var(--steel); border-radius: var(--r-md); padding: 1.1rem 1.25rem; font-size: 15.5px; }
+.gna-prose .gna-callout--warn { border-left-color: var(--trauma); }
+.gna-prose .gna-callout > :first-child { margin-top: 0; }
+.gna-prose .gna-keypoints { background: #F3EEE4; border-radius: var(--r-md); padding: 1.25rem 1.4rem; }
+.gna-prose .gna-keypoints h2, .gna-prose .gna-keypoints h3 { margin-top: 0; padding-top: 0; border: 0; font-size: 1.3rem; }
+.gna-prose .not-prose, .gna-prose .gna-inline-cta { color: inherit; }
+
+/* Legacy blog markup (posts written before the template) — map the old `prose` classes */
+.prose { color: #3d4652; font-size: 17px; line-height: 1.75; }
+.prose :where(h2):not(:where(.not-prose *)) { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; color: var(--navy); font-size: clamp(1.7rem, 1.3rem + 1.2vw, 2.1rem); line-height: 1.15; margin: 2.2em 0 .6em; padding-top: 1.2em; border-top: 1px solid var(--hairline); }
+.prose :where(h3):not(:where(.not-prose *)) { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; color: var(--navy); font-size: 1.45rem; line-height: 1.25; margin: 1.8em 0 .5em; }
+.prose :where(h4):not(:where(.not-prose *)) { font-weight: 600; color: var(--navy); margin: 1.5em 0 .4em; }
+.prose :where(p):not(:where(.not-prose *)) { margin: 1.05em 0; }
+.prose :where(ul):not(:where(.not-prose *)) { list-style: disc; padding-left: 1.35rem; margin: 1.1em 0; }
+.prose :where(ol):not(:where(.not-prose *)) { list-style: decimal; padding-left: 1.35rem; margin: 1.1em 0; }
+.prose :where(li):not(:where(.not-prose *)) { margin: .45em 0; }
+.prose :where(li):not(:where(.not-prose *))::marker { color: var(--steel); }
+.prose :where(strong):not(:where(.not-prose *)) { color: var(--navy); font-weight: 600; }
+.prose :where(a):not(:where(.not-prose *)) { color: var(--steel); font-weight: 500; text-decoration: underline; text-underline-offset: 3px; }
+.prose :where(table):not(:where(.not-prose *)) { width: 100%; border-collapse: collapse; font-size: 15px; margin: 1.5em 0; }
+.prose :where(th, td):not(:where(.not-prose *)) { text-align: left; padding: .65rem .8rem; border-bottom: 1px solid var(--hairline); }
+.prose :where(blockquote):not(:where(.not-prose *)) { border-left: 3px solid var(--steel); padding-left: 1.2rem; font-style: italic; color: var(--navy); }
+
+/* Table of contents */
+.gna-toc a { display: block; padding: .4rem 0 .4rem .9rem; border-left: 2px solid var(--hairline); color: var(--slate); font-size: 14px; line-height: 1.4; text-decoration: none; }
+.gna-toc a:hover, .gna-toc a[aria-current="true"] { color: var(--navy); border-left-color: var(--steel); }
+
+/* ── Native disclosure widgets ────────────────────────────────── */
+details > summary { list-style: none; cursor: pointer; }
+details > summary::-webkit-details-marker { display: none; }
+
+/* ── Legacy utility classes (inner pages) ─────────────────────── */
+.ambient-shadow { box-shadow: 0 1px 0 rgba(14,42,71,0.04); }
+.hover-lift { transition: transform .3s ease, border-color .3s ease; }
+.hover-lift:hover { transform: translateY(-2px); border-color: var(--steel); }
+.glass-panel { background: rgba(255,255,255,0.94); border: 1px solid var(--hairline); }
+.gradient-overlay { background: linear-gradient(to right, rgba(14,42,71,0.72) 0%, rgba(14,42,71,0.25) 100%); }
+
+/* ── Print ────────────────────────────────────────────────────── */
+@media print {
+    #gna-emergency-strip, header, .gna-actionbar, .gna-consent-banner, .gna-cta-band, footer, .gna-no-print { display: none !important; }
+    body { background: #fff; padding: 0; }
+}
+
+/* ── Motion preferences ───────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0s !important; animation-iteration-count: 1 !important; transition-duration: 0s !important; }
+}

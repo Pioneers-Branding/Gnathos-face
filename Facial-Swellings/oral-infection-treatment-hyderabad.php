@@ -1,39 +1,33 @@
 <?php
-$path_prefix = "../";
-$page_title = "Oral Infection Treatment in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Oral infection treatment in Hyderabad at CARE Hospitals. Our oral surgeons treat oral cavity infections, mucosal infections, tongue infections, and deep oral tissue infections.";
+$path_prefix = '../';
+$page_title = 'Oral Infection Treatment in Hyderabad | Gnathos Facial';
+$page_description = 'Oral infection treatment in Hyderabad for infections of the mouth lining, tongue and deeper oral tissues, from antibiotics to surgical drainage.';
+$canonical_url = 'https://gnathosface.com/Facial-Swellings/oral-infection-treatment-hyderabad';
+$page_about = 'Oral Infection Treatment';
+$breadcrumbs = [['Home', '/'], ['Facial swelling', '/facial-swelling-treatment'], ['Oral Infection Treatment', null]];
+$page_faqs = [
+    ['q' => 'What causes oral infections?', 'a' => 'Oral infections are caused by bacteria (most common), fungi (oral thrush), or viruses (herpes) that enter through dental disease, mucosal trauma, poor oral hygiene, immunocompromise, or contaminated dental procedures.'],
+    ['q' => 'How are oral infections treated?', 'a' => 'Treatment depends on the type — bacterial infections require antibiotics (oral or IV), fungal infections need antifungals, and viral infections are managed with antivirals and symptom control. Abscesses always require drainage.'],
+    ['q' => 'When should an oral infection be treated as an emergency?', 'a' => 'Seek emergency care for oral infections causing difficulty swallowing, breathing changes, rapidly spreading swelling under the jaw or tongue, high fever, or neck stiffness — these can signal deep neck involvement or airway compromise.'],
+];
+$cta_heading = 'Get a specialist opinion on oral Infection Treatment.';
+$cta_topic = 'Cyst, tumour or facial swelling';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-<main>
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
 <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
 <div class="md:col-span-6 z-10">
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Oral Infection Treatment in Hyderabad</h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">Oral infections affect the mouth's soft tissues, palate, tongue, and salivary glands. Our oral and maxillofacial surgeons at CARE Hospitals, Banjara Hills provide expert diagnosis and treatment for all oral cavity infections.</p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">Book Consultation</button>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">Oral infections affect the mouth's soft tissues, palate, tongue, and salivary glands. Our oral and maxillofacial surgeons at CARE Hospitals, HITEC City provide expert diagnosis and treatment for all oral cavity infections.</p>
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">Book Consultation</a>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Oral infection treatment by oral maxillofacial surgeon at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="../asset/facial-injuries.png"/>
+<img alt="Oral infection treatment by oral maxillofacial surgeon at Gnathos Facial, Hyderabad" class="w-full h-full object-cover" src="/asset/facial-injuries.png"/>
 </div>
-</div>
-</div>
-</section>
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for Oral Infection Treatment</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Oral infections can affect swallowing, speech, and airway. Our team provides rapid assessment and appropriate treatment for all oral conditions.</p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">science</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">Culture-Based Care</h3><p class="text-on-surface-variant text-sm">Microbial testing to identify the exact organism causing your oral infection.</p></div>
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">local_hospital</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">Full Hospital Setup</h3><p class="text-on-surface-variant text-sm">IV medications and emergency care at CARE Hospitals, Banjara Hills.</p></div>
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">medical_services</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">Complete Range</h3><p class="text-on-surface-variant text-sm">Antibiotics, antiseptic rinses, surgical drainage, and debridement.</p></div>
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">schedule</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">Emergency Access</h3><p class="text-on-surface-variant text-sm">Rapid evaluation for oral infections affecting swallowing or breathing.</p></div>
 </div>
 </div>
 </section>
@@ -70,12 +64,12 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Oral infection examination at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="../asset/dr_suresh_defining_excellence.png"/>
+<img loading="lazy" decoding="async" alt="Oral infection examination at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="/asset/dr_suresh_defining_excellence.png"/>
 </div>
 </div>
 <div class="grid md:grid-cols-2 gap-16 items-center">
 <div class="order-1 md:order-1">
-<img alt="Oral infection imaging at Gnathos Facial, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="../asset/tmj-disorders-advanced-treatment-clinical-protocols.png"/>
+<img loading="lazy" decoding="async" alt="Oral infection imaging at Gnathos Facial, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="/asset/tmj-disorders-advanced-treatment-clinical-protocols.png"/>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -125,13 +119,14 @@ include $path_prefix . 'header.php';
 <h2 class="font-headline-md text-headline-md text-primary mb-4">Related Conditions We Treat</h2>
 </div>
 <div class="grid md:grid-cols-4 gap-6">
-<a href="mouth-infection-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Mouth Infection</h3><p class="text-sm text-on-surface-variant">General oral care</p></a>
-<a href="swelling-inside-mouth-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Swelling Inside Mouth</h3><p class="text-sm text-on-surface-variant">Intraoral swelling</p></a>
-<a href="bacterial-mouth-infection-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Bacterial Mouth Infection</h3><p class="text-sm text-on-surface-variant">Pathogen treatment</p></a>
-<a href="jaw-infection-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Jaw Infection</h3><p class="text-sm text-on-surface-variant">Deep bone care</p></a>
+<a href="/Facial-Swellings/mouth-infection-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Mouth Infection</h3><p class="text-sm text-on-surface-variant">General oral care</p></a>
+<a href="/Facial-Swellings/swelling-inside-mouth-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Swelling Inside Mouth</h3><p class="text-sm text-on-surface-variant">Intraoral swelling</p></a>
+<a href="/Facial-Swellings/bacterial-mouth-infection-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Bacterial Mouth Infection</h3><p class="text-sm text-on-surface-variant">Pathogen treatment</p></a>
+<a href="/Facial-Swellings/jaw-infection-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Jaw Infection</h3><p class="text-sm text-on-surface-variant">Deep bone care</p></a>
 </div>
 </div>
 </section>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <section class="py-section-gap bg-surface-container-low">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
 <div class="text-center mb-12">
@@ -139,28 +134,18 @@ include $path_prefix . 'header.php';
 </div>
 <div class="space-y-4">
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">What causes oral infections?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span></summary>
+<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">What causes oral infections?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span></summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">Oral infections are caused by bacteria (most common), fungi (oral thrush), or viruses (herpes) that enter through dental disease, mucosal trauma, poor oral hygiene, immunocompromise, or contaminated dental procedures.</div>
 </details>
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">How are oral infections treated?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span></summary>
+<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">How are oral infections treated?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span></summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">Treatment depends on the type — bacterial infections require antibiotics (oral or IV), fungal infections need antifungals, and viral infections are managed with antivirals and symptom control. Abscesses always require drainage.</div>
 </details>
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">When should an oral infection be treated as an emergency?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span></summary>
+<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">When should an oral infection be treated as an emergency?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span></summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">Seek emergency care for oral infections causing difficulty swallowing, breathing changes, rapidly spreading swelling under the jaw or tongue, high fever, or neck stiffness — these can signal deep neck involvement or airway compromise.</div>
 </details>
 </div>
 </div>
 </section>
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Get Your Oral Infection Treated Today</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">Don't let an oral infection affect your swallowing or spread. Schedule your evaluation now.</p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">Schedule Oral Infection Evaluation<span class="material-symbols-outlined icon-fill-0">arrow_forward</span></button>
-</div>
-</section>
-</main>
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

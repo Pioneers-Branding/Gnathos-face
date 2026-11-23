@@ -1,39 +1,33 @@
 <?php
-$path_prefix = "../";
-$page_title = "Infected Jaw Treatment in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Infected jaw (osteomyelitis) treatment in Hyderabad at CARE Hospitals. Our oral surgeons treat jawbone infections with long-term IV antibiotics and surgical debridement.";
+$path_prefix = '../';
+$page_title = 'Infected Jaw Treatment in Hyderabad | Gnathos Facial';
+$page_description = 'Infected jaw (osteomyelitis) treatment in Hyderabad: jawbone infections treated with long-term IV antibiotics and surgical debridement.';
+$canonical_url = 'https://gnathosface.com/Facial-Swellings/infected-jaw-treatment-hyderabad';
+$page_about = 'Infected Jaw';
+$breadcrumbs = [['Home', '/'], ['Facial swelling', '/facial-swelling-treatment'], ['Infected Jaw', null]];
+$page_faqs = [
+    ['q' => 'Is jawbone infection life-threatening?', 'a' => 'While most jawbone infections are not immediately life-threatening, they can destroy jaw structure, cause pathological fractures, and spread systemically. Early and aggressive treatment is essential for the best outcome.'],
+    ['q' => 'How long does infected jaw treatment take?', 'a' => 'Infected jaw treatment is prolonged — typically 6-8 weeks of IV antibiotics followed by several months of oral antibiotics. Surgical recovery adds additional time. Total treatment can span 3-6 months for complete resolution.'],
+    ['q' => 'Can an infected jaw be cured completely?', 'a' => 'With appropriate aggressive treatment — adequate IV antibiotics combined with surgical removal of dead bone — most jawbone infections can be cured completely. Early treatment significantly improves outcomes.'],
+];
+$cta_heading = 'Get a specialist opinion on infected Jaw.';
+$cta_topic = 'Cyst, tumour or facial swelling';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-<main>
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
 <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
 <div class="md:col-span-6 z-10">
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Infected Jaw: Bone Infection Diagnosis and Treatment in Hyderabad</h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">An infected jaw (osteomyelitis) is a serious bone infection requiring aggressive long-term treatment. Our oral and maxillofacial surgeons at CARE Hospitals, Banjara Hills provide expert care for jawbone infections.</p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">Book Consultation</button>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">An infected jaw (osteomyelitis) is a serious bone infection requiring aggressive long-term treatment. Our oral and maxillofacial surgeons at CARE Hospitals, HITEC City provide expert care for jawbone infections.</p>
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">Book Consultation</a>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Infected jaw treatment at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="../asset/facial-injuries.png"/>
+<img alt="Infected jaw treatment at Gnathos Facial, Hyderabad" class="w-full h-full object-cover" src="/asset/facial-injuries.png"/>
 </div>
-</div>
-</div>
-</section>
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for Infected Jaw Treatment</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Jaw osteomyelitis requires specialized treatment — prolonged IV antibiotics, surgical bone removal, and long-term monitoring for complete resolution.</p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">local_hospital</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">IV Antibiotics</h3><p class="text-on-surface-variant text-sm">Long-term IV antibiotic therapy (6-8 weeks) at CARE Hospitals.</p></div>
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">medical_services</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">Bone Surgery</h3><p class="text-on-surface-variant text-sm">Sequestrectomy and surgical bone debridement by maxillofacial surgeons.</p></div>
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">search</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">Advanced Diagnosis</h3><p class="text-on-surface-variant text-sm">CBCT, MRI, and bone biopsy for accurate staging.</p></div>
-<div class="text-center"><div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4"><span class="material-symbols-outlined text-3xl">history</span></div><h3 class="font-headline-sm text-lg text-primary mb-2">Reconstruction</h3><p class="text-on-surface-variant text-sm">Bone grafting and jaw reconstruction when needed.</p></div>
 </div>
 </div>
 </section>
@@ -69,12 +63,12 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Infected jaw diagnosis at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="../asset/dr_suresh_defining_excellence.png"/>
+<img loading="lazy" decoding="async" alt="Infected jaw diagnosis at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="/asset/dr_suresh_defining_excellence.png"/>
 </div>
 </div>
 <div class="grid md:grid-cols-2 gap-16 items-center">
 <div class="order-1 md:order-1">
-<img alt="Infected jaw treatment at Gnathos Facial, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="../asset/tmj-disorders-advanced-treatment-clinical-protocols.png"/>
+<img loading="lazy" decoding="async" alt="Infected jaw treatment at Gnathos Facial, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="/asset/tmj-disorders-advanced-treatment-clinical-protocols.png"/>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -124,13 +118,14 @@ include $path_prefix . 'header.php';
 <h2 class="font-headline-md text-headline-md text-primary mb-4">Related Conditions We Treat</h2>
 </div>
 <div class="grid md:grid-cols-4 gap-6">
-<a href="jaw-infection-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Jaw Infection</h3><p class="text-sm text-on-surface-variant">General jaw care</p></a>
-<a href="dental-abscess-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Dental Abscess</h3><p class="text-sm text-on-surface-variant">Source infection</p></a>
-<a href="jaw-swelling-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Jaw Swelling</h3><p class="text-sm text-on-surface-variant">Swelling care</p></a>
-<a href="facial-cellulitis-treatment-hyderabad.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Facial Cellulitis</h3><p class="text-sm text-on-surface-variant">Skin infection</p></a>
+<a href="/Facial-Swellings/jaw-infection-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Jaw Infection</h3><p class="text-sm text-on-surface-variant">General jaw care</p></a>
+<a href="/Facial-Swellings/dental-abscess-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Dental Abscess</h3><p class="text-sm text-on-surface-variant">Source infection</p></a>
+<a href="/Facial-Swellings/jaw-swelling-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Jaw Swelling</h3><p class="text-sm text-on-surface-variant">Swelling care</p></a>
+<a href="/Facial-Swellings/facial-cellulitis-treatment-hyderabad" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group"><h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Facial Cellulitis</h3><p class="text-sm text-on-surface-variant">Skin infection</p></a>
 </div>
 </div>
 </section>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <section class="py-section-gap bg-surface-container-low">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
 <div class="text-center mb-12">
@@ -138,28 +133,18 @@ include $path_prefix . 'header.php';
 </div>
 <div class="space-y-4">
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">Is jawbone infection life-threatening?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span></summary>
+<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">Is jawbone infection life-threatening?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span></summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">While most jawbone infections are not immediately life-threatening, they can destroy jaw structure, cause pathological fractures, and spread systemically. Early and aggressive treatment is essential for the best outcome.</div>
 </details>
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">How long does infected jaw treatment take?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span></summary>
+<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">How long does infected jaw treatment take?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span></summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">Infected jaw treatment is prolonged — typically 6-8 weeks of IV antibiotics followed by several months of oral antibiotics. Surgical recovery adds additional time. Total treatment can span 3-6 months for complete resolution.</div>
 </details>
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
-<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">Can an infected jaw be cured completely?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span></summary>
+<summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">Can an infected jaw be cured completely?<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span></summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">With appropriate aggressive treatment — adequate IV antibiotics combined with surgical removal of dead bone — most jawbone infections can be cured completely. Early treatment significantly improves outcomes.</div>
 </details>
 </div>
 </div>
 </section>
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Don't Let Jawbone Infection Progress</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">Early treatment prevents permanent bone damage. Schedule your infected jaw evaluation today.</p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">Schedule Infected Jaw Evaluation<span class="material-symbols-outlined icon-fill-0">arrow_forward</span></button>
-</div>
-</section>
-</main>
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

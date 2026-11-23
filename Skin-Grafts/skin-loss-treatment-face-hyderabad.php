@@ -1,13 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Skin Loss Treatment on Face in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert skin loss treatment on face in Hyderabad at CARE Hospitals, Banjara Hills. Advanced skin transplant surgery, skin graft, and tissue reconstruction by Dr. Suresh P.L.";
+$path_prefix = '../';
+$page_title = 'Skin Loss Treatment on Face in Hyderabad | Gnathos Facial';
+$page_description = 'Skin loss treatment on face in Hyderabad at CARE Hospitals. Advanced skin transplant surgery, skin graft, and tissue reconstruction by Dr.';
+$canonical_url = 'https://gnathosface.com/Skin-Grafts/skin-loss-treatment-face-hyderabad';
+$page_about = 'Skin Loss Treatment on Face';
+$breadcrumbs = [['Home', '/'], ['Skin grafts & flaps', '/skin-grafts-and-flaps'], ['Skin Loss Treatment on Face', null]];
+$page_faqs = [
+    ['q' => 'Will the skin graft or flap match my skin color?', 'a' => 'Skin grafts and flaps rarely match perfectly with surrounding skin. Full-thickness skin grafts and local flaps generally provide better color and texture match compared to split-thickness grafts. Over time, the grafted tissue may lighten or darken and often becomes more similar to surrounding skin. The location on the face also affects how well the match will be. Your surgeon will discuss the expected outcome for your specific situation.'],
+    ['q' => 'How long does it take for a skin graft to heal?', 'a' => 'Initial graft healing typically takes 2-3 weeks, during which the graft establishes its blood supply from the underlying wound bed. During this time, you\'ll need to avoid activities that might disrupt the graft. Full healing and settlement of the graft continues for several months. The donor site for split-thickness grafts heals in 2-3 weeks; full-thickness donor sites may need 3-4 weeks.'],
+    ['q' => 'What happens if a skin graft fails?', 'a' => 'Skin graft failure is uncommon but can occur if there\'s infection, poor blood supply to the wound bed, excessive movement, or collection of blood or fluid under the graft. If a graft fails partially, it may heal on its own or require a second graft. Complete graft failure requires repeat reconstruction. We take precautions to minimize failure risk and monitor grafts closely after surgery.'],
+    ['q' => 'Will I have visible scarring from skin loss treatment?', 'a' => 'Both the reconstruction site and the donor site (where skin was taken from) will create scars. The goal is to make the reconstructed area as natural as possible. Donor site scars are typically in concealed areas. The reconstructed area may show some color and texture difference from surrounding skin. Long-term scar management with silicone products can help minimize the appearance of all scars.'],
+    ['q' => 'Can skin loss on the face be treated without surgery?', 'a' => 'Very small areas of skin loss may heal on their own through a process called secondary intention, where the wound heals from the edges inward. This works best in areas with good blood supply and minimal tension. However, larger defects or those in cosmetically sensitive areas typically require surgical reconstruction for optimal functional and aesthetic outcomes. Your surgeon will recommend the best approach for your specific situation.'],
+    ['q' => 'How do I care for the skin graft after surgery?', 'a' => 'After skin transplant surgery, you\'ll receive detailed instructions including keeping the graft site clean and protected, avoiding pressure or movement on the graft, and watching for signs of infection. The graft will be covered with a dressing that you\'ll keep in place until your follow-up visit. After healing, silicone gel or sheets and sun protection are important for scar management. Regular follow-up ensures proper healing and allows early intervention if issues arise.'],
+];
+$cta_heading = 'Get a specialist opinion on skin Loss Treatment on Face.';
+$cta_topic = 'Reconstruction / skin grafts';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
 <!-- Hero Section -->
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
@@ -16,59 +26,17 @@ include $path_prefix . 'header.php';
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Skin Loss Treatment on Face in Hyderabad</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                        Expert skin loss treatment and skin transplant surgery at CARE Hospitals, Banjara Hills. Our maxillofacial surgeons specialize in facial tissue reconstruction, skin graft surgery, and comprehensive treatment for all types of facial skin loss.
+                        Expert skin loss treatment and skin transplant surgery at CARE Hospitals, HITEC City. Our maxillofacial surgeons specialize in facial tissue reconstruction, skin graft surgery, and comprehensive treatment for all types of facial skin loss.
                     </p>
 <div class="flex flex-col sm:flex-row gap-4">
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                             Book Consultation
-                        </button>
+                        </a>
 </div>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Skin loss treatment consultation at CARE Hospitals, Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-</div>
-</div>
-</div>
-</section>
-
-<!-- Why Choose Us -->
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for Skin Loss Treatment</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                Leading skin loss treatment and facial tissue reconstruction specialists in Hyderabad with extensive experience in skin graft and transplant surgery.
-            </p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">school</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Reconstruction Specialists</h3>
-<p class="text-on-surface-variant text-sm">35+ years of combined experience in skin loss treatment and tissue reconstruction surgery.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">local_hospital</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">CARE Hospitals Setting</h3>
-<p class="text-on-surface-variant text-sm">Full surgical facilities with advanced operating theatres at Banjara Hills, Hyderabad.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">healing</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Advanced Techniques</h3>
-<p class="text-on-surface-variant text-sm">State-of-the-art skin graft and flap surgery for optimal functional and aesthetic outcomes.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">auto_fix_high</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Natural Results</h3>
-<p class="text-on-surface-variant text-sm">Focus on achieving natural-looking reconstruction that restores both form and function.</p>
+<div class="gna-plate w-full h-full" role="img" aria-label="Skin loss treatment consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Skin loss treatment consultation</p></div>
 </div>
 </div>
 </div>
@@ -110,7 +78,7 @@ include $path_prefix . 'header.php';
 <p class="text-on-surface-variant">Skin death from poor blood supply, vascular occlusion, or complications of medical conditions.</p>
 </div>
 <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
-<span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">animal</span>
+<span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">pets</span>
 <h3 class="font-headline-sm text-xl text-primary mb-3">Animal Bites</h3>
 <p class="text-on-surface-variant">Dog bites, human bites, or other animal-related injuries causing tissue loss on the face.</p>
 </div>
@@ -142,13 +110,13 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Surgeon assessing skin loss on face at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEFkiI4mjDEE18YDwFhytADXKSi52219_ImkXimFwvR_u_lEi32i_FGV-fHjIDfiuUGL1lJeadbUQP-VudLVyKwmYno2hUz4EdWrurPoOkszJUln7aMR43klGyT4vRj2F-e9ksMWzt4q9dm_IKwmSyFF36Jj32w61XM7ifV4JQo3iOufuJ2-9_ghJAMrR2v5dtBYCQPel3QIstAIejIFPRUIyA66943uzujXTS879KGpz70wCQ4303HF08bi3co5b4l1czHWqRntk"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Surgeon assessing skin loss on face"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Surgeon assessing skin loss on face</p></div>
 </div>
 </div>
 <!-- Step 2 -->
 <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
 <div class="order-1 md:order-1">
-<img alt="Skin transplant surgery in progress at CARE Hospitals, Banjara Hills, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Skin transplant surgery in progress"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Skin transplant surgery in progress</p></div>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -178,7 +146,7 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Patient recovery consultation after skin loss treatment at Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Patient recovery consultation after skin loss treatment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Patient recovery consultation after skin loss treatment</p></div>
 </div>
 </div>
 </div>
@@ -252,9 +220,7 @@ include $path_prefix . 'header.php';
 <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                         To help us understand your condition and create the most effective treatment plan, please prepare the following information for your consultation.
                     </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                        Download Checklist PDF
-                    </button>
+
 </div>
 <div>
 <ul class="space-y-4">
@@ -344,59 +310,14 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 <div class="mt-12 text-center">
-<button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+<a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                 Request a Consultation
-            </button>
+            </a>
 </div>
 </div>
 </section>
 
-<!-- The Surgical Team -->
-<section class="py-section-gap bg-primary text-on-primary">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md mb-4">Expert Skin Loss Treatment Team</h2>
-<p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                Experienced specialists in skin loss treatment and tissue reconstruction with decades of combined expertise.
-            </p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Suresh P.L. - Skin Loss Treatment Specialist Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/Dr.-Suresh.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 20+ years of experience in skin loss treatment, skin transplant surgery, and facial tissue reconstruction.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 15+ years of experience in skin graft surgery, flap reconstruction, and wound management.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <!-- Patient FAQs -->
 <section class="py-section-gap bg-surface">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -408,7 +329,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will the skin graft or flap match my skin color?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Skin grafts and flaps rarely match perfectly with surrounding skin. Full-thickness skin grafts and local flaps generally provide better color and texture match compared to split-thickness grafts. Over time, the grafted tissue may lighten or darken and often becomes more similar to surrounding skin. The location on the face also affects how well the match will be. Your surgeon will discuss the expected outcome for your specific situation.
@@ -417,7 +338,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long does it take for a skin graft to heal?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Initial graft healing typically takes 2-3 weeks, during which the graft establishes its blood supply from the underlying wound bed. During this time, you'll need to avoid activities that might disrupt the graft. Full healing and settlement of the graft continues for several months. The donor site for split-thickness grafts heals in 2-3 weeks; full-thickness donor sites may need 3-4 weeks.
@@ -426,7 +347,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What happens if a skin graft fails?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Skin graft failure is uncommon but can occur if there's infection, poor blood supply to the wound bed, excessive movement, or collection of blood or fluid under the graft. If a graft fails partially, it may heal on its own or require a second graft. Complete graft failure requires repeat reconstruction. We take precautions to minimize failure risk and monitor grafts closely after surgery.
@@ -435,7 +356,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will I have visible scarring from skin loss treatment?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Both the reconstruction site and the donor site (where skin was taken from) will create scars. The goal is to make the reconstructed area as natural as possible. Donor site scars are typically in concealed areas. The reconstructed area may show some color and texture difference from surrounding skin. Long-term scar management with silicone products can help minimize the appearance of all scars.
@@ -444,7 +365,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Can skin loss on the face be treated without surgery?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Very small areas of skin loss may heal on their own through a process called secondary intention, where the wound heals from the edges inward. This works best in areas with good blood supply and minimal tension. However, larger defects or those in cosmetically sensitive areas typically require surgical reconstruction for optimal functional and aesthetic outcomes. Your surgeon will recommend the best approach for your specific situation.
@@ -453,7 +374,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How do I care for the skin graft after surgery?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     After skin transplant surgery, you'll receive detailed instructions including keeping the graft site clean and protected, avoiding pressure or movement on the graft, and watching for signs of infection. The graft will be covered with a dressing that you'll keep in place until your follow-up visit. After healing, silicone gel or sheets and sun protection are important for scar management. Regular follow-up ensures proper healing and allows early intervention if issues arise.
@@ -463,22 +384,5 @@ include $path_prefix . 'header.php';
 </div>
 </section>
 
-<!-- Final CTA -->
-<section class="py-section-gap bg-surface-container-low">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Expert Skin Loss Treatment for Facial Reconstruction</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                    Whether your skin loss is from trauma, surgery, burns, or medical conditions, our skin loss treatment specialists can help restore both appearance and function. Schedule a consultation to discuss your options.
-                </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                    Schedule Your Skin Loss Treatment Consultation
-                    <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-</button>
-</div>
-</section>
-</main>
-
 <!-- Detailed Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

@@ -1,15 +1,23 @@
 <?php
-$path_prefix = "";
-$page_title = "Cosmetic Facial Surgery Hyderabad | Gnathos Facial Surgery";
-$page_description = "Transform your appearance with expert cosmetic facial surgery in Hyderabad. Dr. Suresh P.L. and Dr. Navatha Mortha offer facial contouring, rhinoplasty, and aesthetic procedures at CARE Hospitals, Banjara Hills.";
-$canonical_url = "https://gnathosface.com/cosmetic-facial-surgery-treatment/";
+$path_prefix = '';
+$page_title = 'Cosmetic Facial Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'Facial aesthetic surgery in Hyderabad by maxillofacial surgeons: jaw and chin contouring, rhinoplasty, face and brow lift, eyelid surgery and injectables.';
+$canonical_url = 'https://gnathosface.com/cosmetic-facial-surgery-treatment';
+$page_about = 'Cosmetic Facial Surgery for a Balanced, Natural Appearance';
+$breadcrumbs = [['Home', '/'], ['Treatments', '/treatments'], ['Cosmetic Facial Surgery for a Balanced, Natural Appearance', null]];
+$page_faqs = [
+    ['q' => 'Will cosmetic facial surgery leave visible scars?', 'a' => 'Scarring depends on the procedure and approach used. Many cosmetic facial procedures are performed using intraoral incisions (inside the mouth), leaving no visible external scars. When external incisions are necessary, our surgeons place them in natural skin creases or hidden areas to minimize visibility. Full scar maturation takes 12-18 months, after which scars typically become barely perceptible.'],
+    ['q' => 'How long do the results of cosmetic facial surgery last?', 'a' => 'The results of bone-contouring procedures (chin, jaw) are permanent. Soft tissue procedures and fat grafting may show some age-related changes over time, but the improvement is long-lasting. Maintaining a stable weight and healthy lifestyle helps preserve results. The natural aging process continues, but you\'ll always look better than if you hadn\'t had the procedure.'],
+    ['q' => 'Is cosmetic facial surgery painful?', 'a' => 'Most patients experience manageable discomfort rather than severe pain. Discomfort is typically described as pressure or soreness, similar to recovering from dental work. Pain is well-controlled with prescribed medications during the first week. The majority of patients are pleasantly surprised that discomfort is less than they expected, especially with the advanced techniques we employ.'],
+    ['q' => 'When can I return to work after cosmetic facial surgery?', 'a' => 'This varies by procedure and your job requirements. For office-based work, most patients return within 1-2 weeks once initial swelling subsides. Jobs requiring physical labor or public interaction may require 3-4 weeks. We provide a detailed timeline during your consultation based on your specific procedure and occupation.'],
+    ['q' => 'Can cosmetic facial surgery be combined with other procedures?', 'a' => 'Yes, combining procedures is common and often beneficial. Common combinations include chin augmentation with rhinoplasty, jaw contouring with cheek augmentation, or cosmetic procedures with orthognathic surgery. Combining procedures reduces overall recovery time and costs while achieving comprehensive improvement. We carefully evaluate safety considerations when planning combined procedures.'],
+];
+$cta_heading = 'Get a specialist opinion on cosmetic Facial Surgery for a Balanced, Natural Appearance.';
+$cta_topic = 'Cosmetic facial procedure';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -19,61 +27,17 @@ include $path_prefix . 'header.php';
                     Cosmetic Facial Surgery for a Balanced, Natural Appearance
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Enhance your facial harmony and confidence with precision cosmetic procedures performed by Dr. Suresh P.L. at CARE Hospitals, Banjara Hills. From rhinoplasty to facial contouring, we combine artistry with surgical excellence for natural-looking results.
+                    Enhance your facial harmony and confidence with precision cosmetic procedures performed by Dr. Suresh P.L. at CARE Hospitals, HITEC City. From rhinoplasty to facial contouring, we combine artistry with surgical excellence for natural-looking results.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Patient consultation for cosmetic facial surgery - discussing facial aesthetics with maxillofacial surgeon in Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US: Trust Signals -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Cosmetic Facial Surgery
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    When considering facial cosmetic surgery, choosing an experienced maxillofacial surgeon ensures both aesthetic excellence and functional preservation.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">face</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Facial Anatomy Expertise</h3>
-                    <p class="text-on-surface-variant text-sm">As oral and maxillofacial surgeons, we possess unparalleled knowledge of facial bones, muscles, and soft tissues.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">local_hospital</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Hospital-Based Safety</h3>
-                    <p class="text-on-surface-variant text-sm">All procedures performed at CARE Hospitals, Banjara Hills—a premier tertiary care facility with full emergency support.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">auto_awesome</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Natural-Looking Results</h3>
-                    <p class="text-on-surface-variant text-sm">Our philosophy prioritizes harmonious, natural results that enhance your features without appearing artificial.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">3d_rotation</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">3D Planning</h3>
-                    <p class="text-on-surface-variant text-sm">Advanced 3D imaging and virtual surgical planning for predictable, customized outcomes.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Patient consultation for cosmetic facial surgery - discussing facial aesthetics with maxillofacial surgeon in Hyderabad"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Patient consultation for cosmetic facial surgery - discussing facial aesthetics with maxillofacial surgeon in Hyderabad</p></div>
                 </div>
             </div>
         </div>
@@ -90,7 +54,7 @@ include $path_prefix . 'header.php';
             </div>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
-                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">face_retouching_natural</span>
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">face</span>
                     <h3 class="font-headline-sm text-xl text-primary mb-3">Facial Imbalance</h3>
                     <p class="text-on-surface-variant">Asymmetry between facial halves, uneven features, or disproportionate jaw-to-cheek relationships that affect overall harmony.</p>
                 </div>
@@ -130,21 +94,21 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Surgeon reviewing 3D facial imaging with patient during cosmetic consultation at Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALZZmj6_CAFtHy1vjXdbgnvuwqwnWdk_19QuvDwG7i0mDVRvdLGV05_43z3vvdldkKpstRUl-guoUaftbE5CwioKDaq5UVRxVAq0U8MGjGGnlSm4htoUiK9tI08QygsZdIE6fAW0tK3GLUdbMjaWzgMiRGr0vmWz94CBZCAz5n98VK4wg6s8B_4q7qH50Kaisg_8K1fkcOpoN94riL7idTd-mmNaOJ3BB3Dd_lfNVLvh2AzJQD5CYSFJuSDgGq37lTF8537L1ZhCA"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Surgeon reviewing 3D facial imaging with patient during cosmetic consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Surgeon reviewing 3D facial imaging with patient during cosmetic consultation</p></div>
                 </div>
             </div>
             <!-- Step 2: The Procedure -->
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="State-of-the-art operating room at CARE Hospitals, Banjara Hills Hyderabad for cosmetic facial surgery" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEFkiI4mjDEE18YDwFhytADXKSi52219_ImkXimFwvR_u_lEi32i_FGV-fHjIDfiuUGL1lJeadbUQP-VudLVyKwmYno2hUz4EdWrurPoOkszJUln7aMR43klGyT4vRj2F-e9ksMWzt4q9dm_IKwmSyFF36Jj32w61XM7ifV4JQo3iOufuJ2-9_ghJAMrR2v5dtBYCQPel3QIstAIejIFPRUIyA66943uzujXTS879KGpz70wCQ4303HF08bi3co5b4l1czHWqRntk"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Modern operating room"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Modern operating room</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
                     <h3 class="font-headline-sm text-2xl text-primary mb-4">Precision Surgical Execution</h3>
-                    <p class="text-on-surface-variant mb-6">Performed in the advanced surgical suites at CARE Hospitals, our procedures follow meticulous protocols. Whether chin augmentation, jaw contouring, or cheek enhancement, we employ minimally invasive techniques where possible to minimize scarring and accelerate recovery.</p>
+                    <p class="text-on-surface-variant mb-6">Performed in the advanced surgical suites at CARE Hospitals, HITEC City, our procedures follow meticulous protocols. Whether chin augmentation, jaw contouring, or cheek enhancement, we employ minimally invasive techniques where possible to minimize scarring and accelerate recovery.</p>
                     <ul class="space-y-3">
-                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Board-certified anesthesiologists</span></li>
-                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">State-of-the-art surgical facilities</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">suitably qualified anesthesiologists</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Modern surgical facilities</span></li>
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Minimally invasive approaches when applicable</span></li>
                     </ul>
                 </div>
@@ -162,7 +126,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Patient follow-up consultation during cosmetic surgery recovery at Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Patient follow-up consultation during cosmetic surgery recovery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Patient follow-up consultation during cosmetic surgery recovery</p></div>
                 </div>
             </div>
         </div>
@@ -239,9 +203,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             A productive consultation begins with preparation. Bring the following to help us understand your goals and create the best treatment plan for you.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Consultation Guide
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -260,7 +222,7 @@ include $path_prefix . 'header.php';
                                 </div>
                             </li>
                             <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
-                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">question_answer</span>
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">forum</span>
                                 <div>
                                     <strong class="text-primary block mb-1">Questions List</strong>
                                     <span class="text-sm text-on-surface-variant">Write down questions about the procedure, recovery, risks, and expected outcomes.</span>
@@ -279,13 +241,13 @@ include $path_prefix . 'header.php';
             <div class="grid md:grid-cols-2 gap-16 items-center">
                 <div class="order-2 md:order-1 relative">
                     <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
-                    <img alt="3D facial imaging and analysis technology at Gnathos Facial Surgery for cosmetic planning in Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgiZgTqnVcGDk7B4fhXOjMiLV4DGjNzOgX9yuT4UMyPanmr2lRO15oN3w3OfKdMSKhk4ad2cRuLpHc5ZhBBlNK_M2FlNzVWA_lHbUA99hV_AoAAK6_1dIQyTAZpJ9L-dMhrbg3j3gmXq9M7_q6Y6MksM8DJnHFzvq2H1REx1zD_OmalTO7POfydhxeqR-Mm8EcMQH1v-EMTzkRccwHCOvk3b5-QF5hk76-BOBh-PabfF_B9aQY2BCUXnmv856NFuMAsl5O1Sdmr5Y"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="3D facial imaging and analysis technology"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">3D facial imaging and analysis technology</p></div>
                 </div>
                 <div class="order-1 md:order-2">
                     <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Assessment</span>
                     <h2 class="font-headline-md text-headline-md text-primary mb-6">Advanced Diagnostic Technology</h2>
                     <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
-                        Successful cosmetic surgery begins with meticulous planning. We utilize cutting-edge imaging technology to analyze facial proportions and plan procedures with precision.
+                        Successful cosmetic surgery begins with meticulous planning. We utilize modern imaging technology to analyze facial proportions and plan procedures with precision.
                     </p>
                     <ul class="space-y-4 mb-8">
                         <li class="flex items-start gap-3">
@@ -356,7 +318,7 @@ include $path_prefix . 'header.php';
                 <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
                     <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
                         <div class="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
-                            <span class="material-symbols-outlined">auto_fix_high</span>
+                            <span class="material-symbols-outlined">brush</span>
                         </div>
                         <h3 class="font-headline-sm text-primary">Combined & Complementary</h3>
                     </div>
@@ -381,57 +343,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- THE SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Cosmetic Facial Surgery Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Our dual expertise in maxillofacial surgery and facial aesthetics ensures safe, natural-looking results.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <!-- Dr. Suresh Card -->
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon and Cosmetic Facial Surgery Specialist in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/Dr.-Suresh.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Senior Consultant with 20+ years of experience in complex maxillofacial surgery. His expertise in facial anatomy ensures precise, natural-looking cosmetic outcomes for chin, jaw, and facial contouring procedures.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Dr. Navatha Card -->
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon and Cosmetic Facial Surgery Specialist in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Senior Consultant specializing in aesthetic maxillofacial surgery with 15+ years of experience. Known for her meticulous approach to facial contouring and commitment to achieving harmonious, natural results.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs (SCHEMA MARKUP REQUIRED) -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -443,7 +362,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will cosmetic facial surgery leave visible scars?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Scarring depends on the procedure and approach used. Many cosmetic facial procedures are performed using intraoral incisions (inside the mouth), leaving no visible external scars. When external incisions are necessary, our surgeons place them in natural skin creases or hidden areas to minimize visibility. Full scar maturation takes 12-18 months, after which scars typically become barely perceptible.
@@ -452,7 +371,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long do the results of cosmetic facial surgery last?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         The results of bone-contouring procedures (chin, jaw) are permanent. Soft tissue procedures and fat grafting may show some age-related changes over time, but the improvement is long-lasting. Maintaining a stable weight and healthy lifestyle helps preserve results. The natural aging process continues, but you'll always look better than if you hadn't had the procedure.
@@ -461,7 +380,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Is cosmetic facial surgery painful?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Most patients experience manageable discomfort rather than severe pain. Discomfort is typically described as pressure or soreness, similar to recovering from dental work. Pain is well-controlled with prescribed medications during the first week. The majority of patients are pleasantly surprised that discomfort is less than they expected, especially with the advanced techniques we employ.
@@ -470,7 +389,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         When can I return to work after cosmetic facial surgery?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         This varies by procedure and your job requirements. For office-based work, most patients return within 1-2 weeks once initial swelling subsides. Jobs requiring physical labor or public interaction may require 3-4 weeks. We provide a detailed timeline during your consultation based on your specific procedure and occupation.
@@ -479,7 +398,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Can cosmetic facial surgery be combined with other procedures?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Yes, combining procedures is common and often beneficial. Common combinations include chin augmentation with rhinoplasty, jaw contouring with cheek augmentation, or cosmetic procedures with orthognathic surgery. Combining procedures reduces overall recovery time and costs while achieving comprehensive improvement. We carefully evaluate safety considerations when planning combined procedures.
@@ -489,22 +408,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Enhance Your Facial Harmony?</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Take the first step toward achieving the facial balance you desire. Schedule a consultation with our specialists to discuss your goals and explore your options.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Schedule Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- Footer -->
+<?php include $path_prefix . 'footer.php'; ?>

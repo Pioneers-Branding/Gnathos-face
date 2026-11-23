@@ -1,12 +1,22 @@
 <?php
-$path_prefix = "../";
-$page_title = "Double Chin Correction Surgery in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert double chin correction surgery in Hyderabad. Dr. Suresh P.L. offers chin liposuction and submental contouring at CARE Hospitals, Banjara Hills for a defined jawline.";
+$path_prefix = '../';
+$page_title = 'Double Chin Correction Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'Double chin correction surgery in Hyderabad. Dr. Suresh P.L. offers chin liposuction and submental contouring at CARE Hospitals for a defined.';
+$canonical_url = 'https://gnathosface.com/Cosmetic-Facial-Surgery/double-chin-correction-surgery';
+$page_about = 'Double Chin Correction Surgery';
+$breadcrumbs = [['Home', '/'], ['Cosmetic facial surgery', '/cosmetic-facial-surgery-treatment'], ['Double Chin Correction Surgery', null]];
+$page_faqs = [
+    ['q' => 'Am I a good candidate for double chin correction surgery?', 'a' => 'Good candidates are individuals with excess fat beneath the chin that doesn\'t respond to diet or exercise. Ideal candidates have good skin elasticity to ensure smooth contours after fat removal. A consultation with our specialists will determine the best approach for your specific situation.'],
+    ['q' => 'Is double chin correction surgery painful?', 'a' => 'The procedure is performed under local anesthesia with sedation or general anesthesia, so you won\'t feel pain during the surgery. Post-operatively, you may experience some discomfort, swelling, and tightness, which can be managed with prescribed pain medications. Most patients find recovery quite manageable.'],
+    ['q' => 'How long does double chin correction surgery take?', 'a' => 'Chin liposuction typically takes 1-2 hours. More extensive procedures like neck lifts may take 2-3 hours. The exact duration depends on the amount of fat to be removed and whether combination procedures are performed. Your surgeon will provide a detailed timeline during consultation.'],
+    ['q' => 'Will there be visible scarring after double chin correction?', 'a' => 'Chin liposuction typically requires very small incisions (3-4mm) placed beneath the chin or in natural skin creases. These incisions heal remarkably well and are usually barely visible once fully healed. Our surgeons use minimally invasive techniques to ensure the best cosmetic outcomes.'],
+    ['q' => 'Are the results of double chin correction permanent?', 'a' => 'Yes, the fat cells removed through liposuction are permanently eliminated. However, remaining fat cells can still expand with significant weight gain. Maintaining a stable weight helps preserve your results long-term. The skin also continues to tighten over time following the procedure.'],
+];
+$cta_heading = 'Get a specialist opinion on double Chin Correction Surgery.';
+$cta_topic = 'Cosmetic facial procedure';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-<main>
 <!-- Hero Section -->
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
@@ -15,58 +25,17 @@ include $path_prefix . 'header.php';
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Cosmetic Facial Surgery in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Double Chin Correction Surgery in Hyderabad</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                        Define your jawline and eliminate stubborn double chin with advanced contouring surgery. Dr. Suresh P.L. at CARE Hospitals, Banjara Hills offers precision chin liposuction and submental contouring for a sculpted, youthful neck profile.
+                        Define your jawline and eliminate stubborn double chin with advanced contouring surgery. Dr. Suresh P.L. at CARE Hospitals, HITEC City offers precision chin liposuction and submental contouring for a sculpted, youthful neck profile.
                     </p>
 <div class="flex flex-col sm:flex-row gap-4">
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                             Book Consultation
-                        </button>
+                        </a>
 </div>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Double chin correction surgery consultation - Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-</div>
-</div>
-</div>
-</section>
-<!-- Why Choose Us -->
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for Double Chin Correction</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                Hyderabad's leading center for double chin correction, offering advanced techniques for a defined, sculpted jawline.
-            </p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">school</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Expert Surgeons</h3>
-<p class="text-on-surface-variant text-sm">Board-certified maxillofacial surgeons with extensive experience in chin and neck contouring.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">local_hospital</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">CARE Hospitals Setting</h3>
-<p class="text-on-surface-variant text-sm">State-of-the-art facilities at a leading tertiary care center in Banjara Hills, Hyderabad.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">biotech</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Advanced Techniques</h3>
-<p class="text-on-surface-variant text-sm">Minimally invasive liposuction and contouring for optimal results with faster recovery.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">auto_awesome</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Natural Results</h3>
-<p class="text-on-surface-variant text-sm">Artistic approach ensuring sculpted, natural-looking jawline definition and neck contours.</p>
+<div class="gna-plate w-full h-full" role="img" aria-label="Double chin correction surgery consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Double chin correction surgery consultation</p></div>
 </div>
 </div>
 </div>
@@ -123,13 +92,13 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Double chin assessment and analysis for correction planning" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALZZmj6_CAFtHy1vjXdbgnvuwqwnWdk_19QuvDwG7i0mDVRvdLGV05_43z3vvdldkKpstRUl-guoUaftbE5CwioKDaq5UVRxVAq0U8MGjGGnlSm4htoUiK9tI08QygsZdIE6fAW0tK3GLUdbMjaWzgMiRGr0vmWz94CBZCAz5n98VK4wg6s8B_4q7qH50Kaisg_8K1fkcOpoN94riL7idTd-mmNaOJ3BB3Dd_lfNVLvh2AzJQD5CYSFJuSDgGq37lTF8537L1ZhCA"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Double chin assessment and analysis for correction planning"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Double chin assessment and analysis for correction planning</p></div>
 </div>
 </div>
 <!-- Step 2 -->
 <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
 <div class="order-1 md:order-1">
-<img alt="Double chin correction surgery procedure at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEFkiI4mjDEE18YDwFhytADXKSi52219_ImkXimFwvR_u_lEi32i_FGV-fHjIDfiuUGL1lJeadbUQP-VudLVyKwmYno2hUz4EdWrurPoOkszJUln7aMR43klGyT4vRj2F-e9ksMWzt4q9dm_IKwmSyFF36Jj32w61XM7ifV4JQo3iOufuJ2-9_ghJAMrR2v5dtBYCQPel3QIstAIejIFPRUIyA66943uzujXTS879KGpz70wCQ4303HF08bi3co5b4l1czHWqRntk"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Double chin correction surgery procedure"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Double chin correction surgery procedure</p></div>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -159,7 +128,7 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Recovery and results after double chin correction surgery" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Recovery and results after double chin correction surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Recovery and results after double chin correction surgery</p></div>
 </div>
 </div>
 </div>
@@ -279,59 +248,13 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 <div class="mt-12 text-center">
-<button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+<a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                 Request a Consultation
-            </button>
+            </a>
 </div>
 </div>
 </section>
-<!-- The Surgical Team -->
-<section class="py-section-gap bg-primary text-on-primary">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md mb-4">Expert Double Chin Correction Team</h2>
-<p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                Specialists with extensive experience in chin and neck contouring procedures.
-            </p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Suresh P.L. - Double Chin Correction Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/Dr.-Suresh.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 20+ years of experience in chin and neck contouring surgery. Specializes in chin liposuction and submental contouring procedures.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">local_hospital</span> CARE Hospitals, Banjara Hills</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Navatha Mortha - Facial Aesthetic Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 15+ years of focused experience in facial aesthetics and contouring. Expertise in both surgical and non-surgical double chin correction.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">local_hospital</span> CARE Hospitals, Banjara Hills</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <!-- Patient FAQs -->
 <section class="py-section-gap bg-surface">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -343,7 +266,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Am I a good candidate for double chin correction surgery?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Good candidates are individuals with excess fat beneath the chin that doesn't respond to diet or exercise. Ideal candidates have good skin elasticity to ensure smooth contours after fat removal. A consultation with our specialists will determine the best approach for your specific situation.
@@ -352,7 +275,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Is double chin correction surgery painful?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     The procedure is performed under local anesthesia with sedation or general anesthesia, so you won't feel pain during the surgery. Post-operatively, you may experience some discomfort, swelling, and tightness, which can be managed with prescribed pain medications. Most patients find recovery quite manageable.
@@ -361,7 +284,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long does double chin correction surgery take?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Chin liposuction typically takes 1-2 hours. More extensive procedures like neck lifts may take 2-3 hours. The exact duration depends on the amount of fat to be removed and whether combination procedures are performed. Your surgeon will provide a detailed timeline during consultation.
@@ -370,7 +293,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will there be visible scarring after double chin correction?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Chin liposuction typically requires very small incisions (3-4mm) placed beneath the chin or in natural skin creases. These incisions heal remarkably well and are usually barely visible once fully healed. Our surgeons use minimally invasive techniques to ensure the best cosmetic outcomes.
@@ -379,7 +302,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Are the results of double chin correction permanent?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Yes, the fat cells removed through liposuction are permanently eliminated. However, remaining fat cells can still expand with significant weight gain. Maintaining a stable weight helps preserve your results long-term. The skin also continues to tighten over time following the procedure.
@@ -388,21 +311,5 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 </section>
-<!-- Final CTA -->
-<section class="py-section-gap bg-surface-container-low">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Define Your Jawline?</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                    Eliminate your double chin and achieve a sculpted, defined jawline. Schedule a comprehensive consultation with our specialists to explore your options and create your personalized treatment plan.
-                </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                    Schedule Your Consultation
-                    <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-</button>
-</div>
-</section>
-</main>
 <!-- Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

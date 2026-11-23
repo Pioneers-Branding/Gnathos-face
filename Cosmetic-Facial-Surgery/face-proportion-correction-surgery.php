@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Face Proportion Correction Surgery in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert face proportion correction surgery in Hyderabad. Dr. Suresh P.L. at CARE Hospitals, Banjara Hills offers advanced procedures to achieve balanced facial proportions and harmony.";
+$path_prefix = '../';
+$page_title = 'Face Proportion Correction Surgery in Hyderabad';
+$page_description = 'Face proportion correction surgery in Hyderabad. Dr. Suresh P.L. at CARE Hospitals offers advanced procedures to achieve balanced facial.';
+$canonical_url = 'https://gnathosface.com/Cosmetic-Facial-Surgery/face-proportion-correction-surgery';
+$page_about = 'Face Proportion Correction Surgery';
+$breadcrumbs = [['Home', '/'], ['Cosmetic facial surgery', '/cosmetic-facial-surgery-treatment'], ['Face Proportion Correction Surgery', null]];
+$page_faqs = [
+    ['q' => 'What facial proportion problems can be corrected?', 'a' => 'Face proportion correction can address various concerns including imbalanced facial thirds (upper, middle, lower), width discrepancies between facial regions, chin position or projection issues affecting profile, jaw angle prominence causing lower face disproportion, and cheek projection concerns affecting middle face harmony. During consultation at our Hyderabad center, we\'ll analyze your specific proportions and recommend appropriate correction approaches.'],
+    ['q' => 'Will proportion correction make me look unnatural?', 'a' => 'Our goal is natural-looking balance, not dramatic transformation. We analyze ideal proportions for your specific facial structure and plan corrections that create harmonious relationships between features. The result should appear that your facial proportions were naturally balanced, not that you had obvious surgery. We\'ll discuss realistic expectations and show simulation options during consultation at CARE Hospitals.'],
+    ['q' => 'How long does proportion correction surgery take?', 'a' => 'Surgery duration depends on the complexity of correction needed. Single-area corrections like chin adjustment typically take 1-2 hours while comprehensive multi-area correction may require 3-5 hours. Your surgeon will provide a detailed timeline estimate during consultation at our Hyderabad center based on your specific correction plan.'],
+    ['q' => 'Can multiple proportion concerns be corrected at once?', 'a' => 'Yes, combined procedures are common for comprehensive proportion correction. For example, you might have chin correction combined with jaw angle adjustment, or cheek enhancement with chin modification. Combining procedures can provide more harmonious overall results while consolidating recovery time into one period. Your surgeon will recommend the best approach based on your proportion analysis and correction goals.'],
+    ['q' => 'What is the cost of proportion correction surgery in Hyderabad?', 'a' => 'Costs vary depending on the procedures required and their complexity. During consultation at our Hyderabad center, we provide detailed estimates covering all aspects of your proportion correction. We offer various payment options and can discuss financing if needed to make your correction accessible.'],
+];
+$cta_heading = 'Get a specialist opinion on face Proportion Correction Surgery.';
+$cta_topic = 'Cosmetic facial procedure';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -18,61 +27,17 @@ include $path_prefix . 'header.php';
                     Face Proportion Correction Surgery in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Achieve harmonious facial proportions through expert surgical correction. Our skilled surgeons at CARE Hospitals, Banjara Hills analyze and correct proportion imbalances to create natural-looking balance and aesthetic harmony.
+                    Achieve harmonious facial proportions through expert surgical correction. Our skilled surgeons at CARE Hospitals, HITEC City analyze and correct proportion imbalances to create natural-looking balance and aesthetic harmony.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Face proportion correction surgery - Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Proportion Correction
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Facial proportion correction requires artistic understanding combined with surgical precision. Our Hyderabad center applies scientific proportion analysis with aesthetic expertise to achieve balanced, natural-looking results.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">straighten</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Scientific Analysis</h3>
-                    <p class="text-on-surface-variant text-sm">Precise measurement and proportion analysis to identify specific areas requiring correction.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">palette</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Aesthetic Expertise</h3>
-                    <p class="text-on-surface-variant text-sm">Artistic understanding of ideal facial proportions and harmonious relationships.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">architecture</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Comprehensive Planning</h3>
-                    <p class="text-on-surface-variant text-sm">Detailed surgical planning for multi-area correction when needed.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">auto_fix_high</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Natural Results</h3>
-                    <p class="text-on-surface-variant text-sm">Balanced outcomes that appear naturally proportionate to your facial features.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Face proportion correction surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Face proportion correction surgery</p></div>
                 </div>
             </div>
         </div>
@@ -128,17 +93,17 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Facial proportion analysis - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Facial proportion analysis"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial proportion analysis</p></div>
                 </div>
             </div>
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Face proportion correction procedure - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Face proportion correction procedure"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Face proportion correction procedure</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
                     <h3 class="font-headline-sm text-2xl text-primary mb-4">Precision Proportion Correction</h3>
-                    <p class="text-on-surface-variant mb-6">At CARE Hospitals, Banjara Hills, our surgeons perform meticulous correction procedures. Techniques may involve jaw procedures, chin adjustment, cheek modification, or combined approaches to achieve balanced proportions across all facial thirds.</p>
+                    <p class="text-on-surface-variant mb-6">At CARE Hospitals, HITEC City, our surgeons perform meticulous correction procedures. Techniques may involve jaw procedures, chin adjustment, cheek modification, or combined approaches to achieve balanced proportions across all facial thirds.</p>
                     <ul class="space-y-3">
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Multi-area correction when needed</span></li>
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Precise structural adjustment</span></li>
@@ -158,7 +123,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Face proportion correction results - Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Face proportion correction results"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Face proportion correction results</p></div>
                 </div>
             </div>
         </div>
@@ -229,9 +194,9 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             Different procedures address specific proportion concerns. Your surgeon may recommend single or combined procedures to achieve your optimal facial balance.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
+                        <a href="/cosmetic-facial-surgery-treatment" class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
                             View All Procedures
-                        </button>
+                        </a>
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -250,7 +215,7 @@ include $path_prefix . 'header.php';
                                 </div>
                             </li>
                             <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
-                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">auto_figure</span>
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">accessibility_new</span>
                                 <div>
                                     <strong class="text-primary block mb-1">Cheek Proportion Enhancement</strong>
                                     <span class="text-sm text-on-surface-variant">Cheekbone projection adjustment for middle face balance and definition.</span>
@@ -263,48 +228,7 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Proportion Correction Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Our surgical team combines anatomical expertise with aesthetic understanding to deliver proportion correction results that enhance facial harmony naturally.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Suresh has over 20 years of experience in proportion correction procedures. His understanding of facial aesthetics combined with precise surgical technique helps patients in Hyderabad achieve naturally balanced facial proportions through carefully planned correction.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Navatha specializes in aesthetic facial surgery with particular expertise in proportion analysis and correction. Her artistic eye and meticulous surgical approach ensure patients receive proportion correction that creates harmonious, natural-looking facial balance.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -316,7 +240,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What facial proportion problems can be corrected?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Face proportion correction can address various concerns including imbalanced facial thirds (upper, middle, lower), width discrepancies between facial regions, chin position or projection issues affecting profile, jaw angle prominence causing lower face disproportion, and cheek projection concerns affecting middle face harmony. During consultation at our Hyderabad center, we'll analyze your specific proportions and recommend appropriate correction approaches.
@@ -325,16 +249,16 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will proportion correction make me look unnatural?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                        Our goal is natural-looking balance, not dramatic transformation. We analyze ideal proportions for your specific facial structure and plan corrections that create harmonious relationships between features. The result should appear that your facial proportions were naturally balanced, not that you had obvious surgery. We'll discuss realistic expectations and show simulation options during consultation at CARE Hospitals, Banjara Hills.
+                        Our goal is natural-looking balance, not dramatic transformation. We analyze ideal proportions for your specific facial structure and plan corrections that create harmonious relationships between features. The result should appear that your facial proportions were naturally balanced, not that you had obvious surgery. We'll discuss realistic expectations and show simulation options during consultation at CARE Hospitals, HITEC City.
                     </div>
                 </details>
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long does proportion correction surgery take?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Surgery duration depends on the complexity of correction needed. Single-area corrections like chin adjustment typically take 1-2 hours while comprehensive multi-area correction may require 3-5 hours. Your surgeon will provide a detailed timeline estimate during consultation at our Hyderabad center based on your specific correction plan.
@@ -343,7 +267,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Can multiple proportion concerns be corrected at once?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Yes, combined procedures are common for comprehensive proportion correction. For example, you might have chin correction combined with jaw angle adjustment, or cheek enhancement with chin modification. Combining procedures can provide more harmonious overall results while consolidating recovery time into one period. Your surgeon will recommend the best approach based on your proportion analysis and correction goals.
@@ -352,7 +276,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What is the cost of proportion correction surgery in Hyderabad?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Costs vary depending on the procedures required and their complexity. During consultation at our Hyderabad center, we provide detailed estimates covering all aspects of your proportion correction. We offer various payment options and can discuss financing if needed to make your correction accessible.
@@ -362,22 +286,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Correct Your Facial Proportions Today</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Achieve balanced, harmonious facial proportions with expert surgical correction. Schedule a consultation with our skilled team at CARE Hospitals, Banjara Hills to analyze your proportions and develop a personalized correction plan for natural-looking balance.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

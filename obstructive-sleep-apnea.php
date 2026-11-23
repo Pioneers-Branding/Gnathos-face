@@ -1,15 +1,24 @@
 <?php
-$path_prefix = "";
-$page_title = "Obstructive Sleep Apnea | Gnathos Facial Surgery";
-$page_description = "Expert obstructive sleep apnea treatment in Hyderabad. Dr. Suresh P.L. offers advanced OSA diagnosis and surgical solutions at CARE Hospitals, Banjara Hills.";
-$canonical_url = "https://gnathosface.com/obstructive-sleep-apnea/";
+$path_prefix = '';
+$page_title = 'Sleep Apnea & Snoring Treatment in Hyderabad | Gnathos';
+$page_description = 'Obstructive sleep apnea signs, risks and treatment options in Hyderabad, from oral appliances to jaw advancement surgery (MMA). Get assessed by a specialist.';
+$canonical_url = 'https://gnathosface.com/obstructive-sleep-apnea';
+$page_about = 'Obstructive Sleep Apnea Treatment';
+$breadcrumbs = [['Home', '/'], ['Conditions', '/conditions'], ['Obstructive Sleep Apnea Treatment', null]];
+$page_faqs = [
+    ['q' => 'How is obstructive sleep apnea diagnosed?', 'a' => 'OSA is diagnosed through a combination of clinical evaluation and sleep studies. Your doctor will review your symptoms, medical history, and may recommend a polysomnography (overnight sleep study) that monitors brain activity, breathing patterns, oxygen levels, heart rate, and body movements. Home sleep apnea tests are available for select patients without complex medical conditions.'],
+    ['q' => 'Is CPAP the only treatment for sleep apnea?', 'a' => 'No, CPAP is the most commonly prescribed treatment but not the only option. Treatment depends on your OSA severity and anatomy. Options include oral appliances for mild cases, lifestyle changes, positional therapy, and various surgical procedures like tonsillectomy, UPPP, or maxillomandibular advancement for suitable candidates. Our team will help determine the most appropriate treatment for your specific condition.'],
+    ['q' => 'Will I need sleep apnea surgery?', 'a' => 'Surgery is considered when conservative treatments like CPAP or oral appliances are ineffective, not tolerated, or not appropriate for your condition. Candidates for surgery typically have specific anatomical contributors to their airway obstruction that can be addressed surgically. Your evaluation will determine if surgery is likely to benefit you based on your sleep study results, airway anatomy, and overall health.'],
+    ['q' => 'How long does it take to recover from MMA surgery?', 'a' => 'Initial recovery from maxillomandibular advancement typically takes 2-3 weeks, with most swelling subsiding over 4-6 weeks. Patients usually return to work within 2-3 weeks for desk jobs, and full activities within 6-8 weeks. The final aesthetic and functional results stabilize over 6-12 months as complete bone healing occurs. A follow-up sleep study is typically performed at 3 months to assess treatment efficacy.'],
+    ['q' => 'Does insurance cover sleep apnea treatment in India?', 'a' => 'Coverage varies by insurance provider and policy. Many health insurance plans in India cover sleep studies and surgical treatments for diagnosed obstructive sleep apnea, particularly when deemed medically necessary. Conservative treatments like CPAP devices may have partial coverage. We recommend checking with your insurance provider and can assist with documentation for pre-authorization.'],
+    ['q' => 'Can sleep apnea be cured permanently?', 'a' => 'For many patients, surgical treatment like maxillomandibular advancement can provide long-lasting resolution of obstructive sleep apnea by permanently enlarging the airway. Success rates for MMA are among the highest of all OSA treatments. However, results depend on proper patient selection, surgical technique, and individual healing. Non-surgical treatments like CPAP must be continued consistently to be effective.'],
+];
+$cta_heading = 'Get a specialist opinion on obstructive Sleep Apnea Treatment.';
+$cta_topic = 'Snoring / sleep apnea';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -19,20 +28,20 @@ include $path_prefix . 'header.php';
                     Obstructive Sleep Apnea Treatment in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Restore restful sleep and improve your quality of life. Our expert team offers comprehensive diagnosis and advanced surgical solutions for obstructive sleep apnea at CARE Hospitals, Banjara Hills.
+                    Restore restful sleep and improve your quality of life. Our expert team offers comprehensive diagnosis and advanced surgical solutions for obstructive sleep apnea at CARE Hospitals, HITEC City.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
-                    <button class="border border-surface-variant text-on-surface font-label-md text-label-md px-8 py-4 rounded hover:bg-surface-container-low transition-colors duration-300 text-center">
+                    </a>
+                    <a href="/blogs/sleep-apnea-symptoms-in-adults/" class="border border-surface-variant text-on-surface font-label-md text-label-md px-8 py-4 rounded hover:bg-surface-container-low transition-colors duration-300 text-center">
                         Take Sleep Assessment
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Sleep study diagnostic equipment at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1631567091146-8f21c9e48d7d?w=800&q=80"/>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Sleep study diagnostic equipment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Sleep study diagnostic equipment</p></div>
                 </div>
             </div>
         </div>
@@ -42,56 +51,12 @@ include $path_prefix . 'header.php';
     <section class="py-4 bg-surface-container-low">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant">
-                <a href="index.php" class="hover:text-primary">Home</a>
+                <a href="/" class="hover:text-primary">Home</a>
                 <span class="material-symbols-outlined text-base">chevron_right</span>
-                <a href="treatments.php" class="hover:text-primary">Treatments</a>
+                <a href="/treatments" class="hover:text-primary">Treatments</a>
                 <span class="material-symbols-outlined text-base">chevron_right</span>
                 <span class="text-primary">Obstructive Sleep Apnea</span>
             </nav>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US: Trust Signals -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Sleep Apnea Treatment
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Specialized maxillofacial expertise for effective obstructive sleep apnea management in Hyderabad.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">psychology</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Sleep Medicine Expertise</h3>
-                    <p class="text-on-surface-variant text-sm">Specialized training in managing sleep-disordered breathing conditions</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">local_hospital</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">CARE Hospitals Partnership</h3>
-                    <p class="text-on-surface-variant text-sm">State-of-the-art diagnostic facilities and surgical infrastructure</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">precision_manufacturing</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Advanced Surgical Techniques</h3>
-                    <p class="text-on-surface-variant text-sm">Minimally invasive approaches for faster recovery and lasting results</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">monitor_heart</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Comprehensive Monitoring</h3>
-                    <p class="text-on-surface-variant text-sm">Thorough pre and post-operative care with sleep study follow-up</p>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -114,7 +79,7 @@ include $path_prefix . 'header.php';
                     </div>
                 </div>
                 <div class="relative">
-                    <img alt="Cross-section illustration showing airway obstruction during sleep - OSA anatomy at Gnathos Facial Surgery" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Cross-section illustration showing airway obstruction during sleep - OSA anatomy"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Cross-section illustration showing airway obstruction during sleep - OSA anatomy</p></div>
                 </div>
             </div>
         </div>
@@ -131,7 +96,7 @@ include $path_prefix . 'header.php';
             </div>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
-                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">nights_stay</span>
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">bedtime</span>
                     <h3 class="font-headline-sm text-xl text-primary mb-3">Nighttime Symptoms</h3>
                     <ul class="space-y-2 text-on-surface-variant">
                         <li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary text-sm">chevron_right</span> Loud, chronic snoring</li>
@@ -173,7 +138,7 @@ include $path_prefix . 'header.php';
             <div class="grid md:grid-cols-2 gap-16 items-center">
                 <div class="relative">
                     <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
-                    <img alt="Sleep study monitoring equipment at CARE Hospitals, Hyderabad for accurate OSA diagnosis" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Sleep study monitoring equipment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Sleep study monitoring equipment</p></div>
                 </div>
                 <div>
                     <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Assessment</span>
@@ -279,9 +244,9 @@ include $path_prefix . 'header.php';
             </div>
             <div class="mt-12 text-center">
                 <p class="text-on-surface-variant mb-6">Not sure which treatment is right for you? Our specialists will recommend the most appropriate approach after thorough evaluation.</p>
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
@@ -294,7 +259,7 @@ include $path_prefix . 'header.php';
                     <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Surgical Excellence</span>
                     <h2 class="font-headline-md text-headline-md text-primary mb-6">Maxillomandibular Advancement: The Gold Standard</h2>
                     <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
-                        For patients with severe obstructive sleep apnea and underlying jaw deficiency, Maxillomandibular Advancement (MMA) offers the highest surgical success rates, with studies showing cure rates exceeding 85%.
+                        For patients with severe obstructive sleep apnea and underlying jaw deficiency, Maxillomandibular Advancement (MMA) offers the highest surgical success rates, with studies showing survival rates exceeding 85%.
                     </p>
                     <p class="text-on-surface-variant mb-6">
                         During this procedure, both the upper jaw (maxilla) and lower jaw (mandible) are carefully repositioned forward. This enlarges the airway by pulling the soft tissues and tongue base forward, eliminating the obstruction.
@@ -307,7 +272,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="relative">
-                    <img alt="Before and after diagram showing jaw advancement for OSA treatment at Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=800&q=80"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Before and after diagram showing jaw advancement for OSA treatment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Before and after diagram showing jaw advancement for OSA treatment</p></div>
                 </div>
             </div>
         </div>
@@ -384,9 +349,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
                             Your first consultation will involve a comprehensive evaluation. Preparing the following information will help us provide the most accurate assessment.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Checklist PDF
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -418,50 +381,7 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- THE SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Sleep Apnea Treatment Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Our oral and maxillofacial surgeons specialize in sleep-disordered breathing management with decades of combined experience.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Renowned maxillofacial surgeon with extensive experience in sleep apnea surgery. Trained in advanced OSA management including maxillomandibular advancement and multi-level airway procedures.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">hotel</span> Sleep Medicine Training</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Expert in diagnostic evaluation of sleep disorders and patient-centered treatment planning. Specializes in non-surgical management and surgical case selection for optimal outcomes.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">sleep</span> Sleep Disorder Assessment</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs (SCHEMA MARKUP REQUIRED) -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -473,7 +393,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How is obstructive sleep apnea diagnosed?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         <p>OSA is diagnosed through a combination of clinical evaluation and sleep studies. Your doctor will review your symptoms, medical history, and may recommend a polysomnography (overnight sleep study) that monitors brain activity, breathing patterns, oxygen levels, heart rate, and body movements. Home sleep apnea tests are available for select patients without complex medical conditions.</p>
@@ -482,7 +402,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Is CPAP the only treatment for sleep apnea?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         <p>No, CPAP is the most commonly prescribed treatment but not the only option. Treatment depends on your OSA severity and anatomy. Options include oral appliances for mild cases, lifestyle changes, positional therapy, and various surgical procedures like tonsillectomy, UPPP, or maxillomandibular advancement for suitable candidates. Our team will help determine the most appropriate treatment for your specific condition.</p>
@@ -491,7 +411,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will I need sleep apnea surgery?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         <p>Surgery is considered when conservative treatments like CPAP or oral appliances are ineffective, not tolerated, or not appropriate for your condition. Candidates for surgery typically have specific anatomical contributors to their airway obstruction that can be addressed surgically. Your evaluation will determine if surgery is likely to benefit you based on your sleep study results, airway anatomy, and overall health.</p>
@@ -500,7 +420,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long does it take to recover from MMA surgery?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         <p>Initial recovery from maxillomandibular advancement typically takes 2-3 weeks, with most swelling subsiding over 4-6 weeks. Patients usually return to work within 2-3 weeks for desk jobs, and full activities within 6-8 weeks. The final aesthetic and functional results stabilize over 6-12 months as complete bone healing occurs. A follow-up sleep study is typically performed at 3 months to assess treatment efficacy.</p>
@@ -509,7 +429,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Does insurance cover sleep apnea treatment in India?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         <p>Coverage varies by insurance provider and policy. Many health insurance plans in India cover sleep studies and surgical treatments for diagnosed obstructive sleep apnea, particularly when deemed medically necessary. Conservative treatments like CPAP devices may have partial coverage. We recommend checking with your insurance provider and can assist with documentation for pre-authorization.</p>
@@ -518,7 +438,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Can sleep apnea be cured permanently?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         <p>For many patients, surgical treatment like maxillomandibular advancement can provide long-lasting resolution of obstructive sleep apnea by permanently enlarging the airway. Success rates for MMA are among the highest of all OSA treatments. However, results depend on proper patient selection, surgical technique, and individual healing. Non-surgical treatments like CPAP must be continued consistently to be effective.</p>
@@ -536,15 +456,15 @@ include $path_prefix . 'header.php';
                 <p class="text-on-surface-variant">Our expertise extends to related facial and airway conditions.</p>
             </div>
             <div class="grid md:grid-cols-3 gap-6">
-                <a href="tmj-treatment.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-primary transition-colors group">
+                <a href="/tmj-treatment" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-primary transition-colors group">
                     <h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">TMJ Disorders</h3>
                     <p class="text-on-surface-variant text-sm">Jaw joint dysfunction and facial pain management</p>
                 </a>
-                <a href="jaw-surgery.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-primary transition-colors group">
+                <a href="/jaw-surgery" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-primary transition-colors group">
                     <h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Jaw Surgery</h3>
                     <p class="text-on-surface-variant text-sm">Corrective jaw procedures for alignment and function</p>
                 </a>
-                <a href="facial-trauma.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-primary transition-colors group">
+                <a href="/facial-injuries" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-primary transition-colors group">
                     <h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Facial Trauma</h3>
                     <p class="text-on-surface-variant text-sm">Reconstruction of facial injuries and defects</p>
                 </a>
@@ -552,22 +472,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Sleep Better?</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Untreated obstructive sleep apnea affects every aspect of your life. Our expert team at Gnathos Facial Surgery can help you find the right treatment path. Schedule a consultation at CARE Hospitals, Banjara Hills, Hyderabad.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

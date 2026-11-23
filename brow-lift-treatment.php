@@ -1,13 +1,25 @@
 <?php
-$path_prefix = "";
-$page_title = "Brow Lift Surgery Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert brow lift surgery in Hyderabad at CARE Hospitals. Restore youthful eyes and forehead with endoscopic and open brow lift techniques by maxillofacial specialists.";
+$path_prefix = '';
+$page_title = 'Brow Lift Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'Brow lift in Hyderabad for low, heavy brows and forehead lines: endoscopic and open techniques, non-surgical alternatives, recovery and risks explained.';
+$canonical_url = 'https://gnathosface.com/brow-lift-treatment';
+$page_about = 'Brow Lift Surgery';
+$breadcrumbs = [['Home', '/'], ['Cosmetic facial surgery', '/cosmetic-facial-surgery-treatment'], ['Brow Lift Surgery', null]];
+$page_faqs = [
+    ['q' => 'Am I a good candidate for brow lift surgery?', 'a' => 'Ideal candidates are healthy adults experiencing forehead aging signs like sagging brows, horizontal forehead lines, or frown lines. Good candidates have realistic expectations, non-smokers (or willing to quit), and understand the procedure and recovery involved.'],
+    ['q' => 'What\'s the difference between endoscopic and open brow lift?', 'a' => 'Endoscopic brow lift uses 4-5 small incisions hidden in the scalp with a camera for visualization. It\'s less invasive with faster recovery but may not correct severe sagging as effectively. Open brow lift uses a longer incision along the hairline, providing direct access and better correction for significant aging, but requires longer recovery.'],
+    ['q' => 'Will I have visible scars after brow lift surgery?', 'a' => 'With endoscopic brow lift, the 4-5 small incisions are hidden within the hairline and typically heal to become virtually invisible. Open brow lift incisions are placed along the hairline or within forehead creases where they are naturally concealed. Our surgeons are skilled at minimizing visible scarring.'],
+    ['q' => 'How long does brow lift surgery take?', 'a' => 'Brow lift surgery typically takes 1-2 hours depending on the technique used and whether combined procedures (such as eyelid surgery) are performed at the same time. The procedure is performed under general anesthesia or IV sedation as an outpatient or short-stay procedure.'],
+    ['q' => 'What is the recovery time for brow lift surgery?', 'a' => 'Most patients return to desk work within 10-14 days. Light exercise can resume after 3 weeks. Full recovery with final results develops over 3-6 months as swelling subsides and tissues settle. Endoscopic brow lift generally offers faster recovery than open techniques.'],
+    ['q' => 'Can brow lift be combined with other procedures?', 'a' => 'Yes, brow lift is commonly combined with upper eyelid surgery (blepharoplasty) for comprehensive eye area rejuvenation. It can also be combined with facelift, rhinoplasty, or non-surgical treatments like Botox and fillers for complete facial harmonization.'],
+    ['q' => 'How long do brow lift results last?', 'a' => 'While brow lift cannot stop aging, results are long-lasting. Most patients enjoy their elevated brow position for 10-15 years before considering a revision procedure. Maintaining a healthy lifestyle, protecting skin from sun damage, and non-surgical treatments can help prolong results.'],
+    ['q' => 'What are the risks of brow lift surgery?', 'a' => 'Brow lift is generally safe with an experienced surgeon. Potential risks include temporary numbness, hair loss around incisions, asymmetry, elevated hairline, and rare complications like facial nerve injury. Our surgeons discuss all risks during consultation and take precautions to minimize them.'],
+];
+$cta_heading = 'Get a specialist opinion on brow Lift Surgery.';
+$cta_topic = 'Cosmetic facial procedure';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
 <!-- Hero Section -->
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
@@ -16,59 +28,17 @@ include $path_prefix . 'header.php';
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Brow Lift Surgery in Hyderabad</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                        Restore a youthful, refreshed appearance with expert brow lift surgery at CARE Hospitals, Banjara Hills. Our maxillofacial surgeons offer both endoscopic and open brow lift techniques to address forehead wrinkles, drooping eyebrows, and tired-looking eyes.
+                        Restore a youthful, refreshed appearance with expert brow lift surgery at CARE Hospitals, HITEC City. Our maxillofacial surgeons offer both endoscopic and open brow lift techniques to address forehead wrinkles, drooping eyebrows, and tired-looking eyes.
                     </p>
 <div class="flex flex-col sm:flex-row gap-4">
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                             Book Consultation
-                        </button>
+                        </a>
 </div>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Brow lift consultation - facial rejuvenation at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-</div>
-</div>
-</div>
-</section>
-
-<!-- Why Choose Us -->
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for Brow Lift Surgery</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                Leading facial cosmetic surgery specialists in Hyderabad, offering advanced brow lift techniques with natural-looking, lasting results.
-            </p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">school</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Board-Certified Surgeons</h3>
-<p class="text-on-surface-variant text-sm">35+ years of combined experience in facial cosmetic and reconstructive surgery.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">local_hospital</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">CARE Hospitals Setting</h3>
-<p class="text-on-surface-variant text-sm">Full surgical facilities with advanced operating theatres at Banjara Hills.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">biotech</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Advanced Techniques</h3>
-<p class="text-on-surface-variant text-sm">Minimally invasive endoscopic brow lift with minimal scarring and faster recovery.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">sentiment_satisfied</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Natural Results</h3>
-<p class="text-on-surface-variant text-sm">Focus on subtle, natural-looking rejuvenation that preserves expressiveness.</p>
+<div class="gna-plate w-full h-full" role="img" aria-label="Brow lift consultation - facial rejuvenation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Brow lift consultation - facial rejuvenation</p></div>
 </div>
 </div>
 </div>
@@ -95,7 +65,7 @@ include $path_prefix . 'header.php';
 <p class="text-on-surface-variant">Low-positioned eyebrows contributing to upper eyelid hooding and obstructed vision.</p>
 </div>
 <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
-<span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">auto_fix_high</span>
+<span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">brush</span>
 <h3 class="font-headline-sm text-xl text-primary mb-3">Forehead Wrinkles</h3>
 <p class="text-on-surface-variant">Deep horizontal lines across the forehead or vertical frown lines between the eyebrows.</p>
 </div>
@@ -132,13 +102,13 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Surgeon consulting with patient about brow lift surgery options at Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEFkiI4mjDEE18YDwFhytADXKSi52219_ImkXimFwvR_u_lEi32i_FGV-fHjIDfiuUGL1lJadabUQP-VudLVyKwmYno2hUz4EdWrurPoOkszJUln7aMR43klGyT4vRj2F-e9ksMWzt4q9dm_IKwmSyFF36Jj32w61XM7ifV4JQo3iOufuJ2-9_ghJAMrR2v5dtBYCQPel3QIstAIejIFPRUIyA66943uzujXTS879KGpz70wCQ4303HF08bi3co5b4l1czHWqRntk"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Surgeon consulting with patient about brow lift surgery options"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Surgeon consulting with patient about brow lift surgery options</p></div>
 </div>
 </div>
 <!-- Step 2 -->
 <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
 <div class="order-1 md:order-1">
-<img alt="Advanced endoscopic brow lift surgery at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Advanced endoscopic brow lift surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Advanced endoscopic brow lift surgery</p></div>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -168,7 +138,7 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Patient consultation during brow lift recovery at Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Patient consultation during brow lift recovery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Patient consultation during brow lift recovery</p></div>
 </div>
 </div>
 </div>
@@ -242,9 +212,7 @@ include $path_prefix . 'header.php';
 <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                         To make the most of your consultation, prepare some information beforehand. This helps us understand your goals and create the most effective treatment plan for your unique needs.
                     </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                        Download Checklist PDF
-                    </button>
+
 </div>
 <div>
 <ul class="space-y-4">
@@ -334,59 +302,14 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 <div class="mt-12 text-center">
-<button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+<a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                 Request a Consultation
-            </button>
+            </a>
 </div>
 </div>
 </section>
 
-<!-- The Surgical Team -->
-<section class="py-section-gap bg-primary text-on-primary">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md mb-4">Expert Facial Surgery Team</h2>
-<p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                Decades of specialized experience in facial cosmetic and reconstructive surgery for natural-looking, lasting results.
-            </p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Suresh P.L. - Brow Lift Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/Dr.-Suresh.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant and facial cosmetic surgery specialist with 20+ years of experience in facial rejuvenation procedures including brow lift, eyelid surgery, and facelift techniques.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 15+ years of experience in facial cosmetic surgery and complex reconstructive procedures including brow rejuvenation.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <!-- Patient FAQs -->
 <section class="py-section-gap bg-surface">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -398,7 +321,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Am I a good candidate for brow lift surgery?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Ideal candidates are healthy adults experiencing forehead aging signs like sagging brows, horizontal forehead lines, or frown lines. Good candidates have realistic expectations, non-smokers (or willing to quit), and understand the procedure and recovery involved.
@@ -407,7 +330,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What's the difference between endoscopic and open brow lift?
-                    <span class="material-symbols-outlined transition duration-300">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Endoscopic brow lift uses 4-5 small incisions hidden in the scalp with a camera for visualization. It's less invasive with faster recovery but may not correct severe sagging as effectively. Open brow lift uses a longer incision along the hairline, providing direct access and better correction for significant aging, but requires longer recovery.
@@ -416,7 +339,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will I have visible scars after brow lift surgery?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     With endoscopic brow lift, the 4-5 small incisions are hidden within the hairline and typically heal to become virtually invisible. Open brow lift incisions are placed along the hairline or within forehead creases where they are naturally concealed. Our surgeons are skilled at minimizing visible scarring.
@@ -425,7 +348,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long does brow lift surgery take?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Brow lift surgery typically takes 1-2 hours depending on the technique used and whether combined procedures (such as eyelid surgery) are performed at the same time. The procedure is performed under general anesthesia or IV sedation as an outpatient or short-stay procedure.
@@ -434,7 +357,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What is the recovery time for brow lift surgery?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Most patients return to desk work within 10-14 days. Light exercise can resume after 3 weeks. Full recovery with final results develops over 3-6 months as swelling subsides and tissues settle. Endoscopic brow lift generally offers faster recovery than open techniques.
@@ -443,7 +366,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Can brow lift be combined with other procedures?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Yes, brow lift is commonly combined with upper eyelid surgery (blepharoplasty) for comprehensive eye area rejuvenation. It can also be combined with facelift, rhinoplasty, or non-surgical treatments like Botox and fillers for complete facial harmonization.
@@ -452,7 +375,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long do brow lift results last?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     While brow lift cannot stop aging, results are long-lasting. Most patients enjoy their elevated brow position for 10-15 years before considering a revision procedure. Maintaining a healthy lifestyle, protecting skin from sun damage, and non-surgical treatments can help prolong results.
@@ -461,7 +384,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What are the risks of brow lift surgery?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Brow lift is generally safe with an experienced surgeon. Potential risks include temporary numbness, hair loss around incisions, asymmetry, elevated hairline, and rare complications like facial nerve injury. Our surgeons discuss all risks during consultation and take precautions to minimize them.
@@ -471,22 +394,5 @@ include $path_prefix . 'header.php';
 </div>
 </section>
 
-<!-- Final CTA -->
-<section class="py-section-gap bg-surface-container-low">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Refresh Your Appearance with Expert Brow Lift</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                    A brow lift can restore a youthful, alert appearance by elevating drooping eyebrows and smoothing forehead wrinkles. Schedule a consultation with our facial surgery specialists to learn how we can help you achieve natural-looking rejuvenation.
-                </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                    Schedule Your Brow Lift Consultation
-                    <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-</button>
-</div>
-</section>
-</main>
-
 <!-- Detailed Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

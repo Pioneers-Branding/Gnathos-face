@@ -1,15 +1,24 @@
 <?php
-$path_prefix = "";
-$page_title = "Orthognathic Surgery Treatment | Gnathos Facial Surgery";
-$page_description = "Expert orthognathic surgery in Hyderabad. Board-certified maxillofacial surgeons at Gnathos Facial offer advanced jaw correction surgery for improved function and aesthetics. Book consultation today.";
-$canonical_url = "https://gnathosface.com/orthognathic-surgery-treatment/";
+$path_prefix = '';
+$page_title = 'Orthognathic Treatment in Hyderabad: Steps & Recovery';
+$page_description = 'How orthognathic treatment works step by step: orthodontic preparation, 3D surgical planning, surgery at a partner hospital in Hyderabad, and recovery.';
+$canonical_url = 'https://gnathosface.com/orthognathic-surgery-treatment';
+$page_about = 'Orthognathic Surgery for a Balanced, Functional Smile';
+$breadcrumbs = [['Home', '/'], ['Treatments', '/treatments'], ['Orthognathic Surgery for a Balanced, Functional Smile', null]];
+$page_faqs = [
+    ['q' => 'What is the cost of orthognathic surgery in Hyderabad?', 'a' => 'The cost of orthognathic surgery varies based on the complexity of your case, whether single or double jaw surgery is required, and hospital facilities. At Gnathos Facial in Hyderabad, orthognathic surgery typically ranges from INR 1,50,000 to INR 4,50,000 depending on the procedure. This includes surgeon fees, hospital charges, anesthesia, and follow-up care. We offer flexible payment options and can provide detailed estimates after your initial consultation and diagnostic evaluation.'],
+    ['q' => 'Is orthognathic surgery covered by insurance in India?', 'a' => 'Insurance coverage for orthognathic surgery depends on whether the procedure is deemed medically necessary. Functional issues such as difficulty chewing, sleep apnea, or significant skeletal abnormalities may qualify for coverage under health insurance. Cosmetic concerns related solely to aesthetics are typically not covered. We can provide detailed medical documentation and assist with insurance pre-authorization processes. Our team works with all major insurance providers in Hyderabad.'],
+    ['q' => 'How long does orthognathic surgery take?', 'a' => 'Surgical time varies based on the complexity of the procedure. Single jaw surgery typically takes 2-4 hours, while double jaw surgery (bimaxillary osteotomy) may require 4-6 hours or longer. Complex cases involving multiple segments or revision surgery may take additional time. You will be under general anesthesia throughout the procedure, and most patients stay in the hospital for 2-4 days post-operatively for monitoring and initial recovery.'],
+    ['q' => 'Will I need braces before and after jaw surgery?', 'a' => 'Yes, orthodontic treatment is an essential component of orthognathic surgery. Most patients require pre-surgical orthodontics for 12-18 months to align the teeth within their current jaw position. After surgery, orthodontic treatment continues for another 6-12 months to fine-tune the bite and ensure proper alignment. Our team coordinates closely with experienced orthodontists in Hyderabad who specialize in surgical orthodontic treatment.'],
+    ['q' => 'What are the risks and complications of orthognathic surgery?', 'a' => 'Like any major surgery, orthognathic procedures carry some risks. These include temporary or permanent numbness of the lips and chin (particularly with mandibular surgery), bleeding, infection, jaw joint issues, and the possibility of requiring revision surgery. However, serious complications are rare when performed by experienced surgeons. Our practice uses advanced techniques and thorough pre-operative planning to minimize risks. We discuss all potential complications during your consultation and provide detailed post-operative instructions.'],
+    ['q' => 'How long before I can return to work or normal activities?', 'a' => 'Initial recovery varies by individual and the type of surgery. Most patients can return to desk work or light activities within 3-4 weeks. Full return to strenuous exercise and normal diet typically takes 2-3 months. The final aesthetic and functional results continue to improve over 6-12 months as swelling resolves and orthodontic treatment completes. We provide detailed return-to-activity guidelines based on your specific procedure and healing progress.'],
+];
+$cta_heading = 'Get a specialist opinion on orthognathic Surgery for a Balanced, Functional Smile.';
+$cta_topic = 'Jaw misalignment (orthognathic surgery)';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -19,64 +28,20 @@ include $path_prefix . 'header.php';
                     Orthognathic Surgery for a Balanced, Functional Smile
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Transform your bite, facial symmetry, and quality of life with precision orthognathic surgery. Our expert maxillofacial surgeons at CARE Hospitals, Banjara Hills, deliver life-changing results using advanced 3D planning technology.
+                    Transform your bite, facial symmetry, and quality of life with precision orthognathic surgery. Our expert maxillofacial surgeons at CARE Hospitals, HITEC City, deliver life-changing results using advanced 3D planning technology.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
-                    <button class="border border-primary text-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-primary hover:text-on-primary transition-colors duration-300 text-center">
+                    </a>
+                    <a href="/jaw-surgery" class="border border-primary text-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-primary hover:text-on-primary transition-colors duration-300 text-center">
                         View Treatment Options
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Patient consultation for orthognathic jaw surgery at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="asset/orthognathic-hero.jpg"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US: Trust Signals -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Orthognathic Surgery
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Our oral and maxillofacial surgeons in Hyderabad combine decades of experience with cutting-edge technology to deliver predictable, transformative outcomes.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">school</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Board-Certified Surgeons</h3>
-                    <p class="text-on-surface-variant text-sm">MDS-trained maxillofacial surgeons with specialized fellowship training in orthognathic surgery.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">desktop_windows</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">3D Virtual Planning</h3>
-                    <p class="text-on-surface-variant text-sm">Advanced CBCT scanning and surgical simulation for precise, predictable surgical outcomes.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">local_hospital</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">CARE Hospitals Facility</h3>
-                    <p class="text-on-surface-variant text-sm">State-of-the-art operating theatres in Banjara Hills with full ICU backup and specialist support.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">group</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Multidisciplinary Team</h3>
-                    <p class="text-on-surface-variant text-sm">Coordinated care with orthodontists, anesthesiologists, and speech therapists for comprehensive treatment.</p>
+                    <img alt="Patient consultation for orthognathic jaw surgery at Gnathos Facial, Hyderabad" class="w-full h-full object-cover" src="/asset/orthognathic-hero.jpg"/>
                 </div>
             </div>
         </div>
@@ -134,13 +99,13 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="3D CBCT scan planning for orthognathic surgery at Gnathos Facial, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="asset/3d-planning-orthognathic.jpg"/>
+                    <img loading="lazy" decoding="async" alt="3D CBCT scan planning for orthognathic surgery at Gnathos Facial, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="/asset/3d-planning-orthognathic.jpg"/>
                 </div>
             </div>
             <!-- Step 2: Image Left, Text Right -->
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Orthognathic surgery procedure in operating theatre at CARE Hospitals, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="asset/orthognathic-surgery-procedure.jpg"/>
+                    <img loading="lazy" decoding="async" alt="Orthognathic surgery procedure in operating theatre at CARE Hospitals, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="/asset/orthognathic-surgery-procedure.jpg"/>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -168,7 +133,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Post-operative recovery consultation at Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="asset/orthognathic-recovery.jpg"/>
+                    <img loading="lazy" decoding="async" alt="Post-operative recovery consultation at Gnathos Facial, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="/asset/orthognathic-recovery.jpg"/>
                 </div>
             </div>
         </div>
@@ -248,9 +213,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             Your initial consultation is the foundation of your treatment. Come prepared with your medical history, previous dental records, and any imaging you may have had.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Preparation Guide
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -288,13 +251,13 @@ include $path_prefix . 'header.php';
             <div class="grid md:grid-cols-2 gap-16 items-center">
                 <div class="relative">
                     <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
-                    <img alt="CBCT 3D imaging for orthognathic surgery planning at Gnathos Facial, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="asset/cbct-3d-imaging.jpg"/>
+                    <img loading="lazy" decoding="async" alt="CBCT 3D imaging for orthognathic surgery planning at Gnathos Facial, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="/asset/cbct-3d-imaging.jpg"/>
                 </div>
                 <div>
                     <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Assessment</span>
                     <h2 class="font-headline-md text-headline-md text-primary mb-6">Advanced Diagnostic Technology</h2>
                     <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
-                        Our practice in Hyderabad is equipped with state-of-the-art imaging technology that enables surgical planning with unprecedented precision, resulting in more predictable outcomes and shorter operative times.
+                        Our practice in Hyderabad is equipped with modern imaging technology that enables surgical planning with unprecedented precision, resulting in more predictable outcomes and shorter operative times.
                     </p>
                     <ul class="space-y-4 mb-8">
                         <li class="flex items-start gap-3">
@@ -382,59 +345,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- THE SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Orthognathic Surgical Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Decades of specialized experience in managing complex jaw conditions with predictable, life-changing results.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <!-- Dr. Suresh Card -->
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">With over two decades of experience in maxillofacial surgery, Dr. Suresh has performed hundreds of successful orthognathic procedures. His expertise includes complex bimaxillary surgeries and revision cases.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">stars</span> Fellowship in Craniomaxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Dr. Navatha Card -->
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Navatha specializes in aesthetic facial surgery and orthognathic procedures. She brings a keen eye for facial harmony and works closely with orthodontists to achieve optimal functional and aesthetic outcomes.</p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">stars</span> Training in Virtual Surgical Planning</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs (SCHEMA MARKUP REQUIRED) -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -446,16 +364,16 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What is the cost of orthognathic surgery in Hyderabad?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                        The cost of orthognathic surgery varies based on the complexity of your case, whether single or double jaw surgery is required, and hospital facilities. At Gnathos Facial Surgery in Hyderabad, orthognathic surgery typically ranges from INR 1,50,000 to INR 4,50,000 depending on the procedure. This includes surgeon fees, hospital charges, anesthesia, and follow-up care. We offer flexible payment options and can provide detailed estimates after your initial consultation and diagnostic evaluation.
+                        The cost of orthognathic surgery varies based on the complexity of your case, whether single or double jaw surgery is required, and hospital facilities. At Gnathos Facial in Hyderabad, orthognathic surgery typically ranges from INR 1,50,000 to INR 4,50,000 depending on the procedure. This includes surgeon fees, hospital charges, anesthesia, and follow-up care. We offer flexible payment options and can provide detailed estimates after your initial consultation and diagnostic evaluation.
                     </div>
                 </details>
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Is orthognathic surgery covered by insurance in India?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Insurance coverage for orthognathic surgery depends on whether the procedure is deemed medically necessary. Functional issues such as difficulty chewing, sleep apnea, or significant skeletal abnormalities may qualify for coverage under health insurance. Cosmetic concerns related solely to aesthetics are typically not covered. We can provide detailed medical documentation and assist with insurance pre-authorization processes. Our team works with all major insurance providers in Hyderabad.
@@ -464,7 +382,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long does orthognathic surgery take?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Surgical time varies based on the complexity of the procedure. Single jaw surgery typically takes 2-4 hours, while double jaw surgery (bimaxillary osteotomy) may require 4-6 hours or longer. Complex cases involving multiple segments or revision surgery may take additional time. You will be under general anesthesia throughout the procedure, and most patients stay in the hospital for 2-4 days post-operatively for monitoring and initial recovery.
@@ -473,7 +391,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will I need braces before and after jaw surgery?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Yes, orthodontic treatment is an essential component of orthognathic surgery. Most patients require pre-surgical orthodontics for 12-18 months to align the teeth within their current jaw position. After surgery, orthodontic treatment continues for another 6-12 months to fine-tune the bite and ensure proper alignment. Our team coordinates closely with experienced orthodontists in Hyderabad who specialize in surgical orthodontic treatment.
@@ -482,7 +400,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What are the risks and complications of orthognathic surgery?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Like any major surgery, orthognathic procedures carry some risks. These include temporary or permanent numbness of the lips and chin (particularly with mandibular surgery), bleeding, infection, jaw joint issues, and the possibility of requiring revision surgery. However, serious complications are rare when performed by experienced surgeons. Our practice uses advanced techniques and thorough pre-operative planning to minimize risks. We discuss all potential complications during your consultation and provide detailed post-operative instructions.
@@ -491,7 +409,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long before I can return to work or normal activities?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Initial recovery varies by individual and the type of surgery. Most patients can return to desk work or light activities within 3-4 weeks. Full return to strenuous exercise and normal diet typically takes 2-3 months. The final aesthetic and functional results continue to improve over 6-12 months as swelling resolves and orthodontic treatment completes. We provide detailed return-to-activity guidelines based on your specific procedure and healing progress.
@@ -501,22 +419,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Transform Your Smile and Facial Balance?</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Schedule your consultation with our expert orthognathic surgery team at Gnathos Facial Surgery in Hyderabad. We'll create a personalized treatment plan tailored to your unique needs and goals.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

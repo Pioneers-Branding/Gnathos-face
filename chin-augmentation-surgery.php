@@ -1,13 +1,23 @@
 <?php
-$path_prefix = "";
-$page_title = "Chin Augmentation Surgery Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert chin augmentation and genioplasty surgery in Hyderabad by Dr. Suresh P.L. at CARE Hospitals, Banjara Hills. Achieve facial harmony with customized chin implants and sliding genioplasty.";
+$path_prefix = '';
+$page_title = 'Chin Augmentation Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'Chin augmentation in Hyderabad with implants or sliding genioplasty to improve facial profile and balance. Who it suits, recovery and risks explained.';
+$canonical_url = 'https://gnathosface.com/chin-augmentation-surgery';
+$page_about = 'Chin Augmentation Surgery';
+$breadcrumbs = [['Home', '/'], ['Cosmetic facial surgery', '/cosmetic-facial-surgery-treatment'], ['Chin Augmentation Surgery', null]];
+$page_faqs = [
+    ['q' => 'What is the difference between chin implants and sliding genioplasty?', 'a' => 'Chin implants involve placing a silicone or Medpore implant over the existing bone to project the chin forward. Sliding genioplasty is a more advanced procedure where the chin bone itself is cut and repositioned. Genioplasty is preferred for more significant corrections, vertical adjustments, or when patients prefer not to have foreign materials. Your surgeon will recommend the best option based on your anatomy and goals.'],
+    ['q' => 'Will chin augmentation leave visible scars?', 'a' => 'There are two approaches: an intraoral incision inside the mouth leaves no visible external scar. A submental approach under the chin results in a small, well-hidden scar in the natural crease beneath the chin. Both approaches typically heal with minimal visible scarring. Our surgeons will discuss the pros and cons of each approach during your consultation.'],
+    ['q' => 'How long does chin augmentation surgery take?', 'a' => 'Chin implant surgery typically takes 30-60 minutes under general anesthesia. Sliding genioplasty is more complex and usually takes 1.5-2 hours. Both are performed as day surgery or with a one-night hospital stay. You can return home the same day or following morning depending on your recovery and the surgical approach used.'],
+    ['q' => 'Can chin augmentation be combined with other procedures?', 'a' => 'Yes, chin augmentation is commonly combined with other facial procedures for balanced results. Popular combinations include nose surgery (rhinoplasty) to balance the nose-chin profile, jaw surgery for comprehensive jawline correction, or neck liposuction to address excess submental fat. Combining procedures can reduce overall recovery time and achieve more harmonious facial proportions.'],
+    ['q' => 'What are the risks and complications of chin augmentation?', 'a' => 'When performed by experienced surgeons, chin augmentation is generally safe. Potential risks include infection, hematoma, nerve injury causing temporary or permanent numbness, implant displacement, or bone resorption. Sliding genioplasty carries risks of non-union, bite changes, and nerve injury. Our team takes extensive precautions to minimize these risks and will discuss all potential complications during your consultation.'],
+    ['q' => 'How long do chin implants last? Can they be removed?', 'a' => 'Modern chin implants are designed to be permanent and do not require routine replacement. However, implants can be removed or revised if needed due to patient preference, complications, or aesthetic concerns. Recovery from implant removal is typically faster than the initial surgery. Sliding genioplasty results are permanent as they involve repositioning natural bone.'],
+];
+$cta_heading = 'Get a specialist opinion on chin Augmentation Surgery.';
+$cta_topic = 'Cosmetic facial procedure';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
 <!-- Hero Section -->
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
@@ -16,59 +26,17 @@ include $path_prefix . 'header.php';
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Chin Augmentation Surgery in Hyderabad</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                        Achieve facial harmony and a defined profile with customized chin augmentation at CARE Hospitals, Banjara Hills. Dr. Suresh P.L. combines surgical precision with aesthetic artistry for natural-looking results that complement your unique facial structure.
+                        Achieve facial harmony and a defined profile with customized chin augmentation at CARE Hospitals, HITEC City. Dr. Suresh P.L. combines surgical precision with aesthetic artistry for natural-looking results that complement your unique facial structure.
                     </p>
 <div class="flex flex-col sm:flex-row gap-4">
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                             Book Consultation
-                        </button>
+                        </a>
 </div>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Facial profile consultation - chin augmentation at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hY9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-</div>
-</div>
-</div>
-</section>
-
-<!-- Why Choose Us -->
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for Chin Augmentation</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                Hyderabad's trusted center for facial contouring surgery, offering personalized treatment plans and natural-looking outcomes.
-            </p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">school</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Board-Certified Surgeons</h3>
-<p class="text-on-surface-variant text-sm">20+ years of combined experience in maxillofacial and cosmetic facial procedures.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">palette</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Aesthetic Artistry</h3>
-<p class="text-on-surface-variant text-sm">Customized treatment plans that enhance your natural features for balanced facial proportions.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">local_hospital</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">CARE Hospitals Setting</h3>
-<p class="text-on-surface-variant text-sm">Full hospital support with advanced operating facilities at Banjara Hills.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">straighten</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Precise Techniques</h3>
-<p class="text-on-surface-variant text-sm">3D planning and advanced surgical approaches ensure predictable, natural-looking results.</p>
+<div class="gna-plate w-full h-full" role="img" aria-label="Facial profile consultation - chin augmentation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial profile consultation - chin augmentation</p></div>
 </div>
 </div>
 </div>
@@ -127,13 +95,13 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Doctor consulting with patient about facial contouring procedure at Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hY9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Doctor consulting with patient about facial contouring procedure"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Doctor consulting with patient about facial contouring procedure</p></div>
 </div>
 </div>
 <!-- Step 2 -->
 <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
 <div class="order-1 md:order-1">
-<img alt="Maxillofacial surgeon performing chin augmentation at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hY9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Maxillofacial surgeon performing chin augmentation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Maxillofacial surgeon performing chin augmentation</p></div>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -163,7 +131,7 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Patient recovering comfortably after chin augmentation procedure at Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Patient recovering comfortably after chin augmentation procedure"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Patient recovering comfortably after chin augmentation procedure</p></div>
 </div>
 </div>
 </div>
@@ -237,9 +205,7 @@ include $path_prefix . 'header.php';
 <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                         A well-prepared consultation helps us understand your goals and provide the most accurate assessment. Here's how to prepare for your chin augmentation consultation at our Hyderabad clinic.
                     </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                        Download Checklist PDF
-                    </button>
+
 </div>
 <div>
 <ul class="space-y-4">
@@ -277,7 +243,7 @@ include $path_prefix . 'header.php';
 <div class="grid md:grid-cols-2 gap-16 items-center">
 <div class="order-2 md:order-1 relative">
 <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
-<img alt="3D facial imaging technology for chin augmentation planning at Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgiZgTqnVcGDk7B4fhXOjMiLV4DGjNzOgX9yuT4UMyPanmr2lRO15oN3w3OfKdMSKhk4ad2cRuLpHc5ZhBBlNK_M2FlNzVWA_lHbUA99hV_AoAAK6_1dIQyTAZpJ9L-dMhrbg3j3gmXq9M7_q6Y6MksM8DJnHFzvq2H1REx1zD_OmalTO7POfydhxeqR-Mm8EcMQH1v-EMTzkRccwHCOvk3b5-QF5hk76-BOBh-PabfF_B9aQY2BCUXnmv856NFuMAsl5O1Sdmr5Y"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="3D facial imaging technology for chin augmentation planning"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">3D facial imaging technology for chin augmentation planning</p></div>
 </div>
 <div class="order-1 md:order-2">
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Assessment</span>
@@ -371,59 +337,14 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 <div class="mt-12 text-center">
-<button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+<a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                 Request a Consultation
-            </button>
+            </a>
 </div>
 </div>
 </section>
 
-<!-- The Surgical Team -->
-<section class="py-section-gap bg-primary text-on-primary">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md mb-4">Expert Chin Augmentation Surgical Team</h2>
-<p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                Decades of specialized experience in facial contouring and aesthetic maxillofacial surgery.
-            </p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Suresh P.L. - Chin Augmentation Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/Dr.-Suresh.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant and Facial Cosmetic Specialist with 20+ years of experience in maxillofacial surgery and aesthetic facial procedures including chin augmentation and genioplasty.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 15+ years of experience in oral and maxillofacial surgery with specialized training in facial aesthetics and cosmetic procedures.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <!-- Patient FAQs -->
 <section class="py-section-gap bg-surface">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -435,7 +356,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What is the difference between chin implants and sliding genioplasty?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Chin implants involve placing a silicone or Medpore implant over the existing bone to project the chin forward. Sliding genioplasty is a more advanced procedure where the chin bone itself is cut and repositioned. Genioplasty is preferred for more significant corrections, vertical adjustments, or when patients prefer not to have foreign materials. Your surgeon will recommend the best option based on your anatomy and goals.
@@ -444,7 +365,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will chin augmentation leave visible scars?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     There are two approaches: an intraoral incision inside the mouth leaves no visible external scar. A submental approach under the chin results in a small, well-hidden scar in the natural crease beneath the chin. Both approaches typically heal with minimal visible scarring. Our surgeons will discuss the pros and cons of each approach during your consultation.
@@ -453,7 +374,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long does chin augmentation surgery take?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Chin implant surgery typically takes 30-60 minutes under general anesthesia. Sliding genioplasty is more complex and usually takes 1.5-2 hours. Both are performed as day surgery or with a one-night hospital stay. You can return home the same day or following morning depending on your recovery and the surgical approach used.
@@ -462,16 +383,16 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Can chin augmentation be combined with other procedures?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                    Yes, chin augmentation is commonly combined with other facial procedures for balanced results. Popular combinations include <a href="rhinoplasty.php" class="text-secondary underline hover:text-primary">nose surgery (rhinoplasty)</a> to balance the nose-chin profile, <a href="jaw-surgery.php" class="text-secondary underline hover:text-primary">jaw surgery</a> for comprehensive jawline correction, or neck liposuction to address excess submental fat. Combining procedures can reduce overall recovery time and achieve more harmonious facial proportions.
+                    Yes, chin augmentation is commonly combined with other facial procedures for balanced results. Popular combinations include <a href="/rhinoplasty" class="text-secondary underline hover:text-primary">nose surgery (rhinoplasty)</a> to balance the nose-chin profile, <a href="/jaw-surgery" class="text-secondary underline hover:text-primary">jaw surgery</a> for comprehensive jawline correction, or neck liposuction to address excess submental fat. Combining procedures can reduce overall recovery time and achieve more harmonious facial proportions.
                 </div>
 </details>
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What are the risks and complications of chin augmentation?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     When performed by experienced surgeons, chin augmentation is generally safe. Potential risks include infection, hematoma, nerve injury causing temporary or permanent numbness, implant displacement, or bone resorption. Sliding genioplasty carries risks of non-union, bite changes, and nerve injury. Our team takes extensive precautions to minimize these risks and will discuss all potential complications during your consultation.
@@ -480,7 +401,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long do chin implants last? Can they be removed?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Modern chin implants are designed to be permanent and do not require routine replacement. However, implants can be removed or revised if needed due to patient preference, complications, or aesthetic concerns. Recovery from implant removal is typically faster than the initial surgery. Sliding genioplasty results are permanent as they involve repositioning natural bone.
@@ -490,22 +411,5 @@ include $path_prefix . 'header.php';
 </div>
 </section>
 
-<!-- Final CTA -->
-<section class="py-section-gap bg-surface-container-low">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Transform Your Profile with Expert Chin Augmentation</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                    Ready to achieve facial harmony and confidence? Schedule a consultation with our chin augmentation specialists at CARE Hospitals, Banjara Hills. We'll create a personalized treatment plan to help you achieve your aesthetic goals.
-                </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                    Schedule Your Chin Augmentation Consultation
-                    <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-</button>
-</div>
-</section>
-</main>
-
 <!-- Detailed Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

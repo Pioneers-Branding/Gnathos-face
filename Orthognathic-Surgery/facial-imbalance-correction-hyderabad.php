@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Facial Imbalance Correction Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert facial imbalance correction in Hyderabad. Dr. Suresh P.L. provides surgical correction of facial asymmetry and disproportion at CARE Hospitals, Banjara Hills.";
+$path_prefix = '../';
+$page_title = 'Jaw Surgery for Facial Imbalance in Hyderabad | Gnathos';
+$page_description = 'Facial imbalance correction in Hyderabad. Dr. Suresh P.L. provides surgical correction of facial asymmetry and disproportion at CARE Hospitals.';
+$canonical_url = 'https://gnathosface.com/Orthognathic-Surgery/facial-imbalance-correction-hyderabad';
+$page_about = 'Facial Imbalance Correction';
+$breadcrumbs = [['Home', '/'], ['Jaw surgery', '/orthognathic-surgery'], ['Facial Imbalance Correction', null]];
+$page_faqs = [
+    ['q' => 'What causes facial imbalance?', 'a' => 'Facial imbalance can result from genetic factors affecting facial development, trauma to the face, uneven bone growth, soft tissue abnormalities, or congenital conditions. Some degree of asymmetry is natural, but significant imbalance may benefit from correction.'],
+    ['q' => 'How is facial imbalance correction performed?', 'a' => 'Facial imbalance correction may involve multiple procedures including jaw surgery to rebalance bone structure, genioplasty for chin correction, fat grafting for soft tissue balance, or other procedures tailored to your specific needs. Our surgeons create a personalized treatment plan during consultation.'],
+    ['q' => 'Will facial imbalance come back after surgery?', 'a' => 'Surgical correction of bony facial imbalance is generally permanent. Once the bones are repositioned and healed, they maintain their new position. Soft tissue procedures may have some natural changes over time due to aging, but results are long-lasting.'],
+    ['q' => 'What is the recovery time for facial imbalance correction?', 'a' => 'Initial recovery takes 2-3 weeks for most daily activities, with full recovery over 6-12 months as swelling fully resolves. Hospital stay is typically 1-2 days. Most patients return to work within 3-4 weeks depending on the extent of surgery.'],
+    ['q' => 'Is facial imbalance correction covered by insurance?', 'a' => 'Coverage varies by insurance provider. When facial imbalance correction addresses functional issues like breathing, chewing, or speech difficulties, many insurers provide coverage. Purely cosmetic procedures may not be covered. Our team can help verify your benefits during consultation.'],
+];
+$cta_heading = 'Get a specialist opinion on facial Imbalance Correction.';
+$cta_topic = 'Jaw misalignment (orthognathic surgery)';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -18,61 +27,17 @@ include $path_prefix . 'header.php';
                     Facial Imbalance Correction in Hyderabad
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Achieve facial harmony and balance with expert facial imbalance correction at CARE Hospitals, Banjara Hills. Our maxillofacial surgeons specialize in correcting facial asymmetry using advanced orthognathic and reconstructive techniques.
+                    Achieve facial harmony and balance with expert facial imbalance correction at CARE Hospitals, HITEC City. Our maxillofacial surgeons specialize in correcting facial asymmetry using advanced orthognathic and reconstructive techniques.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Patient with corrected facial balance after facial imbalance correction - Facial asymmetry correction at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Facial Imbalance Correction
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Recognized leaders in facial asymmetry correction and harmonization in Hyderabad, delivering transformative results through precision surgical care.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">school</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Surgical Excellence</h3>
-                    <p class="text-on-surface-variant text-sm">35+ years of combined experience in facial reconstruction and symmetry procedures.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">local_hospital</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">CARE Hospitals</h3>
-                    <p class="text-on-surface-variant text-sm">State-of-the-art facilities at Banjara Hills with advanced surgical infrastructure.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">group</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Integrated Approach</h3>
-                    <p class="text-on-surface-variant text-sm">Coordinated orthodontic and surgical care for comprehensive facial harmony.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">workspace_premium</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Natural Results</h3>
-                    <p class="text-on-surface-variant text-sm">Hundreds of successful facial balancing procedures with natural-looking outcomes.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Patient with corrected facial balance after facial imbalance correction - Facial asymmetry correction"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Patient with corrected facial balance after facial imbalance correction - Facial asymmetry correction</p></div>
                 </div>
             </div>
         </div>
@@ -134,13 +99,13 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="3D facial analysis for imbalance correction at Gnathos Facial Surgery" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://www.gnathosfacial.com/asset/CARE-Hospitals.jpg"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="3D facial analysis for imbalance correction"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">3D facial analysis for imbalance correction</p></div>
                 </div>
             </div>
             <!-- Step 2 -->
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Facial imbalance correction surgery at CARE Hospitals Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://www.gnathosfacial.com/asset/advanced-jaw-surgery-orthognathic-protocols.png"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Facial imbalance correction surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial imbalance correction surgery</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -166,7 +131,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Recovery after facial imbalance correction at Gnathos Facial Surgery" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://www.gnathosfacial.com/asset/dr-navatha-mortha-facial.webp"/>
+                    <img alt="Recovery after facial imbalance correction at Gnathos Facial" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="/asset/dr-navatha-mortha-facial.webp"/>
                 </div>
             </div>
         </div>
@@ -243,9 +208,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             Proper preparation helps you get the most from your consultation. Bring relevant medical records and be ready to discuss your concerns and aesthetic goals.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Checklist PDF
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -283,13 +246,13 @@ include $path_prefix . 'header.php';
             <div class="grid md:grid-cols-2 gap-16 items-center">
                 <div class="relative">
                     <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
-                    <img alt="3D imaging for facial imbalance diagnosis at Gnathos Facial Surgery" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://www.gnathosfacial.com/asset/CARE-Hospitals.jpg"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="3D imaging for facial imbalance diagnosis"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">3D imaging for facial imbalance diagnosis</p></div>
                 </div>
                 <div>
                     <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Assessment</span>
                     <h2 class="font-headline-md text-headline-md text-primary mb-6">Advanced Diagnostic Technology</h2>
                     <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
-                        Our practice utilizes cutting-edge imaging and planning technology for accurate diagnosis and precise surgical outcomes in facial balancing.
+                        Our practice utilizes modern imaging and planning technology for accurate diagnosis and precise surgical outcomes in facial balancing.
                     </p>
                     <ul class="space-y-4 mb-8">
                         <li class="flex items-start gap-3">
@@ -375,59 +338,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Facial Imbalance Correction Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Decades of specialized experience in facial reconstruction and harmonization procedures.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr_suresh_pl.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                                Senior Consultant with 20+ years of dedicated experience in oral and maxillofacial surgery, with particular expertise in facial reconstruction and asymmetry correction.
-                            </p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                                Senior Consultant with 15+ years of experience specializing in diagnostic evaluation, treatment planning, and post-operative care for facial correction patients.
-                            </p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- FAQs -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -439,7 +357,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What causes facial imbalance?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Facial imbalance can result from genetic factors affecting facial development, trauma to the face, uneven bone growth, soft tissue abnormalities, or congenital conditions. Some degree of asymmetry is natural, but significant imbalance may benefit from correction.
@@ -448,7 +366,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How is facial imbalance correction performed?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Facial imbalance correction may involve multiple procedures including jaw surgery to rebalance bone structure, genioplasty for chin correction, fat grafting for soft tissue balance, or other procedures tailored to your specific needs. Our surgeons create a personalized treatment plan during consultation.
@@ -457,7 +375,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will facial imbalance come back after surgery?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Surgical correction of bony facial imbalance is generally permanent. Once the bones are repositioned and healed, they maintain their new position. Soft tissue procedures may have some natural changes over time due to aging, but results are long-lasting.
@@ -466,7 +384,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What is the recovery time for facial imbalance correction?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Initial recovery takes 2-3 weeks for most daily activities, with full recovery over 6-12 months as swelling fully resolves. Hospital stay is typically 1-2 days. Most patients return to work within 3-4 weeks depending on the extent of surgery.
@@ -475,7 +393,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Is facial imbalance correction covered by insurance?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Coverage varies by insurance provider. When facial imbalance correction addresses functional issues like breathing, chewing, or speech difficulties, many insurers provide coverage. Purely cosmetic procedures may not be covered. Our team can help verify your benefits during consultation.
@@ -485,22 +403,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Achieve Facial Harmony?</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Schedule a consultation with our maxillofacial surgery team at CARE Hospitals, Banjara Hills. We'll create a personalized treatment plan to restore your facial balance and confidence.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Book Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- Footer -->
+<?php include $path_prefix . 'footer.php'; ?>

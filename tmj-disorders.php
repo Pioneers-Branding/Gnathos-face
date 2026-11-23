@@ -1,13 +1,22 @@
 <?php
-$path_prefix = "";
-$page_title = "Advanced TMJ Treatment Hyderabad | Gnathos Facial Surgery";
-$page_description = "";
-$canonical_url = "https://gnathosface.com/tmj-disorders/";
+$path_prefix = '';
+$page_title = 'TMJ Disorders: Symptoms & Treatment in Hyderabad';
+$page_description = 'TMJ disorder symptoms such as jaw pain, clicking and locking, their causes and treatment options in Hyderabad, from splints to arthroscopy. Book a consultation.';
+$canonical_url = 'https://gnathosface.com/tmj-treatment';
+$page_about = 'TMJ Disorder Treatment';
+$breadcrumbs = [['Home', '/'], ['Conditions', '/conditions'], ['TMJ Disorder Treatment', null]];
+$page_faqs = [
+    ['q' => 'Will I definitely need surgery for my TMJ pain?', 'a' => 'No. In fact, over 80% of TMJ disorders can be successfully managed with conservative, non-surgical treatments such as splint therapy, medications, and physical therapy. Surgery is only considered when conservative measures fail to provide relief or in cases of severe structural damage.'],
+    ['q' => 'How long does an Arthrocentesis procedure take?', 'a' => 'Arthrocentesis is typically an outpatient procedure that takes about 30 to 45 minutes per joint. It is often performed under local anesthesia with IV sedation. Patients usually go home the same day and can resume normal activities within a few days.'],
+    ['q' => 'What is the recovery time for TMJ surgery?', 'a' => 'Recovery time varies significantly based on the procedure. Minimally invasive procedures like arthrocentesis may require a few days of rest. Open joint surgery or total joint replacement may require a few weeks of modified diet and activity, followed by several months of physical therapy to optimize function.'],
+    ['q' => 'Are TMJ treatments covered by insurance?', 'a' => 'Coverage varies widely among insurance providers. Diagnostic imaging and surgical interventions are often covered under medical insurance if deemed medically necessary. Our billing team will work closely with you and your insurance provider to determine your coverage and out-of-pocket costs before proceeding with treatment.'],
+    ['q' => 'Can stress cause TMJ disorders?', 'a' => 'Yes, stress is a significant contributing factor. It often leads to subconscious jaw clenching and teeth grinding (bruxism), particularly during sleep. This constant muscle tension can overload the TMJ and surrounding musculature, leading to pain and dysfunction. Stress management is often a key component of conservative therapy.'],
+];
+$cta_heading = 'Get a specialist opinion on TMJ Disorder Treatment.';
+$cta_topic = 'TMJ disorder / jaw pain or clicking';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-<main>
 <!-- Hero Section -->
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
@@ -16,58 +25,17 @@ include $path_prefix . 'header.php';
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Advanced TMJ Disorder Treatment</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                        Relieve chronic jaw pain and restore functional harmony with precision diagnostics and specialized surgical expertise led by Dr. Suresh P.L. at CARE Hospitals, Banjara Hills.
+                        Relieve chronic jaw pain and restore functional harmony with precision diagnostics and specialized surgical expertise led by Dr. Suresh P.L. at CARE Hospitals, HITEC City.
                     </p>
 <div class="flex flex-col sm:flex-row gap-4">
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                             Book Consultation
-                        </button>
+                        </a>
 </div>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Clinical consultation" class="w-full h-full object-cover" data-alt="A professional maxillofacial surgeon in scrubs consulting with a patient in a modern, brightly lit clinical room. The lighting is soft and clinical, evoking a sense of trust and expertise. The color palette features cool whites, soft grays, and deep navy accents, aligning with a premium medical aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-</div>
-</div>
-</div>
-</section>
-<!-- Why Choose Us SEO Section -->
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for TMJ Surgery</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                Recognized leaders in complex maxillofacial reconstruction and temporomandibular joint therapies in Hyderabad.
-            </p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">school</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Academic Excellence</h3>
-<p class="text-on-surface-variant text-sm">35+ years of combined specialized experience in oral and maxillofacial surgery.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">local_hospital</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Hospital-Based Care</h3>
-<p class="text-on-surface-variant text-sm">Surgeries performed at CARE Hospitals, Banjara Hills—a premier tertiary care facility.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">biotech</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Advanced Diagnostics</h3>
-<p class="text-on-surface-variant text-sm">In-house utilization of high-resolution CBCT and 3D imaging for precise surgical planning.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">precision_manufacturing</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Custom Prosthetics</h3>
-<p class="text-on-surface-variant text-sm">Unmatched expertise in designing and placing patient-specific TMJ implants for severe cases.</p>
+<div class="gna-plate w-full h-full" role="img" aria-label="Clinical consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Clinical consultation</p></div>
 </div>
 </div>
 </div>
@@ -124,19 +92,19 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Surgeon reviewing 3D scans on a monitor" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALZZmj6_CAFtHy1vjXdbgnvuwqwnWdk_19QuvDwG7i0mDVRvdLGV05_43z3vvdldkKpstRUl-guoUaftbE5CwioKDaq5UVRxVAq0U8MGjGGnlSm4htoUiK9tI08QygsZdIE6fAW0tK3GLUdbMjaWzgMiRGr0vmWz94CBZCAz5n98VK4wg6s8B_4q7qH50Kaisg_8K1fkcOpoN94riL7idTd-mmNaOJ3BB3Dd_lfNVLvh2AzJQD5CYSFJuSDgGq37lTF8537L1ZhCA"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Surgeon reviewing 3D scans on a monitor"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Surgeon reviewing 3D scans on a monitor</p></div>
 </div>
 </div>
 <!-- Step 2 -->
 <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
 <div class="order-1 md:order-1">
-<img alt="Operating room environment" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEFkiI4mjDEE18YDwFhytADXKSi52219_ImkXimFwvR_u_lEi32i_FGV-fHjIDfiuUGL1lJeadbUQP-VudLVyKwmYno2hUz4EdWrurPoOkszJUln7aMR43klGyT4vRj2F-e9ksMWzt4q9dm_IKwmSyFF36Jj32w61XM7ifV4JQo3iOufuJ2-9_ghJAMrR2v5dtBYCQPel3QIstAIejIFPRUIyA66943uzujXTS879KGpz70wCQ4303HF08bi3co5b4l1czHWqRntk"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Operating room environment"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Operating room environment</p></div>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
 <h3 class="font-headline-sm text-2xl text-primary mb-4">The Procedure</h3>
 <p class="text-on-surface-variant mb-6">
-                    Performed in the state-of-the-art surgical suites at CARE Hospitals, our specialized approach prioritizes minimally invasive techniques whenever possible. Whether undergoing diagnostic arthroscopy or complex open joint reconstruction, our team adheres to strict international clinical standards for safety and efficacy.
+                    Performed in the modern surgical suites at CARE Hospitals, HITEC City, our specialized approach prioritizes minimally invasive techniques whenever possible. Whether undergoing diagnostic arthroscopy or complex open joint reconstruction, our team adheres to strict international clinical standards for safety and efficacy.
                 </p>
 <ul class="space-y-3">
 <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Tertiary Care Hospital Setting</span></li>
@@ -160,7 +128,7 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Patient consulting with doctor during recovery" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Patient consulting with doctor during recovery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Patient consulting with doctor during recovery</p></div>
 </div>
 </div>
 </div>
@@ -232,9 +200,7 @@ include $path_prefix . 'header.php';
 <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                         To make the most of your initial TMJ evaluation with our specialists, we recommend preparing the following information. This helps us understand the full clinical picture.
                     </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                        Download Checklist PDF
-                    </button>
+
 </div>
 <div>
 <ul class="space-y-4">
@@ -271,13 +237,13 @@ include $path_prefix . 'header.php';
 <div class="grid md:grid-cols-2 gap-16 items-center">
 <div class="order-2 md:order-1 relative">
 <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
-<img alt="Advanced diagnostic imaging" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgiZgTqnVcGDk7B4fhXOjMiLV4DGjNzOgX9yuT4UMyPanmr2lRO15oN3w3OfKdMSKhk4ad2cRuLpHc5ZhBBlNK_M2FlNzVWA_lHbUA99hV_AoAAK6_1dIQyTAZpJ9L-dMhrbg3j3gmXq9M7_q6Y6MksM8DJnHFzvq2H1REx1zD_OmalTO7POfydhxeqR-Mm8EcMQH1v-EMTzkRccwHCOvk3b5-QF5hk76-BOBh-PabfF_B9aQY2BCUXnmv856NFuMAsl5O1Sdmr5Y"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Advanced diagnostic imaging"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Advanced diagnostic imaging</p></div>
 </div>
 <div class="order-1 md:order-2">
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Assessment</span>
 <h2 class="font-headline-md text-headline-md text-primary mb-6">Advanced Diagnostic Technology</h2>
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
-                    Accurate diagnosis is the foundation of successful TMJ treatment. We utilize state-of-the-art imaging technology to evaluate the intricate structures of your jaw joint.
+                    Accurate diagnosis is the foundation of successful TMJ treatment. We utilize modern imaging technology to evaluate the intricate structures of your jaw joint.
                 </p>
 <ul class="space-y-4 mb-8">
 <li class="flex items-start gap-3">
@@ -364,57 +330,13 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 <div class="mt-12 text-center">
-<button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+<a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                 Request a Consultation
-            </button>
+            </a>
 </div>
 </div>
 </section>
-<!-- The Surgical Team -->
-<section class="py-section-gap bg-primary text-on-primary">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md mb-4">Expert TMJ Surgical Team</h2>
-<p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                Decades of specialized experience in managing complex maxillofacial conditions.
-            </p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Suresh" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/Dr.-Suresh.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant and TMJ Specialist</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant and TMJ Specialist with 20+ years of dedicated clinical experience.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral &amp; Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant and TMJ Specialist</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant and TMJ Specialist with 15+ years of dedicated clinical experience.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral &amp; Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <!-- Patient FAQs -->
 <section class="py-section-gap bg-surface">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -426,7 +348,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&amp;_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will I definitely need surgery for my TMJ pain?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     No. In fact, over 80% of TMJ disorders can be successfully managed with conservative, non-surgical treatments such as splint therapy, medications, and physical therapy. Surgery is only considered when conservative measures fail to provide relief or in cases of severe structural damage.
@@ -435,7 +357,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&amp;_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long does an Arthrocentesis procedure take?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Arthrocentesis is typically an outpatient procedure that takes about 30 to 45 minutes per joint. It is often performed under local anesthesia with IV sedation. Patients usually go home the same day and can resume normal activities within a few days.
@@ -444,7 +366,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&amp;_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What is the recovery time for TMJ surgery?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Recovery time varies significantly based on the procedure. Minimally invasive procedures like arthrocentesis may require a few days of rest. Open joint surgery or total joint replacement may require a few weeks of modified diet and activity, followed by several months of physical therapy to optimize function.
@@ -453,7 +375,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&amp;_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Are TMJ treatments covered by insurance?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Coverage varies widely among insurance providers. Diagnostic imaging and surgical interventions are often covered under medical insurance if deemed medically necessary. Our billing team will work closely with you and your insurance provider to determine your coverage and out-of-pocket costs before proceeding with treatment.
@@ -462,7 +384,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&amp;_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Can stress cause TMJ disorders?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Yes, stress is a significant contributing factor. It often leads to subconscious jaw clenching and teeth grinding (bruxism), particularly during sleep. This constant muscle tension can overload the TMJ and surrounding musculature, leading to pain and dysfunction. Stress management is often a key component of conservative therapy.
@@ -471,21 +393,5 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 </section>
-<!-- Final CTA -->
-<section class="py-section-gap bg-surface-container-low">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Restore Your Jaw Function?</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                    Don't let TMJ pain control your life. Schedule a comprehensive evaluation with our specialists to discuss your personalized treatment options.
-                </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                    Schedule Your TMJ Evaluation
-                    <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-</button>
-</div>
-</section>
-</main>
 <!-- Detailed Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

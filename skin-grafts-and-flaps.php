@@ -1,15 +1,23 @@
 <?php
-$path_prefix = "";
-$page_title = "Skin Grafts & Flaps Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert skin graft and flap surgery in Hyderabad. Dr. Suresh P.L. performs advanced reconstructive procedures for facial trauma, burns, and defects at CARE Hospitals, Banjara Hills.";
-$canonical_url = "https://gnathosface.com/skin-grafts-and-flaps/";
+$path_prefix = '';
+$page_title = 'Skin Grafts & Flap Surgery for the Face | Hyderabad';
+$page_description = 'Facial reconstruction with skin grafts and local or free flaps after injury, cancer surgery or burns in Hyderabad: how options are chosen, and recovery.';
+$canonical_url = 'https://gnathosface.com/skin-grafts-and-flaps';
+$page_about = 'Skin Grafts and Flap Surgery for Facial Reconstruction';
+$breadcrumbs = [['Home', '/'], ['Treatments', '/treatments'], ['Skin Grafts and Flap Surgery for Facial Reconstruction', null]];
+$page_faqs = [
+    ['q' => 'Will the skin graft or flap match my skin color?', 'a' => 'Our surgeons carefully select donor sites to optimize color and texture match. Full-thickness grafts from areas like the neck or supraclavicular region typically provide the best aesthetic match for facial reconstruction. Over time, the graft matures and often blends better with surrounding skin. Secondary procedures can further refine the appearance if needed.'],
+    ['q' => 'How long does the procedure take?', 'a' => 'Procedure duration varies significantly based on the complexity of reconstruction. Simple skin grafts may take 1-2 hours, while complex free flap procedures can take 6-10 hours. Your surgeon will provide a detailed timeline during your pre-operative consultation based on your specific needs.'],
+    ['q' => 'Will I have visible scarring?', 'a' => 'All surgical procedures leave some scarring. However, our surgeons employ meticulous technique to minimize visible scarring and place incisions within natural skin creases when possible. The donor site for skin grafts will also heal with a scar, though it\'s typically concealed in less visible areas. Scar management protocols are provided post-operatively to optimize healing.'],
+    ['q' => 'What is the recovery time before returning to normal activities?', 'a' => 'Recovery varies by procedure. Simple skin grafts may allow return to light activities within 1-2 weeks. More complex flap procedures may require 3-4 weeks for initial healing, with full recovery and return to strenuous activities taking 6-8 weeks or longer. Your surgeon will provide personalized guidance based on your procedure.'],
+    ['q' => 'Is skin graft/flap surgery covered by insurance?', 'a' => 'Reconstructive procedures following trauma, burns, or cancer surgery are typically covered under health insurance when deemed medically necessary. Purely cosmetic procedures may not be covered. Our billing team works closely with insurance providers to help determine coverage and manage the pre-authorization process.'],
+];
+$cta_heading = 'Get a specialist opinion on skin Grafts and Flap Surgery for Facial Reconstruction.';
+$cta_topic = 'Reconstruction / skin grafts';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
     <section class="relative pt-section-gap pb-section-gap overflow-hidden">
         <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
@@ -19,61 +27,17 @@ include $path_prefix . 'header.php';
                     Skin Grafts and Flap Surgery for Facial Reconstruction
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                    Restore form and function with precision reconstructive techniques. Dr. Suresh P.L. and our team offer advanced skin graft and flap surgery at CARE Hospitals, Banjara Hills, for trauma, burns, and post-surgical defects.
+                    Restore form and function with precision reconstructive techniques. Dr. Suresh P.L. and our team offer advanced skin graft and flap surgery at CARE Hospitals, HITEC City, for trauma, burns, and post-surgical defects.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                    <a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                         Book Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:col-span-6 relative mt-12 md:mt-0">
                 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Reconstructive surgery consultation - maxillofacial surgeon examining patient" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY CHOOSE US: Trust Signals -->
-    <section class="py-section-gap bg-surface">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md text-primary mb-4">
-                    Why Choose Gnathos Facial for Skin Graft and Flap Surgery
-                </h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                    Recognized leaders in complex maxillofacial reconstructive procedures, serving patients from across Hyderabad and Andhra Pradesh/Telangana.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">school</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Specialized Expertise</h3>
-                    <p class="text-on-surface-variant text-sm">35+ years of combined experience in complex facial reconstruction and microsurgical techniques.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">local_hospital</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Hospital-Based Care</h3>
-                    <p class="text-on-surface-variant text-sm">All procedures performed at CARE Hospitals, Banjara Hills—a premier NABH-accredited tertiary care center.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">biotech</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Advanced Techniques</h3>
-                    <p class="text-on-surface-variant text-sm">Utilizing state-of-the-art microsurgical methods for optimal tissue transfer and healing outcomes.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-                        <span class="material-symbols-outlined text-3xl">healing</span>
-                    </div>
-                    <h3 class="font-headline-sm text-lg text-primary mb-2">Comprehensive Care</h3>
-                    <p class="text-on-surface-variant text-sm">Complete treatment journey from emergency care to long-term follow-up and rehabilitation.</p>
+                    <div class="gna-plate w-full h-full" role="img" aria-label="Reconstructive surgery consultation - maxillofacial surgeon examining patient"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Reconstructive surgery consultation - maxillofacial surgeon examining patient</p></div>
                 </div>
             </div>
         </div>
@@ -132,13 +96,13 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Surgeon reviewing patient imaging and planning reconstructive surgery" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALZZmj6_CAFtHy1vjXdbgnvuwqwnWdk_19QuvDwG7i0mDVRvdLGV05_43z3vvdldkKpstRUl-guoUaftbE5CwioKDaq5UVRxVAq0U8MGjGGnlSm4htoUiK9tI08QygsZdIE6fAW0tK3GLUdbMjaWzgMiRGr0vmWz94CBZCAz5n98VK4wg6s8B_4q7qH50Kaisg_8K1fkcOpoN94riL7idTd-mmNaOJ3BB3Dd_lfNVLvh2AzJQD5CYSFJuSDgGq37lTF8537L1ZhCA"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Surgeon reviewing patient imaging and planning reconstructive surgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Surgeon reviewing patient imaging and planning reconstructive surgery</p></div>
                 </div>
             </div>
             <!-- Step 2: Image Left, Text Right -->
             <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
                 <div class="order-1 md:order-1">
-                    <img alt="Modern operating room with surgical team performing microsurgery" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEFkiI4mjDEE18YDwFhytADXKSi52219_ImkXimFwvR_u_lEi32i_FGV-fHjIDfiuUGL1lJeadbUQP-VudLVyKwmYno2hUz4EdWrurPoOkszJUln7aMR43klGyT4vRj2F-e9ksMWzt4q9dm_IKwmSyFF36Jj32w61XM7ifV4JQo3iOufuJ2-9_ghJAMrR2v5dtBYCQPel3QIstAIejIFPRUIyA66943uzujXTS879KGpz70wCQ4303HF08bi3co5b4l1czHWqRntk"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl aspect-[4/3] w-full" role="img" aria-label="Modern operating room with surgical team performing microsurgery"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Modern operating room with surgical team performing microsurgery</p></div>
                 </div>
                 <div class="order-2 md:order-2">
                     <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -168,7 +132,7 @@ include $path_prefix . 'header.php';
                     </ul>
                 </div>
                 <div class="order-1 md:order-2">
-                    <img alt="Post-operative care consultation with reconstructive surgery patient" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+                    <div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl aspect-[4/3] w-full" role="img" aria-label="Post-operative care consultation with reconstructive surgery patient"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Post-operative care consultation with reconstructive surgery patient</p></div>
                 </div>
             </div>
         </div>
@@ -245,9 +209,7 @@ include $path_prefix . 'header.php';
                         <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                             To help us understand your case fully and plan the optimal reconstruction, please bring the following information to your initial consultation.
                         </p>
-                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                            Download Checklist PDF
-                        </button>
+                        
                     </div>
                     <div>
                         <ul class="space-y-4">
@@ -285,7 +247,7 @@ include $path_prefix . 'header.php';
             <div class="grid md:grid-cols-2 gap-16 items-center">
                 <div class="relative">
                     <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
-                    <img alt="Medical illustration showing difference between skin graft and flap surgery techniques" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgiZgTqnVcGDk7B4fhXOjMiLV4DGjNzOgX9yuT4UMyPanmr2lRO15oN3w3OfKdMSKhk4ad2cRuLpHc5ZhBBlNK_M2FlNzVWA_lHbUA99hV_AoAAK6_1dIQyTAZpJ9L-dMhrbg3j3gmXq9M7_q6Y6MksM8DJnHFzvq2H1REx1zD_OmalTO7POfydhxeqR-Mm8EcMQH1v-EMTzkRccwHCOvk3b5-QF5hk76-BOBh-PabfF_B9aQY2BCUXnmv856NFuMAsl5O1Sdmr5Y"/>
+                    <div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Medical illustration showing difference between skin graft and flap surgery techniques"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Medical illustration showing difference between skin graft and flap surgery techniques</p></div>
                 </div>
                 <div>
                     <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Understanding Your Options</span>
@@ -375,61 +337,14 @@ include $path_prefix . 'header.php';
                 </div>
             </div>
             <div class="mt-12 text-center">
-                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                <a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                     Request a Consultation
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- THE SURGICAL TEAM -->
-    <section class="py-section-gap bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div class="text-center mb-16">
-                <h2 class="font-headline-md text-headline-md mb-4">Expert Reconstructive Surgical Team</h2>
-                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                    Decades of specialized experience in complex facial reconstruction and microsurgery.
-                </p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <!-- Dr. Suresh Card -->
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/Dr.-Suresh.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                                Senior Consultant and Reconstructive Surgery Specialist with 20+ years of dedicated experience in complex maxillofacial reconstruction, including microsurgical tissue transfer and facial trauma repair at CARE Hospitals, Banjara Hills.
-                            </p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Dr. Navatha Card -->
-                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-                    <div class="flex flex-col md:flex-row gap-6 items-start">
-                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-                        <div>
-                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
-                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                                Senior Consultant with 15+ years of experience in oral and maxillofacial surgery, specializing in facial trauma reconstruction and oncological defect reconstruction following tumor ablation.
-                            </p>
-                            <ul class="text-sm space-y-2 text-on-primary/90">
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
     <!-- PATIENT FAQs (SCHEMA MARKUP REQUIRED) -->
     <section class="py-section-gap bg-surface">
         <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -441,7 +356,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will the skin graft or flap match my skin color?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Our surgeons carefully select donor sites to optimize color and texture match. Full-thickness grafts from areas like the neck or supraclavicular region typically provide the best aesthetic match for facial reconstruction. Over time, the graft matures and often blends better with surrounding skin. Secondary procedures can further refine the appearance if needed.
@@ -450,7 +365,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         How long does the procedure take?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Procedure duration varies significantly based on the complexity of reconstruction. Simple skin grafts may take 1-2 hours, while complex free flap procedures can take 6-10 hours. Your surgeon will provide a detailed timeline during your pre-operative consultation based on your specific needs.
@@ -459,7 +374,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Will I have visible scarring?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         All surgical procedures leave some scarring. However, our surgeons employ meticulous technique to minimize visible scarring and place incisions within natural skin creases when possible. The donor site for skin grafts will also heal with a scar, though it's typically concealed in less visible areas. Scar management protocols are provided post-operatively to optimize healing.
@@ -468,7 +383,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         What is the recovery time before returning to normal activities?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Recovery varies by procedure. Simple skin grafts may allow return to light activities within 1-2 weeks. More complex flap procedures may require 3-4 weeks for initial healing, with full recovery and return to strenuous activities taking 6-8 weeks or longer. Your surgeon will provide personalized guidance based on your procedure.
@@ -477,7 +392,7 @@ include $path_prefix . 'header.php';
                 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                         Is skin graft/flap surgery covered by insurance?
-                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
                     </summary>
                     <div class="px-6 pb-6 text-on-surface-variant text-sm">
                         Reconstructive procedures following trauma, burns, or cancer surgery are typically covered under health insurance when deemed medically necessary. Purely cosmetic procedures may not be covered. Our billing team works closely with insurance providers to help determine coverage and manage the pre-authorization process.
@@ -487,22 +402,5 @@ include $path_prefix . 'header.php';
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-section-gap bg-surface-container-low">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-            <h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Begin Your Reconstructive Journey?</h2>
-            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Whether you're dealing with trauma, burn recovery, or post-surgical reconstruction, our team is here to help restore both form and function. Schedule a comprehensive evaluation with our specialists.
-            </p>
-            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                Schedule Your Consultation
-                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-            </button>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+    <!-- FOOTER -->
+<?php include $path_prefix . 'footer.php'; ?>

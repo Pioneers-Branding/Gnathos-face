@@ -1,14 +1,23 @@
 <?php
-$path_prefix = "";
-$page_title = "Oral Cancer Symptoms & Treatment | Gnathos Facial Surgery";
-$page_description = "Learn about oral cancer symptoms, risk factors, and treatment options in Hyderabad. Expert oral cancer care at CARE Hospitals with Dr. Suresh P.L. Early detection saves lives.";
-$canonical_url = "https://gnathosface.com/oral-cancer/";
+$path_prefix = '';
+$page_title = 'Oral Cancer Screening & Biopsy in Hyderabad | Gnathos';
+$page_description = 'Mouth ulcer or white patch not healing in two weeks? Learn the early signs of oral cancer, risk factors like tobacco and areca nut, and screening in Hyderabad.';
+$canonical_url = 'https://gnathosface.com/oral-cancer';
+$page_about = 'Understanding Oral Cancer';
+$breadcrumbs = [['Home', '/'], ['Conditions', '/conditions'], ['Understanding Oral Cancer', null]];
+$page_faqs = [
+    ['q' => 'What does oral cancer look like?', 'a' => 'Oral cancer can appear as a white patch (leukoplakia), red patch (erythroplakia), or a mix of both. It may also show as a persistent ulcer, a lump or thickening, or an area of rough tissue. Some lesions may be painless initially, which is why they\'re often ignored. Any spot that doesn\'t heal within 2 weeks warrants evaluation.'],
+    ['q' => 'Is oral cancer painful?', 'a' => 'Pain is not always present, especially in early stages. Some patients experience pain, while others may have a feeling of numbness or persistent discomfort. Many oral cancers are painless in the early stages, which is why they often go unnoticed. This is why regular screening is so important.'],
+    ['q' => 'Where does oral cancer commonly occur?', 'a' => 'The most common sites are the tongue (especially the sides and underneath), the floor of the mouth (under the tongue), the gums, the palate, and the inner lining of the cheeks. Lip cancer, particularly on the lower lip, is also common and is often linked to sun exposure.'],
+    ['q' => 'How quickly does oral cancer develop?', 'a' => 'Oral cancers can grow at different rates depending on the type and individual factors. Some pre-cancerous lesions like leukoplakia can remain stable for years before progressing, while others may develop more rapidly. Regular monitoring is important because early-stage cancers tend to be slower-growing and more treatable.'],
+    ['q' => 'What should I expect during an oral cancer screening?', 'a' => 'An oral cancer screening is quick and painless. Your dentist or specialist will visually examine your lips, gums, tongue, cheeks, palate, and throat. They\'ll also feel the tissues in your mouth and check your neck for any lumps. If any suspicious areas are found, a biopsy may be recommended for further evaluation.'],
+    ['q' => 'Can oral cancer be cured?', 'a' => 'Yes, oral cancer has excellent survival rates when detected early. Stage I and II oral cancers have survival rates of 80-90% with appropriate treatment. Even advanced cancers can often be treated successfully, though treatment may be more intensive. Early detection remains the most important factor in achieving a cure.'],
+];
+$cta_heading = 'Get a specialist opinion on understanding Oral Cancer.';
+$cta_topic = 'Mouth ulcer, patch or lump (oral cancer screening)';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
 <!-- Hero Section -->
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
@@ -20,17 +29,17 @@ include $path_prefix . 'header.php';
                     Oral cancer is a serious condition that affects thousands in India each year. Learn about symptoms, risk factors, and why early detection at our Hyderabad clinic can save your life.
                 </p>
 <div class="flex flex-col sm:flex-row gap-4">
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                             Book Screening
-                        </button>
-<button class="bg-surface text-on-surface font-label-md text-label-md px-8 py-4 rounded border border-outline hover:bg-surface-container-low transition-colors duration-300 text-center">
+                        </a>
+<a href="/oral-cancer-treatment" class="bg-surface text-on-surface font-label-md text-label-md px-8 py-4 rounded border border-outline hover:bg-surface-container-low transition-colors duration-300 text-center">
                             Learn More
-                        </button>
+                        </a>
 </div>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Oral cancer awareness - dental examination for early detection at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
+<div class="gna-plate w-full h-full" role="img" aria-label="Oral cancer awareness - dental examination for early detection"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Oral cancer awareness - dental examination for early detection</p></div>
 </div>
 </div>
 </div>
@@ -102,7 +111,7 @@ include $path_prefix . 'header.php';
 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant">
 <div class="w-12 h-12 rounded-full bg-error/10 flex items-center justify-center text-error mb-4">
-<span class="material-symbols-outlined text-2xl">no_smoking</span>
+<span class="material-symbols-outlined text-2xl">smoke_free</span>
 </div>
 <h3 class="font-headline-sm text-xl text-primary mb-3">Tobacco Use</h3>
 <p class="text-on-surface-variant">The single largest risk factor. Smoking cigarettes, cigars, or pipes, and using smokeless tobacco (gutka, pan masala, chewing tobacco) dramatically increases risk.</p>
@@ -215,9 +224,9 @@ include $path_prefix . 'header.php';
 <p class="font-body-lg text-body-lg text-on-primary mb-4">
                 <strong>Important:</strong> These symptoms don't always mean cancer—for many people, they have other causes. But only a healthcare professional can make that determination.
             </p>
-<button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300">
+<a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300">
                 Schedule Oral Screening Evaluation
-            </button>
+            </a>
 </div>
 </div>
 </section>
@@ -339,7 +348,7 @@ include $path_prefix . 'header.php';
 </div>
 <div class="text-center">
 <p class="text-on-surface-variant mb-6">Learn more about our comprehensive treatment approach:</p>
-<a class="inline-flex items-center gap-2 bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300" href="oral-cancer-treatment.php">
+<a class="inline-flex items-center gap-2 bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300" href="/oral-cancer-treatment">
                 View Detailed Treatment Page
                 <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
 </a>
@@ -353,7 +362,7 @@ include $path_prefix . 'header.php';
 <div class="grid md:grid-cols-2 gap-16 items-center">
 <div class="relative">
 <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-y-8 blur-2xl -z-10"></div>
-<img alt="Oral cancer prevention - dental health check-up with maxillofacial specialist at Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgiZgTqnVcGDk7B4fhXOjMiLV4DGjNzOgX9yuT4UMyPanmr2lRO15oN3w3OfKdMSKhk4ad2cRuLpHc5ZhBBlNK_M2FlNzVWA_lHbUA99hV_AoAAK6_1dIQyTAZpJ9L-dMhrbg3j3gmXq9M7_q6Y6MksM8DJnHFzvq2H1REx1zD_OmalTO7POfydhxeqR-Mm8EcMQH1v-EMTzkRccwHCOvk3b5-QF5hk76-BOBh-PabfF_B9aQY2BCUXnmv856NFuMAsl5O1Sdmr5Y"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Oral cancer prevention - dental health check-up with maxillofacial specialist"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Oral cancer prevention - dental health check-up with maxillofacial specialist</p></div>
 </div>
 <div>
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Take Control</span>
@@ -410,54 +419,7 @@ include $path_prefix . 'header.php';
 </div>
 </section>
 
-<!-- The Surgical Team -->
-<section class="py-section-gap bg-primary text-on-primary">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md mb-4">Expert Oral Cancer Care Team</h2>
-<p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                Our oral cancer specialists have decades of combined experience in diagnosis, surgical treatment, and reconstruction.
-            </p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Suresh P.L. - Oral Cancer Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/Dr.-Suresh.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant - Oral & Maxillofacial Surgery</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 20+ years of dedicated experience in oral oncology, head and neck cancer surgery, and complex maxillofacial reconstruction at CARE Hospitals, Banjara Hills.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">hospital</span> CARE Hospitals, Banjara Hills</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant - Oral & Maxillofacial Surgery</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 15+ years of experience in oral pathology, oral cancer surgery, and microvascular reconstructive procedures.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">hospital</span> CARE Hospitals, Banjara Hills</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <!-- Patient FAQs -->
 <section class="py-section-gap bg-surface">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -469,7 +431,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What does oral cancer look like?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Oral cancer can appear as a white patch (leukoplakia), red patch (erythroplakia), or a mix of both. It may also show as a persistent ulcer, a lump or thickening, or an area of rough tissue. Some lesions may be painless initially, which is why they're often ignored. Any spot that doesn't heal within 2 weeks warrants evaluation.
@@ -478,7 +440,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Is oral cancer painful?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Pain is not always present, especially in early stages. Some patients experience pain, while others may have a feeling of numbness or persistent discomfort. Many oral cancers are painless in the early stages, which is why they often go unnoticed. This is why regular screening is so important.
@@ -487,7 +449,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Where does oral cancer commonly occur?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     The most common sites are the tongue (especially the sides and underneath), the floor of the mouth (under the tongue), the gums, the palate, and the inner lining of the cheeks. Lip cancer, particularly on the lower lip, is also common and is often linked to sun exposure.
@@ -496,7 +458,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How quickly does oral cancer develop?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Oral cancers can grow at different rates depending on the type and individual factors. Some pre-cancerous lesions like leukoplakia can remain stable for years before progressing, while others may develop more rapidly. Regular monitoring is important because early-stage cancers tend to be slower-growing and more treatable.
@@ -505,7 +467,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What should I expect during an oral cancer screening?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     An oral cancer screening is quick and painless. Your dentist or specialist will visually examine your lips, gums, tongue, cheeks, palate, and throat. They'll also feel the tissues in your mouth and check your neck for any lumps. If any suspicious areas are found, a biopsy may be recommended for further evaluation.
@@ -514,38 +476,15 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Can oral cancer be cured?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
-                    Yes, oral cancer has excellent cure rates when detected early. Stage I and II oral cancers have survival rates of 80-90% with appropriate treatment. Even advanced cancers can often be treated successfully, though treatment may be more intensive. Early detection remains the most important factor in achieving a cure.
+                    Yes, oral cancer has excellent survival rates when detected early. Stage I and II oral cancers have survival rates of 80-90% with appropriate treatment. Even advanced cancers can often be treated successfully, though treatment may be more intensive. Early detection remains the most important factor in achieving a cure.
                 </div>
 </details>
 </div>
 </div>
 </section>
 
-<!-- Final CTA -->
-<section class="py-section-gap bg-surface-container-low">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Early Detection Saves Lives</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                If you've noticed any persistent changes in your mouth, tongue, or throat—or if you have risk factors and want a professional evaluation—don't wait. Schedule an oral cancer screening today.
-            </p>
-<div class="flex flex-col sm:flex-row gap-4 justify-center">
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                    Schedule Oral Cancer Screening
-                    <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-</button>
-<button class="bg-surface text-on-surface font-label-md text-label-md px-8 py-4 rounded border border-outline hover:bg-surface-container-low transition-colors duration-300 inline-flex items-center gap-2" href="oral-cancer-treatment.php">
-                    View Treatment Options
-                    <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-</button>
-</div>
-</div>
-</section>
-</main>
-
 <!-- Detailed Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>

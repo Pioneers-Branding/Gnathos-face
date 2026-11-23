@@ -1,13 +1,23 @@
 <?php
-$path_prefix = "../";
-$page_title = "Facial Wound Repair Surgery in Hyderabad | Gnathos Facial Surgery";
-$page_description = "Expert facial wound repair surgery in Hyderabad at CARE Hospitals, Banjara Hills. Advanced wound closure surgery, wound care, and scar management by Dr. Suresh P.L.";
+$path_prefix = '../';
+$page_title = 'Facial Wound Repair Surgery in Hyderabad | Gnathos Facial';
+$page_description = 'Facial wound repair surgery in Hyderabad at CARE Hospitals. Advanced wound closure surgery, wound care, and scar management by Dr. Suresh P.L.';
+$canonical_url = 'https://gnathosface.com/Skin-Grafts/facial-wound-repair-surgery-hyderabad';
+$page_about = 'Facial Wound Repair Surgery';
+$breadcrumbs = [['Home', '/'], ['Skin grafts & flaps', '/skin-grafts-and-flaps'], ['Facial Wound Repair Surgery', null]];
+$page_faqs = [
+    ['q' => 'How long after a facial wound can it still be repaired?', 'a' => 'Facial wounds can generally be closed primarily within 24 hours if they are clean. After 24-48 hours, infection risk increases significantly. Contaminated wounds or those with significant tissue damage may need delayed closure or a different approach. However, don\'t assume an older wound cannot be repaired - we can evaluate and discuss options even for wounds that are several days old.'],
+    ['q' => 'Will I need stitches and how long until they come out?', 'a' => 'Most facial wounds require sutures for optimal healing and minimal scarring. The time before suture removal depends on the wound location: face wounds typically need suture removal in 5-7 days, while wounds in areas with more movement may need longer. We use fine sutures specifically designed for facial skin to minimize track marks and scarring.'],
+    ['q' => 'How can I minimize scarring after wound repair?', 'a' => 'To minimize scarring: follow wound care instructions carefully, keep the area clean and protected, avoid sun exposure to the scar (use sunscreen), use silicone gel or sheets once healed, and attend all follow-up appointments. Don\'t pick at scabs or apply unnecessary pressure. The final scar appearance develops over 12-18 months, and scar revision can be considered if needed after maturation.'],
+    ['q' => 'What if my wound was already stitched elsewhere?', 'a' => 'If you had your wound repaired at an emergency department or another facility, you can still seek evaluation for scar management or revision if needed. We can assess how your wound is healing and provide recommendations for optimizing the outcome. This may include early interventions like silicone therapy or evaluation for scar revision if the current result is unacceptable.'],
+    ['q' => 'Should I take antibiotics after wound repair?', 'a' => 'Not all facial wounds require antibiotics. For clean, simple lacerations repaired promptly, antibiotics are usually not needed. However, contaminated wounds, animal bites, human bites, wounds with significant tissue damage, or patients with certain medical conditions may benefit from antibiotics. Your surgeon will assess your specific situation and prescribe antibiotics if indicated.'],
+    ['q' => 'Will facial wound repair be covered by insurance?', 'a' => 'Facial wound repair following accidental injury is typically covered by health insurance as it is considered medically necessary treatment. This includes both emergency repair and planned reconstruction. If the injury resulted from a motor vehicle accident or other covered incident, additional coverage may be available. Check with your insurer for specific coverage details.'],
+];
+$cta_heading = 'Get a specialist opinion on facial Wound Repair Surgery.';
+$cta_topic = 'Reconstruction / skin grafts';
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-
-
-<main>
 <!-- Hero Section -->
 <section class="relative pt-section-gap pb-section-gap overflow-hidden">
 <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
@@ -16,59 +26,17 @@ include $path_prefix . 'header.php';
 <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Facial Wound Repair Surgery in Hyderabad</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                        Expert facial wound repair surgery at CARE Hospitals, Banjara Hills. Our maxillofacial surgeons provide meticulous wound closure surgery, emergency wound care, and comprehensive scar management for optimal functional and cosmetic outcomes.
+                        Expert facial wound repair surgery at CARE Hospitals, HITEC City. Our maxillofacial surgeons provide meticulous wound closure surgery, emergency wound care, and comprehensive scar management for optimal functional and cosmetic outcomes.
                     </p>
 <div class="flex flex-col sm:flex-row gap-4">
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+<a href="/book-appointment" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
                             Book Consultation
-                        </button>
+                        </a>
 </div>
 </div>
 <div class="md:col-span-6 relative mt-12 md:mt-0">
 <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-<img alt="Facial wound repair surgery consultation at CARE Hospitals, Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
-</div>
-</div>
-</div>
-</section>
-
-<!-- Why Choose Us -->
-<section class="py-section-gap bg-surface">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for Facial Wound Repair</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                Leading facial wound repair and emergency wound care specialists in Hyderabad with expertise in achieving optimal cosmetic outcomes.
-            </p>
-</div>
-<div class="grid md:grid-cols-4 gap-8">
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">school</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Facial Surgery Specialists</h3>
-<p class="text-on-surface-variant text-sm">35+ years of combined experience in facial wound repair and laceration management.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">local_hospital</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">CARE Hospitals Setting</h3>
-<p class="text-on-surface-variant text-sm">Full hospital facilities with emergency care at Banjara Hills, Hyderabad.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">emergency</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Timely Intervention</h3>
-<p class="text-on-surface-variant text-sm">Rapid assessment and treatment to minimize scarring and optimize healing.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
-<span class="material-symbols-outlined text-3xl">auto_fix_high</span>
-</div>
-<h3 class="font-headline-sm text-lg text-primary mb-2">Fine Technique</h3>
-<p class="text-on-surface-variant text-sm">Meticulous layered closure and fine suturing for minimal visible scarring.</p>
+<div class="gna-plate w-full h-full" role="img" aria-label="Facial wound repair surgery consultation"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial wound repair surgery consultation</p></div>
 </div>
 </div>
 </div>
@@ -142,13 +110,13 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Surgeon assessing facial wound at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEFkiI4mjDEE18YDwFhytADXKSi52219_ImkXimFwvR_u_lEi32i_FGV-fHjIDfiuUGL1lJeadbUQP-VudLVyKwmYno2hUz4EdWrurPoOkszJUln7aMR43klGyT4vRj2F-e9ksMWzt4q9dm_IKwmSyFF36Jj32w61XM7ifV4JQo3iOufuJ2-9_ghJAMrR2v5dtBYCQPel3QIstAIejIFPRUIyA66943uzujXTS879KGpz70wCQ4303HF08bi3co5b4l1czHWqRntk"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Surgeon assessing facial wound"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Surgeon assessing facial wound</p></div>
 </div>
 </div>
 <!-- Step 2 -->
 <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
 <div class="order-1 md:order-1">
-<img alt="Facial wound repair surgery in progress at CARE Hospitals, Banjara Hills, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
+<div class="gna-plate gna-plate--secondary rounded-xl w-full aspect-[4/3]" role="img" aria-label="Facial wound repair surgery in progress"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Facial wound repair surgery in progress</p></div>
 </div>
 <div class="order-2 md:order-2">
 <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
@@ -178,7 +146,7 @@ include $path_prefix . 'header.php';
 </ul>
 </div>
 <div class="order-1 md:order-2">
-<img alt="Patient recovery consultation after wound repair at Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+<div class="gna-plate gna-plate--secondary gna-plate--dark rounded-xl w-full aspect-[4/3]" role="img" aria-label="Patient recovery consultation after wound repair"><p class="gna-plate-eyebrow">Gnathos Facial · Hyderabad</p><p class="gna-plate-title">Patient recovery consultation after wound repair</p></div>
 </div>
 </div>
 </div>
@@ -252,9 +220,7 @@ include $path_prefix . 'header.php';
 <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
                         Whether you're dealing with a fresh wound or seeking repair of an old injury, please prepare the following for your consultation.
                     </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
-                        Download Checklist PDF
-                    </button>
+
 </div>
 <div>
 <ul class="space-y-4">
@@ -344,59 +310,14 @@ include $path_prefix . 'header.php';
 </div>
 </div>
 <div class="mt-12 text-center">
-<button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+<a href="/book-appointment" class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
                 Request a Consultation
-            </button>
+            </a>
 </div>
 </div>
 </section>
 
-<!-- The Surgical Team -->
-<section class="py-section-gap bg-primary text-on-primary">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-<div class="text-center mb-16">
-<h2 class="font-headline-md text-headline-md mb-4">Expert Facial Wound Repair Team</h2>
-<p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-                Experienced specialists in facial wound repair with decades of combined expertise.
-            </p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Suresh P.L. - Facial Wound Repair Specialist Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/Dr.-Suresh.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 20+ years of experience in facial wound repair, emergency wound care, and scar management.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
-<div class="flex flex-col md:flex-row gap-6 items-start">
-<img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="../asset/dr-navatha-mortha-facial.webp"/>
-<div>
-<h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
-<p class="text-secondary-fixed mb-4">Senior Consultant</p>
-<p class="text-on-primary/80 text-sm leading-relaxed mb-4">
-                            Senior Consultant with 15+ years of experience in facial wound closure, laceration repair, and wound care.
-                        </p>
-<ul class="text-sm space-y-2 text-on-primary/90">
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years of Experience</li>
-<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"><?php gna_inline_cta(); ?></div>
 <!-- Patient FAQs -->
 <section class="py-section-gap bg-surface">
 <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
@@ -408,7 +329,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How long after a facial wound can it still be repaired?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Facial wounds can generally be closed primarily within 24 hours if they are clean. After 24-48 hours, infection risk increases significantly. Contaminated wounds or those with significant tissue damage may need delayed closure or a different approach. However, don't assume an older wound cannot be repaired - we can evaluate and discuss options even for wounds that are several days old.
@@ -417,7 +338,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will I need stitches and how long until they come out?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Most facial wounds require sutures for optimal healing and minimal scarring. The time before suture removal depends on the wound location: face wounds typically need suture removal in 5-7 days, while wounds in areas with more movement may need longer. We use fine sutures specifically designed for facial skin to minimize track marks and scarring.
@@ -426,7 +347,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     How can I minimize scarring after wound repair?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     To minimize scarring: follow wound care instructions carefully, keep the area clean and protected, avoid sun exposure to the scar (use sunscreen), use silicone gel or sheets once healed, and attend all follow-up appointments. Don't pick at scabs or apply unnecessary pressure. The final scar appearance develops over 12-18 months, and scar revision can be considered if needed after maturation.
@@ -435,7 +356,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     What if my wound was already stitched elsewhere?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     If you had your wound repaired at an emergency department or another facility, you can still seek evaluation for scar management or revision if needed. We can assess how your wound is healing and provide recommendations for optimizing the outcome. This may include early interventions like silicone therapy or evaluation for scar revision if the current result is unacceptable.
@@ -444,7 +365,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Should I take antibiotics after wound repair?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Not all facial wounds require antibiotics. For clean, simple lacerations repaired promptly, antibiotics are usually not needed. However, contaminated wounds, animal bites, human bites, wounds with significant tissue damage, or patients with certain medical conditions may benefit from antibiotics. Your surgeon will assess your specific situation and prescribe antibiotics if indicated.
@@ -453,7 +374,7 @@ include $path_prefix . 'header.php';
 <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
 <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
                     Will facial wound repair be covered by insurance?
-                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">keyboard_arrow_down</span>
 </summary>
 <div class="px-6 pb-6 text-on-surface-variant text-sm">
                     Facial wound repair following accidental injury is typically covered by health insurance as it is considered medically necessary treatment. This includes both emergency repair and planned reconstruction. If the injury resulted from a motor vehicle accident or other covered incident, additional coverage may be available. Check with your insurer for specific coverage details.
@@ -463,22 +384,5 @@ include $path_prefix . 'header.php';
 </div>
 </section>
 
-<!-- Final CTA -->
-<section class="py-section-gap bg-surface-container-low">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
-<h2 class="font-headline-md text-headline-md text-primary mb-6">Expert Facial Wound Repair for Optimal Outcomes</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                    Whether you have a fresh wound needing repair or old scarring from a previous injury, our facial wound repair specialists can help achieve the best possible outcome. Don't delay evaluation.
-                </p>
-<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
-                    Schedule Your Wound Repair Consultation
-                    <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
-</button>
-</div>
-</section>
-</main>
-
 <!-- Detailed Footer -->
-<?php
-include $path_prefix . 'footer.php';
-?>
+<?php include $path_prefix . 'footer.php'; ?>
